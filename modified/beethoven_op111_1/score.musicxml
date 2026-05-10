@@ -867,7 +867,7 @@
         <staff>2</staff>
         </note>
       </measure>
-    <measure number="2" width="401.10">
+    <measure number="2" implicit="yes" width="401.10">
       <direction placement="below">
         <direction-type>
           <dynamics default-x="6.58" default-y="-80.00" relative-x="-4.14" relative-y="17.63">
@@ -2185,7 +2185,7 @@
         <staff>2</staff>
         </note>
       </measure>
-    <measure number="4" width="468.92">
+    <measure number="4" implicit="yes" width="468.92">
       <print new-system="yes">
         <system-layout>
           <system-margins>
@@ -32108,6 +32108,13 @@
         <staff>1</staff>
         <notations>
           <slur type="stop" number="1"/>
+          <ornaments>
+            <trill-mark/>
+            <wavy-line type="start" number="1" default-y="-11.90" relative-x="-1.60"/>
+            </ornaments>
+          <ornaments>
+            <wavy-line type="stop" number="1" relative-x="-1.60"/>
+            </ornaments>
           </notations>
         </note>
       <backup>
@@ -32150,12 +32157,6 @@
           </time-modification>
         <stem>none</stem>
         <staff>1</staff>
-        <notations>
-          <ornaments>
-            <trill-mark/>
-            <wavy-line type="start" number="1" default-y="-11.90" relative-x="-1.60"/>
-            </ornaments>
-          </notations>
         </note>
       <note id="mn-78-3-1-2" default-x="135.98" default-y="-35.00" print-object="no">
         <cue/>
@@ -32279,11 +32280,6 @@
           </time-modification>
         <stem>none</stem>
         <staff>1</staff>
-        <notations>
-          <ornaments>
-            <wavy-line type="stop" number="1" relative-x="-1.60"/>
-            </ornaments>
-          </notations>
         </note>
       <note id="mn-78-3-1-9" default-x="262.92" default-y="-40.00">
         <cue/>
@@ -32734,6 +32730,9 @@
             <trill-mark/>
             <wavy-line type="start" number="1" default-y="-2.66" relative-x="-4.75"/>
             </ornaments>
+          <ornaments>
+            <wavy-line type="stop" number="1" relative-x="-4.75"/>
+            </ornaments>
           </notations>
         </note>
       <backup>
@@ -32895,11 +32894,6 @@
           </time-modification>
         <stem>none</stem>
         <staff>2</staff>
-        <notations>
-          <ornaments>
-            <wavy-line type="stop" number="1" relative-x="-4.75"/>
-            </ornaments>
-          </notations>
         </note>
       <note id="mn-80-7-2-9" default-x="320.45" default-y="-105.00">
         <cue/>
@@ -33250,6 +33244,9 @@
             <trill-mark/>
             <wavy-line type="start" number="1" default-y="7.50" relative-x="7.59"/>
             </ornaments>
+          <ornaments>
+            <wavy-line type="stop" number="1" relative-x="7.59"/>
+            </ornaments>
           </notations>
         </note>
       <backup>
@@ -33491,11 +33488,6 @@
           </time-modification>
         <stem>none</stem>
         <staff>1</staff>
-        <notations>
-          <ornaments>
-            <wavy-line type="stop" number="1" relative-x="7.59"/>
-            </ornaments>
-          </notations>
         </note>
       <note id="mn-82-3-1-9" default-x="938.39" default-y="-10.00">
         <cue/>
@@ -33862,6 +33854,9 @@
             <trill-mark/>
             <wavy-line type="start" number="1" default-y="-17.33" relative-x="-2.46"/>
             </ornaments>
+          <ornaments>
+            <wavy-line type="stop" number="1" relative-x="-2.46"/>
+            </ornaments>
           </notations>
         </note>
       <backup>
@@ -34023,11 +34018,6 @@
           </time-modification>
         <stem>none</stem>
         <staff>2</staff>
-        <notations>
-          <ornaments>
-            <wavy-line type="stop" number="1" relative-x="-2.46"/>
-            </ornaments>
-          </notations>
         </note>
       <note id="mn-83-7-2-9" default-x="503.79" default-y="-125.00">
         <cue/>
@@ -34360,7 +34350,14 @@
         <accidental>natural</accidental>
         <stem>down</stem>
         <staff>2</staff>
-        </note>
+        <notations><ornaments>
+            <trill-mark/>
+            <wavy-line type="start" number="1" default-y="-108.32" relative-x="-1.31"/>
+            </ornaments>
+          <ornaments>
+            <wavy-line type="stop" number="1" relative-x="-1.31"/>
+            </ornaments>
+          </notations></note>
       <backup>
         <duration>1920</duration>
         </backup>
@@ -34415,12 +34412,6 @@
           </time-modification>
         <stem>none</stem>
         <staff>2</staff>
-        <notations>
-          <ornaments>
-            <trill-mark/>
-            <wavy-line type="start" number="1" default-y="-108.32" relative-x="-1.31"/>
-            </ornaments>
-          </notations>
         </note>
       <note id="mn-84-7-2-2" default-x="273.56" default-y="-155.00" print-object="no">
         <cue/>
@@ -34540,11 +34531,6 @@
           </time-modification>
         <stem>none</stem>
         <staff>2</staff>
-        <notations>
-          <ornaments>
-            <wavy-line type="stop" number="1" relative-x="-1.31"/>
-            </ornaments>
-          </notations>
         </note>
       <note id="mn-84-7-2-9" default-x="453.91" default-y="-160.00">
         <cue/>
