@@ -864,7 +864,7 @@
         <staff>2</staff>
         </note>
       </measure>
-    <measure number="2" implicit="yes" width="401.10">
+    <measure number="2" width="401.10">
       <direction placement="below">
         <direction-type>
           <dynamics default-x="6.58" default-y="-80.00" relative-x="-4.14" relative-y="17.63">
@@ -961,37 +961,13 @@
           </direction-type>
         <staff>1</staff>
         </direction>
-      <note id="mn-1-2-1-1-8" color="#1D4ED8">
-        <rest/>
-        <duration>168</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <dot/>
-        <dot/>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
-        <staff>1</staff>
-        <notations>
-          <tuplet type="start" bracket="no" show-number="none"/>
-          </notations>
-        </note>
-      <note id="mn-1-2-1-1-9" default-x="238.83" default-y="-45.00" dynamics="92.22" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-2-1-1-8" default-x="238.83" default-y="-45.00" dynamics="92.22">
+        <grace steal-time-following="30"/><pitch>
           <step>D</step>
           <octave>4</octave>
           </pitch>
-        <duration>24</duration>
         <voice>1</voice>
         <type>64th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
@@ -999,20 +975,13 @@
         <beam number="3">begin</beam>
         <beam number="4">begin</beam>
         </note>
-      <note id="mn-1-2-1-1-10" default-x="254.02" default-y="-30.00" dynamics="96.67" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-2-1-1-9" default-x="254.02" default-y="-30.00" dynamics="96.67">
+        <grace steal-time-following="30"/><pitch>
           <step>G</step>
           <octave>4</octave>
           </pitch>
-        <duration>24</duration>
         <voice>1</voice>
         <type>64th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
@@ -1020,21 +989,14 @@
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
         </note>
-      <note id="mn-1-2-1-1-11" default-x="275.84" default-y="-20.00" dynamics="102.22" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-2-1-1-10" default-x="275.84" default-y="-20.00" dynamics="102.22">
+        <grace steal-time-following="30"/><pitch>
           <step>B</step>
           <octave>4</octave>
           </pitch>
-        <duration>24</duration>
         <voice>1</voice>
         <type>64th</type>
         <accidental>natural</accidental>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
@@ -1053,7 +1015,7 @@
           </direction-type>
         <staff>1</staff>
         </direction>
-      <note id="mn-1-2-1-1-12" default-x="291.23" default-y="-45.00">
+      <note id="mn-1-2-1-1-11" default-x="291.23" default-y="-45.00">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -1065,7 +1027,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         </note>
-      <note id="mn-1-2-1-1-13" default-x="291.23" default-y="-30.00">
+      <note id="mn-1-2-1-1-12" default-x="291.23" default-y="-30.00">
         <chord/>
         <pitch>
           <step>G</step>
@@ -1077,7 +1039,7 @@
         <stem>up</stem>
         <staff>1</staff>
         </note>
-      <note id="mn-1-2-1-1-14" default-x="291.23" default-y="-10.00">
+      <note id="mn-1-2-1-1-13" default-x="291.23" default-y="-10.00">
         <chord/>
         <pitch>
           <step>D</step>
@@ -1089,7 +1051,7 @@
         <stem>up</stem>
         <staff>1</staff>
         </note>
-      <note id="mn-1-2-1-1-15">
+      <note id="mn-1-2-1-1-14">
         <rest/>
         <duration>240</duration>
         <voice>1</voice>
@@ -1102,7 +1064,7 @@
           </direction-type>
         <staff>1</staff>
         </direction>
-      <note id="mn-1-2-1-1-16">
+      <note id="mn-1-2-1-1-15">
         <rest/>
         <duration>480</duration>
         <voice>1</voice>
@@ -1184,21 +1146,14 @@
         <type>eighth</type>
         <staff>2</staff>
         </note>
-      <note id="mn-1-2-5-2-8" default-x="109.63" default-y="-170.00" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-2-5-2-8" default-x="109.63" default-y="-170.00">
+        <grace steal-time-following="30"/><pitch>
           <step>B</step>
           <octave>1</octave>
           </pitch>
-        <duration>24</duration>
         <voice>5</voice>
         <type>64th</type>
         <accidental>natural</accidental>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
@@ -1209,20 +1164,13 @@
           <tuplet type="start" bracket="no" show-number="none"/>
           </notations>
         </note>
-      <note id="mn-1-2-5-2-9" default-x="132.22" default-y="-160.00" dynamics="64.44" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-2-5-2-9" default-x="132.22" default-y="-160.00" dynamics="64.44">
+        <grace steal-time-following="30"/><pitch>
           <step>D</step>
           <octave>2</octave>
           </pitch>
-        <duration>24</duration>
         <voice>5</voice>
         <type>64th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
@@ -1230,20 +1178,13 @@
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
         </note>
-      <note id="mn-1-2-5-2-10" default-x="147.41" default-y="-145.00" dynamics="68.89" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-2-5-2-10" default-x="147.41" default-y="-145.00" dynamics="68.89">
+        <grace steal-time-following="30"/><pitch>
           <step>G</step>
           <octave>2</octave>
           </pitch>
-        <duration>24</duration>
         <voice>5</voice>
         <type>64th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
@@ -1251,21 +1192,14 @@
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
         </note>
-      <note id="mn-1-2-5-2-11" default-x="169.23" default-y="-135.00" dynamics="73.33" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-2-5-2-11" default-x="169.23" default-y="-135.00" dynamics="73.33">
+        <grace steal-time-following="30"/><pitch>
           <step>B</step>
           <octave>2</octave>
           </pitch>
-        <duration>24</duration>
         <voice>5</voice>
         <type>64th</type>
         <accidental>natural</accidental>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
@@ -1273,20 +1207,13 @@
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
         </note>
-      <note id="mn-1-2-5-2-12" default-x="184.43" default-y="-125.00" dynamics="77.78" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-2-5-2-12" default-x="184.43" default-y="-125.00" dynamics="77.78">
+        <grace steal-time-following="30"/><pitch>
           <step>D</step>
           <octave>3</octave>
           </pitch>
-        <duration>24</duration>
         <voice>5</voice>
         <type>64th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
@@ -1294,20 +1221,13 @@
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
         </note>
-      <note id="mn-1-2-5-2-13" default-x="199.62" default-y="-110.00" dynamics="83.33" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-2-5-2-13" default-x="199.62" default-y="-110.00" dynamics="83.33">
+        <grace steal-time-following="30"/><pitch>
           <step>G</step>
           <octave>3</octave>
           </pitch>
-        <duration>24</duration>
         <voice>5</voice>
         <type>64th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
@@ -1315,21 +1235,14 @@
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
         </note>
-      <note id="mn-1-2-5-2-14" default-x="221.44" default-y="-100.00" dynamics="87.78" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-2-5-2-14" default-x="221.44" default-y="-100.00" dynamics="87.78">
+        <grace steal-time-following="30"/><pitch>
           <step>B</step>
           <octave>3</octave>
           </pitch>
-        <duration>24</duration>
         <voice>5</voice>
         <type>64th</type>
         <accidental>natural</accidental>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
@@ -1337,23 +1250,7 @@
         <beam number="3">end</beam>
         <beam number="4">end</beam>
         </note>
-      <note id="mn-1-2-5-2-15" color="#1D4ED8">
-        <rest/>
-        <duration>72</duration>
-        <voice>5</voice>
-        <type>32nd</type>
-        <dot/>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
-        <staff>2</staff>
-        <notations>
-          <tuplet type="stop"/>
-          </notations>
-        </note>
-      <note id="mn-1-2-5-2-16" default-x="291.23" default-y="-170.00">
+      <note id="mn-1-2-5-2-15" default-x="291.23" default-y="-170.00">
         <pitch>
           <step>B</step>
           <octave>1</octave>
@@ -1365,7 +1262,7 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      <note id="mn-1-2-5-2-17" default-x="291.23" default-y="-145.00">
+      <note id="mn-1-2-5-2-16" default-x="291.23" default-y="-145.00">
         <chord/>
         <pitch>
           <step>G</step>
@@ -1377,7 +1274,7 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      <note id="mn-1-2-5-2-18" default-x="291.23" default-y="-135.00">
+      <note id="mn-1-2-5-2-17" default-x="291.23" default-y="-135.00">
         <chord/>
         <pitch>
           <step>B</step>
@@ -1390,6 +1287,13 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
+      <note id="mn-1-2-5-2-18">
+        <rest/>
+        <duration>240</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <staff>2</staff>
+        </note>
       <note id="mn-1-2-5-2-19">
         <rest/>
         <duration>240</duration>
@@ -1398,13 +1302,6 @@
         <staff>2</staff>
         </note>
       <note id="mn-1-2-5-2-20">
-        <rest/>
-        <duration>240</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <staff>2</staff>
-        </note>
-      <note id="mn-1-2-5-2-21">
         <rest/>
         <duration>180</duration>
         <voice>5</voice>
@@ -1420,7 +1317,7 @@
           </direction-type>
         <staff>2</staff>
         </direction>
-      <note id="mn-1-2-5-2-22" default-x="376.34" default-y="-105.00">
+      <note id="mn-1-2-5-2-21" default-x="376.34" default-y="-105.00">
         <pitch>
           <step>A</step>
           <alter>-1</alter>
@@ -1432,7 +1329,7 @@
         <stem>down</stem>
         <staff>2</staff>
         </note>
-      <note id="mn-1-2-5-2-23" default-x="376.34" default-y="-70.00">
+      <note id="mn-1-2-5-2-22" default-x="376.34" default-y="-70.00">
         <chord/>
         <pitch>
           <step>A</step>
@@ -2178,7 +2075,7 @@
         <staff>2</staff>
         </note>
       </measure>
-    <measure number="4" implicit="yes" width="468.92">
+    <measure number="4" width="468.92">
       <print new-system="yes">
         <system-layout>
           <system-margins>
@@ -2286,37 +2183,14 @@
           </direction-type>
         <staff>1</staff>
         </direction>
-      <note id="mn-1-4-1-1-8" color="#1D4ED8">
-        <rest/>
-        <duration>144</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <dot/>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
-        <staff>1</staff>
-        <notations>
-          <tuplet type="start" bracket="no" show-number="none"/>
-          </notations>
-        </note>
-      <note id="mn-1-4-1-1-9" default-x="290.20" default-y="-40.00" dynamics="87.78" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-4-1-1-8" default-x="290.20" default-y="-40.00" dynamics="87.78">
+        <grace steal-time-following="30"/><pitch>
           <step>E</step>
           <octave>4</octave>
           </pitch>
-        <duration>24</duration>
         <voice>1</voice>
         <type>64th</type>
         <accidental>natural</accidental>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
@@ -2324,20 +2198,13 @@
         <beam number="3">begin</beam>
         <beam number="4">begin</beam>
         </note>
-      <note id="mn-1-4-1-1-10" default-x="305.40" default-y="-30.00" dynamics="92.22" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-4-1-1-9" default-x="305.40" default-y="-30.00" dynamics="92.22">
+        <grace steal-time-following="30"/><pitch>
           <step>G</step>
           <octave>4</octave>
           </pitch>
-        <duration>24</duration>
         <voice>1</voice>
         <type>64th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
@@ -2345,20 +2212,13 @@
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
         </note>
-      <note id="mn-1-4-1-1-11" default-x="320.59" default-y="-15.00" dynamics="96.67" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-4-1-1-10" default-x="320.59" default-y="-15.00" dynamics="96.67">
+        <grace steal-time-following="30"/><pitch>
           <step>C</step>
           <octave>5</octave>
           </pitch>
-        <duration>24</duration>
         <voice>1</voice>
         <type>64th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
@@ -2366,21 +2226,14 @@
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
         </note>
-      <note id="mn-1-4-1-1-12" default-x="342.41" default-y="-5.00" dynamics="102.22" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-4-1-1-11" default-x="342.41" default-y="-5.00" dynamics="102.22">
+        <grace steal-time-following="30"/><pitch>
           <step>E</step>
           <octave>5</octave>
           </pitch>
-        <duration>24</duration>
         <voice>1</voice>
         <type>64th</type>
         <accidental>natural</accidental>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
@@ -2399,7 +2252,7 @@
           </direction-type>
         <staff>1</staff>
         </direction>
-      <note id="mn-1-4-1-1-13" default-x="355.63" default-y="-30.00">
+      <note id="mn-1-4-1-1-12" default-x="355.63" default-y="-30.00">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -2411,7 +2264,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         </note>
-      <note id="mn-1-4-1-1-14" default-x="355.63" default-y="-15.00">
+      <note id="mn-1-4-1-1-13" default-x="355.63" default-y="-15.00">
         <chord/>
         <pitch>
           <step>C</step>
@@ -2423,7 +2276,7 @@
         <stem>up</stem>
         <staff>1</staff>
         </note>
-      <note id="mn-1-4-1-1-15" default-x="355.63" default-y="5.00">
+      <note id="mn-1-4-1-1-14" default-x="355.63" default-y="5.00">
         <chord/>
         <pitch>
           <step>G</step>
@@ -2435,14 +2288,14 @@
         <stem>up</stem>
         <staff>1</staff>
         </note>
-      <note id="mn-1-4-1-1-16">
+      <note id="mn-1-4-1-1-15">
         <rest/>
         <duration>240</duration>
         <voice>1</voice>
         <type>eighth</type>
         <staff>1</staff>
         </note>
-      <note id="mn-1-4-1-1-17">
+      <note id="mn-1-4-1-1-16">
         <rest/>
         <duration>480</duration>
         <voice>1</voice>
@@ -2523,21 +2376,14 @@
           </direction-type>
         <staff>2</staff>
         </direction>
-      <note id="mn-1-4-5-2-7" default-x="191.43" default-y="-171.00" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-4-5-2-7" default-x="191.43" default-y="-171.00">
+        <grace steal-time-following="30"/><pitch>
           <step>E</step>
           <octave>2</octave>
           </pitch>
-        <duration>24</duration>
         <voice>5</voice>
         <type>64th</type>
         <accidental>natural</accidental>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
@@ -2548,20 +2394,13 @@
           <tuplet type="start" bracket="no" show-number="none"/>
           </notations>
         </note>
-      <note id="mn-1-4-5-2-8" default-x="206.62" default-y="-161.00" dynamics="64.44" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-4-5-2-8" default-x="206.62" default-y="-161.00" dynamics="64.44">
+        <grace steal-time-following="30"/><pitch>
           <step>G</step>
           <octave>2</octave>
           </pitch>
-        <duration>24</duration>
         <voice>5</voice>
         <type>64th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
@@ -2569,20 +2408,13 @@
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
         </note>
-      <note id="mn-1-4-5-2-9" default-x="221.81" default-y="-146.00" dynamics="68.89" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-4-5-2-9" default-x="221.81" default-y="-146.00" dynamics="68.89">
+        <grace steal-time-following="30"/><pitch>
           <step>C</step>
           <octave>3</octave>
           </pitch>
-        <duration>24</duration>
         <voice>5</voice>
         <type>64th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
@@ -2590,21 +2422,14 @@
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
         </note>
-      <note id="mn-1-4-5-2-10" default-x="243.63" default-y="-136.00" dynamics="73.33" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-4-5-2-10" default-x="243.63" default-y="-136.00" dynamics="73.33">
+        <grace steal-time-following="30"/><pitch>
           <step>E</step>
           <octave>3</octave>
           </pitch>
-        <duration>24</duration>
         <voice>5</voice>
         <type>64th</type>
         <accidental>natural</accidental>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
@@ -2612,20 +2437,13 @@
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
         </note>
-      <note id="mn-1-4-5-2-11" default-x="258.82" default-y="-126.00" dynamics="77.78" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-4-5-2-11" default-x="258.82" default-y="-126.00" dynamics="77.78">
+        <grace steal-time-following="30"/><pitch>
           <step>G</step>
           <octave>3</octave>
           </pitch>
-        <duration>24</duration>
         <voice>5</voice>
         <type>64th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
@@ -2633,20 +2451,13 @@
         <beam number="3">continue</beam>
         <beam number="4">continue</beam>
         </note>
-      <note id="mn-1-4-5-2-12" default-x="274.01" default-y="-111.00" dynamics="83.33" color="#EC4899">
-        <cue/>
-        <pitch>
+      <note id="mn-1-4-5-2-12" default-x="274.01" default-y="-111.00" dynamics="83.33">
+        <grace steal-time-following="30"/><pitch>
           <step>C</step>
           <octave>4</octave>
           </pitch>
-        <duration>24</duration>
         <voice>5</voice>
         <type>64th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
@@ -2654,25 +2465,10 @@
         <beam number="3">end</beam>
         <beam number="4">end</beam>
         </note>
-      <note id="mn-1-4-5-2-13" color="#1D4ED8">
-        <rest/>
-        <duration>96</duration>
-        <voice>5</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>64th</normal-type>
-          </time-modification>
-        <staff>2</staff>
-        <notations>
-          <tuplet type="stop"/>
-          </notations>
-        </note>
-      <note id="mn-1-4-5-2-14" default-x="355.63" default-y="-171.00">
+      <note id="mn-1-4-5-2-13" default-x="355.63" default-y="-171.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter><octave>2</octave>
+          <octave>2</octave>
           </pitch>
         <duration>240</duration>
         <voice>5</voice>
@@ -2680,7 +2476,7 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      <note id="mn-1-4-5-2-15" default-x="355.63" default-y="-146.00">
+      <note id="mn-1-4-5-2-14" default-x="355.63" default-y="-146.00">
         <chord/>
         <pitch>
           <step>C</step>
@@ -2692,11 +2488,11 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      <note id="mn-1-4-5-2-16" default-x="355.63" default-y="-136.00">
+      <note id="mn-1-4-5-2-15" default-x="355.63" default-y="-136.00">
         <chord/>
         <pitch>
           <step>E</step>
-          <alter>-1</alter><octave>3</octave>
+          <octave>3</octave>
           </pitch>
         <duration>240</duration>
         <voice>5</voice>
@@ -2710,14 +2506,14 @@
           </direction-type>
         <staff>2</staff>
         </direction>
-      <note id="mn-1-4-5-2-17">
+      <note id="mn-1-4-5-2-16">
         <rest/>
         <duration>240</duration>
         <voice>5</voice>
         <type>eighth</type>
         <staff>2</staff>
         </note>
-      <note id="mn-1-4-5-2-18">
+      <note id="mn-1-4-5-2-17">
         <rest/>
         <duration>420</duration>
         <voice>5</voice>
@@ -2734,7 +2530,7 @@
           </direction-type>
         <staff>2</staff>
         </direction>
-      <note id="mn-1-4-5-2-19" default-x="444.16" default-y="-141.00">
+      <note id="mn-1-4-5-2-18" default-x="444.16" default-y="-141.00">
         <pitch>
           <step>D</step>
           <alter>-1</alter>
@@ -2747,7 +2543,7 @@
         <stem>down</stem>
         <staff>2</staff>
         </note>
-      <note id="mn-1-4-5-2-20" default-x="444.16" default-y="-106.00">
+      <note id="mn-1-4-5-2-19" default-x="444.16" default-y="-106.00">
         <chord/>
         <pitch>
           <step>D</step>
@@ -46402,7 +46198,6 @@
       <note id="mn-1-110-5-2-12" default-x="412.70" default-y="-120.00">
         <pitch>
           <step>C</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>120</duration>
@@ -47173,7 +46968,7 @@
       <note id="mn-1-112-5-2-2" default-x="127.17" default-y="-105.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter><octave>5</octave>
+          <octave>5</octave>
           </pitch>
         <duration>120</duration>
         <voice>5</voice>
@@ -47212,7 +47007,7 @@
       <note id="mn-1-112-5-2-5" default-x="209.54" default-y="-105.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter><octave>5</octave>
+          <octave>5</octave>
           </pitch>
         <duration>120</duration>
         <voice>5</voice>
@@ -47238,7 +47033,7 @@
       <note id="mn-1-112-5-2-7" default-x="264.45" default-y="-105.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter><octave>5</octave>
+          <octave>5</octave>
           </pitch>
         <duration>120</duration>
         <voice>5</voice>
@@ -47264,7 +47059,7 @@
       <note id="mn-1-112-5-2-9" default-x="319.36" default-y="-105.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter><octave>5</octave>
+          <octave>5</octave>
           </pitch>
         <duration>120</duration>
         <voice>5</voice>
@@ -47290,7 +47085,7 @@
       <note id="mn-1-112-5-2-11" default-x="374.27" default-y="-105.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter><octave>5</octave>
+          <octave>5</octave>
           </pitch>
         <duration>120</duration>
         <voice>5</voice>
@@ -55644,7 +55439,6 @@
       <note id="mn-1-133-1-1-13" default-x="390.23" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>120</duration>
@@ -55694,7 +55488,6 @@
       <note id="mn-1-133-1-1-16" default-x="480.10" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>120</duration>

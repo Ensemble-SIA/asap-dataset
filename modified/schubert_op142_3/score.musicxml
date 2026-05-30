@@ -117,16 +117,6 @@
           <line>4</line>
         </clef>
       </attributes>
-      <direction placement="above">
-        <direction-type>
-          <metronome default-y="86" font-family="EngraverTextT" font-size="9.9" halign="left">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>120</per-minute>
-          </metronome>
-        </direction-type>
-        <staff>1</staff>
-        <sound tempo="120"/>
-      </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-80" halign="left">
@@ -134,8 +124,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <direction placement="above">
         <direction-type>
           <words default-y="63" font-family="FreeSerif" font-size="13" xml:space="preserve">THEMA
@@ -2398,8 +2387,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="100"/>
-      </direction>
+        </direction>
       <note id="mn-1-9-1-1-1" default-x="44">
         <pitch>
           <step>F</step>
@@ -3386,8 +3374,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-12-1-1-1" default-x="24">
         <pitch>
           <step>G</step>
@@ -3519,7 +3506,6 @@ Dez. 1827</words>
       <note id="mn-1-12-2-1-5" default-x="264">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>4</octave>
         </pitch>
         <duration>512</duration>
@@ -3715,8 +3701,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-13-1-1-1" default-x="16">
         <pitch>
           <step>D</step>
@@ -4660,8 +4645,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-16-1-1-1" default-x="25">
         <pitch>
           <step>C</step>
@@ -4932,8 +4916,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="mn-1-17-1-1-1" default-x="101">
         <pitch>
           <step>C</step>
@@ -5801,8 +5784,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="mn-1-19-4-2-1" default-x="109">
         <rest>
           <display-step>C</display-step>
@@ -9565,8 +9547,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-28-1-1-5" default-x="624">
         <pitch>
           <step>F</step>
@@ -10488,8 +10469,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-30-1-1-1" default-x="89">
         <pitch>
           <step>A</step>
@@ -11822,8 +11802,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="mn-1-33-1-1-1" default-x="89">
         <pitch>
           <step>C</step>
@@ -14403,8 +14382,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <direction placement="above">
         <direction-type>
           <words default-y="35" font-family="FreeSerif" font-size="12" font-weight="bold">VAR. II</words>
@@ -17096,8 +17074,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-45-1-1-1" default-x="17">
         <pitch>
           <step>C</step>
@@ -17513,8 +17490,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="mn-1-46-1-1-1" default-x="110">
         <pitch>
           <step>D</step>
@@ -19281,8 +19257,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-50-1-1-1" default-x="92">
         <pitch>
           <step>D</step>
@@ -19986,8 +19961,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="mn-1-52-1-1-1" default-x="89">
         <grace/>
         <pitch>
@@ -22114,8 +22088,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-56-1-1-10" default-x="394">
         <pitch>
           <step>F</step>
@@ -22488,8 +22461,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <direction placement="above">
         <direction-type>
           <words default-y="25" font-family="FreeSerif" font-size="13" font-weight="bold">VAR. III</words>
@@ -23462,8 +23434,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="107"/>
-      </direction>
+        </direction>
       <direction placement="below">
         <direction-type>
           <wedge default-y="-75" number="2" spread="15" type="diminuendo"/>
@@ -26905,8 +26876,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="107"/>
-      </direction>
+        </direction>
       <direction placement="below">
         <direction-type>
           <wedge default-y="-75" number="2" spread="15" type="diminuendo"/>
@@ -30194,8 +30164,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="107"/>
-      </direction>
+        </direction>
       <note id="mn-1-66-1-1-13" default-x="644">
         <pitch>
           <step>F</step>
@@ -30376,7 +30345,6 @@ Dez. 1827</words>
       <note id="mn-1-66-4-1-4" default-x="472">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>4</octave>
         </pitch>
         <duration>342</duration>
@@ -33958,7 +33926,6 @@ Dez. 1827</words>
       <note id="mn-1-70-4-1-4" default-x="217">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>4</octave>
         </pitch>
         <duration>342</duration>
@@ -36080,8 +36047,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="mn-1-73-1-1-1" default-x="32">
         <pitch>
           <step>D</step>
@@ -37823,8 +37789,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="mn-1-76-1-1-1" default-x="130">
         <pitch>
           <step>C</step>
@@ -39404,8 +39369,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <direction placement="below">
         <direction-type>
           <wedge default-y="-96" spread="15" type="diminuendo"/>
@@ -40602,8 +40566,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <direction>
         <direction-type>
           <wedge spread="0" type="stop"/>
@@ -43822,8 +43785,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="mn-1-83-1-1-10" default-x="433">
         <pitch>
           <step>D</step>
@@ -45129,8 +45091,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <direction placement="above">
         <direction-type>
           <words default-y="37" font-family="FreeSerif" font-size="12" font-weight="bold">VAR. IV</words>
@@ -46987,7 +46948,6 @@ Dez. 1827</words>
       <note id="mn-1-88-4-1-7" default-x="515">
         <pitch>
           <step>C</step>
-          <alter>-1</alter>
           <octave>5</octave>
         </pitch>
         <duration>512</duration>
@@ -47072,8 +47032,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="mn-1-89-1-1-1" default-x="128">
         <pitch>
           <step>G</step>
@@ -48618,8 +48577,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-92-1-1-1" default-x="17">
         <pitch>
           <step>F</step>
@@ -49020,8 +48978,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="mn-1-93-1-1-1" default-x="158">
         <pitch>
           <step>D</step>
@@ -51761,8 +51718,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="mn-1-98-1-1-1" default-x="16">
         <pitch>
           <step>E</step>
@@ -53800,8 +53756,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="mn-1-102-1-1-11" default-x="487">
         <pitch>
           <step>G</step>
@@ -55497,8 +55452,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <direction placement="above">
         <direction-type>
           <words default-y="59" font-family="FreeSerif" font-size="12" font-weight="bold">VAR. V</words>
@@ -59098,8 +59052,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <direction>
         <direction-type>
           <wedge spread="15" type="stop"/>
@@ -59561,8 +59514,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-116-1-1-1" default-x="89">
         <pitch>
           <step>F</step>
@@ -60230,8 +60182,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-117-1-1-1" default-x="89">
         <pitch>
           <step>F</step>
@@ -60901,8 +60852,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="mn-1-118-1-1-1" default-x="111">
         <pitch>
           <step>D</step>
@@ -63262,8 +63212,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-121-1-1-14" default-x="745">
         <pitch>
           <step>F</step>
@@ -63717,8 +63666,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="mn-1-122-1-1-1" default-x="100">
         <pitch>
           <step>E</step>
@@ -64967,8 +64915,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <direction>
         <direction-type>
           <wedge spread="15" type="stop"/>
@@ -65448,8 +65395,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-125-1-1-2" default-x="135">
         <pitch>
           <step>A</step>
@@ -66063,8 +66009,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="mn-1-126-1-1-1" default-x="92">
         <pitch>
           <step>C</step>
@@ -67694,8 +67639,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="mn-1-128-4-2-11" default-x="437">
         <pitch>
           <step>F</step>
@@ -68213,8 +68157,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="mn-1-130-1-1-1" default-x="139">
         <pitch>
           <step>C</step>
@@ -70010,8 +69953,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="mn-1-135-1-1-9" default-x="193">
         <pitch>
           <step>B</step>
@@ -70080,8 +70022,7 @@ Dez. 1827</words>
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="107"/>
-      </direction>
+        </direction>
       <forward>
         <duration>4096</duration>
         <voice>4</voice>
