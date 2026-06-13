@@ -247,7 +247,7 @@
         <stem>none</stem>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="no" show-number="none"/>
+          <tuplet type="start" bracket="no" show-number="none" id="mn-1-1-2-1-1--tuplet--start--1"/>
           </notations>
         </note>
       <note id="mn-1-1-2-1-2" default-x="334.28" default-y="-15.00" color="#0D9488">
@@ -304,7 +304,7 @@
         <stem>none</stem>
         <staff>1</staff>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="mn-1-1-2-1-4--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -347,7 +347,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-1-5-2-3--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-1-5-2-4" default-x="444.20" default-y="-105.00">
@@ -363,7 +363,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-1-5-2-4--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-1-5-2-5" default-x="474.75" default-y="-110.00">
@@ -407,7 +407,7 @@
         <dot/>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-1-6-2-1--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -560,7 +560,7 @@
         <stem>none</stem>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="no" show-number="none"/>
+          <tuplet type="start" bracket="no" show-number="none" id="mn-1-2-2-1-1--tuplet--start--1"/>
           </notations>
         </note>
       <note id="mn-1-2-2-1-2" default-x="43.69" default-y="-20.00" color="#0D9488">
@@ -615,7 +615,7 @@
         <stem>none</stem>
         <staff>1</staff>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="mn-1-2-2-1-4--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -635,7 +635,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-2-5-2-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-2-5-2-2" default-x="158.85" default-y="-110.00">
@@ -652,7 +652,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-2-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-2-5-2-3" default-x="191.36" default-y="-105.00">
@@ -710,8 +710,8 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
-          <tied type="start"/>
+          <tied type="stop" id="mn-1-2-6-2-1--tied--stop--1"/>
+          <tied type="start" id="mn-1-2-6-2-1--tied--start--2"/>
           </notations>
         </note>
       <note id="mn-1-2-6-2-2" default-x="268.60" default-y="-120.00">
@@ -727,7 +727,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-2-6-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-2-6-2-3" default-x="353.90" default-y="-125.00">
@@ -808,7 +808,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-3-1-1-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-3-1-1-5" default-x="574.68" default-y="5.00">
@@ -825,7 +825,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-3-1-1-5--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-3-1-1-6" default-x="654.48" default-y="0.00">
@@ -1072,7 +1072,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-4-1-1-1--tied--start--1"/>
           <ornaments>
             <inverted-mordent long="yes" approach="below"/>
             </ornaments>
@@ -1092,7 +1092,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-4-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-4-1-1-3" default-x="351.20" default-y="-5.00">
@@ -1263,7 +1263,7 @@
         <stem>none</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-4-2-1-8--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-4-2-1-9" default-x="233.65" default-y="-10.00" color="#0D9488">
@@ -1282,8 +1282,8 @@
         <stem>none</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
-          <tied type="start"/>
+          <tied type="stop" id="mn-1-4-2-1-9--tied--stop--1"/>
+          <tied type="start" id="mn-1-4-2-1-9--tied--start--2"/>
           </notations>
         </note>
       <note id="mn-1-4-2-1-10" default-x="307.02" default-y="-10.00" color="#0D9488">
@@ -1300,7 +1300,7 @@
         <stem>none</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-4-2-1-10--tied--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -1426,7 +1426,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-4-5-2-10--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -1590,7 +1590,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-5-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-5-5-2-2" default-x="87.58" default-y="-90.00">
@@ -1607,7 +1607,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-5-5-2-2--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-5-5-2-3" default-x="208.07" default-y="-90.00">
@@ -1624,7 +1624,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-5-5-2-3--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-5-5-2-4" default-x="233.24" default-y="-95.00">
@@ -1668,7 +1668,7 @@
         <dot/>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-5-6-2-1--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -1803,7 +1803,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-6-1-1-10--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -1824,7 +1824,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-6-5-2-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-6-5-2-2" default-x="165.47" default-y="-105.00">
@@ -1841,7 +1841,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-6-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-6-5-2-3" default-x="236.78" default-y="-100.00">
@@ -1857,7 +1857,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-6-5-2-3--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -1878,8 +1878,8 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
-          <tied type="start"/>
+          <tied type="stop" id="mn-1-6-6-2-1--tied--stop--1"/>
+          <tied type="start" id="mn-1-6-6-2-1--tied--start--2"/>
           </notations>
         </note>
       <note id="mn-1-6-6-2-2" default-x="94.15" default-y="-115.00">
@@ -1895,7 +1895,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-6-6-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-6-6-2-3" default-x="136.95" default-y="-130.00">
@@ -1924,7 +1924,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-6-6-2-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-6-6-2-5" default-x="236.78" default-y="-125.00">
@@ -1940,7 +1940,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-6-6-2-5--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-6-6-2-6" default-x="261.98" default-y="-120.00">
@@ -1995,7 +1995,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-7-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-7-1-1-2" default-x="146.40" default-y="-5.00">
@@ -2165,7 +2165,7 @@
         <stem>none</stem>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="no" show-number="none"/>
+          <tuplet type="start" bracket="no" show-number="none" id="mn-1-7-2-1-1--tuplet--start--1"/>
           </notations>
         </note>
       <note id="mn-1-7-2-1-2" default-x="356.33" default-y="-25.00" color="#0D9488">
@@ -2221,7 +2221,7 @@
         <stem>none</stem>
         <staff>1</staff>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="mn-1-7-2-1-4--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -2240,7 +2240,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-7-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-7-5-2-2" default-x="146.40" default-y="-95.00">
@@ -2282,7 +2282,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-7-5-2-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-7-5-2-5" default-x="481.66" default-y="-85.00">
@@ -2298,7 +2298,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-7-5-2-5--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-7-5-2-6" default-x="529.45" default-y="-90.00">
@@ -2358,7 +2358,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-7-6-2-2--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-7-6-2-3" default-x="481.66" default-y="-115.00">
@@ -2375,7 +2375,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-7-6-2-3--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-7-6-2-4" default-x="529.45" default-y="-110.00">
@@ -2515,7 +2515,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-8-1-1-8--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -2550,7 +2550,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-8-5-2-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-8-5-2-2" default-x="122.35" default-y="-100.00">
@@ -2566,7 +2566,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-8-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-8-5-2-3" default-x="176.30" default-y="-105.00">
@@ -2741,7 +2741,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-9-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-9-1-1-2" default-x="177.96" default-y="-10.00">
@@ -2859,7 +2859,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-9-1-1-10--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -2879,7 +2879,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-9-5-2-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-9-5-2-2" default-x="337.15" default-y="-110.00">
@@ -2896,7 +2896,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-9-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-9-5-2-3" default-x="416.74" default-y="-115.00">
@@ -2999,7 +2999,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-9-5-2-10--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -3046,7 +3046,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-10-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-10-1-1-2" default-x="115.63" default-y="5.00">
@@ -3075,7 +3075,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-10-1-1-3--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-10-1-1-4" default-x="158.06" default-y="10.00">
@@ -3091,7 +3091,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-10-1-1-4--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-10-1-1-5" default-x="175.33" default-y="0.00">
@@ -3121,7 +3121,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-10-1-1-6--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-10-1-1-7" default-x="225.22" default-y="5.00">
@@ -3138,7 +3138,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-10-1-1-7--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-10-1-1-8" default-x="257.80" default-y="-5.00">
@@ -3239,7 +3239,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-10-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-10-5-2-2" default-x="158.06" default-y="-100.00">
@@ -3353,7 +3353,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-11-1-1-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-11-1-1-2" default-x="187.18" default-y="-10.00">
@@ -3370,8 +3370,8 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
-          <tied type="start"/>
+          <tied type="stop" id="mn-1-11-1-1-2--tied--stop--1"/>
+          <tied type="start" id="mn-1-11-1-1-2--tied--start--2"/>
           </notations>
         </note>
       <note id="mn-1-11-1-1-3" default-x="260.91" default-y="-10.00">
@@ -3387,7 +3387,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-11-1-1-3--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-11-1-1-4" default-x="295.24" default-y="-10.00">
@@ -3540,7 +3540,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-11-2-1-10--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -3742,7 +3742,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-12-1-1-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-12-1-1-2" default-x="97.30" default-y="-15.00">
@@ -3759,7 +3759,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-12-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-12-1-1-3" default-x="122.49" default-y="-20.00">
@@ -3824,7 +3824,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-12-1-1-7--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-12-1-1-8" default-x="263.39" default-y="-20.00">
@@ -3840,7 +3840,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-12-1-1-8--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-12-1-1-9" default-x="288.59" default-y="-25.00">
@@ -3884,7 +3884,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-12-2-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-12-2-1-2" default-x="50.06" default-y="-25.00">
@@ -3926,7 +3926,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-12-2-1-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-12-2-1-5" default-x="185.15" default-y="-35.00">
@@ -3943,7 +3943,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-12-2-1-5--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-12-2-1-6" default-x="263.39" default-y="-40.00">
@@ -4040,7 +4040,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-13-1-1-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-13-1-1-2" default-x="182.18" default-y="-25.00">
@@ -4056,7 +4056,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-13-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-13-1-1-3" default-x="210.96" default-y="-20.00">
@@ -4097,7 +4097,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-13-1-1-5--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-13-1-1-6" default-x="354.82" default-y="-25.00">
@@ -4113,7 +4113,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-13-1-1-6--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-13-1-1-7" default-x="383.59" default-y="-20.00">
@@ -4187,7 +4187,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-13-2-1-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-13-2-1-2" default-x="182.18" default-y="-35.00">
@@ -4203,7 +4203,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-13-2-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-13-2-1-3" default-x="239.73" default-y="-40.00">
@@ -5020,7 +5020,7 @@
         <stem>none</stem>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="no" show-number="none"/>
+          <tuplet type="start" bracket="no" show-number="none" id="mn-1-15-2-1-1--tuplet--start--1"/>
           </notations>
         </note>
       <note id="mn-1-15-2-1-2" default-x="575.13" default-y="0.00" color="#0D9488">
@@ -5077,7 +5077,7 @@
         <stem>none</stem>
         <staff>1</staff>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="mn-1-15-2-1-4--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -5121,7 +5121,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-15-5-2-3--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-15-5-2-4" default-x="831.94" default-y="-90.00">
@@ -5137,7 +5137,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-15-5-2-4--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-15-5-2-5" default-x="905.80" default-y="-95.00">
@@ -5180,7 +5180,7 @@
         <dot/>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-15-6-2-1--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -5346,7 +5346,7 @@
         <stem>none</stem>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="no" show-number="none"/>
+          <tuplet type="start" bracket="no" show-number="none" id="mn-1-16-2-1-1--tuplet--start--1"/>
           </notations>
         </note>
       <note id="mn-1-16-2-1-2" default-x="130.06" default-y="-5.00" color="#0D9488">
@@ -5401,7 +5401,7 @@
         <stem>none</stem>
         <staff>1</staff>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="mn-1-16-2-1-4--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -5421,7 +5421,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-16-5-2-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-16-5-2-2" default-x="229.85" default-y="-95.00">
@@ -5438,7 +5438,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-16-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-16-5-2-3" default-x="260.38" default-y="-90.00">
@@ -5496,8 +5496,8 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
-          <tied type="start"/>
+          <tied type="stop" id="mn-1-16-6-2-1--tied--stop--1"/>
+          <tied type="start" id="mn-1-16-6-2-1--tied--start--2"/>
           </notations>
         </note>
       <note id="mn-1-16-6-2-2" default-x="328.18" default-y="-105.00">
@@ -5513,7 +5513,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-16-6-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-16-6-2-3" default-x="383.21" default-y="-110.00">
@@ -5582,7 +5582,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-17-1-1-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-17-1-1-5" default-x="161.48" default-y="-15.00">
@@ -5599,7 +5599,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-17-1-1-5--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-17-1-1-6" default-x="187.24" default-y="-20.00">
@@ -5850,7 +5850,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-18-1-1-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-18-1-1-5" default-x="148.09" default-y="-30.00">
@@ -5867,7 +5867,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-18-1-1-5--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-18-1-1-6" default-x="173.85" default-y="-25.00">
@@ -6047,7 +6047,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-18-5-2-10--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -6219,7 +6219,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-19-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-19-5-2-2" default-x="166.10" default-y="-110.00">
@@ -6236,7 +6236,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-19-5-2-2--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-19-5-2-3" default-x="296.02" default-y="-110.00">
@@ -6253,7 +6253,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-19-5-2-3--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-19-5-2-4" default-x="317.61" default-y="-115.00">
@@ -6296,7 +6296,7 @@
         <dot/>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-19-6-2-1--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -6428,7 +6428,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-20-1-1-10--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -6448,7 +6448,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-20-5-2-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-20-5-2-2" default-x="163.84" default-y="-125.00">
@@ -6465,7 +6465,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-20-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-20-5-2-3" default-x="241.54" default-y="-120.00">
@@ -6481,7 +6481,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-20-5-2-3--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -6501,8 +6501,8 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
-          <tied type="start"/>
+          <tied type="stop" id="mn-1-20-6-2-1--tied--stop--1"/>
+          <tied type="start" id="mn-1-20-6-2-1--tied--start--2"/>
           </notations>
         </note>
       <note id="mn-1-20-6-2-2" default-x="86.13" default-y="-135.00">
@@ -6517,7 +6517,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-20-6-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-20-6-2-3" default-x="135.32" default-y="-150.00">
@@ -6546,7 +6546,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-20-6-2-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-20-6-2-5" default-x="241.54" default-y="-145.00">
@@ -6562,7 +6562,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-20-6-2-5--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-20-6-2-6" default-x="266.74" default-y="-140.00">
@@ -6604,7 +6604,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-21-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-21-1-1-2" default-x="42.45" default-y="-25.00">
@@ -6762,7 +6762,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-21-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-21-5-2-2" default-x="42.45" default-y="-115.00">
@@ -6804,7 +6804,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-21-5-2-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-21-5-2-5" default-x="265.90" default-y="-105.00">
@@ -6820,7 +6820,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-21-5-2-5--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-21-5-2-6" default-x="311.69" default-y="-110.00">
@@ -6879,7 +6879,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-21-6-2-2--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-21-6-2-3" default-x="265.90" default-y="-135.00">
@@ -6895,7 +6895,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-21-6-2-3--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-21-6-2-4" default-x="311.69" default-y="-130.00">
@@ -7045,7 +7045,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-22-1-1-8--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -7064,7 +7064,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-22-5-2-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-22-5-2-2" default-x="205.56" default-y="-127.00">
@@ -7080,7 +7080,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-22-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-22-5-2-3" default-x="256.49" default-y="-132.00">
@@ -7252,8 +7252,8 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
-          <tied type="start"/>
+          <tied type="stop" id="mn-1-23-1-1-1--tied--stop--1"/>
+          <tied type="start" id="mn-1-23-1-1-1--tied--start--2"/>
           </notations>
         </note>
       <note id="mn-1-23-1-1-2" default-x="202.89" default-y="-40.00">
@@ -7270,8 +7270,8 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
-          <tied type="start"/>
+          <tied type="stop" id="mn-1-23-1-1-2--tied--stop--1"/>
+          <tied type="start" id="mn-1-23-1-1-2--tied--start--2"/>
           </notations>
         </note>
       <note id="mn-1-23-1-1-3" default-x="308.48" default-y="-40.00">
@@ -7286,7 +7286,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-23-1-1-3--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-23-1-1-4" default-x="371.99" default-y="-45.00">
@@ -7392,7 +7392,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-23-2-1-7--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-23-2-1-8" default-x="308.48" default-y="-50.00">
@@ -7408,7 +7408,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-23-2-1-8--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-23-2-1-9" default-x="383.85" default-y="-50.00">
@@ -7553,7 +7553,7 @@
         <dot/>
         <staff>1</staff>
         <notations>
-          <fermata type="upright"/>
+          <fermata type="upright" id="mn-1-24-1-1-1--fermata--upright--1"/>
           </notations>
         </note>
       <backup>
@@ -7597,7 +7597,7 @@
         <dot/>
         <staff>2</staff>
         <notations>
-          <fermata type="inverted"/>
+          <fermata type="inverted" id="mn-1-24-6-2-1--fermata--inverted--1"/>
           </notations>
         </note>
       <barline location="right">

@@ -103,7 +103,7 @@
         </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-x="-45.59" default-y="40.00" font-weight="bold" font-size="12">Poco Adagio.</words>
+          <words default-x="-45.59" default-y="40.00" font-weight="bold" font-size="12" id="md-1-1-1-1">Poco Adagio.</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -118,13 +118,13 @@
         </backup>
       <direction placement="below">
         <direction-type>
-          <words default-y="40.00" relative-y="-88.00" font-style="italic" font-size="12">sempre legato e placido</words>
+          <words default-y="40.00" relative-y="-88.00" font-style="italic" font-size="12" id="md-1-1-2-1">sempre legato e placido</words>
           </direction-type>
         <staff>2</staff>
         </direction>
       <direction placement="above">
         <direction-type>
-          <words default-y="40.00" relative-x="-1.06" relative-y="39.15" font-style="italic" font-size="12">dolcissimo, una corda</words>
+          <words default-y="40.00" relative-x="-1.06" relative-y="39.15" font-style="italic" font-size="12" id="md-1-1-2-2">dolcissimo, una corda</words>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -143,7 +143,7 @@
           <articulations>
             <tenuto/>
             </articulations>
-          <arpeggiate default-x="-13.09" default-y="40.51"/>
+          <arpeggiate default-x="-13.09" default-y="40.51" id="mn-1-1-5-2-1--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-1-5-2-2" default-x="98.44" default-y="-122.68">
@@ -158,7 +158,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="40.51"/>
+          <arpeggiate default-x="-13.09" default-y="40.51" id="mn-1-1-5-2-2--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-1-5-2-3" default-x="98.44" default-y="-107.68">
@@ -173,7 +173,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="40.51"/>
+          <arpeggiate default-x="-13.09" default-y="40.51" id="mn-1-1-5-2-3--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-1-5-2-4" default-x="98.44" default-y="-97.68">
@@ -188,7 +188,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="40.51"/>
+          <arpeggiate default-x="-13.09" default-y="40.51" id="mn-1-1-5-2-4--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-1-5-2-5" default-x="147.03" default-y="-122.68">
@@ -317,7 +317,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-1-7-2-1--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -481,7 +481,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-2-7-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-2-7-2-2" default-x="153.40" default-y="-142.68">
@@ -521,7 +521,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-3-5-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-3-5-2-2" default-x="69.20" default-y="-137.68">
@@ -536,7 +536,7 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-3-5-2-2--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-3-5-2-3" default-x="112.97" default-y="-152.68">
@@ -706,8 +706,8 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
-          <slur type="start" placement="above" number="1"/>
+          <tied type="start" id="mn-1-4-1-1-3--tied--start--1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-4-1-1-3--slur--start--1"/>
           <articulations>
             <tenuto/>
             </articulations>
@@ -727,7 +727,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-4-1-1-4--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -878,7 +878,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-4-6-2-3--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -896,7 +896,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-5-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-5-1-1-2" default-x="12.00" default-y="10.00">
@@ -913,7 +913,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-5-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-5-1-1-3" default-x="153.40" default-y="-20.00">
@@ -1117,7 +1117,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-5-6-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-5-6-2-2" default-x="153.40" default-y="-142.68">
@@ -1148,7 +1148,7 @@
         </print>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="1" default-y="-75.00"/>
+          <wedge type="crescendo" number="1" default-y="-75.00" id="md-1-6-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -1177,7 +1177,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="1" default-y="58.75"/>
+          <octave-shift type="down" size="8" number="1" default-y="58.75" id="md-1-6-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -1252,7 +1252,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="1"/>
+          <wedge type="stop" number="1" id="md-1-6-1-3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -1413,7 +1413,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-7-1-1-1--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-7-1-1-2" default-x="12.00" default-y="10.00">
@@ -1442,7 +1442,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-7-1-1-3--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-7-1-1-4" default-x="124.73" default-y="10.00">
@@ -1459,7 +1459,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-7-1-1-4--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -1515,7 +1515,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="diminuendo" number="1" default-y="53.84"/>
+          <wedge type="diminuendo" number="1" default-y="53.84" id="md-1-7-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -1581,7 +1581,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="stop" number="1" relative-x="-20.61"/>
+          <wedge type="stop" number="1" relative-x="-20.61" id="md-1-7-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -1625,7 +1625,7 @@
     <measure number="8" width="247.06">
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="1" default-y="-80.00"/>
+          <wedge type="crescendo" number="1" default-y="-80.00" id="md-1-8-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -1641,7 +1641,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-8-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-8-1-1-2" default-x="18.42" default-y="10.00">
@@ -1657,7 +1657,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-8-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-8-1-1-3" default-x="94.10" default-y="-25.00">
@@ -1959,7 +1959,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-9-1-1-5--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-9-1-1-6" default-x="114.69" default-y="35.00">
@@ -1976,12 +1976,12 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-9-1-1-6--tied--start--1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="1"/>
+          <wedge type="stop" number="1" id="md-1-9-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -2086,20 +2086,20 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-9-6-2-1--tied--start--1"/>
           </notations>
         </note>
       </measure>
     <measure number="10" width="256.36">
       <direction placement="below">
         <direction-type>
-          <words default-y="40.00" relative-x="26.00" relative-y="-117.00" font-style="italic" font-size="12">poco rallentando</words>
+          <words default-y="40.00" relative-x="26.00" relative-y="-117.00" font-style="italic" font-size="12" id="md-1-10-1-1">poco rallentando</words>
           </direction-type>
         <staff>1</staff>
         </direction>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="1" default-y="-51.81" relative-x="11.59"/>
+          <wedge type="diminuendo" number="1" default-y="-51.81" relative-x="11.59" id="md-1-10-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -2115,7 +2115,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-10-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-10-1-1-2" default-x="14.36" default-y="35.00">
@@ -2131,7 +2131,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-10-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-10-1-1-3" default-x="91.29" default-y="-5.00">
@@ -2234,7 +2234,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="1"/>
+          <wedge type="stop" number="1" id="md-1-10-1-3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -2266,7 +2266,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="-24.49"/>
+          <arpeggiate default-x="-13.09" default-y="-24.49" id="mn-1-10-5-2-2--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-10-5-2-3" default-x="129.75" default-y="-162.68">
@@ -2282,7 +2282,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="-24.49"/>
+          <arpeggiate default-x="-13.09" default-y="-24.49" id="mn-1-10-5-2-3--arpeggiate--1"/>
           </notations>
         </note>
       <backup>
@@ -2301,7 +2301,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-10-6-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-10-6-2-2" default-x="52.82" default-y="-132.68">
@@ -2393,7 +2393,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
+          <octave-shift type="stop" size="8" number="1" id="md-1-11-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -2432,12 +2432,12 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="-54.49"/>
+          <arpeggiate default-x="-13.09" default-y="-54.49" id="mn-1-11-5-2-1--arpeggiate--1"/>
           </notations>
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="crescendo" number="1" default-y="43.53"/>
+          <wedge type="crescendo" number="1" default-y="43.53" id="md-1-11-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -2576,7 +2576,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-11-6-2-6--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-11-6-2-7" default-x="146.90" default-y="-117.68">
@@ -2593,7 +2593,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-11-6-2-7--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -2621,7 +2621,7 @@
         </backup>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="2" default-y="-68.56"/>
+          <wedge type="diminuendo" number="2" default-y="-68.56" id="md-1-12-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -2664,7 +2664,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="2"/>
+          <wedge type="stop" number="2" id="md-1-12-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -2685,7 +2685,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-12-6-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-12-6-2-2" default-x="67.86" default-y="-117.68">
@@ -2701,7 +2701,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-12-6-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-12-6-2-3" default-x="114.33" default-y="-127.68">
@@ -2837,7 +2837,7 @@
     <measure number="13" width="226.51">
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="1" default-y="30.00"/>
+          <octave-shift type="down" size="8" number="1" default-y="30.00" id="md-1-13-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -2853,11 +2853,11 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-13-1-1-1--slur--start--1"/>
           <articulations>
             <tenuto/>
             </articulations>
-          <arpeggiate default-x="-13.09" default-y="15.51"/>
+          <arpeggiate default-x="-13.09" default-y="15.51" id="mn-1-13-1-1-1--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-13-1-1-2" default-x="25.09" default-y="-15.00">
@@ -2872,7 +2872,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="15.51"/>
+          <arpeggiate default-x="-13.09" default-y="15.51" id="mn-1-13-1-1-2--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-13-1-1-3" default-x="25.09" default-y="0.00">
@@ -2887,7 +2887,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="15.51"/>
+          <arpeggiate default-x="-13.09" default-y="15.51" id="mn-1-13-1-1-3--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-13-1-1-4" default-x="25.09" default-y="10.00">
@@ -2902,7 +2902,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="15.51"/>
+          <arpeggiate default-x="-13.09" default-y="15.51" id="mn-1-13-1-1-4--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-13-1-1-5" default-x="58.39" default-y="-25.00">
@@ -3017,7 +3017,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <words default-y="40.00" relative-x="12.00" relative-y="-45.00" font-style="italic" font-size="12">cantando</words>
+          <words default-y="40.00" relative-x="12.00" relative-y="-45.00" font-style="italic" font-size="12" id="md-1-13-2-1">cantando</words>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -3093,8 +3093,8 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
-          <slur type="start" number="2"/>
+          <tied type="start" id="mn-1-13-6-2-3--tied--start--1"/>
+          <slur type="start" number="2" id="mn-1-13-6-2-3--slur--start--1"/>
           </notations>
         </note>
       </measure>
@@ -3247,7 +3247,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
+          <octave-shift type="stop" size="8" number="1" id="md-1-14-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -3321,7 +3321,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-14-6-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-14-6-2-2" default-x="117.37" default-y="-127.68">
@@ -3347,7 +3347,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="mn-1-14-6-2-3--slur--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -3429,7 +3429,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-15-1-1-6--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -3522,7 +3522,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-26.36" default-y="5.51"/>
+          <arpeggiate default-x="-26.36" default-y="5.51" id="mn-1-15-5-2-1--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-15-5-2-2">
@@ -3591,7 +3591,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-15-6-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-15-6-2-2" default-x="117.18" default-y="-107.68">
@@ -3641,7 +3641,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="2"/>
+          <slur type="start" number="2" id="mn-1-16-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-16-1-1-2" default-x="12.00" default-y="10.00">
@@ -3831,7 +3831,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-16-6-2-1--slur--stop--1"/>
           </notations>
         </note>
       <forward>
@@ -3850,8 +3850,8 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
-          <slur type="start" number="1"/>
+          <tied type="start" id="mn-1-16-6-2-2--tied--start--1"/>
+          <slur type="start" number="1" id="mn-1-16-6-2-2--slur--start--1"/>
           </notations>
         </note>
       </measure>
@@ -3931,7 +3931,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="crescendo" number="2" default-y="13.90"/>
+          <wedge type="crescendo" number="2" default-y="13.90" id="md-1-17-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -4078,7 +4078,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-17-6-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-17-6-2-2" default-x="117.37" default-y="-127.68">
@@ -4132,7 +4132,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="stop" number="2" relative-x="-33.50"/>
+          <wedge type="stop" number="2" relative-x="-33.50" id="md-1-18-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -4163,7 +4163,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="diminuendo" number="2" default-y="16.48" relative-x="19.33"/>
+          <wedge type="diminuendo" number="2" default-y="16.48" relative-x="19.33" id="md-1-18-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -4205,7 +4205,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="mn-1-18-1-1-6--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-18-1-1-7" default-x="317.20" default-y="-40.00">
@@ -4287,7 +4287,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="2"/>
+          <slur type="start" number="2" id="mn-1-18-5-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-18-5-2-2" default-x="126.34" default-y="-137.68">
@@ -4302,7 +4302,7 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="mn-1-18-5-2-2--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-18-5-2-3" default-x="174.05" default-y="-152.68">
@@ -4366,7 +4366,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-18-6-2-2--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-18-6-2-3" default-x="221.77" default-y="-147.68">
@@ -4381,7 +4381,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-18-6-2-3--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-18-6-2-4" default-x="269.48" default-y="-137.68">
@@ -4408,7 +4408,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-18-6-2-5--slur--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -4426,7 +4426,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="3" default-y="-107.34" relative-x="-1.42"/>
+          <wedge type="diminuendo" number="3" default-y="-107.34" relative-x="-1.42" id="md-1-19-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -4535,7 +4535,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" relative-x="-1.42"/>
+          <wedge type="stop" number="3" relative-x="-1.42" id="md-1-19-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -4574,7 +4574,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-19-2-1-2--tied--start--1"/>
           <articulations>
             <tenuto/>
             </articulations>
@@ -4632,7 +4632,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-19-5-2-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-19-5-2-5" default-x="150.81" default-y="-177.68">
@@ -4649,7 +4649,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-19-5-2-5--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -4698,7 +4698,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="-110.92"/>
+          <wedge type="crescendo" number="3" default-y="-110.92" id="md-1-20-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -4819,7 +4819,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-20-2-1-1--tied--stop--1"/>
           </notations>
         </note>
       <forward>
@@ -4857,7 +4857,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-20-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-20-5-2-2" default-x="16.27" default-y="-177.68">
@@ -4873,7 +4873,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-20-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-20-5-2-3">
@@ -4903,7 +4903,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-20-5-2-5--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-20-5-2-6" default-x="153.75" default-y="-177.68">
@@ -4920,7 +4920,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-20-5-2-6--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -5134,7 +5134,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-21-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-21-5-2-2" default-x="27.34" default-y="-177.68">
@@ -5150,7 +5150,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-21-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-21-5-2-3">
@@ -5180,7 +5180,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-21-5-2-5--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-21-5-2-6" default-x="155.82" default-y="-177.68">
@@ -5197,7 +5197,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-21-5-2-6--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -5395,7 +5395,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-22-2-1-2--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-22-2-1-3" default-x="163.75" default-y="-10.00">
@@ -5412,7 +5412,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-22-2-1-3--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-22-2-1-4" default-x="212.91" default-y="-15.00">
@@ -5455,8 +5455,8 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
-          <slur type="start" number="1"/>
+          <tied type="stop" id="mn-1-22-5-2-1--tied--stop--1"/>
+          <slur type="start" number="1" id="mn-1-22-5-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-22-5-2-2" default-x="16.27" default-y="-177.68">
@@ -5472,12 +5472,12 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-22-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="crescendo" number="4" default-y="11.32"/>
+          <wedge type="crescendo" number="4" default-y="11.32" id="md-1-22-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -5558,7 +5558,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="stop" number="4"/>
+          <wedge type="stop" number="4" id="md-1-22-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -5706,7 +5706,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3"/>
+          <wedge type="stop" number="3" id="md-1-23-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -5725,7 +5725,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="2"/>
+          <slur type="start" number="2" id="mn-1-23-2-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-23-2-1-2" default-x="176.03" default-y="-25.00">
@@ -5741,7 +5741,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="mn-1-23-2-1-2--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-23-2-1-3" default-x="220.15" default-y="-20.00">
@@ -5757,7 +5757,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="2"/>
+          <slur type="start" number="2" id="mn-1-23-2-1-3--slur--start--1"/>
           <articulations>
             <accent/>
             </articulations>
@@ -5775,7 +5775,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="mn-1-23-2-1-4--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -5795,7 +5795,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-23-5-2-1--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-23-5-2-2" default-x="220.15" default-y="-202.68">
@@ -5852,7 +5852,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-23-6-2-3--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-23-6-2-4" default-x="308.40" default-y="-167.68">
@@ -5867,14 +5867,14 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-23-6-2-4--slur--stop--1"/>
           </notations>
         </note>
       </measure>
     <measure number="24" width="316.41">
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="3" default-y="-98.19"/>
+          <wedge type="diminuendo" number="3" default-y="-98.19" id="md-1-24-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -5890,7 +5890,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-24-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-24-1-1-2" default-x="18.27" default-y="-30.00">
@@ -6002,7 +6002,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" relative-x="-42.52"/>
+          <wedge type="stop" number="3" relative-x="-42.52" id="md-1-24-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -6067,7 +6067,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-24-5-2-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-24-5-2-2" default-x="164.24" default-y="-202.68">
@@ -6083,7 +6083,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-24-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-24-5-2-3" default-x="261.56" default-y="-202.68">
@@ -6114,7 +6114,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" number="2"/>
+          <slur type="start" number="2" id="mn-1-24-6-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-24-6-2-2" default-x="115.58" default-y="-167.68">
@@ -6130,7 +6130,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="mn-1-24-6-2-2--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-24-6-2-3" default-x="164.24" default-y="-157.68">
@@ -6145,7 +6145,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="2"/>
+          <slur type="start" number="2" id="mn-1-24-6-2-3--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-24-6-2-4" default-x="212.90" default-y="-167.68">
@@ -6173,7 +6173,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="mn-1-24-6-2-5--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -6208,7 +6208,7 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-24-7-2-2--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-24-7-2-3" default-x="261.56" default-y="-137.68">
@@ -6225,7 +6225,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-24-7-2-3--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-24-7-2-4" default-x="273.42" default-y="-132.68">
@@ -6253,7 +6253,7 @@
         </attributes>
       <direction placement="below">
         <direction-type>
-          <words default-y="40.00" relative-x="46.38" relative-y="-97.92" font-style="italic" font-size="12">dolce</words>
+          <words default-y="40.00" relative-x="46.38" relative-y="-97.92" font-style="italic" font-size="12" id="md-1-25-1-1">dolce</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -6269,7 +6269,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-25-1-1-1--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-25-1-1-2">
@@ -6305,8 +6305,8 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
-          <slur type="start" placement="above" number="1"/>
+          <tied type="start" id="mn-1-25-1-1-4--tied--start--1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-25-1-1-4--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-25-1-1-5" default-x="205.28" default-y="0.00">
@@ -6323,7 +6323,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-25-1-1-5--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -6355,7 +6355,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="-14.49"/>
+          <arpeggiate default-x="-13.09" default-y="-14.49" id="mn-1-25-5-2-1--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-25-5-2-2" default-x="84.69" default-y="-167.68">
@@ -6371,7 +6371,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="-14.49"/>
+          <arpeggiate default-x="-13.09" default-y="-14.49" id="mn-1-25-5-2-2--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-25-5-2-3" default-x="84.69" default-y="-152.68">
@@ -6387,7 +6387,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="-14.49"/>
+          <arpeggiate default-x="-13.09" default-y="-14.49" id="mn-1-25-5-2-3--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-25-5-2-4" default-x="141.41" default-y="-152.68">
@@ -6520,7 +6520,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-25-6-2-2--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -6538,7 +6538,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-26-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-26-1-1-2" default-x="12.00" default-y="0.00">
@@ -6555,7 +6555,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-26-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-26-1-1-3" default-x="133.08" default-y="-30.00">
@@ -6769,7 +6769,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-26-6-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-26-6-2-2" default-x="133.08" default-y="-152.68">
@@ -6786,7 +6786,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-26-6-2-2--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -6934,7 +6934,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-27-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-27-5-2-2" default-x="70.18" default-y="-152.68">
@@ -7096,7 +7096,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-28-1-1-1--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-28-1-1-2" default-x="105.36" default-y="35.00">
@@ -7127,7 +7127,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="-75.00"/>
+          <wedge type="crescendo" number="3" default-y="-75.00" id="md-1-28-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -7144,8 +7144,8 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
-          <slur type="start" placement="above" number="1"/>
+          <tied type="start" id="mn-1-28-1-1-5--tied--start--1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-28-1-1-5--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-28-1-1-6" default-x="215.12" default-y="35.00">
@@ -7162,7 +7162,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-28-1-1-6--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -7321,7 +7321,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-28-6-2-3--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -7339,7 +7339,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-29-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-29-1-1-2" default-x="12.00" default-y="35.00">
@@ -7356,7 +7356,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-29-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-29-1-1-3" default-x="126.05" default-y="5.00">
@@ -7386,7 +7386,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="1" default-y="54.09"/>
+          <octave-shift type="down" size="8" number="1" default-y="54.09" id="md-1-29-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -7576,7 +7576,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-29-6-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-29-6-2-2" default-x="126.05" default-y="-187.68">
@@ -7694,7 +7694,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3"/>
+          <wedge type="stop" number="3" id="md-1-30-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -7822,7 +7822,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-30-5-2-9--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-30-5-2-10" default-x="225.63" default-y="-157.68">
@@ -7871,7 +7871,7 @@
     <measure number="31" width="233.52">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" relative-x="48.24" relative-y="-1.72">
+          <dynamics default-x="3.29" default-y="-80.00" relative-x="48.24" relative-y="-1.72" id="md-1-31-1-1">
             <other-dynamics>rinforzando</other-dynamics>
             </dynamics>
           </direction-type>
@@ -7888,7 +7888,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-31-1-1-1--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-31-1-1-2" default-x="12.00" default-y="35.00">
@@ -7919,7 +7919,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="-85.67"/>
+          <wedge type="crescendo" number="3" default-y="-85.67" id="md-1-31-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -7936,7 +7936,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-31-1-1-5--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-31-1-1-6" default-x="121.96" default-y="35.00">
@@ -7953,7 +7953,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-31-1-1-6--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -7961,7 +7961,7 @@
         </backup>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="4" default-y="-90.59" relative-x="11.34"/>
+          <wedge type="crescendo" number="4" default-y="-90.59" relative-x="11.34" id="md-1-31-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -7991,7 +7991,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-31-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-31-5-2-3" default-x="65.18" default-y="-177.68">
@@ -8008,7 +8008,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="4"/>
+          <wedge type="stop" number="4" id="md-1-31-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -8101,7 +8101,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-31-5-2-10--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -8118,7 +8118,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-31-6-2-1--slur--start--1"/>
           <articulations>
             <accent/>
             </articulations>
@@ -8149,7 +8149,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-32-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-32-1-1-2" default-x="14.36" default-y="35.00">
@@ -8165,7 +8165,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-32-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-32-1-1-3">
@@ -8188,7 +8188,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-32-1-1-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-32-1-1-5" default-x="123.14" default-y="35.00">
@@ -8205,12 +8205,12 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-32-1-1-5--tied--start--1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" relative-x="7.09"/>
+          <wedge type="stop" number="3" relative-x="7.09" id="md-1-32-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -8219,7 +8219,7 @@
         </backup>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="-87.76"/>
+          <wedge type="crescendo" number="3" default-y="-87.76" id="md-1-32-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -8235,7 +8235,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-32-5-2-1--tied--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -8280,7 +8280,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3"/>
+          <wedge type="stop" number="3" id="md-1-32-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -8386,8 +8386,8 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
-          <slur type="start" number="1"/>
+          <slur type="stop" number="1" id="mn-1-32-6-2-1--slur--stop--1"/>
+          <slur type="start" number="1" id="mn-1-32-6-2-1--slur--start--2"/>
           <articulations>
             <accent/>
             </articulations>
@@ -8408,7 +8408,7 @@
     <measure number="33" width="249.52">
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="3" default-y="-84.25"/>
+          <wedge type="diminuendo" number="3" default-y="-84.25" id="md-1-33-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -8424,7 +8424,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-33-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-33-1-1-2" default-x="12.00" default-y="35.00">
@@ -8440,12 +8440,12 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-33-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
+          <octave-shift type="stop" size="8" number="1" id="md-1-33-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -8469,7 +8469,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-33-1-1-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-33-1-1-5" default-x="129.96" default-y="35.00">
@@ -8486,7 +8486,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-33-1-1-5--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -8536,7 +8536,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="4" default-y="-75.00"/>
+          <wedge type="diminuendo" number="4" default-y="-75.00" id="md-1-33-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -8552,7 +8552,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="2"/>
+          <slur type="start" placement="above" number="2" id="mn-1-33-5-2-4--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-33-5-2-5" default-x="90.64" default-y="-117.68">
@@ -8607,7 +8607,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="4" relative-x="-8.50"/>
+          <wedge type="stop" number="4" relative-x="-8.50" id="md-1-33-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -8650,7 +8650,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-33-5-2-11--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -8667,7 +8667,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-33-6-2-1--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-33-6-2-2" default-x="208.60" default-y="-142.68">
@@ -8707,7 +8707,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-34-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-34-1-1-2" default-x="119.21" default-y="35.00">
@@ -8723,7 +8723,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-34-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-34-1-1-3">
@@ -8746,7 +8746,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-34-1-1-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-34-1-1-5" default-x="242.94" default-y="35.00">
@@ -8763,7 +8763,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-34-1-1-5--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -8781,8 +8781,8 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
-          <slur type="stop" number="2"/>
+          <tied type="stop" id="mn-1-34-5-2-1--tied--stop--1"/>
+          <slur type="stop" number="2" id="mn-1-34-5-2-1--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-34-5-2-2" default-x="119.21" default-y="-132.68">
@@ -8909,7 +8909,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-34-6-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-34-6-2-2" default-x="325.42" default-y="-142.68">
@@ -8924,8 +8924,8 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
-          <slur type="stop" number="1"/>
+          <tied type="start" id="mn-1-34-6-2-2--tied--start--1"/>
+          <slur type="stop" number="1" id="mn-1-34-6-2-2--slur--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -8943,7 +8943,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-35-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-35-1-1-2" default-x="12.00" default-y="35.00">
@@ -8960,7 +8960,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-35-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-35-1-1-3" default-x="149.81" default-y="-35.00">
@@ -8976,7 +8976,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-35-1-1-3--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-35-1-1-4" default-x="149.81" default-y="0.00">
@@ -8993,7 +8993,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-35-1-1-4--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -9010,7 +9010,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-35-5-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-35-5-2-2" default-x="28.17" default-y="-112.68">
@@ -9038,7 +9038,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-35-5-2-3--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-35-5-2-4" default-x="57.94" default-y="-117.68">
@@ -9066,7 +9066,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-35-5-2-5--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-35-5-2-6" default-x="149.81" default-y="-117.68">
@@ -9094,7 +9094,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-35-5-2-7--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-35-5-2-8" default-x="195.75" default-y="-122.68">
@@ -9124,7 +9124,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-35-6-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-35-6-2-2" default-x="103.87" default-y="-142.68">
@@ -9165,7 +9165,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-36-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-36-1-1-2" default-x="14.36" default-y="0.00">
@@ -9182,12 +9182,12 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-36-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3"/>
+          <wedge type="stop" number="3" id="md-1-36-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -9231,7 +9231,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-36-5-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-36-5-2-2" default-x="14.36" default-y="-122.68">
@@ -9258,7 +9258,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-36-5-2-3--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-36-5-2-4" default-x="57.21" default-y="-127.68">
@@ -9285,7 +9285,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-36-5-2-5--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-36-5-2-6" default-x="142.90" default-y="-112.68">
@@ -9313,7 +9313,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-36-5-2-7--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-36-5-2-8" default-x="185.75" default-y="-117.68">
@@ -9372,13 +9372,13 @@
         </attributes>
       <direction placement="below">
         <direction-type>
-          <words default-y="40.00" relative-y="-97.00" font-style="italic" font-size="12">dolcissimo</words>
+          <words default-y="40.00" relative-y="-97.00" font-style="italic" font-size="12" id="md-1-37-1-1">dolcissimo</words>
           </direction-type>
         <staff>1</staff>
         </direction>
       <direction placement="above">
         <direction-type>
-          <words default-y="40.00" relative-y="8.50" font-weight="bold" font-size="12">Un poco più animato il tempo.</words>
+          <words default-y="40.00" relative-y="8.50" font-weight="bold" font-size="12" id="md-1-37-1-2">Un poco più animato il tempo.</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -9394,7 +9394,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-37-1-1-1--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -9625,7 +9625,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="2"/>
+          <slur type="start" number="2" id="mn-1-37-5-2-1--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -10052,7 +10052,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-38-1-1-15--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -10182,7 +10182,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="mn-1-38-5-2-6--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -10504,7 +10504,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-39-2-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-39-2-1-2" default-x="219.97" default-y="-20.00">
@@ -10551,7 +10551,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="2"/>
+          <slur type="start" number="2" id="mn-1-39-5-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-39-5-2-2" default-x="108.68" default-y="-132.68">
@@ -10618,7 +10618,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="3" default-y="-89.17"/>
+          <wedge type="diminuendo" number="3" default-y="-89.17" id="md-1-39-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -10698,7 +10698,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" relative-x="-21.26"/>
+          <wedge type="stop" number="3" relative-x="-21.26" id="md-1-39-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -10767,7 +10767,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="3"/>
+          <slur type="start" placement="above" number="3" id="mn-1-40-1-1-2--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-40-1-1-3" default-x="62.18" default-y="-15.00">
@@ -10794,7 +10794,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="3"/>
+          <slur type="stop" number="3" id="mn-1-40-1-1-4--slur--stop--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -10837,7 +10837,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="3"/>
+          <slur type="start" placement="above" number="3" id="mn-1-40-1-1-7--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -10954,7 +10954,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-40-2-1-1--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -10974,7 +10974,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="mn-1-40-5-2-1--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-40-5-2-2" default-x="62.18" default-y="-142.68">
@@ -11024,7 +11024,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-40-5-2-5--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -11058,7 +11058,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-40-6-2-2--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-40-6-2-3" default-x="112.37" default-y="-122.68">
@@ -11073,7 +11073,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-40-6-2-3--slur--stop--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -11103,7 +11103,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-40-6-2-5--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -11336,7 +11336,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="3"/>
+          <slur type="stop" number="3" id="mn-1-41-1-1-12--slur--stop--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -11417,7 +11417,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-41-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-41-5-2-2" default-x="72.69" default-y="-142.68">
@@ -11600,7 +11600,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-41-6-2-8--slur--stop--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -11807,7 +11807,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-42-2-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-42-2-1-2" default-x="158.42" default-y="-20.00">
@@ -11854,7 +11854,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="2"/>
+          <slur type="start" number="2" id="mn-1-42-5-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-42-5-2-2" default-x="46.32" default-y="-132.68">
@@ -12053,13 +12053,13 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <words default-y="40.00" relative-x="-1.42" relative-y="11.34" font-style="italic" font-size="12">poco rallentando</words>
+          <words default-y="40.00" relative-x="-1.42" relative-y="11.34" font-style="italic" font-size="12" id="md-1-43-1-1">poco rallentando</words>
           </direction-type>
         <staff>1</staff>
         </direction>
       <direction placement="below">
         <direction-type>
-          <words default-y="40.00" relative-x="83.78" relative-y="-108.58" font-style="italic" font-size="12">sotto voce e</words>
+          <words default-y="40.00" relative-x="83.78" relative-y="-108.58" font-style="italic" font-size="12" id="md-1-43-1-2">sotto voce e</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -12201,7 +12201,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-43-2-1-1--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-43-2-1-2" default-x="57.73" default-y="-25.00">
@@ -12216,7 +12216,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-43-2-1-2--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -12304,7 +12304,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="mn-1-43-5-2-1--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-43-5-2-2" default-x="57.73" default-y="-167.68">
@@ -12319,7 +12319,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="2"/>
+          <slur type="start" placement="above" number="2" id="mn-1-43-5-2-2--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -12486,7 +12486,7 @@
         </print>
       <direction placement="below">
         <direction-type>
-          <words default-y="40.00" relative-x="12.76" relative-y="-111.46" font-style="italic" font-size="12">sempre dolcissimo</words>
+          <words default-y="40.00" relative-x="12.76" relative-y="-111.46" font-style="italic" font-size="12" id="md-1-44-1-1">sempre dolcissimo</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -12628,7 +12628,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-44-2-1-1--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -12647,7 +12647,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-44-2-1-2--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -12736,7 +12736,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="mn-1-44-5-2-1--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -12766,7 +12766,7 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
         <notations>
-          <slur type="start" number="2"/>
+          <slur type="start" number="2" id="mn-1-44-5-2-3--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -12939,7 +12939,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="3"/>
+          <slur type="start" number="3" id="mn-1-45-1-1-3--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -13196,7 +13196,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-45-2-1-1--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -13216,7 +13216,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="mn-1-45-5-2-1--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -13246,7 +13246,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-45-5-2-3--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -13393,8 +13393,8 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="3"/>
-          <slur type="start" number="2"/>
+          <slur type="stop" number="3" id="mn-1-46-1-1-1--slur--stop--1"/>
+          <slur type="start" number="2" id="mn-1-46-1-1-1--slur--start--2"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -13627,7 +13627,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="mn-1-46-1-1-18--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -13674,7 +13674,7 @@
         </backup>
       <direction placement="above">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="22.79"/>
+          <wedge type="crescendo" number="3" default-y="22.79" id="md-1-46-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -13689,8 +13689,8 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
-          <slur type="start" number="1"/>
+          <slur type="stop" number="1" id="mn-1-46-5-2-1--slur--stop--1"/>
+          <slur type="start" number="1" id="mn-1-46-5-2-1--slur--start--2"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -13838,7 +13838,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-46-5-2-11--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -13860,7 +13860,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="stop" number="3" relative-x="-24.09"/>
+          <wedge type="stop" number="3" relative-x="-24.09" id="md-1-46-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -13868,7 +13868,7 @@
     <measure number="47" width="310.39">
       <direction placement="above">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="12.87" relative-x="9.92"/>
+          <wedge type="crescendo" number="3" default-y="12.87" relative-x="9.92" id="md-1-47-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -13951,7 +13951,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="stop" number="3" relative-x="-29.76"/>
+          <wedge type="stop" number="3" relative-x="-29.76" id="md-1-47-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -14034,7 +14034,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-47-2-1-3--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-47-2-1-4" default-x="160.40" default-y="-25.00">
@@ -14051,7 +14051,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-47-2-1-4--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -14101,7 +14101,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-47-5-2-4--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-47-5-2-5" default-x="209.86" default-y="-147.68">
@@ -14145,7 +14145,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-47-6-2-1--tied--start--1"/>
           </notations>
         </note>
       <forward>
@@ -14166,7 +14166,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-48-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-48-1-1-2" default-x="16.36" default-y="-25.00">
@@ -14182,7 +14182,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-48-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-48-1-1-3" default-x="63.03" default-y="-35.00">
@@ -14422,7 +14422,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-48-6-2-1--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -14441,7 +14441,7 @@
         </print>
       <direction placement="above">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="29.24"/>
+          <wedge type="crescendo" number="3" default-y="29.24" id="md-1-49-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -14557,7 +14557,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="stop" number="3" relative-x="-33.97"/>
+          <wedge type="stop" number="3" relative-x="-33.97" id="md-1-49-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -14578,7 +14578,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-49-2-1-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-49-2-1-2" default-x="200.25" default-y="-10.00">
@@ -14595,7 +14595,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-49-2-1-2--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -14615,8 +14615,8 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
-          <tied type="start"/>
+          <tied type="stop" id="mn-1-49-5-2-1--tied--stop--1"/>
+          <tied type="start" id="mn-1-49-5-2-1--tied--start--2"/>
           </notations>
         </note>
       <note id="mn-1-49-5-2-2" default-x="200.25" default-y="-137.68">
@@ -14632,7 +14632,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-49-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-49-5-2-3" default-x="244.38" default-y="-127.68">
@@ -14682,7 +14682,7 @@
     <measure number="50" width="319.81">
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="3" default-y="-75.00" relative-x="8.49"/>
+          <wedge type="diminuendo" number="3" default-y="-75.00" relative-x="8.49" id="md-1-50-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -14700,7 +14700,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-50-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-50-1-1-2" default-x="12.36" default-y="-10.00">
@@ -14716,7 +14716,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-50-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-50-1-1-3" default-x="63.34" default-y="-20.00">
@@ -14855,7 +14855,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" relative-x="2.63"/>
+          <wedge type="stop" number="3" relative-x="2.63" id="md-1-50-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -14968,7 +14968,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-50-6-2-1--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -14998,7 +14998,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="-85.86" relative-x="5.70"/>
+          <wedge type="crescendo" number="3" default-y="-85.86" relative-x="5.70" id="md-1-51-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -15014,7 +15014,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-51-1-1-3--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -15171,7 +15171,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-51-1-1-14--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -15216,7 +15216,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-51-5-2-2--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -15369,7 +15369,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-51-5-2-13--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -15402,7 +15402,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-51-6-2-1--tied--stop--1"/>
           </notations>
         </note>
       <forward>
@@ -15424,7 +15424,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-52-1-1-1--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -15611,7 +15611,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-52-1-1-14--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -15644,7 +15644,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-52-5-2-1--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -15842,7 +15842,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-52-5-2-15--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -15890,8 +15890,8 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="start"/>
-          <slur type="start" placement="above" number="1"/>
+          <tied type="start" id="mn-1-53-1-1-1--tied--start--1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-53-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-53-1-1-2" default-x="46.45" default-y="-25.00">
@@ -15921,8 +15921,8 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="stop"/>
-          <slur type="stop" number="1"/>
+          <tied type="stop" id="mn-1-53-1-1-3--tied--stop--1"/>
+          <slur type="stop" number="1" id="mn-1-53-1-1-3--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-53-1-1-4" default-x="87.14" default-y="-30.00">
@@ -15951,7 +15951,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-53-1-1-5--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-53-1-1-6" default-x="182.64" default-y="-50.00">
@@ -15966,7 +15966,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-53-1-1-6--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-53-1-1-7" default-x="230.39" default-y="-45.00">
@@ -16106,7 +16106,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-53-5-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-53-5-2-2" default-x="87.14" default-y="-137.68">
@@ -16121,7 +16121,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-53-5-2-2--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-53-5-2-3" default-x="146.75" default-y="-142.68">
@@ -16136,7 +16136,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-53-5-2-3--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-53-5-2-4" default-x="182.64" default-y="-147.68">
@@ -16151,7 +16151,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-53-5-2-4--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-53-5-2-5" default-x="230.39" default-y="-152.68">
@@ -16351,7 +16351,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-54-1-1-4--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-54-1-1-5" default-x="115.61" default-y="-35.00">
@@ -16390,7 +16390,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-54-1-1-7--slur--stop--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -16583,8 +16583,8 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
-          <arpeggiate default-x="-13.09" default-y="5.51"/>
+          <slur type="start" number="1" id="mn-1-54-5-2-3--slur--start--1"/>
+          <arpeggiate default-x="-13.09" default-y="5.51" id="mn-1-54-5-2-3--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-54-5-2-4" default-x="115.61" default-y="-157.68">
@@ -16599,7 +16599,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="5.51"/>
+          <arpeggiate default-x="-13.09" default-y="5.51" id="mn-1-54-5-2-4--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-54-5-2-5" default-x="115.61" default-y="-142.68">
@@ -16614,7 +16614,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="5.51"/>
+          <arpeggiate default-x="-13.09" default-y="5.51" id="mn-1-54-5-2-5--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-54-5-2-6" default-x="115.61" default-y="-132.68">
@@ -16629,7 +16629,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="5.51"/>
+          <arpeggiate default-x="-13.09" default-y="5.51" id="mn-1-54-5-2-6--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-54-5-2-7" default-x="165.87" default-y="-142.68">
@@ -16644,7 +16644,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-54-5-2-7--slur--stop--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -16913,7 +16913,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-55-1-1-10--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-55-1-1-11" default-x="168.30" default-y="-35.00">
@@ -16940,7 +16940,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-55-1-1-12--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-55-1-1-13" default-x="215.21" default-y="-10.00">
@@ -16982,7 +16982,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3"/>
+          <wedge type="stop" number="3" id="md-1-55-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -17110,7 +17110,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-55-5-2-10--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-55-5-2-11" default-x="168.30" default-y="-127.68">
@@ -17138,7 +17138,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-55-5-2-12--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-55-5-2-13" default-x="215.21" default-y="-127.68">
@@ -17220,8 +17220,8 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="start"/>
-          <slur type="start" placement="above" number="1"/>
+          <tied type="start" id="mn-1-56-1-1-1--tied--start--1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-56-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-56-1-1-2" default-x="46.45" default-y="-25.00">
@@ -17251,8 +17251,8 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="stop"/>
-          <slur type="stop" number="1"/>
+          <tied type="stop" id="mn-1-56-1-1-3--tied--stop--1"/>
+          <slur type="stop" number="1" id="mn-1-56-1-1-3--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-56-1-1-4" default-x="87.14" default-y="-30.00">
@@ -17281,7 +17281,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-56-1-1-5--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-56-1-1-6" default-x="190.30" default-y="-50.00">
@@ -17296,7 +17296,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-56-1-1-6--slur--stop--1"/>
           <articulations>
             <strong-accent type="up"/>
             </articulations>
@@ -17315,7 +17315,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-56-1-1-7--slur--start--1"/>
           <articulations>
             <strong-accent type="down"/>
             <staccato/>
@@ -17360,7 +17360,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-56-1-1-10--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -17445,7 +17445,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-56-5-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-56-5-2-2" default-x="87.14" default-y="-137.68">
@@ -17460,7 +17460,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-56-5-2-2--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-56-5-2-3" default-x="150.58" default-y="-142.68">
@@ -17475,7 +17475,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-56-5-2-3--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-56-5-2-4" default-x="190.30" default-y="-147.68">
@@ -17490,7 +17490,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-56-5-2-4--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-56-5-2-5" default-x="241.88" default-y="-152.68">
@@ -17507,7 +17507,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-56-5-2-5--slur--start--1"/>
           <articulations>
             <staccato/>
             <strong-accent type="up"/>
@@ -17551,7 +17551,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-56-5-2-8--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -17676,7 +17676,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="6.58" default-y="-80.00" relative-x="64.00" relative-y="-12.00">
+          <dynamics default-x="6.58" default-y="-80.00" relative-x="64.00" relative-y="-12.00" id="md-1-57-1-1">
             <other-dynamics>dolce, sotto voce</other-dynamics>
             </dynamics>
           </direction-type>
@@ -17694,7 +17694,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-57-1-1-4--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -17859,7 +17859,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-57-1-1-16--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -17927,7 +17927,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-57-5-2-3--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -18044,7 +18044,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-57-5-2-11--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -18116,7 +18116,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-58-1-1-4--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -18282,7 +18282,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-58-1-1-16--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -18326,7 +18326,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-58-5-2-1--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -18472,7 +18472,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-58-5-2-11--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -18556,7 +18556,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-59-1-1-4--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -18773,7 +18773,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-59-1-1-20--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -18858,7 +18858,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-59-5-2-3--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -18975,7 +18975,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-59-5-2-11--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -19047,7 +19047,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-60-1-1-4--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -19079,7 +19079,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="-80.00"/>
+          <wedge type="crescendo" number="3" default-y="-80.00" id="md-1-60-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -19126,7 +19126,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <words default-y="40.00" relative-y="10.00" font-style="italic" font-size="12">stringendo</words>
+          <words default-y="40.00" relative-y="10.00" font-style="italic" font-size="12" id="md-1-60-1-2">stringendo</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -19224,7 +19224,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-60-1-1-16--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -19297,7 +19297,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-60-5-2-3--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -19462,7 +19462,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-60-5-2-15--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -19547,7 +19547,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-61-1-1-4--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -19713,7 +19713,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-61-1-1-16--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -19745,7 +19745,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" relative-x="17.57"/>
+          <wedge type="stop" number="3" relative-x="17.57" id="md-1-61-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -19792,7 +19792,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-61-5-2-3--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -19957,7 +19957,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-61-5-2-15--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -19991,7 +19991,7 @@
     <measure number="62" width="291.71">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" relative-x="25.00" relative-y="16.00">
+          <dynamics default-x="3.29" default-y="-80.00" relative-x="25.00" relative-y="16.00" id="md-1-62-1-1">
             <other-dynamics>più</other-dynamics>
             </dynamics>
           </direction-type>
@@ -20039,7 +20039,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="-63.60" relative-x="3.51"/>
+          <wedge type="crescendo" number="3" default-y="-63.60" relative-x="3.51" id="md-1-62-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -20055,7 +20055,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-62-1-1-4--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -20222,7 +20222,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-62-1-1-16--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -20295,7 +20295,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-62-5-2-3--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -20463,7 +20463,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-62-5-2-15--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -20537,7 +20537,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="1" default-y="39.37"/>
+          <octave-shift type="down" size="8" number="1" default-y="39.37" id="md-1-63-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -20553,7 +20553,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-63-1-1-4--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -20769,7 +20769,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-63-1-1-20--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -20866,7 +20866,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-63-5-2-4--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -21082,7 +21082,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-63-5-2-20--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -21191,7 +21191,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-64-1-1-4--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -21360,7 +21360,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-64-1-1-16--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -21392,7 +21392,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3"/>
+          <wedge type="stop" number="3" id="md-1-64-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -21452,7 +21452,7 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-64-5-2-4--slur--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -21620,7 +21620,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-64-5-2-16--slur--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -21654,7 +21654,7 @@
     <measure number="65" width="298.99">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" relative-x="3.00" relative-y="-12.00">
+          <dynamics default-x="3.29" default-y="-80.00" relative-x="3.00" relative-y="-12.00" id="md-1-65-1-1">
             <ff/>
             </dynamics>
           </direction-type>
@@ -21672,7 +21672,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-65-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-65-1-1-2" default-x="12.00" default-y="10.00">
@@ -21922,7 +21922,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-65-5-2-9--tied--start--1"/>
           <articulations>
             <accent/>
             </articulations>
@@ -21941,7 +21941,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-65-5-2-10--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-65-5-2-11" default-x="249.82" default-y="-112.68">
@@ -21958,7 +21958,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-65-5-2-11--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-65-5-2-12" default-x="249.82" default-y="-97.68">
@@ -21974,7 +21974,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-65-5-2-12--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -22057,7 +22057,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
+          <octave-shift type="stop" size="8" number="1" id="md-1-66-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -22121,7 +22121,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-66-1-1-11--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-66-1-1-12" default-x="261.94" default-y="20.00">
@@ -22151,7 +22151,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-66-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-66-5-2-2" default-x="12.00" default-y="-122.68">
@@ -22167,7 +22167,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-66-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-66-5-2-3" default-x="12.00" default-y="-112.68">
@@ -22184,7 +22184,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-66-5-2-3--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-66-5-2-4" default-x="12.00" default-y="-97.68">
@@ -22200,7 +22200,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-66-5-2-4--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-66-5-2-5" default-x="111.98" default-y="-142.68">
@@ -22328,7 +22328,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-67-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-67-1-1-2" default-x="12.94" default-y="10.00">
@@ -22540,7 +22540,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-67-5-2-6--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-67-5-2-7" default-x="250.94" default-y="-157.68">
@@ -22556,7 +22556,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-67-5-2-7--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-67-5-2-8" default-x="250.94" default-y="-147.68">
@@ -22573,7 +22573,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-67-5-2-8--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-67-5-2-9" default-x="250.94" default-y="-132.68">
@@ -22589,7 +22589,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-67-5-2-9--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -22730,7 +22730,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-68-1-1-11--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-68-1-1-12" default-x="250.78" default-y="-15.00">
@@ -22760,7 +22760,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-68-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-68-5-2-2" default-x="12.00" default-y="-157.68">
@@ -22776,7 +22776,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-68-5-2-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-68-5-2-3" default-x="12.00" default-y="-147.68">
@@ -22793,7 +22793,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-68-5-2-3--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-68-5-2-4" default-x="12.00" default-y="-132.68">
@@ -22809,7 +22809,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-68-5-2-4--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-68-5-2-5" default-x="107.51" default-y="-177.68">
@@ -22934,7 +22934,7 @@
         </print>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="3" default-y="-75.00"/>
+          <wedge type="diminuendo" number="3" default-y="-75.00" id="md-1-69-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -22950,7 +22950,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-69-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-69-1-1-2" default-x="66.29" default-y="-25.00">
@@ -23017,13 +23017,13 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" relative-x="-10.54"/>
+          <wedge type="stop" number="3" relative-x="-10.54" id="md-1-69-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="6.58" default-y="-80.00">
+          <dynamics default-x="6.58" default-y="-80.00" id="md-1-69-1-3">
             <ff/>
             </dynamics>
           </direction-type>
@@ -23102,7 +23102,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-69-1-1-12--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-69-1-1-13" default-x="277.04" default-y="-40.00">
@@ -23233,13 +23233,13 @@
     <measure number="70" width="276.50">
       <direction placement="below">
         <direction-type>
-          <words default-y="40.00" relative-x="4.69" relative-y="-142.89" font-style="italic" font-size="12">poco rit.</words>
+          <words default-y="40.00" relative-x="4.69" relative-y="-142.89" font-style="italic" font-size="12" id="md-1-70-1-1">poco rit.</words>
           </direction-type>
         <staff>1</staff>
         </direction>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="3" default-y="-75.00"/>
+          <wedge type="diminuendo" number="3" default-y="-75.00" id="md-1-70-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -23255,7 +23255,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-70-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-70-1-1-2" default-x="12.94" default-y="-25.00">
@@ -23322,13 +23322,13 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" relative-x="-17.57"/>
+          <wedge type="stop" number="3" relative-x="-17.57" id="md-1-70-1-3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="6.58" default-y="-80.00" relative-x="330.00" relative-y="-57.00">
+          <dynamics default-x="6.58" default-y="-80.00" relative-x="330.00" relative-y="-57.00" id="md-1-70-1-4">
             <f/>
             </dynamics>
           </direction-type>
@@ -23336,7 +23336,7 @@
         </direction>
       <direction placement="below">
         <direction-type>
-          <words default-y="40.00" relative-x="249.16" relative-y="-152.26" font-style="italic" font-size="12">sempre</words>
+          <words default-y="40.00" relative-x="249.16" relative-y="-152.26" font-style="italic" font-size="12" id="md-1-70-1-5">sempre</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -23413,7 +23413,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-70-1-1-12--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-70-1-1-13" default-x="231.24" default-y="-40.00">
@@ -23544,7 +23544,7 @@
     <measure number="71" width="321.92">
       <direction placement="above">
         <direction-type>
-          <words default-y="40.00" relative-x="3.51" relative-y="10.54" font-style="italic" font-size="12">ritenuto ed appassionato assai</words>
+          <words default-y="40.00" relative-x="3.51" relative-y="10.54" font-style="italic" font-size="12" id="md-1-71-1-1">ritenuto ed appassionato assai</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -23560,7 +23560,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-71-1-1-1--slur--start--1"/>
           <articulations>
             <accent/>
             </articulations>
@@ -23694,7 +23694,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-71-1-1-11--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-71-1-1-12" default-x="270.00" default-y="-40.00">
@@ -23887,7 +23887,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-72-1-1-1--slur--start--1"/>
           <articulations>
             <accent/>
             </articulations>
@@ -24021,7 +24021,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-72-1-1-11--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-72-1-1-12" default-x="266.59" default-y="-45.00">
@@ -24051,7 +24051,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-72-2-1-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-72-2-1-2" default-x="130.75" default-y="-5.00">
@@ -24067,7 +24067,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-72-2-1-2--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-72-2-1-3" default-x="118.88" default-y="25.00">
@@ -24083,7 +24083,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-72-2-1-3--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-72-2-1-4" default-x="168.12" default-y="-10.00">
@@ -24098,7 +24098,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-72-2-1-4--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-72-2-1-5" default-x="179.98" default-y="-5.00">
@@ -24114,7 +24114,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-72-2-1-5--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-72-2-1-6" default-x="168.12" default-y="25.00">
@@ -24130,7 +24130,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-72-2-1-6--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-72-2-1-7" default-x="266.59" default-y="-10.00">
@@ -24244,7 +24244,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-73-1-1-1--slur--start--1"/>
           <articulations>
             <accent/>
             </articulations>
@@ -24378,7 +24378,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-73-1-1-11--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-73-1-1-12" default-x="263.80" default-y="-40.00">
@@ -24586,7 +24586,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-74-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-74-1-1-2" default-x="91.69" default-y="-30.00">
@@ -24716,7 +24716,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-74-1-1-11--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-74-1-1-12" default-x="322.01" default-y="-45.00">
@@ -24749,7 +24749,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-74-2-1-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-74-2-1-2" default-x="195.69" default-y="-5.00">
@@ -24767,7 +24767,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-74-2-1-2--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-74-2-1-3" default-x="183.82" default-y="25.00">
@@ -24785,7 +24785,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-74-2-1-3--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-74-2-1-4" default-x="229.88" default-y="-10.00">
@@ -24801,7 +24801,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-74-2-1-4--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-74-2-1-5" default-x="241.75" default-y="-5.00">
@@ -24818,7 +24818,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-74-2-1-5--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-74-2-1-6" default-x="229.88" default-y="25.00">
@@ -24835,7 +24835,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-74-2-1-6--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-74-2-1-7" default-x="322.01" default-y="-10.00">
@@ -24960,7 +24960,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-75-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-75-1-1-2" default-x="18.27" default-y="-30.00">
@@ -25095,7 +25095,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-75-1-1-11--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-75-1-1-12" default-x="238.11" default-y="-45.00">
@@ -25295,7 +25295,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-76-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-76-1-1-2" default-x="29.34" default-y="-40.00">
@@ -25342,7 +25342,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="diminuendo" number="3" default-y="40.96"/>
+          <wedge type="diminuendo" number="3" default-y="40.96" id="md-1-76-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -25436,7 +25436,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-76-1-1-11--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -25454,7 +25454,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-76-2-1-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-76-2-1-2" default-x="128.83" default-y="-25.00">
@@ -25472,7 +25472,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-76-2-1-2--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-76-2-1-3" default-x="128.83" default-y="-15.00">
@@ -25490,7 +25490,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-76-2-1-3--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-76-2-1-4" default-x="128.83" default-y="-5.00">
@@ -25508,7 +25508,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-76-2-1-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-76-2-1-5" default-x="176.87" default-y="-35.00">
@@ -25523,7 +25523,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-76-2-1-5--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-76-2-1-6" default-x="176.87" default-y="-25.00">
@@ -25540,7 +25540,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-76-2-1-6--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-76-2-1-7" default-x="176.87" default-y="-15.00">
@@ -25557,7 +25557,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-76-2-1-7--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-76-2-1-8" default-x="176.87" default-y="-5.00">
@@ -25574,7 +25574,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-76-2-1-8--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-76-2-1-9" default-x="272.95" default-y="-35.00">
@@ -25682,7 +25682,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-77-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-77-1-1-2" default-x="18.27" default-y="-30.00">
@@ -25817,7 +25817,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-77-1-1-11--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-77-1-1-12" default-x="235.83" default-y="-45.00">
@@ -26017,7 +26017,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-78-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-78-1-1-2" default-x="29.34" default-y="-40.00">
@@ -26152,7 +26152,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-78-1-1-11--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -26296,7 +26296,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-79-5-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-79-5-2-2" default-x="114.48" default-y="-147.68">
@@ -26355,7 +26355,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <bracket type="start" number="1" line-end="none" line-type="solid" default-y="33.60" relative-x="-39.82"/>
+          <bracket type="start" number="1" line-end="none" line-type="solid" default-y="33.60" relative-x="-39.82" id="md-1-79-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -26431,7 +26431,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-80-5-2-1--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-80-5-2-2" default-x="61.26" default-y="-182.68">
@@ -26448,12 +26448,12 @@
         <staff>2</staff>
         <beam number="1">continue</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-80-5-2-2--slur--start--1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="4" default-y="-86.71"/>
+          <wedge type="diminuendo" number="4" default-y="-86.71" id="md-1-80-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -26497,7 +26497,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="4" relative-x="-22.25"/>
+          <wedge type="stop" number="4" relative-x="-22.25" id="md-1-80-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -26516,7 +26516,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <bracket type="stop" number="1" line-end="none" relative-x="7.03"/>
+          <bracket type="stop" number="1" line-end="none" relative-x="7.03" id="md-1-80-2-3"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -26563,7 +26563,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-80-6-2-3--slur--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -26580,7 +26580,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <words default-y="40.00" relative-x="-10.54" relative-y="-142.89" font-style="italic" font-size="12">dolce, pastorale</words>
+          <words default-y="40.00" relative-x="-10.54" relative-y="-142.89" font-style="italic" font-size="12" id="md-1-81-1-1">dolce, pastorale</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -26596,7 +26596,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-81-1-1-2--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-81-1-1-3" default-x="95.57" default-y="-35.00">
@@ -26683,7 +26683,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-81-1-1-9--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -26702,7 +26702,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-81-2-1-1--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -26734,7 +26734,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-82-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-82-1-1-2" default-x="44.92" default-y="-30.00">
@@ -26846,7 +26846,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-82-1-1-10--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -26864,7 +26864,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-82-2-1-1--tied--stop--1"/>
           </notations>
         </note>
       <forward>
@@ -26883,7 +26883,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-82-2-1-2--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -26927,7 +26927,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-83-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-83-1-1-2" default-x="44.92" default-y="-25.00">
@@ -27039,7 +27039,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-83-1-1-10--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -27057,7 +27057,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-83-2-1-1--tied--stop--1"/>
           </notations>
         </note>
       <forward>
@@ -27103,7 +27103,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-83-5-2-2--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -27132,7 +27132,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-84-1-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-84-1-1-2" default-x="68.22" default-y="-15.00">
@@ -27184,7 +27184,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-84-1-1-5--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-84-1-1-6" default-x="202.68" default-y="-30.00">
@@ -27199,7 +27199,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-84-1-1-6--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-84-1-1-7" default-x="202.68" default-y="-20.00">
@@ -27251,7 +27251,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-84-1-1-10--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -27297,7 +27297,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-84-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -27313,7 +27313,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="25.51"/>
+          <arpeggiate default-x="-13.09" default-y="25.51" id="mn-1-85-1-1-1--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-85-1-1-2" default-x="25.09" default-y="0.00">
@@ -27328,7 +27328,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="25.51"/>
+          <arpeggiate default-x="-13.09" default-y="25.51" id="mn-1-85-1-1-2--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-85-1-1-3" default-x="25.09" default-y="20.00">
@@ -27343,7 +27343,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <arpeggiate default-x="-13.09" default-y="25.51"/>
+          <arpeggiate default-x="-13.09" default-y="25.51" id="mn-1-85-1-1-3--arpeggiate--1"/>
           </notations>
         </note>
       <note id="mn-1-85-1-1-4">
@@ -27373,7 +27373,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-85-1-1-6--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-85-1-1-7" default-x="161.67" default-y="20.00">
@@ -27390,7 +27390,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-85-1-1-7--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -27415,7 +27415,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-85-5-2-2--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-85-5-2-3" default-x="116.14" default-y="-107.68">
@@ -27502,7 +27502,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-85-5-2-9--slur--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -27519,7 +27519,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-86-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-86-1-1-2" default-x="12.00" default-y="20.00">
@@ -27535,7 +27535,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-86-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-86-1-1-3">
@@ -27558,7 +27558,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-86-1-1-4--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-86-1-1-5" default-x="152.68" default-y="20.00">
@@ -27575,7 +27575,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-86-1-1-5--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -27616,7 +27616,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-86-5-2-3--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-86-5-2-4" default-x="105.79" default-y="-102.68">
@@ -27704,7 +27704,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-86-5-2-10--slur--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -27721,7 +27721,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-87-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-87-1-1-2" default-x="12.00" default-y="20.00">
@@ -27737,7 +27737,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-87-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-87-1-1-3">
@@ -27810,7 +27810,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-87-5-2-3--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-87-5-2-4" default-x="108.99" default-y="-117.68">
@@ -27839,7 +27839,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="crescendo" number="4" default-y="76.09"/>
+          <wedge type="crescendo" number="4" default-y="76.09" id="md-1-87-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -27880,7 +27880,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-87-5-2-8--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -27975,7 +27975,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-88-5-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-88-5-2-2" default-x="61.60" default-y="-127.68">
@@ -28003,7 +28003,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-88-5-2-3--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-88-5-2-4" default-x="160.79" default-y="-137.68">
@@ -28018,12 +28018,12 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-88-5-2-4--slur--start--1"/>
           </notations>
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="stop" number="4" relative-x="-18.74"/>
+          <wedge type="stop" number="4" relative-x="-18.74" id="md-1-88-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -28052,8 +28052,8 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="start"/>
-          <slur type="stop" number="1"/>
+          <tied type="start" id="mn-1-88-5-2-6--tied--start--1"/>
+          <slur type="stop" number="1" id="mn-1-88-5-2-6--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -28120,13 +28120,13 @@
         </print>
       <direction placement="below">
         <direction-type>
-          <words default-y="40.00" relative-y="-118.30" font-style="italic" font-size="12">sempre più dolce e rallentando</words>
+          <words default-y="40.00" relative-y="-118.30" font-style="italic" font-size="12" id="md-1-89-1-1">sempre più dolce e rallentando</words>
           </direction-type>
         <staff>1</staff>
         </direction>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="1" default-y="61.62"/>
+          <octave-shift type="down" size="8" number="1" default-y="61.62" id="md-1-89-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -28200,7 +28200,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-89-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-89-5-2-2" default-x="67.86" default-y="-132.68">
@@ -28227,7 +28227,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="mn-1-89-5-2-3--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-89-5-2-4" default-x="149.62" default-y="-142.68">
@@ -28314,7 +28314,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-89-5-2-10--slur--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -28394,7 +28394,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-90-5-2-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-90-5-2-2" default-x="58.17" default-y="-152.68">
@@ -28421,7 +28421,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-90-5-2-3--slur--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-90-5-2-4" default-x="150.51" default-y="-162.68">
@@ -28437,7 +28437,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="mn-1-90-5-2-4--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-90-5-2-5" default-x="196.68" default-y="-157.68">
@@ -28464,7 +28464,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="mn-1-90-5-2-6--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -28529,7 +28529,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-91-1-1-1--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-91-1-1-2" default-x="12.00" default-y="35.00">
@@ -28546,7 +28546,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-91-1-1-2--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -28683,7 +28683,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-92-1-1-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-92-1-1-2" default-x="12.00" default-y="35.00">
@@ -28700,7 +28700,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-92-1-1-2--tied--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -29047,7 +29047,7 @@
         </backup>
       <direction placement="above">
         <direction-type>
-          <wedge type="diminuendo" number="4" default-y="42.98"/>
+          <wedge type="diminuendo" number="4" default-y="42.98" id="md-1-94-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -29215,7 +29215,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="1"/>
+          <octave-shift type="stop" size="8" number="1" id="md-1-95-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -29256,7 +29256,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="stop" number="4"/>
+          <wedge type="stop" number="4" id="md-1-95-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -29286,7 +29286,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <bracket type="start" number="1" line-end="none" line-type="solid" default-y="44.14" relative-x="30.45"/>
+          <bracket type="start" number="1" line-end="none" line-type="solid" default-y="44.14" relative-x="30.45" id="md-1-95-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -29303,7 +29303,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-95-5-2-4--tied--start--1"/>
           <articulations>
             <accent/>
             </articulations>
@@ -29351,7 +29351,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-95-6-2-3--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-95-6-2-4" default-x="151.88" default-y="-167.68">
@@ -29368,7 +29368,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-95-6-2-4--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -29394,12 +29394,12 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-96-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="crescendo" number="4" default-y="14.02"/>
+          <wedge type="crescendo" number="4" default-y="14.02" id="md-1-96-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -29453,7 +29453,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="stop" number="4" relative-x="-21.08"/>
+          <wedge type="stop" number="4" relative-x="-21.08" id="md-1-96-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -29472,7 +29472,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-96-6-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-96-6-2-2" default-x="12.00" default-y="-167.68">
@@ -29488,7 +29488,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-96-6-2-2--tied--stop--1"/>
           </notations>
         </note>
       <forward>
@@ -29532,7 +29532,7 @@
         </backup>
       <direction placement="above">
         <direction-type>
-          <wedge type="diminuendo" number="4" default-y="12.85" relative-x="16.39"/>
+          <wedge type="diminuendo" number="4" default-y="12.85" relative-x="16.39" id="md-1-97-2-1"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -29555,7 +29555,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no" show-number="none"/>
+          <tuplet type="start" bracket="no" show-number="none" id="mn-1-97-5-2-1--tuplet--start--1"/>
           </notations>
         </note>
       <note id="mn-1-97-5-2-2" default-x="49.13" default-y="-192.68" color="#EC4899">
@@ -29594,7 +29594,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="mn-1-97-5-2-3--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-97-5-2-4" default-x="113.06" default-y="-192.68">
@@ -29621,7 +29621,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="stop" number="4" relative-x="28.11"/>
+          <wedge type="stop" number="4" relative-x="28.11" id="md-1-97-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -29638,13 +29638,13 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
-          <arpeggiate default-x="-13.09" default-y="-74.49"/>
+          <tied type="start" id="mn-1-97-5-2-6--tied--start--1"/>
+          <arpeggiate default-x="-13.09" default-y="-74.49" id="mn-1-97-5-2-6--arpeggiate--1"/>
           </notations>
         </note>
       <direction placement="above">
         <direction-type>
-          <bracket type="stop" number="1" line-end="none" relative-x="4.68"/>
+          <bracket type="stop" number="1" line-end="none" relative-x="4.68" id="md-1-97-2-3"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -29689,7 +29689,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-97-6-2-3--tied--start--1"/>
           </notations>
         </note>
       <note id="mn-1-97-6-2-4" default-x="261.41" default-y="-167.68">
@@ -29706,7 +29706,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="mn-1-97-6-2-4--tied--start--1"/>
           </notations>
         </note>
       </measure>
@@ -29733,7 +29733,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-98-5-2-1--tied--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -29752,7 +29752,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-98-6-2-1--tied--stop--1"/>
           </notations>
         </note>
       <note id="mn-1-98-6-2-2" default-x="12.00" default-y="-167.68">
@@ -29769,7 +29769,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="mn-1-98-6-2-2--tied--stop--1"/>
           </notations>
         </note>
       <barline location="right">

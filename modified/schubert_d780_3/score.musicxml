@@ -98,7 +98,7 @@
         </attributes>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="7.50" default-y="-80.00">
+          <dynamics default-x="7.50" default-y="-80.00" id="md-1-1-1-1">
             <p/>
             </dynamics>
           </direction-type>
@@ -106,7 +106,7 @@
         </direction>
       <direction placement="above">
         <direction-type>
-          <words default-x="-33.50" default-y="40.00" font-weight="bold" font-size="12">Allegro Moderato</words>
+          <words default-x="-33.50" default-y="40.00" font-weight="bold" font-size="12" id="md-1-1-1-2">Allegro Moderato</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -7236,7 +7236,7 @@
     <measure number="35" width="156.05">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="6.58" default-y="-80.00">
+          <dynamics default-x="6.58" default-y="-80.00" id="md-1-35-1-1">
             <f/>
             </dynamics>
           </direction-type>
@@ -8152,7 +8152,7 @@
     <measure number="39" width="150.69">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00">
+          <dynamics default-x="3.29" default-y="-80.00" id="md-1-39-1-1">
             <p/>
             </dynamics>
           </direction-type>
@@ -8990,7 +8990,7 @@
     <measure number="43" width="154.85">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00">
+          <dynamics default-x="3.29" default-y="-80.00" id="md-1-43-1-1">
             <f/>
             </dynamics>
           </direction-type>
@@ -8998,7 +8998,7 @@
         </direction>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00">
+          <dynamics default-x="3.29" default-y="-80.00" id="md-1-43-1-2">
             <f/>
             </dynamics>
           </direction-type>
@@ -9006,7 +9006,7 @@
         </direction>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00">
+          <dynamics default-x="3.29" default-y="-80.00" id="md-1-43-1-3">
             <f/>
             </dynamics>
           </direction-type>
@@ -9014,7 +9014,7 @@
         </direction>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00">
+          <dynamics default-x="3.29" default-y="-80.00" id="md-1-43-1-4">
             <f/>
             </dynamics>
           </direction-type>
@@ -9942,7 +9942,7 @@
         </print>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00">
+          <dynamics default-x="3.29" default-y="-80.00" id="md-1-47-1-1">
             <p/>
             </dynamics>
           </direction-type>
@@ -9950,7 +9950,7 @@
         </direction>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00">
+          <dynamics default-x="3.29" default-y="-80.00" id="md-1-47-1-2">
             <p/>
             </dynamics>
           </direction-type>
@@ -10676,7 +10676,7 @@
         </backup>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="2.30" default-y="-80.00">
+          <dynamics default-x="2.30" default-y="-80.00" id="md-1-50-1-1">
             <pp/>
             </dynamics>
           </direction-type>
@@ -13285,7 +13285,7 @@
         </backup>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="4.61" default-y="-80.00">
+          <dynamics default-x="4.61" default-y="-80.00" id="md-1-62-1-1">
             <ppp/>
             </dynamics>
           </direction-type>
@@ -13851,7 +13851,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="1" default-y="-80.00"/>
+          <wedge type="diminuendo" number="1" default-y="-80.00" id="md-1-65-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -13906,7 +13906,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="1"/>
+          <wedge type="stop" number="1" id="md-1-65-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -14707,7 +14707,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="1" default-y="-80.00"/>
+          <wedge type="diminuendo" number="1" default-y="-80.00" id="md-1-69-1-1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -14747,7 +14747,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="1"/>
+          <wedge type="stop" number="1" id="md-1-69-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -16325,7 +16325,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <fermata type="upright"/>
+          <fermata type="upright" id="mn-1-78-1-1-1--fermata--upright--1"/>
           </notations>
         </note>
       <note id="mn-1-78-1-1-2" default-x="16.36" default-y="-35.00">
@@ -16354,7 +16354,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <fermata type="inverted"/>
+          <fermata type="inverted" id="mn-1-78-5-2-1--fermata--inverted--1"/>
           </notations>
         </note>
       <note id="mn-1-78-5-2-2" default-x="16.36" default-y="-165.00">
