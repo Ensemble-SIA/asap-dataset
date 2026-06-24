@@ -1341,7 +1341,7 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <note id="mn-1-4-1-1-1" default-x="114.16" default-y="-5.00" dynamics="73.33">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-4-1-1"/></direction-type><staff>1</staff></direction><note id="mn-1-4-1-1-1" default-x="114.16" default-y="-5.00" dynamics="73.33">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -1403,7 +1403,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="1" default-y="40.06" relative-x="-5.90" id="md-1-4-1-1"/>
+          <octave-shift type="down" size="8" number="1" default-y="40.06" relative-x="-5.90" id="md-1-4-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -1529,7 +1529,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" relative-x="37.76" relative-y="-190.42" id="md-1-4-1-2"/>
+          <pedal type="stop" relative-x="37.76" relative-y="-190.42" id="md-1-4-1-3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -2877,7 +2877,7 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="below">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-8-2-1"/></direction-type><staff>2</staff></direction><direction placement="below">
         <direction-type>
           <words default-y="40.00" relative-x="-35.00" relative-y="-110.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-8-1-1">poco rall.</words>
           </direction-type>
@@ -3246,7 +3246,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" relative-x="87.68" relative-y="-69.14" id="md-1-8-2-1"/>
+          <pedal type="stop" relative-x="87.68" relative-y="-69.14" id="md-1-8-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -4498,7 +4498,7 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <note id="mn-1-12-1-1-1" default-x="114.16" default-y="-5.00" dynamics="73.33">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-12-2-1"/></direction-type><staff>2</staff></direction><note id="mn-1-12-1-1-1" default-x="114.16" default-y="-5.00" dynamics="73.33">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -4848,7 +4848,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" relative-x="31.24" relative-y="-84.53" id="md-1-12-2-1"/>
+          <pedal type="stop" relative-x="31.24" relative-y="-84.53" id="md-1-12-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -6024,7 +6024,7 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <note id="mn-1-16-1-1-1" default-x="113.96" default-y="-5.00" dynamics="61.11">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-16-2-1"/></direction-type><staff>2</staff></direction><note id="mn-1-16-1-1-1" default-x="113.96" default-y="-5.00" dynamics="61.11">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -6323,7 +6323,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" relative-x="88.56" relative-y="-78.45" id="md-1-16-2-1"/>
+          <pedal type="stop" relative-x="88.56" relative-y="-78.45" id="md-1-16-2-2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -9033,7 +9033,7 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <note id="mn-1-24-1-1-1" default-x="125.31" default-y="-25.00">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-24-1-1"/></direction-type><staff>1</staff></direction><note id="mn-1-24-1-1-1" default-x="125.31" default-y="-25.00">
         <pitch>
           <step>A</step>
           <alter>-1</alter>
@@ -9223,7 +9223,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" relative-x="30.21" relative-y="-187.39" id="md-1-24-1-1"/>
+          <pedal type="stop" relative-x="30.21" relative-y="-187.39" id="md-1-24-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -13103,7 +13103,7 @@
         </note>
       </measure>
     <measure number="35" width="326.07">
-      <direction placement="below">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-35-2-1"/></direction-type><staff>2</staff></direction><direction placement="below">
         <direction-type>
           <wedge type="diminuendo" number="1" default-y="-73.82" relative-x="16.72" id="md-1-35-1-1"/>
           </direction-type>
@@ -13354,7 +13354,7 @@
         </backup>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" relative-x="-14.00" relative-y="13.00" id="md-1-35-2-1">
+          <dynamics default-x="3.29" default-y="-80.00" relative-x="-14.00" relative-y="13.00" id="md-1-35-2-2">
             <sf/>
             </dynamics>
           </direction-type>
@@ -14332,9 +14332,9 @@
         </note>
       </measure>
     <measure number="39" width="310.82">
-      <direction placement="below">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-39-1-1"/></direction-type><staff>1</staff></direction><direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="1" default-y="-67.71" relative-x="-2.33" id="md-1-39-1-1"/>
+          <wedge type="diminuendo" number="1" default-y="-67.71" relative-x="-2.33" id="md-1-39-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -23629,7 +23629,7 @@
         </note>
       </measure>
     <measure number="64" width="242.73">
-      <note id="mn-1-64-1-1-1" default-x="12.00" default-y="-10.00" dynamics="104.44">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-64-2-1"/></direction-type><staff>2</staff></direction><direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-64-2-2"/></direction-type><staff>2</staff></direction><note id="mn-1-64-1-1-1" default-x="12.00" default-y="-10.00" dynamics="104.44">
         <pitch>
           <step>D</step>
           <alter>-1</alter>
@@ -23912,7 +23912,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" relative-x="91.80" relative-y="-68.70" id="md-1-64-2-1"/>
+          <pedal type="stop" relative-x="91.80" relative-y="-68.70" id="md-1-64-2-3"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -23943,7 +23943,7 @@
           <line>4</line>
           </clef>
         </attributes>
-      <note id="mn-1-65-1-1-1" color="#1D4ED8">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-65-1-1"/></direction-type><staff>1</staff></direction><note id="mn-1-65-1-1-1" color="#1D4ED8">
         <rest/>
         <duration>2</duration>
         <voice>1</voice>
@@ -23975,7 +23975,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="7.56" default-y="-80.00" relative-x="-3.54" relative-y="6.26" id="md-1-65-1-1">
+          <dynamics default-x="7.56" default-y="-80.00" relative-x="-3.54" relative-y="6.26" id="md-1-65-1-2">
             <pp/>
             </dynamics>
           </direction-type>
@@ -24010,7 +24010,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" relative-x="-2.49" relative-y="4.98" id="md-1-65-1-2">
+          <dynamics default-x="3.29" default-y="-80.00" relative-x="-2.49" relative-y="4.98" id="md-1-65-1-3">
             <other-dynamics>delicato</other-dynamics>
             </dynamics>
           </direction-type>
@@ -24078,7 +24078,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="1" relative-x="-6.00" id="md-1-65-1-3"/>
+          <octave-shift type="stop" size="8" number="1" relative-x="-6.00" id="md-1-65-1-4"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -24144,7 +24144,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <words default-y="40.00" relative-x="-12.00" relative-y="-111.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-65-1-4">smorz.</words>
+          <words default-y="40.00" relative-x="-12.00" relative-y="-111.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-65-1-5">smorz.</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -24521,7 +24521,7 @@
         <stem>down</stem>
         <staff>2</staff>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-66-1-5"/></direction-type><staff>1</staff></direction></measure>
     <measure number="67" width="219.66">
       <attributes>
         <clef number="2">

@@ -99,7 +99,7 @@
           <line>4</line>
           </clef>
         </attributes>
-      <direction placement="above">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-1-2-1"/></direction-type><staff>2</staff></direction><direction placement="above">
         <direction-type>
           <words default-x="-38.13" default-y="40.00" font-weight="bold" font-family="Times New Roman" font-size="12" id="md-1-1-1-1">Allegro </words>
           </direction-type>
@@ -2236,7 +2236,7 @@
         </note>
       </measure>
     <measure number="9" width="330.09">
-      <note id="mn-1-9-1-1-1">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-9-2-1"/></direction-type><staff>2</staff></direction><note id="mn-1-9-1-1-1">
         <rest>
           <display-step>G</display-step>
           <display-octave>2</display-octave>
@@ -9683,9 +9683,9 @@
         </note>
       </measure>
     <measure number="38" width="479.04">
-      <direction placement="above">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-38-1-1"/></direction-type><staff>1</staff></direction><direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="1" default-y="42.05" relative-x="-10.81" id="md-1-38-1-1"/>
+          <octave-shift type="down" size="8" number="1" default-y="42.05" relative-x="-10.81" id="md-1-38-1-2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -9744,7 +9744,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="1" relative-x="-5.81" id="md-1-38-1-2"/>
+          <octave-shift type="stop" size="8" number="1" relative-x="-5.81" id="md-1-38-1-3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
