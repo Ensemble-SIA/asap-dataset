@@ -31680,14 +31680,12 @@
           <alter>-1</alter>
           <octave>4</octave>
           </pitch>
-        <tie type="start"/>
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start" id="mn-1-70-1-1-15--tied--start--1"/>
-          </notations>
+          <slur type="start" number="1" id="mn-1-70-1-1-15--slur--start--1"/></notations>
         </note>
       <note id="mn-1-70-1-1-16" default-x="1062.33" default-y="-30.00">
         <pitch>
@@ -31700,7 +31698,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
-        </note>
+        <notations><slur type="stop" number="1" id="mn-1-70-1-1-16--slur--stop--1"/></notations></note>
       <backup>
         <duration>192</duration>
         </backup>
@@ -43791,15 +43789,13 @@
           <step>A</step>
           <octave>5</octave>
           </pitch>
-        <tie type="start"/>
         <voice>1</voice>
         <type>eighth</type>
         <accidental>natural</accidental>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start" id="mn-1-103-1-1-6--tied--start--1"/>
-          </notations>
+          <slur type="start" number="1" id="mn-1-103-1-1-6--slur--start--1"/></notations>
         </note>
       <note id="mn-1-103-1-1-7" default-x="389.29" default-y="20.00">
         <pitch>
@@ -43812,7 +43808,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        </note>
+        <notations><slur type="stop" number="1" id="mn-1-103-1-1-7--slur--stop--1"/></notations></note>
       <note id="mn-1-103-1-1-8" default-x="438.91" default-y="15.00">
         <grace slash="yes"/>
         <pitch>
@@ -43820,14 +43816,12 @@
           <alter>-1</alter>
           <octave>5</octave>
           </pitch>
-        <tie type="start"/>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start" id="mn-1-103-1-1-8--tied--start--1"/>
-          </notations>
+          <slur type="start" number="1" id="mn-1-103-1-1-8--slur--start--1"/></notations>
         </note>
       <note id="mn-1-103-1-1-9" default-x="464.75" default-y="25.00">
         <pitch>
@@ -43841,7 +43835,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        </note>
+        <notations><slur type="stop" number="1" id="mn-1-103-1-1-9--slur--stop--1"/></notations></note>
       <direction placement="below">
         <direction-type>
           <wedge type="stop" number="1" id="md-1-103-1-2"/>
