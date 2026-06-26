@@ -58103,14 +58103,12 @@ Dez. 1827</words>
           <octave>4</octave>
         </pitch>
         <duration>256</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>16th</type>
         <stem default-y="-55">down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start" id="mn-1-113-1-1-16--tied--start--1"/>
-        </notations>
+          <slur type="start" number="1" id="mn-1-113-1-1-16--slur--start--1"/></notations>
       </note>
       <backup>
         <duration>4096</duration>
@@ -58326,7 +58324,7 @@ Dez. 1827</words>
         <notations>
           <tuplet bracket="no" number="1" placement="below" type="start" id="mn-1-114-1-1-1--tuplet--start--1"/>
           <slur number="1" placement="above" type="start" id="mn-1-114-1-1-1--slur--start--1"/>
-        </notations>
+        <slur type="stop" number="1" id="mn-1-114-1-1-1--slur--stop--2"/></notations>
       </note>
       <note id="mn-1-114-1-1-2" default-x="139">
         <pitch>
@@ -64466,14 +64464,12 @@ Dez. 1827</words>
           <octave>5</octave>
         </pitch>
         <duration>256</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>16th</type>
         <stem default-y="-50">down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start" id="mn-1-123-1-1-17--tied--start--1"/>
-        </notations>
+          <slur type="start" number="1" id="mn-1-123-1-1-17--slur--start--1"/></notations>
       </note>
       <backup>
         <duration>4096</duration>
@@ -64685,7 +64681,7 @@ Dez. 1827</words>
         <beam number="2">begin</beam>
         <notations>
           <tuplet bracket="no" number="1" placement="below" type="start" id="mn-1-124-1-1-1--tuplet--start--1"/>
-        </notations>
+        <slur type="stop" number="1" id="mn-1-124-1-1-1--slur--stop--1"/></notations>
       </note>
       <note id="mn-1-124-1-1-2" default-x="144">
         <pitch>
@@ -70023,28 +70019,17 @@ Dez. 1827</words>
         </direction-type>
         <staff>2</staff>
         </direction>
-      <forward>
-        <duration>4096</duration>
-        <voice>4</voice>
-        <staff>2</staff>
-      </forward>
-      <backup>
-        <duration>4096</duration>
-      </backup>
       <note id="mn-1-135-5-2-1" default-x="31">
         <pitch>
           <step>F</step>
           <octave>3</octave>
         </pitch>
         <duration>4096</duration>
-        <tie type="start"/>
         <voice>5</voice>
         <type>whole</type>
         <staff>2</staff>
         <notations>
-          <tied type="start" id="mn-1-135-5-2-1--tied--start--1"/>
-          <slur number="1" placement="above" type="start" id="mn-1-135-5-2-1--slur--start--1"/>
-        </notations>
+          <slur type="start" number="1" id="mn-1-135-5-2-1--slur--start--1"/></notations>
       </note>
       <note id="mn-1-135-5-2-2" default-x="31">
         <chord/>
@@ -70177,14 +70162,6 @@ Dez. 1827</words>
       <backup>
         <duration>4096</duration>
       </backup>
-      <forward>
-        <duration>4096</duration>
-        <voice>4</voice>
-        <staff>2</staff>
-      </forward>
-      <backup>
-        <duration>4096</duration>
-      </backup>
       <note id="mn-1-136-5-2-1" default-x="34">
         <pitch>
           <step>B</step>
@@ -70197,8 +70174,7 @@ Dez. 1827</words>
         <stem default-y="-30.5">down</stem>
         <staff>2</staff>
         <notations>
-          <slur number="1" type="stop" id="mn-1-136-5-2-1--slur--stop--1"/>
-        </notations>
+          <slur type="stop" number="1" id="mn-1-136-5-2-1--slur--stop--1"/></notations>
       </note>
       <note id="mn-1-136-5-2-2" default-x="34">
         <chord/>
@@ -70258,7 +70234,7 @@ Dez. 1827</words>
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
-      </note>
+      <notations/></note>
       <note id="mn-1-136-5-2-7" default-x="115">
         <chord/>
         <pitch>
@@ -70315,14 +70291,6 @@ Dez. 1827</words>
         <type>whole</type>
         <staff>1</staff>
       </note>
-      <backup>
-        <duration>4096</duration>
-      </backup>
-      <forward>
-        <duration>4096</duration>
-        <voice>4</voice>
-        <staff>2</staff>
-      </forward>
       <backup>
         <duration>4096</duration>
       </backup>
