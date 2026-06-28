@@ -9027,7 +9027,7 @@
           <staff-distance>94</staff-distance>
         </staff-layout>
       </print>
-      <note id="mn-1-33-1-1-1" default-x="99">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-33-1-1"/></direction-type><staff>1</staff></direction><note id="mn-1-33-1-1-1" default-x="99">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -9430,7 +9430,7 @@
       </note>
       <direction placement="below">
         <direction-type>
-          <pedal default-y="-305" line="no" relative-x="66" type="stop" id="md-1-33-1-1"/>
+          <pedal default-y="-305" line="no" relative-x="66" type="stop" id="md-1-33-1-2"/>
         </direction-type>
         <staff>1</staff>
       </direction>
@@ -11156,7 +11156,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-37-2-3"/></direction-type><staff>2</staff></direction></measure>
     <!--=======================================================-->
     <measure number="38" width="339">
       <print new-system="yes">
@@ -16489,7 +16489,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-51-2-2"/></direction-type><staff>2</staff></direction></measure>
     <!--=======================================================-->
     <measure number="52" width="309">
       <direction placement="below">
@@ -35832,7 +35832,7 @@
         <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
-        <stem default-y="-40.5">down</stem>
+        <accidental>natural</accidental><stem default-y="-40.5">down</stem>
         <staff>1</staff>
         <notations>
           <tied type="start" id="mn-1-117-1-1-5--tied--start--1"/>
@@ -35842,13 +35842,13 @@
         <chord/>
         <pitch>
           <step>E</step>
-          <alter>-1</alter><octave>7</octave>
+          <octave>7</octave>
         </pitch>
         <duration>2048</duration>
         <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
-        <stem>down</stem>
+        <accidental>natural</accidental><stem>down</stem>
         <staff>1</staff>
         <notations>
           <tied type="start" id="mn-1-117-1-1-6--tied--start--1"/>
@@ -35911,7 +35911,7 @@
         <chord/>
         <pitch>
           <step>E</step>
-          <alter>-1</alter><octave>7</octave>
+          <octave>7</octave>
         </pitch>
         <duration>256</duration>
         <voice>1</voice>
@@ -42974,7 +42974,7 @@
           <slur number="1" type="stop" id="mn-1-139-6-2-4--slur--stop--1"/>
         </notations>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-139-2-3"/></direction-type><staff>2</staff></direction></measure>
     <!--=======================================================-->
     <measure number="140" width="328">
       <direction placement="below">
@@ -45529,7 +45529,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-146-2-4"/></direction-type><staff>2</staff></direction></measure>
     <!--=======================================================-->
     <measure number="147" width="320">
       <direction placement="below">
@@ -46732,18 +46732,15 @@
           <octave>4</octave>
         </pitch>
         <duration>1024</duration>
-        <tie type="start"/>
         <voice>2</voice>
         <type>quarter</type>
         <stem default-y="-73.5">down</stem>
         <staff>1</staff>
         <notations>
-          <tied orientation="under" type="start" id="mn-1-150-2-1-1--tied--start--1"/>
           <slur number="2" placement="below" type="start" id="mn-1-150-2-1-1--slur--start--1"/>
         </notations>
       </note>
-      <note id="mn-1-150-2-1-2" default-x="149" color="#EC4899">
-        <cue/>
+      <note id="mn-1-150-2-1-2" default-x="149">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -46753,10 +46750,7 @@
         <type>quarter</type>
         <stem default-y="-62.5">down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="mn-1-150-2-1-2--tied--stop--1"/>
-        </notations>
-      </note>
+        </note>
       <note id="mn-1-150-2-1-3" default-x="193">
         <pitch>
           <step>E</step>
@@ -46775,16 +46769,12 @@
           <octave>4</octave>
         </pitch>
         <duration>1024</duration>
-        <tie type="start"/>
         <voice>2</voice>
         <type>quarter</type>
         <accidental>natural</accidental>
         <stem default-y="-68.5">down</stem>
         <staff>1</staff>
-        <notations>
-          <tied orientation="under" type="start" id="mn-1-150-2-1-4--tied--start--1"/>
-        </notations>
-      </note>
+        </note>
       <backup>
         <duration>6144</duration>
       </backup>
@@ -46942,7 +46932,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-150-2-2"/></direction-type><staff>2</staff></direction></measure>
     <!--=======================================================-->
     <measure number="151" width="577">
       <print new-system="yes">
@@ -47115,21 +47105,17 @@
       <backup>
         <duration>6144</duration>
       </backup>
-      <note id="mn-1-151-2-1-1" default-x="99" color="#EC4899">
-        <cue/>
+      <note id="mn-1-151-2-1-1" default-x="99">
         <pitch>
           <step>E</step>
-          <octave>4</octave>
+          <alter>-1</alter><octave>4</octave>
         </pitch>
         <duration>1024</duration>
         <voice>2</voice>
         <type>quarter</type>
         <stem default-y="-57">down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="mn-1-151-2-1-1--tied--stop--1"/>
-        </notations>
-      </note>
+        </note>
       <note id="mn-1-151-2-1-2" default-x="176">
         <pitch>
           <step>F</step>
@@ -47150,18 +47136,13 @@
           <octave>4</octave>
         </pitch>
         <duration>1024</duration>
-        <tie type="start"/>
         <voice>2</voice>
         <type>quarter</type>
         <accidental>natural</accidental>
         <stem default-y="-69">down</stem>
         <staff>1</staff>
-        <notations>
-          <tied orientation="under" type="start" id="mn-1-151-2-1-3--tied--start--1"/>
-        </notations>
-      </note>
-      <note id="mn-1-151-2-1-4" default-x="338" color="#EC4899">
-        <cue/>
+        </note>
+      <note id="mn-1-151-2-1-4" default-x="338">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -47172,10 +47153,7 @@
         <accidental>natural</accidental>
         <stem default-y="-57">down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="mn-1-151-2-1-4--tied--stop--1"/>
-        </notations>
-      </note>
+        </note>
       <note id="mn-1-151-2-1-5" default-x="415">
         <pitch>
           <step>F</step>
@@ -47194,16 +47172,12 @@
           <octave>4</octave>
         </pitch>
         <duration>1024</duration>
-        <tie type="start"/>
         <voice>2</voice>
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem default-y="-64">down</stem>
         <staff>1</staff>
-        <notations>
-          <tied orientation="under" type="start" id="mn-1-151-2-1-6--tied--start--1"/>
-        </notations>
-      </note>
+        </note>
       <backup>
         <duration>6144</duration>
       </backup>
@@ -47508,11 +47482,9 @@
       <backup>
         <duration>6144</duration>
       </backup>
-      <note id="mn-1-152-2-1-1" default-x="25" color="#EC4899">
-        <cue/>
+      <note id="mn-1-152-2-1-1" default-x="25">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
         </pitch>
         <duration>1024</duration>
@@ -47520,10 +47492,7 @@
         <type>quarter</type>
         <stem default-y="-52">down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="mn-1-152-2-1-1--tied--stop--1"/>
-        </notations>
-      </note>
+        </note>
       <note id="mn-1-152-2-1-2" default-x="98">
         <pitch>
           <step>G</step>
@@ -47545,18 +47514,13 @@
           <octave>4</octave>
         </pitch>
         <duration>1024</duration>
-        <tie type="start"/>
         <voice>2</voice>
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem default-y="-64">down</stem>
         <staff>1</staff>
-        <notations>
-          <tied orientation="under" type="start" id="mn-1-152-2-1-3--tied--start--1"/>
-        </notations>
-      </note>
-      <note id="mn-1-152-2-1-4" default-x="255" color="#EC4899">
-        <cue/>
+        </note>
+      <note id="mn-1-152-2-1-4" default-x="255">
         <pitch>
           <step>F</step>
           <alter>1</alter>
@@ -47567,10 +47531,7 @@
         <type>quarter</type>
         <stem default-y="-52">down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="mn-1-152-2-1-4--tied--stop--1"/>
-        </notations>
-      </note>
+        </note>
       <note id="mn-1-152-2-1-5" default-x="329">
         <pitch>
           <step>G</step>
@@ -47589,16 +47550,12 @@
           <octave>4</octave>
         </pitch>
         <duration>1024</duration>
-        <tie type="start"/>
         <voice>2</voice>
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem default-y="-59">down</stem>
         <staff>1</staff>
-        <notations>
-          <tied orientation="under" type="start" id="mn-1-152-2-1-6--tied--start--1"/>
-        </notations>
-      </note>
+        </note>
       <backup>
         <duration>6144</duration>
       </backup>
@@ -47923,11 +47880,9 @@
       <backup>
         <duration>6144</duration>
       </backup>
-      <note id="mn-1-153-2-1-1" default-x="101" color="#EC4899">
-        <cue/>
+      <note id="mn-1-153-2-1-1" default-x="101">
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>4</octave>
         </pitch>
         <duration>1024</duration>
@@ -47936,7 +47891,6 @@
         <stem default-y="-47.5">down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop" id="mn-1-153-2-1-1--tied--stop--1"/>
           <slur number="2" type="stop" id="mn-1-153-2-1-1--slur--stop--1"/>
         </notations>
       </note>
@@ -47958,18 +47912,13 @@
           <octave>4</octave>
         </pitch>
         <duration>1024</duration>
-        <tie type="start"/>
         <voice>2</voice>
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem default-y="-53.5">down</stem>
         <staff>1</staff>
-        <notations>
-          <tied orientation="under" type="start" id="mn-1-153-2-1-3--tied--start--1"/>
-        </notations>
-      </note>
-      <note id="mn-1-153-2-1-4" default-x="580" color="#EC4899">
-        <cue/>
+        </note>
+      <note id="mn-1-153-2-1-4" default-x="580">
         <pitch>
           <step>A</step>
           <alter>1</alter>
@@ -47980,10 +47929,7 @@
         <type>quarter</type>
         <stem default-y="-42.5">down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="mn-1-153-2-1-4--tied--stop--1"/>
-        </notations>
-      </note>
+        </note>
       <note id="mn-1-153-2-1-5" default-x="740">
         <pitch>
           <step>B</step>
@@ -52255,7 +52201,7 @@
           <slur number="2" type="stop" id="mn-1-166-5-2-12--slur--stop--1"/>
         </notations>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-166-1-3"/></direction-type><staff>1</staff></direction></measure>
     <!--=======================================================-->
     <measure number="167" width="402">
       <print new-system="yes">
@@ -52614,7 +52560,7 @@
           <slur number="2" type="stop" id="mn-1-167-5-2-12--slur--stop--1"/>
         </notations>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-167-1-2"/></direction-type><staff>1</staff></direction></measure>
     <!--=======================================================-->
     <measure number="168" width="333">
       <note id="mn-1-168-1-1-1" default-x="13">
@@ -53674,7 +53620,7 @@
           <slur number="1" type="stop" id="mn-1-170-5-2-12--slur--stop--1"/>
         </notations>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-170-1-3"/></direction-type><staff>1</staff></direction></measure>
     <!--=======================================================-->
     <measure number="171" width="317">
       <note id="mn-1-171-1-1-1" default-x="16">
@@ -54582,7 +54528,7 @@
           <slur number="2" type="stop" id="mn-1-172-5-2-12--slur--stop--1"/>
         </notations>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-172-2-4"/></direction-type><staff>2</staff></direction></measure>
     <!--=======================================================-->
     <measure number="173" width="417">
       <print new-system="yes">
@@ -54973,7 +54919,7 @@
           <slur number="1" type="stop" id="mn-1-173-5-2-12--slur--stop--1"/>
         </notations>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-173-2-3"/></direction-type><staff>2</staff></direction></measure>
     <!--=======================================================-->
     <measure number="174" width="335">
       <direction placement="below">
@@ -55348,7 +55294,7 @@
           <slur number="2" type="stop" id="mn-1-174-5-2-12--slur--stop--1"/>
         </notations>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-174-2-3"/></direction-type><staff>2</staff></direction><direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-174-2-4"/></direction-type><staff>2</staff></direction></measure>
     <!--=======================================================-->
     <measure number="175" width="307">
       <direction placement="below">
@@ -55648,7 +55594,7 @@
           <slur number="2" type="stop" id="mn-1-175-5-2-12--slur--stop--1"/>
         </notations>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-175-1-2"/></direction-type><staff>1</staff></direction></measure>
     <!--=======================================================-->
     <measure number="176" width="1060">
       <print new-system="yes">
@@ -55951,7 +55897,7 @@
           <slur number="2" type="stop" id="mn-1-176-5-2-12--slur--stop--1"/>
         </notations>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-176-1-3"/></direction-type><staff>1</staff></direction><direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-176-1-4"/></direction-type><staff>1</staff></direction></measure>
     <!--=======================================================-->
     <measure number="177" width="437">
       <print new-page="yes">
@@ -57407,7 +57353,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-180-2-2"/></direction-type><staff>2</staff></direction></measure>
     <!--=======================================================-->
     <measure number="181" width="325">
       <direction placement="above">
@@ -57715,7 +57661,7 @@
           <slur number="2" type="stop" id="mn-1-181-5-2-12--slur--stop--1"/>
         </notations>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-181-1-3"/></direction-type><staff>1</staff></direction></measure>
     <!--=======================================================-->
     <measure number="182" width="334">
       <direction placement="above">
@@ -58461,7 +58407,7 @@
           <slur number="2" type="stop" id="mn-1-183-5-2-12--slur--stop--1"/>
         </notations>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-183-1-2"/></direction-type><staff>1</staff></direction></measure>
     <!--=======================================================-->
     <measure number="184" width="313">
       <note id="mn-1-184-1-1-1" default-x="16">
@@ -77163,7 +77109,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-236-2-2"/></direction-type><staff>2</staff></direction></measure>
     <!--=======================================================-->
     <measure number="237" width="278">
       <print new-system="yes">
@@ -84013,7 +83959,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-    </measure>
+    <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-256-1-5"/></direction-type><staff>1</staff></direction></measure>
     <!--=======================================================-->
     <measure number="257" width="268">
       <print new-system="yes">
