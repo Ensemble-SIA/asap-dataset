@@ -13548,7 +13548,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-95-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="96" width="208.07">
       <note id="mn-1-96-1-1-1" default-x="10.36" default-y="0.00">
         <pitch>
@@ -15753,7 +15753,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-107-1-3"/></direction-type><staff>1</staff></direction></measure>
     <measure number="108" width="148.74">
       <note id="mn-1-108-1-1-1" default-x="13.80" default-y="-20.00" dynamics="62.22">
         <pitch>
@@ -21954,7 +21954,7 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-148-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="149" width="80.58">
       <note id="mn-1-149-1-1-1" default-x="10.00" default-y="-35.00">
         <pitch>
@@ -31039,7 +31039,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-208-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="209" width="221.52">
       <note id="mn-1-209-1-1-1" default-x="13.80" default-y="10.00" dynamics="81.11">
         <pitch>
@@ -35932,7 +35932,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-237-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="238" width="1056.10">
       <print new-system="yes">
         <system-layout>
@@ -36971,7 +36971,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-242-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="243" width="160.49">
       <note id="mn-1-243-1-1-1" default-x="13.80" default-y="-15.00" dynamics="86.67">
         <pitch>
@@ -42980,6 +42980,9 @@
         <type>quarter</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <slur type="stop" number="1" id="mn-1-293-1-1-1--slur--stop--1"/>
+          </notations>
         </note>
       <note id="mn-1-293-1-1-2" default-x="47.54" default-y="-35.00">
         <pitch>
@@ -43012,13 +43015,12 @@
           <step>C</step>
           <octave>4</octave>
           </pitch>
-        <tie type="start"/>
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start" id="mn-1-293-2-1-1--tied--start--1"/>
+          <slur type="start" number="1" id="mn-1-293-2-1-1--slur--start--1"/>
           </notations>
         </note>
       <note id="mn-1-293-2-1-2" default-x="26.91" default-y="-50.00">
@@ -49375,7 +49377,7 @@
           <slur type="stop" number="2" id="mn-1-338-6-2-4--slur--stop--1"/>
           </notations>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-338-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="339" width="179.58">
       <note id="mn-1-339-1-1-1" default-x="10.00" default-y="0.00">
         <pitch>
@@ -53892,11 +53894,13 @@
           <octave>4</octave>
           </pitch>
         <duration>120</duration>
+        <tie type="stop"/>
         <voice>2</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
+          <tied type="stop" id="mn-1-374-2-1-2--tied--stop--1"/>
           <slur type="stop" number="2" id="mn-1-374-2-1-2--slur--stop--1"/>
           </notations>
         </note>
@@ -56286,13 +56290,15 @@
           <octave>4</octave>
           </pitch>
         <duration>120</duration>
+        <tie type="stop"/>
         <tie type="start"/>
         <voice>2</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start" id="mn-1-395-2-1-2--tied--start--1"/>
+          <tied type="stop" id="mn-1-395-2-1-2--tied--stop--1"/>
+          <tied type="start" id="mn-1-395-2-1-2--tied--start--2"/>
           </notations>
         </note>
       <note id="mn-1-395-2-1-3" default-x="123.81" default-y="-50.00">
@@ -91098,7 +91104,7 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-623-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="624" width="82.67">
       <note id="mn-1-624-1-1-1" default-x="13.80" default-y="-25.00">
         <pitch>
@@ -96500,7 +96506,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-657-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="658" width="292.54">
       <print new-system="yes">
         <system-layout>
@@ -97512,7 +97518,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-663-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="664" width="299.28">
       <print new-system="yes">
         <system-layout>
@@ -98543,7 +98549,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-670-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="671" width="155.53">
       <note id="mn-1-671-1-1-1" default-x="14.00" default-y="35.00">
         <pitch>
@@ -99115,7 +99121,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-674-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="675" width="146.23">
       <note id="mn-1-675-1-1-1" default-x="13.80" default-y="15.00" dynamics="80.00">
         <pitch>
@@ -99427,7 +99433,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-676-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="677" width="298.30">
       <print new-system="yes">
         <system-layout>
@@ -101682,7 +101688,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-688-2-3"/></direction-type><staff>2</staff></direction></measure>
     <measure number="689" width="265.83">
       <print new-page="yes">
         <system-layout>
@@ -102098,7 +102104,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-690-2-3"/></direction-type><staff>2</staff></direction></measure>
     <measure number="691" width="146.62">
       <note id="mn-1-691-1-1-1" default-x="13.80" default-y="-20.00" dynamics="60.00">
         <pitch>
@@ -103344,7 +103350,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-696-1-2"/></direction-type><staff>1</staff></direction></measure>
     <measure number="697" width="200.54">
       <note id="mn-1-697-1-1-1" default-x="14.72" default-y="-10.00" dynamics="82.22">
         <pitch>
@@ -103518,7 +103524,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-697-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="698" width="199.63">
       <note id="mn-1-698-1-1-1" default-x="13.80" default-y="-10.00">
         <pitch>
@@ -103950,7 +103956,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-699-1-2"/></direction-type><staff>1</staff></direction></measure>
     <measure number="700" width="272.17">
       <print new-system="yes">
         <system-layout>
@@ -104967,7 +104973,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-704-1-2"/></direction-type><staff>1</staff></direction></measure>
     <measure number="705" width="315.75">
       <print new-system="yes">
         <system-layout>
@@ -105173,7 +105179,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-705-1-2"/></direction-type><staff>1</staff></direction></measure>
     <measure number="706" width="163.29">
       <note id="mn-1-706-1-1-1" default-x="16.72" default-y="5.00" dynamics="117.78">
         <pitch>
@@ -115818,7 +115824,7 @@
         <type>quarter</type>
         <staff>2</staff>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-775-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="776" width="71.41">
       <direction placement="below">
         <direction-type>

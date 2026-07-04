@@ -79197,6 +79197,7 @@
           <octave>4</octave>
           </pitch>
         <duration>12</duration>
+        <tie type="stop"/>
         <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
@@ -79204,7 +79205,8 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start" id="mn-1-562-1-1-3--tied--start--1"/>
+          <tied type="stop" id="mn-1-562-1-1-3--tied--stop--1"/>
+          <tied type="start" id="mn-1-562-1-1-3--tied--start--2"/>
           </notations>
         </note>
       <note id="mn-1-562-1-1-4" default-x="30.23" default-y="-5.00">
@@ -79414,11 +79416,15 @@
           <octave>4</octave>
           </pitch>
         <duration>12</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>half</type>
         <dot/>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="stop" id="mn-1-564-1-1-3--tied--stop--1"/>
+          </notations>
         </note>
       <note id="mn-1-564-1-1-4" default-x="52.70" default-y="-5.00">
         <chord/>
@@ -79616,11 +79622,15 @@
           <octave>4</octave>
           </pitch>
         <duration>12</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>half</type>
         <dot/>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="stop" id="mn-1-566-1-1-3--tied--stop--1"/>
+          </notations>
         </note>
       <note id="mn-1-566-1-1-4" default-x="30.23" default-y="0.00">
         <chord/>
