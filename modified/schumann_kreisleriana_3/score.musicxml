@@ -12431,13 +12431,11 @@
           <octave>2</octave>
         </pitch>
         <duration>2048</duration>
-        <tie type="start"/>
         <voice>5</voice>
         <type>half</type>
         <stem default-y="11">up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start" id="mn-1-55-5-2-1--tied--start--1"/>
           <slur number="2" type="stop" id="mn-1-55-5-2-1--slur--stop--1"/>
         </notations>
       </note>
@@ -17220,15 +17218,11 @@
           <octave>3</octave>
         </pitch>
         <duration>2048</duration>
-        <tie type="start"/>
         <voice>5</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>2</staff>
-        <notations>
-          <tied orientation="under" type="start" id="mn-1-78-5-2-2--tied--start--1"/>
-        </notations>
-      </note>
+        </note>
     </measure>
     <!--=======================================================-->
     <measure number="79" width="210">
@@ -26080,15 +26074,11 @@
           <octave>3</octave>
         </pitch>
         <duration>2048</duration>
-        <tie type="start"/>
         <voice>4</voice>
         <type>half</type>
         <stem>up</stem>
         <staff>2</staff>
-        <notations>
-          <tied type="start" id="mn-1-116-4-2-2--tied--start--1"/>
-        </notations>
-      </note>
+        </note>
       <direction>
         <direction-type>
           <wedge spread="0" type="stop" id="md-1-116-2-1"/>
@@ -35761,7 +35751,7 @@
     </measure>
     <!--=======================================================-->
     <measure number="154" width="131">
-      <note id="mn-1-154-1-1-1" default-x="14">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-154-2-1"/></direction-type><staff>2</staff></direction><note id="mn-1-154-1-1-1" default-x="14">
         <pitch>
           <step>F</step>
           <octave>4</octave>
@@ -35891,7 +35881,7 @@
       </note>
       <direction placement="below">
         <direction-type>
-          <pedal default-y="-154" line="no" type="stop" id="md-1-154-2-1"/>
+          <pedal default-y="-154" line="no" type="stop" id="md-1-154-2-2"/>
         </direction-type>
         <staff>2</staff>
       </direction>
