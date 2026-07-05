@@ -29148,7 +29148,7 @@
           <octave>4</octave>
           </pitch>
         <duration>90</duration>
-        <voice>1</voice>
+        <tie type="stop"/><voice>1</voice>
         <type>eighth</type>
         <dot/>
         <stem>up</stem>
@@ -29156,7 +29156,7 @@
         <beam number="1">begin</beam>
         <notations>
           <slur type="start" number="1" id="mn-1-137-1-1-1--slur--start--1"/>
-          </notations>
+          <tied type="stop" id="mn-1-137-1-1-1--tied--stop--1"/></notations>
         </note>
       <note id="mn-1-137-1-1-2" default-x="28.89" default-y="-25.00">
         <chord/>
@@ -29165,12 +29165,12 @@
           <octave>4</octave>
           </pitch>
         <duration>90</duration>
-        <voice>1</voice>
+        <tie type="stop"/><voice>1</voice>
         <type>eighth</type>
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
-        </note>
+        <notations><tied type="stop" id="mn-1-137-1-1-2--tied--stop--1"/></notations></note>
       <note id="mn-1-137-1-1-3" default-x="28.89" default-y="-15.00">
         <chord/>
         <pitch>
