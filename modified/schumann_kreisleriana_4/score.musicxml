@@ -4123,7 +4123,7 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>1</staff>
-        </note>
+        <tie type="start"/><notations><tied type="start" id="mn-1-8-2-1-12--tied--start--1"/></notations></note>
       <note id="mn-1-8-2-1-13" default-x="255.98" default-y="-45.00">
         <pitch>
           <step>D</step>
@@ -5854,7 +5854,7 @@
         <type>quarter</type>
         <stem>up</stem>
         <staff>1</staff>
-        </note>
+        <tie type="start"/><notations><tied type="start" id="mn-1-14-1-1-4--tied--start--1"/></notations></note>
       <backup>
         <duration>32</duration>
         </backup>
@@ -6613,8 +6613,8 @@
         <staff>1</staff>
         <notations>
           <slur type="stop" number="1" id="mn-1-16-1-1-5--slur--stop--1"/>
-          </notations>
-        </note>
+          <tied type="stop" id="mn-1-16-1-1-5--tied--stop--1"/></notations>
+        <tie type="stop"/></note>
       <note id="mn-1-16-1-1-6" default-x="478.38" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -6907,7 +6907,7 @@
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
-        </note>
+        <tie type="start"/><notations><tied type="start" id="mn-1-16-5-2-5--tied--start--1"/></notations></note>
       <backup>
         <duration>32</duration>
         </backup>
@@ -9319,7 +9319,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
-        </note>
+        <tie type="start"/><notations><tied type="start" id="mn-1-22-5-2-7--tied--start--1"/></notations></note>
       <direction placement="below">
         <direction-type>
           <pedal type="start" id="md-1-22-2-1"/>
@@ -9803,7 +9803,7 @@
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
-        </note>
+        <tie type="stop"/><notations><tied type="stop" id="mn-1-23-5-2-2--tied--stop--1"/></notations></note>
       <note id="mn-1-23-5-2-3" default-x="307.95" default-y="-135.43">
         <pitch>
           <step>E</step>
@@ -11048,8 +11048,8 @@
         <staff>2</staff>
         <notations>
           <slur type="start" placement="above" number="1" id="mn-1-26-5-2-5--slur--start--1"/>
-          </notations>
-        </note>
+          <tied type="stop" id="mn-1-26-5-2-5--tied--stop--1"/></notations>
+        <tie type="stop"/></note>
       <note id="mn-1-26-5-2-6" default-x="408.31" default-y="-150.65">
         <chord/>
         <pitch>

@@ -12437,8 +12437,8 @@
         <staff>2</staff>
         <notations>
           <slur number="2" type="stop" id="mn-1-55-5-2-1--slur--stop--1"/>
-        </notations>
-      </note>
+        <tied type="start" id="mn-1-55-5-2-1--tied--start--1"/></notations>
+      <tie type="start"/></note>
       <note id="mn-1-55-5-2-2" default-x="16">
         <chord/>
         <pitch>
@@ -17222,7 +17222,7 @@
         <type>half</type>
         <stem>down</stem>
         <staff>2</staff>
-        </note>
+        <tie type="start"/><notations><tied type="start" id="mn-1-78-5-2-2--tied--start--1"/></notations></note>
     </measure>
     <!--=======================================================-->
     <measure number="79" width="210">
@@ -26078,7 +26078,7 @@
         <type>half</type>
         <stem>up</stem>
         <staff>2</staff>
-        </note>
+        <tie type="start"/><notations><tied type="start" id="mn-1-116-4-2-2--tied--start--1"/></notations></note>
       <direction>
         <direction-type>
           <wedge spread="0" type="stop" id="md-1-116-2-1"/>
