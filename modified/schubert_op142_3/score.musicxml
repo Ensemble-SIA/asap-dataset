@@ -3450,7 +3450,8 @@ Dez. 1827</words>
       </note>
       <note id="mn-1-12-2-1-5" default-x="264">
         <pitch>
-          <step>E</step><octave>4</octave>
+          <step>E</step>
+          <octave>4</octave>
         </pitch>
         <duration>512</duration>
         <voice>2</voice>
@@ -9286,14 +9287,7 @@ Dez. 1827</words>
         <stem default-y="-55">down</stem>
         <staff>2</staff>
       </note>
-      <direction>
-        <direction-type>
-          <wedge number="2" spread="0" type="stop" id="md-1-27-2-4"/>
-        </direction-type>
-        <offset>2048</offset>
-        <staff>2</staff>
-      </direction>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="28" width="1161">
       <print new-system="yes">
@@ -31525,7 +31519,8 @@ Dez. 1827</words>
       </note>
       <note id="mn-1-68-4-1-2" default-x="816">
         <pitch>
-          <step>E</step><octave>4</octave>
+          <step>E</step>
+          <octave>4</octave>
         </pitch>
         <duration>341</duration>
         <voice>4</voice>
@@ -45764,7 +45759,8 @@ Dez. 1827</words>
       </note>
       <note id="mn-1-88-4-1-7" default-x="515">
         <pitch>
-          <step>C</step><octave>5</octave>
+          <step>C</step>
+          <octave>5</octave>
         </pitch>
         <duration>512</duration>
         <voice>4</voice>
@@ -56442,9 +56438,7 @@ Dez. 1827</words>
         <type>16th</type>
         <stem default-y="-55">down</stem>
         <staff>1</staff>
-        <notations>
-          <slur type="start" number="1" id="mn-1-113-1-1-16--slur--start--1"/></notations>
-      </note>
+        </note>
       <backup>
         <duration>4096</duration>
       </backup>
@@ -56654,7 +56648,7 @@ Dez. 1827</words>
         <notations>
           <tuplet bracket="no" number="1" placement="below" type="start" id="mn-1-114-1-1-1--tuplet--start--1"/>
           <slur number="1" placement="above" type="start" id="mn-1-114-1-1-1--slur--start--1"/>
-        <slur type="stop" number="1" id="mn-1-114-1-1-1--slur--stop--2"/></notations>
+        </notations>
       </note>
       <note id="mn-1-114-1-1-2" default-x="139">
         <pitch>
@@ -62709,9 +62703,7 @@ Dez. 1827</words>
         <type>16th</type>
         <stem default-y="-50">down</stem>
         <staff>1</staff>
-        <notations>
-          <slur type="start" number="1" id="mn-1-123-1-1-17--slur--start--1"/></notations>
-      </note>
+        </note>
       <backup>
         <duration>4096</duration>
       </backup>
@@ -62913,7 +62905,7 @@ Dez. 1827</words>
         <beam number="2">begin</beam>
         <notations>
           <tuplet bracket="no" number="1" placement="below" type="start" id="mn-1-124-1-1-1--tuplet--start--1"/>
-        <slur type="stop" number="1" id="mn-1-124-1-1-1--slur--stop--1"/></notations>
+        </notations>
       </note>
       <note id="mn-1-124-1-1-2" default-x="144">
         <pitch>
@@ -68172,6 +68164,14 @@ Dez. 1827</words>
         </direction-type>
         <staff>2</staff>
         </direction>
+      <forward>
+        <duration>4096</duration>
+        <voice>4</voice>
+        <staff>2</staff>
+      </forward>
+      <backup>
+        <duration>4096</duration>
+      </backup>
       <note id="mn-1-135-5-2-1" default-x="31">
         <pitch>
           <step>F</step>
@@ -68182,7 +68182,8 @@ Dez. 1827</words>
         <type>whole</type>
         <staff>2</staff>
         <notations>
-          <slur type="start" number="1" id="mn-1-135-5-2-1--slur--start--1"/></notations>
+          <slur number="1" placement="above" type="start" id="mn-1-135-5-2-1--slur--start--1"/>
+        </notations>
       </note>
       <note id="mn-1-135-5-2-2" default-x="31">
         <chord/>
@@ -68312,6 +68313,14 @@ Dez. 1827</words>
       <backup>
         <duration>4096</duration>
       </backup>
+      <forward>
+        <duration>4096</duration>
+        <voice>4</voice>
+        <staff>2</staff>
+      </forward>
+      <backup>
+        <duration>4096</duration>
+      </backup>
       <note id="mn-1-136-5-2-1" default-x="34">
         <pitch>
           <step>B</step>
@@ -68323,7 +68332,8 @@ Dez. 1827</words>
         <stem default-y="-30.5">down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1" id="mn-1-136-5-2-1--slur--stop--1"/></notations>
+          <slur number="1" type="stop" id="mn-1-136-5-2-1--slur--stop--1"/>
+        </notations>
       </note>
       <note id="mn-1-136-5-2-2" default-x="34">
         <chord/>
@@ -68382,7 +68392,7 @@ Dez. 1827</words>
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
-      <notations/></note>
+      </note>
       <note id="mn-1-136-5-2-7" default-x="115">
         <chord/>
         <pitch>
@@ -68437,6 +68447,14 @@ Dez. 1827</words>
         <type>whole</type>
         <staff>1</staff>
       </note>
+      <backup>
+        <duration>4096</duration>
+      </backup>
+      <forward>
+        <duration>4096</duration>
+        <voice>4</voice>
+        <staff>2</staff>
+      </forward>
       <backup>
         <duration>4096</duration>
       </backup>
