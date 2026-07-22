@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.1">
   <identification>
@@ -86,7 +86,7 @@
           </direction-type>
         <staff>1</staff>
         </direction>
-      <note id="mn-1-1-1-1-1" color="#1D4ED8">
+      <note id="mn-1-1-1-1-1" print-object="no">
         <rest/>
         <duration>48</duration>
         <voice>1</voice>
@@ -239,7 +239,7 @@
         </note>
       </measure>
     <measure number="2" width="268.73">
-      <note id="mn-1-2-1-1-1" color="#1D4ED8">
+      <note id="mn-1-2-1-1-1" print-object="no">
         <rest/>
         <duration>48</duration>
         <voice>1</voice>
@@ -398,7 +398,7 @@
         </note>
       </measure>
     <measure number="3" width="277.74">
-      <note id="mn-1-3-1-1-1" color="#1D4ED8">
+      <note id="mn-1-3-1-1-1" print-object="no">
         <rest/>
         <duration>48</duration>
         <voice>1</voice>
@@ -632,8 +632,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-4-1-1-6" default-x="219.59" default-y="-10.00">
         <pitch>
@@ -645,8 +645,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-4-1-1-7" default-x="252.18" default-y="-15.00">
         <pitch>
@@ -903,7 +903,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">end</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-5-1-1-4" default-x="135.41" default-y="-5.00">
         <pitch>
@@ -916,7 +916,7 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <notations>
           <tied type="start" id="mn-1-5-1-1-4--tied--start--1"/>
           </notations>
@@ -932,8 +932,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-5-1-1-5--tied--stop--1"/>
           </notations>
@@ -975,8 +975,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-5-1-1-8--tied--start--1"/>
           </notations>
@@ -992,8 +992,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-5-1-1-9--tied--stop--1"/>
           </notations>
@@ -1239,7 +1239,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">end</beam>
+        <beam number="2">continue</beam>
         <notations>
           <slur type="stop" number="1" id="mn-1-6-1-1-3--slur--stop--1"/>
           </notations>
@@ -1255,7 +1255,7 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <notations>
           <tied type="start" id="mn-1-6-1-1-4--tied--start--1"/>
           </notations>
@@ -1271,8 +1271,8 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-6-1-1-5--tied--stop--1"/>
           </notations>
@@ -1315,8 +1315,8 @@
         <accidental>sharp</accidental>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-6-1-1-8--tied--start--1"/>
           </notations>
@@ -1332,7 +1332,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
         <notations>
           <tied type="stop" id="mn-1-6-1-1-9--tied--stop--1"/>
@@ -1579,8 +1579,8 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-7-1-1-5" default-x="132.68" default-y="-35.00">
         <pitch>
@@ -1592,8 +1592,8 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-7-1-1-6" default-x="162.37" default-y="-20.00">
         <pitch>
@@ -1631,8 +1631,8 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-7-1-1-9" default-x="251.44" default-y="-25.00">
         <pitch>
@@ -1644,8 +1644,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-7-1-1-10" default-x="281.12" default-y="-20.00">
         <pitch>
@@ -2507,9 +2507,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-10-1-1-8" default-x="185.18" default-y="-10.00">
         <pitch>
@@ -2521,8 +2521,8 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-10-1-1-9" default-x="219.27" default-y="-20.00">
         <pitch>
@@ -2562,8 +2562,8 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-10-1-1-11--tied--start--1"/>
           </notations>
@@ -2579,9 +2579,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-10-1-1-12--tied--stop--1"/>
           </notations>
@@ -2627,7 +2627,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-10-1-1-16" default-x="418.01" default-y="-30.00">
         <pitch>
@@ -2843,7 +2843,7 @@
         <dot/>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <notations>
           <tied type="start" id="mn-1-11-1-1-2--tied--start--1"/>
           </notations>
@@ -2859,8 +2859,8 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <beam number="3">begin</beam>
         <notations>
           <tied type="stop" id="mn-1-11-1-1-3--tied--stop--1"/>
@@ -2962,9 +2962,9 @@
         <accidental>natural</accidental>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-11-1-1-11" default-x="350.44" default-y="-25.00">
         <pitch>
@@ -2976,8 +2976,8 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-11-1-1-12" default-x="379.63" default-y="-30.00">
         <pitch>
@@ -3009,7 +3009,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">begin</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-11-1-1-13--tied--stop--1"/>
           </notations>
@@ -3301,8 +3301,8 @@
         <accidental>sharp</accidental>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-12-1-1-8" default-x="174.17" default-y="-50.00">
         <pitch>
@@ -3314,8 +3314,8 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <slur type="start" number="1" id="mn-1-12-1-1-8--slur--start--1"/>
           </notations>
@@ -3565,8 +3565,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-13-1-1-5" default-x="126.66" default-y="-20.00">
         <pitch>
@@ -3578,8 +3578,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-13-1-1-6" default-x="154.34" default-y="-30.00">
         <pitch>
@@ -3617,8 +3617,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-13-1-1-9" default-x="239.84" default-y="5.00">
         <pitch>
@@ -3630,8 +3630,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-13-1-1-10" default-x="267.52" default-y="-10.00">
         <pitch>
@@ -3945,9 +3945,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-14-1-1-9" default-x="251.23" default-y="0.00">
         <pitch>
@@ -3959,8 +3959,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <slur type="start" number="1" id="mn-1-14-1-1-9--slur--start--1"/>
           </notations>
@@ -3975,8 +3975,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <slur type="stop" number="1" id="mn-1-14-1-1-10--slur--stop--1"/>
           </notations>
@@ -4005,9 +4005,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-14-1-1-14" default-x="405.21" default-y="-10.00">
         <pitch>
@@ -4305,9 +4305,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-15-1-1-9" default-x="184.72" default-y="-25.00">
         <pitch>
@@ -4319,9 +4319,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-15-1-1-10" default-x="204.87" default-y="-35.00">
         <pitch>
@@ -4417,9 +4417,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-15-1-1-17" default-x="355.95" default-y="0.00">
         <pitch>
@@ -4431,9 +4431,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-15-1-1-18" default-x="376.11" default-y="-5.00">
         <pitch>
@@ -4724,8 +4724,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-16-1-1-6" default-x="125.19" default-y="-10.00">
         <pitch>
@@ -4737,7 +4737,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
         </note>
       <note id="mn-1-16-1-1-7" default-x="148.81" default-y="5.00">
@@ -5054,8 +5054,8 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <beam number="3">end</beam>
         <notations>
           <slur type="stop" number="1" id="mn-1-17-1-1-8--slur--stop--1"/>
@@ -5071,7 +5071,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
         </note>
       <note id="mn-1-17-1-1-10" default-x="244.42" default-y="0.00">
@@ -5313,7 +5313,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-18-1-1-5" default-x="90.87" default-y="0.00">
         <pitch>
@@ -5338,8 +5338,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-18-1-1-7" default-x="153.96" default-y="-15.00">
         <pitch>
@@ -5351,9 +5351,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-18-1-1-8" default-x="173.68" default-y="-20.00">
         <pitch>
@@ -5367,7 +5367,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-18-1-1-9" default-x="193.39" default-y="-25.00">
         <pitch>
@@ -5380,7 +5380,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">end</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-18-1-1-10" default-x="224.94" default-y="-20.00">
         <pitch>
@@ -5393,7 +5393,7 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <notations>
           <tied type="start" id="mn-1-18-1-1-10--tied--start--1"/>
           <ornaments>
@@ -5412,9 +5412,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-18-1-1-11--tied--stop--1"/>
           </notations>
@@ -5459,7 +5459,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-18-1-1-15" default-x="347.19" default-y="-20.00">
         <pitch>
@@ -5655,7 +5655,7 @@
         <dot/>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <notations>
           <tied type="start" id="mn-1-19-1-1-2--tied--start--1"/>
           </notations>
@@ -5671,8 +5671,8 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <beam number="3">begin</beam>
         <notations>
           <tied type="stop" id="mn-1-19-1-1-3--tied--stop--1"/>
@@ -5772,9 +5772,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-19-1-1-11" default-x="272.14" default-y="-15.00">
         <pitch>
@@ -5786,8 +5786,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-19-1-1-12" default-x="303.20" default-y="-20.00">
         <pitch>
@@ -5801,7 +5801,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">begin</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-19-1-1-13" default-x="322.61" default-y="-25.00">
         <pitch>
@@ -5815,7 +5815,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-19-1-1-14" default-x="342.03" default-y="-20.00">
         <pitch>
@@ -6022,7 +6022,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">end</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-20-1-1-3" default-x="153.13" default-y="10.00">
         <pitch>
@@ -6035,7 +6035,7 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <notations>
           <tied type="start" id="mn-1-20-1-1-3--tied--start--1"/>
           </notations>
@@ -6051,8 +6051,8 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <beam number="3">begin</beam>
         <notations>
           <tied type="stop" id="mn-1-20-1-1-4--tied--stop--1"/>
@@ -6152,9 +6152,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-20-1-1-12" default-x="437.38" default-y="-10.00">
         <pitch>
@@ -6166,9 +6166,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-20-1-1-13" default-x="465.25" default-y="-15.00">
         <pitch>
@@ -6495,9 +6495,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-21-1-1-7" default-x="195.90" default-y="-20.00">
         <pitch>
@@ -6509,9 +6509,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-21-1-1-8" default-x="221.44" default-y="-15.00">
         <pitch>
@@ -6579,8 +6579,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-21-1-1-12--tied--start--1"/>
           </notations>
@@ -6596,7 +6596,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
         <notations>
           <tied type="stop" id="mn-1-21-1-1-13--tied--stop--1"/>
@@ -6896,9 +6896,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-22-1-1-9" default-x="279.79" default-y="0.00">
         <pitch>
@@ -6910,9 +6910,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-22-1-1-10" default-x="306.45" default-y="-5.00">
         <pitch>
@@ -7008,9 +7008,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-22-1-1-17" default-x="493.12" default-y="10.00">
         <pitch>
@@ -7022,9 +7022,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-22-1-1-18" default-x="519.79" default-y="15.00">
         <pitch>
@@ -7301,7 +7301,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <beam number="2">backward hook</beam>
         <notations>
           <tied type="start" id="mn-1-23-1-1-3--tied--start--1"/>
@@ -7318,8 +7318,8 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <beam number="3">begin</beam>
         <notations>
           <tied type="stop" id="mn-1-23-1-1-4--tied--stop--1"/>
@@ -7419,9 +7419,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-23-1-1-12" default-x="338.89" default-y="-10.00">
         <pitch>
@@ -7433,9 +7433,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-23-1-1-13" default-x="361.59" default-y="-15.00">
         <pitch>
@@ -7477,7 +7477,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-23-1-1-16" default-x="429.70" default-y="-20.00">
         <pitch>
@@ -7768,9 +7768,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-24-1-1-9" default-x="281.57" default-y="-5.00">
         <pitch>
@@ -7782,9 +7782,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-24-1-1-10" default-x="308.77" default-y="-10.00">
         <pitch>
@@ -7880,9 +7880,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-24-1-1-17" default-x="499.18" default-y="-15.00">
         <pitch>
@@ -7894,9 +7894,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-24-1-1-18" default-x="526.39" default-y="-20.00">
         <pitch>
@@ -8172,7 +8172,7 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <beam number="2">backward hook</beam>
         </note>
       <note id="mn-1-25-1-1-4" default-x="163.94" default-y="-30.00">
@@ -8185,8 +8185,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-25-1-1-5" default-x="201.92" default-y="-20.00">
         <pitch>
@@ -8225,8 +8225,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-25-1-1-7--tied--start--1"/>
           </notations>
@@ -8242,8 +8242,8 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <beam number="3">begin</beam>
         <notations>
           <tied type="stop" id="mn-1-25-1-1-8--tied--stop--1"/>
@@ -8532,7 +8532,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-26-1-1-5" default-x="155.21" default-y="-35.00">
         <pitch>
@@ -8557,8 +8557,8 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-26-1-1-7" default-x="226.22" default-y="-25.00">
         <pitch>
@@ -8570,9 +8570,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-26-1-1-8" default-x="248.41" default-y="-20.00">
         <pitch>
@@ -8668,9 +8668,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-26-1-1-15" default-x="403.74" default-y="-30.00">
         <pitch>
@@ -8683,7 +8683,7 @@
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         </note>
       <note id="mn-1-26-1-1-16" default-x="488.06" default-y="-35.00">
         <pitch>
@@ -8696,8 +8696,8 @@
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-26-1-1-17" default-x="510.25" default-y="-30.00">
         <pitch>
@@ -8770,7 +8770,7 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>2</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <beam number="2">end</beam>
         </note>
       <note id="mn-1-26-5-2-5" default-x="403.74" default-y="-120.00">
@@ -8783,7 +8783,7 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>2</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         </note>
       <note id="mn-1-26-5-2-6" default-x="452.56" default-y="-100.00">
         <pitch>
@@ -9232,7 +9232,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-29-1-1-4" default-x="140.60" default-y="-15.00">
         <pitch>
@@ -9258,8 +9258,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-29-1-1-6" default-x="192.46" default-y="-30.00">
         <pitch>
@@ -9271,9 +9271,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-29-1-1-7" default-x="209.63" default-y="-25.00">
         <pitch>
@@ -9286,8 +9286,8 @@
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-29-1-1-8" default-x="226.80" default-y="-20.00">
         <pitch>
@@ -9311,7 +9311,7 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <beam number="2">backward hook</beam>
         </note>
       <note id="mn-1-29-1-1-10" default-x="308.80" default-y="-20.00">
@@ -9324,9 +9324,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-29-1-1-11" default-x="337.33" default-y="-15.00">
         <pitch>
@@ -9617,7 +9617,7 @@
         <accidental>sharp</accidental>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <beam number="2">backward hook</beam>
         <notations>
           <tied type="start" id="mn-1-30-1-1-3--tied--start--1"/>
@@ -9634,7 +9634,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
         <notations>
           <tied type="stop" id="mn-1-30-1-1-4--tied--stop--1"/>
@@ -9663,7 +9663,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <beam number="2">backward hook</beam>
         <notations>
           <tied type="start" id="mn-1-30-1-1-6--tied--start--1"/>
@@ -9680,7 +9680,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
         <notations>
           <tied type="stop" id="mn-1-30-1-1-7--tied--stop--1"/>
@@ -9927,7 +9927,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-31-1-1-5" default-x="95.11" default-y="0.00">
         <pitch>
@@ -9953,8 +9953,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-31-1-1-6--tied--start--1"/>
           </notations>
@@ -9970,9 +9970,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-31-1-1-7--tied--stop--1"/>
           </notations>
@@ -10074,8 +10074,8 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <beam number="3">end</beam>
         <notations>
           <tied type="start" id="mn-1-31-1-1-14--tied--start--1"/>
@@ -10092,7 +10092,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
         <notations>
           <tied type="stop" id="mn-1-31-1-1-15--tied--stop--1"/>
@@ -10350,7 +10350,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-32-1-1-5" default-x="178.34" default-y="0.00">
         <pitch>
@@ -10376,8 +10376,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-32-1-1-6--tied--start--1"/>
           </notations>
@@ -10393,7 +10393,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
         <notations>
           <tied type="stop" id="mn-1-32-1-1-7--tied--stop--1"/>
@@ -10422,7 +10422,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <beam number="2">backward hook</beam>
         <notations>
           <tied type="start" id="mn-1-32-1-1-9--tied--start--1"/>
@@ -10439,8 +10439,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-32-1-1-10--tied--stop--1"/>
           </notations>
@@ -10457,7 +10457,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">begin</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-32-1-1-12" default-x="507.10" default-y="-5.00">
         <pitch>
@@ -10732,7 +10732,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="start" id="mn-1-33-1-1-4--tied--start--1"/>
           </notations>
@@ -10765,8 +10765,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-33-1-1-6--tied--start--1"/>
           </notations>
@@ -10782,9 +10782,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-33-1-1-7--tied--stop--1"/>
           </notations>
@@ -10855,8 +10855,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-33-1-1-12--tied--start--1"/>
           </notations>
@@ -10872,7 +10872,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
         <notations>
           <tied type="stop" id="mn-1-33-1-1-13--tied--stop--1"/>
@@ -11119,7 +11119,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-34-1-1-5" default-x="171.07" default-y="-5.00">
         <pitch>
@@ -11145,8 +11145,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-34-1-1-6--tied--start--1"/>
           </notations>
@@ -11162,9 +11162,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-34-1-1-7--tied--stop--1"/>
           </notations>
@@ -11181,7 +11181,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-34-1-1-9" default-x="300.53" default-y="10.00">
         <pitch>
@@ -11213,7 +11213,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">begin</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-34-1-1-10--tied--stop--1"/>
           </notations>
@@ -11230,7 +11230,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-34-1-1-12" default-x="389.55" default-y="0.00">
         <pitch>
@@ -11243,8 +11243,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-34-1-1-12--tied--start--1"/>
           </notations>
@@ -11260,9 +11260,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-34-1-1-13--tied--stop--1"/>
           </notations>
@@ -11615,9 +11615,9 @@
         <accidental>flat</accidental>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-35-1-1-9" default-x="216.34" default-y="-10.00">
         <pitch>
@@ -11629,9 +11629,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-35-1-1-10" default-x="248.93" default-y="-15.00">
         <pitch>
@@ -11645,8 +11645,8 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-35-1-1-11" default-x="273.77" default-y="-10.00">
         <pitch>
@@ -11660,7 +11660,7 @@
         <dot/>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <notations>
           <tied type="start" id="mn-1-35-1-1-11--tied--start--1"/>
           </notations>
@@ -11676,9 +11676,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-35-1-1-12--tied--stop--1"/>
           </notations>
@@ -12049,9 +12049,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-36-1-1-9" default-x="272.71" default-y="-30.00">
         <pitch>
@@ -12063,9 +12063,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-36-1-1-10" default-x="305.30" default-y="-35.00">
         <pitch>
@@ -12079,8 +12079,8 @@
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-36-1-1-11" default-x="331.39" default-y="-30.00">
         <pitch>
@@ -12094,7 +12094,7 @@
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <notations>
           <tied type="start" id="mn-1-36-1-1-11--tied--start--1"/>
           </notations>
@@ -12110,9 +12110,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-36-1-1-12--tied--stop--1"/>
           </notations>
@@ -12413,8 +12413,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-37-1-1-4--tied--start--1"/>
           <slur type="stop" number="1" id="mn-1-37-1-1-4--slur--stop--1"/>
@@ -12431,8 +12431,8 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <beam number="3">begin</beam>
         <notations>
           <tied type="stop" id="mn-1-37-1-1-5--tied--stop--1"/>
@@ -12533,9 +12533,9 @@
         <accidental>natural</accidental>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-37-1-1-13" default-x="392.79" default-y="-25.00">
         <pitch>
@@ -12547,8 +12547,8 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-37-1-1-14" default-x="434.08" default-y="-30.00">
         <pitch>
@@ -12562,7 +12562,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">begin</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-37-1-1-15" default-x="459.89" default-y="-35.00">
         <pitch>
@@ -12576,7 +12576,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-37-1-1-16" default-x="485.70" default-y="-30.00">
         <pitch>
@@ -12788,7 +12788,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">end</beam>
+        <beam number="2">continue</beam>
         <notations>
           <slur type="stop" number="1" id="mn-1-38-1-1-2--slur--stop--1"/>
           </notations>
@@ -12804,7 +12804,7 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <notations>
           <tied type="start" id="mn-1-38-1-1-3--tied--start--1"/>
           </notations>
@@ -12820,8 +12820,8 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <beam number="3">begin</beam>
         <notations>
           <tied type="stop" id="mn-1-38-1-1-4--tied--stop--1"/>
@@ -12921,9 +12921,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-38-1-1-12" default-x="305.44" default-y="-20.00">
         <pitch>
@@ -12935,8 +12935,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-38-1-1-13" default-x="334.09" default-y="-25.00">
         <pitch>
@@ -12950,7 +12950,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">begin</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-38-1-1-14" default-x="352.00" default-y="-30.00">
         <pitch>
@@ -12964,7 +12964,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-38-1-1-15" default-x="369.91" default-y="-25.00">
         <pitch>
@@ -13161,7 +13161,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">end</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-39-1-1-3" default-x="71.34" default-y="5.00">
         <pitch>
@@ -13174,7 +13174,7 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <notations>
           <tied type="start" id="mn-1-39-1-1-3--tied--start--1"/>
           </notations>
@@ -13190,8 +13190,8 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <beam number="3">begin</beam>
         <notations>
           <tied type="stop" id="mn-1-39-1-1-4--tied--stop--1"/>
@@ -13291,9 +13291,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-39-1-1-12" default-x="275.38" default-y="-15.00">
         <pitch>
@@ -13306,8 +13306,8 @@
         <accidental>sharp</accidental>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-39-1-1-13" default-x="305.05" default-y="-20.00">
         <pitch>
@@ -13321,7 +13321,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">begin</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-39-1-1-14" default-x="323.59" default-y="-25.00">
         <pitch>
@@ -13335,7 +13335,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-39-1-1-15" default-x="342.13" default-y="-20.00">
         <pitch>
@@ -13550,7 +13550,7 @@
         <accidental>sharp</accidental>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <beam number="2">backward hook</beam>
         <notations>
           <tied type="start" id="mn-1-40-1-1-3--tied--start--1"/>
@@ -13567,7 +13567,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
         <notations>
           <tied type="stop" id="mn-1-40-1-1-4--tied--stop--1"/>
@@ -13596,7 +13596,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">begin</beam>
+        <beam number="2">continue</beam>
         <beam number="3">begin</beam>
         </note>
       <note id="mn-1-40-1-1-7" default-x="206.32" default-y="0.00">
@@ -13609,9 +13609,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-40-1-1-8" default-x="223.49" default-y="5.00">
         <pitch>
@@ -13623,9 +13623,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-40-1-1-9" default-x="240.65" default-y="10.00">
         <pitch>
@@ -13667,7 +13667,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-40-1-1-12" default-x="316.15" default-y="15.00">
         <pitch>
@@ -13890,7 +13890,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">begin</beam>
+        <beam number="2">continue</beam>
         <beam number="3">begin</beam>
         </note>
       <note id="mn-1-41-1-1-4" default-x="191.10" default-y="-5.00">
@@ -13903,9 +13903,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <notations>
           <slur type="stop" number="1" id="mn-1-41-1-1-4--slur--stop--1"/>
           </notations>
@@ -13920,7 +13920,7 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
         </note>
       <note id="mn-1-41-1-1-6" default-x="248.10" default-y="-30.00">
@@ -13946,8 +13946,8 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-41-1-1-8" default-x="340.17" default-y="-20.00">
         <pitch>
@@ -13959,9 +13959,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-41-1-1-9" default-x="362.09" default-y="-20.00">
         <pitch>
@@ -13973,9 +13973,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-41-1-1-10" default-x="384.01" default-y="-5.00">
         <pitch>
@@ -14242,7 +14242,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="start" id="mn-1-42-1-1-4--tied--start--1"/>
           </notations>
@@ -14276,8 +14276,8 @@
         <accidental>sharp</accidental>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-42-1-1-6--tied--start--1"/>
           </notations>
@@ -14293,9 +14293,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-42-1-1-7--tied--stop--1"/>
           </notations>
@@ -14396,9 +14396,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-42-1-1-15" default-x="449.55" default-y="-5.00">
         <pitch>
@@ -14410,9 +14410,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-42-1-1-16" default-x="479.98" default-y="-20.00">
         <pitch>
@@ -14778,7 +14778,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-43-1-1-8" default-x="374.50" default-y="10.00">
         <pitch>
@@ -14791,8 +14791,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-43-1-1-8--tied--start--1"/>
           </notations>
@@ -14808,9 +14808,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-43-1-1-9--tied--stop--1"/>
           </notations>
@@ -15088,7 +15088,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-44-1-1-5" default-x="125.39" default-y="-10.00">
         <pitch>
@@ -15113,8 +15113,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-44-1-1-7" default-x="211.59" default-y="0.00">
         <pitch>
@@ -15126,9 +15126,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-44-1-1-8" default-x="238.53" default-y="5.00">
         <pitch>
@@ -15224,9 +15224,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-44-1-1-15" default-x="427.09" default-y="-5.00">
         <pitch>
@@ -15239,7 +15239,7 @@
         <dot/>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         </note>
       <note id="mn-1-44-1-1-16" default-x="529.45" default-y="-10.00">
         <pitch>
@@ -15252,8 +15252,8 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-44-1-1-17" default-x="556.38" default-y="-5.00">
         <pitch>
@@ -15328,7 +15328,7 @@
         <accidental>natural</accidental>
         <stem>up</stem>
         <staff>2</staff>
-        <beam number="1">end</beam>
+        <beam number="1">continue</beam>
         <beam number="2">end</beam>
         </note>
       <note id="mn-1-44-5-2-5" default-x="427.09" default-y="-130.00">
@@ -15341,7 +15341,7 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>2</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         </note>
       <note id="mn-1-44-5-2-6" default-x="486.35" default-y="-110.00">
         <pitch>
@@ -15448,7 +15448,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-45-1-1-4" default-x="183.79" default-y="-5.00">
         <pitch>
@@ -15462,8 +15462,8 @@
         <accidental>flat</accidental>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-45-1-1-4--tied--start--1"/>
           <slur type="stop" number="1" id="mn-1-45-1-1-4--slur--stop--1"/>
@@ -15480,9 +15480,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-45-1-1-5--tied--stop--1"/>
           </notations>
@@ -15499,7 +15499,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-45-1-1-7" default-x="267.03" default-y="-15.00">
         <pitch>
@@ -15531,7 +15531,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">begin</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-45-1-1-8--tied--stop--1"/>
           </notations>
@@ -15548,7 +15548,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-45-1-1-10" default-x="350.27" default-y="-25.00">
         <pitch>
@@ -15561,8 +15561,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-45-1-1-10--tied--start--1"/>
           </notations>
@@ -15578,9 +15578,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <notations>
           <tied type="stop" id="mn-1-45-1-1-11--tied--stop--1"/>
           </notations>
@@ -15914,9 +15914,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-46-1-1-8" default-x="210.34" default-y="-20.00">
         <pitch>
@@ -15928,9 +15928,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-46-1-1-9" default-x="235.46" default-y="-30.00">
         <pitch>
@@ -16027,9 +16027,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-46-1-1-16" default-x="418.73" default-y="-5.00">
         <pitch>
@@ -16041,9 +16041,9 @@
         <type>32nd</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-46-1-1-17" default-x="443.84" default-y="0.00">
         <pitch>
@@ -16382,9 +16382,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-47-1-1-7" default-x="204.57" default-y="-30.00">
         <pitch>
@@ -16396,8 +16396,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-47-1-1-8" default-x="237.15" default-y="-15.00">
         <pitch>
@@ -16412,7 +16412,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">begin</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-47-1-1-9" default-x="256.68" default-y="-10.00">
         <pitch>
@@ -16426,7 +16426,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">end</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-47-1-1-10" default-x="276.21" default-y="-5.00">
         <pitch>
@@ -16451,8 +16451,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="mn-1-47-1-1-12" default-x="338.70" default-y="-35.00">
         <pitch>
@@ -16464,9 +16464,9 @@
         <type>32nd</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-47-1-1-13" default-x="358.23" default-y="-25.00">
         <pitch>
@@ -16717,7 +16717,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">begin</beam>
+        <beam number="2">continue</beam>
         <beam number="3">begin</beam>
         </note>
       <note id="mn-1-48-1-1-4" default-x="128.33" default-y="-30.00">
@@ -16731,9 +16731,9 @@
         <accidental>natural</accidental>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-48-1-1-5" default-x="148.06" default-y="-35.00">
         <pitch>
@@ -16746,8 +16746,8 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <tied type="start" id="mn-1-48-1-1-5--tied--start--1"/>
           </notations>
@@ -16765,7 +16765,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <beam number="3">begin</beam>
+        <beam number="3">continue</beam>
         <beam number="4">begin</beam>
         <notations>
           <tied type="stop" id="mn-1-48-1-1-6--tied--stop--1"/>
@@ -16932,9 +16932,9 @@
         <type>64th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         <beam number="4">end</beam>
         </note>
       <note id="mn-1-48-1-1-18" default-x="400.84" default-y="-40.00">
@@ -16948,7 +16948,7 @@
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         </note>
       <note id="mn-1-48-1-1-19" default-x="487.68" default-y="-45.00">
         <pitch>
@@ -16961,8 +16961,8 @@
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
       <note id="mn-1-48-1-1-20" default-x="507.41" default-y="-40.00">
         <pitch>

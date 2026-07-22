@@ -1,0 +1,3347 @@
+{
+ "work_id": "bach_bwv870_fugue",
+ "bars": [
+  {
+   "printed_bar": "2",
+   "segments_excised": 1,
+   "deletes": 2,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "6",
+   "segments_excised": 1,
+   "deletes": 2,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "10",
+   "segments_excised": 1,
+   "deletes": 2,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 1,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "21",
+   "segments_excised": 1,
+   "deletes": 4,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "28",
+   "segments_excised": 1,
+   "deletes": 6,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "37",
+   "segments_excised": 1,
+   "deletes": 9,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "38",
+   "segments_excised": 1,
+   "deletes": 1,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  }
+ ],
+ "severed_ties": [
+  {
+   "deleted_note_id": "mn-1-37-3-1-9",
+   "printed_bar": "37",
+   "side": "start",
+   "partner_note_id": null,
+   "partner": "beyond measure (unresolved at cut time)"
+  },
+  {
+   "deleted_note_id": "mn-1-38-3-1-1",
+   "printed_bar": "38",
+   "side": "stop",
+   "partner_note_id": null,
+   "partner": "beyond measure (unresolved at cut time)"
+  }
+ ],
+ "manifest_entries": 450,
+ "totals": {
+  "segments_excised": 7,
+  "deletes": 26,
+  "swaps": 0,
+  "cue_transfers": 0,
+  "forwards_removed": 1,
+  "boundary_backups_adjusted": 6,
+  "boundary_backups_removed": 0,
+  "boundary_forwards_inserted": 0,
+  "emptied_bars": 0,
+  "cursor_corrupt_bars": 0,
+  "severed_tie_faces": 2,
+  "tuplet_repairs": 0,
+  "span_repairs": 0,
+  "beam_repairs": 417,
+  "marks_died_with_host": 0,
+  "reject_released_hosts": 0,
+  "element_handles_restamped": 0
+ },
+ "manifest": [
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "1",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-1-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "1",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-1-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "3",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-3-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "3",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-3-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "3",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-3-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "3",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-3-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "4",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-4-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "4",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-4-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "4",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-4-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "4",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-4-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "5",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-5-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "5",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-5-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "5",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-5-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "5",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-5-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "5",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-5-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "5",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-5-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "6",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-6-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "6",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-6-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "6",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-6-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "6",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-6-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "7",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-7-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "7",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-7-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "7",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-7-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "7",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-7-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "7",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-7-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "7",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-7-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "7",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-7-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "7",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-7-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "8",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-8-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "8",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-8-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "8",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-8-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "8",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-8-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "9",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-9-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "9",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-9-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "9",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-9-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "9",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-9-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "9",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-9-5-2-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "9",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-9-5-2-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "10",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-10-1-1-2"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "10",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-10-1-1-3"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "10",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-10-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "10",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-10-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "10",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-10-2-1-2"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "10",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-10-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "11",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-11-5-2-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "11",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-11-5-2-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "11",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-11-5-2-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "11",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-11-5-2-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "12",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-12-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "12",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-12-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "12",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-12-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "12",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-12-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "13",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-13-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "13",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-13-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "13",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-13-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "13",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-13-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "13",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-13-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "13",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-13-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "14",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-14-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "14",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-14-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "14",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-14-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "14",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-14-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "14",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-14-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "14",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-14-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "15",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-15-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "15",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-15-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "15",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-15-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "15",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-15-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "15",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-15-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "15",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-15-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "16",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-16-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "16",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-16-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "16",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-16-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "16",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-16-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "16",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-16-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "16",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-16-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "17",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-17-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "17",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-17-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "17",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-17-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "17",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-17-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "17",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-17-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "17",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-17-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "18",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-18-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "18",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-18-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "18",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-18-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "18",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-18-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "18",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-18-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "18",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-18-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "19",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-19-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "19",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-19-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "19",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-19-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "19",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-19-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "20",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-20-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "20",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-20-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "20",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-20-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "20",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-20-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "20",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-20-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "20",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-20-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "21",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-21-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "21",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-21-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "21",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-21-1-1-3"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "21",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-21-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "21",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-21-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "22",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-22-5-2-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "22",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-22-5-2-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "22",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-22-5-2-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "22",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-22-5-2-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "23",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-23-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "23",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-23-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "23",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-23-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "23",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-23-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "23",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-23-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "23",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-23-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "23",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-23-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "23",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-23-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "24",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-24-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "24",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-24-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "24",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-24-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "24",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-24-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "25",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-25-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "25",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-25-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "25",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-25-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "25",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-25-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "25",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-25-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "25",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-25-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "26",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-26-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "26",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-26-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "26",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-26-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "26",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-26-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "27",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-27-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "27",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-27-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "27",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-27-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "27",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-27-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "27",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-27-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "27",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-27-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "27",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-27-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "27",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-27-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "28",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-28-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "28",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-28-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "28",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-28-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "28",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-28-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "29",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-29-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "29",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-29-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "29",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-29-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "29",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-29-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "29",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-29-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "29",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-29-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "30",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-30-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "30",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-30-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "30",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-30-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "30",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-30-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "31",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-31-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "31",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-31-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "31",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-31-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "31",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-31-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "31",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-31-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "31",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-31-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "32",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-32-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "32",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-32-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "32",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-32-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "32",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-32-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "33",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-33-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "33",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-33-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "33",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-33-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "33",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-33-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "33",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-33-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "33",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-33-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "33",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-33-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "33",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-33-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "34",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-34-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "34",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-34-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "34",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-34-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "34",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-34-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "34",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-34-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "34",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-34-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "34",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-34-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "34",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-34-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "35",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-35-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "35",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-35-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "35",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-35-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "35",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-35-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "35",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-35-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "35",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-35-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "35",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-35-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "35",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-35-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "36",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-36-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "36",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-36-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "36",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-36-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "36",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-36-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "36",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-36-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "36",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-36-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "36",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-36-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "36",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-36-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "37",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-37-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "37",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-37-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "37",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-37-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "37",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-37-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "38",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-38-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "38",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-38-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "38",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-38-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "38",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-38-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "38",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-38-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "38",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-38-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "39",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-39-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "39",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-39-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "39",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-39-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "39",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-39-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "39",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-39-6-2-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "39",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-39-6-2-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "40",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-40-1-1-2"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "40",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-40-1-1-3"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "40",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-40-5-2-2"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "40",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-40-5-2-3"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "40",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-40-5-2-1"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "40",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-40-5-2-3"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "41",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-41-6-2-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "41",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-41-6-2-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "41",
+   "voice": "6",
+   "number": "2",
+   "survivor_note_id": "mn-1-41-6-2-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "41",
+   "voice": "6",
+   "number": "2",
+   "survivor_note_id": "mn-1-41-6-2-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "42",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-42-6-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "42",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-42-6-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "42",
+   "voice": "6",
+   "number": "2",
+   "survivor_note_id": "mn-1-42-6-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "42",
+   "voice": "6",
+   "number": "2",
+   "survivor_note_id": "mn-1-42-6-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "43",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-43-6-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "43",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-43-6-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "43",
+   "voice": "6",
+   "number": "2",
+   "survivor_note_id": "mn-1-43-6-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "43",
+   "voice": "6",
+   "number": "2",
+   "survivor_note_id": "mn-1-43-6-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "44",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-44-5-2-2"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "44",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-44-5-2-3"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "45",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-45-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "45",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-45-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "45",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-45-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "45",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-45-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "46",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-46-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "46",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-46-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "46",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-46-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "46",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-46-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "47",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-47-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "47",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-47-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "47",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-47-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "47",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-47-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "47",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-47-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "47",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-47-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "48",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-48-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "48",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-48-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "48",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-48-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "48",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-48-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "49",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-49-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "49",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-49-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "49",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-49-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "49",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-49-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "49",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-49-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "49",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-49-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "49",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-49-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "49",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-49-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "50",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-50-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "50",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-50-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "50",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-50-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "50",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-50-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "51",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-51-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "51",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-51-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "51",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-51-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "51",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-51-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "51",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-51-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "51",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-51-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "52",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-52-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "52",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-52-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "52",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-52-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "52",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-52-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "53",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-53-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "53",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-53-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "53",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-53-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "53",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-53-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "53",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-53-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "53",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-53-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "53",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-53-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "53",
+   "voice": "2",
+   "number": "2",
+   "survivor_note_id": "mn-1-53-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "54",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-54-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "54",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-54-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "54",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-54-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "54",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-54-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "55",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-55-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "55",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-55-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "55",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-55-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "55",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-55-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "55",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-55-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "55",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-55-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "56",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-56-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "56",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-56-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "56",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-56-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "56",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-56-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "56",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-56-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "56",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-56-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "57",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-57-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "57",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-57-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "57",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-57-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "57",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-57-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "57",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-57-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "57",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-57-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "58",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-58-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "58",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-58-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "58",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-58-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "58",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-58-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "58",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-58-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "58",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-58-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "59",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-59-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "59",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-59-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "59",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-59-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "59",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-59-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "59",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-59-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "59",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-59-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "60",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-60-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "60",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-60-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "60",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-60-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "60",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-60-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "60",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-60-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "60",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-60-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "61",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-61-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "61",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-61-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "61",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-61-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "61",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-61-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "62",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-62-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "62",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-62-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "62",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-62-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "62",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-62-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "63",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-63-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "63",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-63-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "63",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-63-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "63",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-63-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "64",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-64-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "64",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-64-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "64",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-64-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "64",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-64-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "65",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-65-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "65",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-65-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "65",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-65-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "65",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-65-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "66",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-66-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "66",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-66-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "66",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-66-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "66",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-66-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "67",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-67-1-1-2"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "67",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-67-1-1-3"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "67",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-67-2-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "67",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-67-2-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "68",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-68-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "68",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-68-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "68",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-68-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "68",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-68-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "68",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-68-5-2-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "68",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-68-5-2-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "69",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-69-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "69",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-69-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "69",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-69-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "69",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-69-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "70",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-70-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "70",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-70-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "70",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-70-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "70",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-70-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "70",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-70-5-2-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "70",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-70-5-2-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "71",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-71-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "71",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-71-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "71",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-71-1-1-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "71",
+   "voice": "1",
+   "number": "2",
+   "survivor_note_id": "mn-1-71-1-1-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "72",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-72-2-2-2"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "72",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-72-2-2-3"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "72",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-72-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "72",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-72-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "72",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-72-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "72",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-72-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "73",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-73-6-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "73",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-73-6-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "73",
+   "voice": "6",
+   "number": "2",
+   "survivor_note_id": "mn-1-73-6-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "73",
+   "voice": "6",
+   "number": "2",
+   "survivor_note_id": "mn-1-73-6-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "74",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-74-5-2-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "74",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-74-5-2-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "74",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-74-6-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "74",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-74-6-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "74",
+   "voice": "6",
+   "number": "2",
+   "survivor_note_id": "mn-1-74-6-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "74",
+   "voice": "6",
+   "number": "2",
+   "survivor_note_id": "mn-1-74-6-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "75",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-75-6-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "75",
+   "voice": "6",
+   "number": "1",
+   "survivor_note_id": "mn-1-75-6-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "75",
+   "voice": "6",
+   "number": "2",
+   "survivor_note_id": "mn-1-75-6-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "75",
+   "voice": "6",
+   "number": "2",
+   "survivor_note_id": "mn-1-75-6-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "76",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-76-1-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "76",
+   "voice": "1",
+   "number": "1",
+   "survivor_note_id": "mn-1-76-1-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "76",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-76-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "76",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-76-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "76",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-76-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "76",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-76-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "76",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-76-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "76",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-76-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "77",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-77-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "77",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-77-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "77",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-77-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "77",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-77-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "78",
+   "voice": "3",
+   "number": "1",
+   "survivor_note_id": "mn-1-78-3-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "78",
+   "voice": "3",
+   "number": "1",
+   "survivor_note_id": "mn-1-78-3-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "78",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-78-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "78",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-78-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "78",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-78-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "78",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-78-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "79",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-79-2-1-3"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "79",
+   "voice": "2",
+   "number": "1",
+   "survivor_note_id": "mn-1-79-2-1-4"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "79",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-79-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "79",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-79-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "79",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-79-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "79",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-79-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "80",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-80-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "80",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-80-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "80",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-80-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "80",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-80-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "81",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-81-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "81",
+   "voice": "5",
+   "number": "1",
+   "survivor_note_id": "mn-1-81-5-2-5"
+  },
+  {
+   "beam_repair": "end->continue",
+   "printed_bar": "81",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-81-5-2-4"
+  },
+  {
+   "beam_repair": "begin->continue",
+   "printed_bar": "81",
+   "voice": "5",
+   "number": "2",
+   "survivor_note_id": "mn-1-81-5-2-5"
+  },
+  {
+   "boundary": "backup_adjusted",
+   "printed_bar": "2",
+   "from_div": 8,
+   "to_div": 16
+  },
+  {
+   "note_id": "mn-1-2-2-1-1",
+   "printed_bar": "2",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-2-2-1-1\" default-x=\"33.91\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>2</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-2-2-1-2",
+   "printed_bar": "2",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-2-2-1-2\" default-x=\"41.05\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>6</duration>\n        <voice>2</voice>\n        <type size=\"cue\">eighth</type>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_adjusted",
+   "printed_bar": "6",
+   "from_div": 8,
+   "to_div": 16
+  },
+  {
+   "note_id": "mn-1-6-3-1-1",
+   "printed_bar": "6",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-6-3-1-1\" default-x=\"33.91\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>3</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-6-3-1-2",
+   "printed_bar": "6",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-6-3-1-2\" default-x=\"46.61\" default-y=\"-5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>6</duration>\n        <voice>3</voice>\n        <type size=\"cue\">eighth</type>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-10-6-2-1",
+   "printed_bar": "10",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-10-6-2-1\" default-x=\"29.14\" default-y=\"-110.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>6</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>2</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-10-6-2-2",
+   "printed_bar": "10",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-10-6-2-2\" default-x=\"40.83\" default-y=\"-105.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>6</duration>\n        <voice>6</voice>\n        <type size=\"cue\">eighth</type>\n        <dot/>\n        <stem>none</stem>\n        <staff>2</staff>\n        </note>"
+  },
+  {
+   "note_id": null,
+   "printed_bar": "10",
+   "verdict": "delete_forward",
+   "reasons": [
+    "fabricated-excursion plumbing (R2)"
+   ],
+   "fragment": "<forward>\n        <duration>8</duration>\n        </forward>"
+  },
+  {
+   "boundary": "backup_adjusted",
+   "printed_bar": "21",
+   "from_div": 14,
+   "to_div": 16
+  },
+  {
+   "note_id": "mn-1-21-4-1-1",
+   "printed_bar": "21",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-21-4-1-1\" default-x=\"73.68\" default-y=\"5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>4</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-21-4-1-2",
+   "printed_bar": "21",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-21-4-1-2\" default-x=\"81.10\" default-y=\"0.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>4</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-21-4-1-3",
+   "printed_bar": "21",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-21-4-1-3\" default-x=\"89.32\" default-y=\"5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>4</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-21-4-1-4",
+   "printed_bar": "21",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-21-4-1-4\" default-x=\"99.75\" default-y=\"0.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>3</duration>\n        <voice>4</voice>\n        <type size=\"cue\">16th</type>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_adjusted",
+   "printed_bar": "28",
+   "from_div": 16,
+   "to_div": 16
+  },
+  {
+   "note_id": "mn-1-28-4-1-1",
+   "printed_bar": "28",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-28-4-1-1\" default-x=\"117.36\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>4</voice>\n        <type>32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-28-4-1-2",
+   "printed_bar": "28",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-28-4-1-2\" default-x=\"136.50\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>4</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-28-4-1-3",
+   "printed_bar": "28",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-28-4-1-3\" default-x=\"145.23\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>4</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-28-4-1-4",
+   "printed_bar": "28",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-28-4-1-4\" default-x=\"161.39\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>4</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-28-4-1-5",
+   "printed_bar": "28",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-28-4-1-5\" default-x=\"170.12\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>4</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-28-4-1-6",
+   "printed_bar": "28",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-28-4-1-6\" default-x=\"186.29\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>3</duration>\n        <voice>4</voice>\n        <type size=\"cue\">16th</type>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_adjusted",
+   "printed_bar": "37",
+   "from_div": 16,
+   "to_div": 16
+  },
+  {
+   "note_id": "mn-1-37-3-1-1",
+   "printed_bar": "37",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-37-3-1-1\" default-x=\"15.13\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>3</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-37-3-1-2",
+   "printed_bar": "37",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-37-3-1-2\" default-x=\"31.27\" default-y=\"-35.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>3</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-37-3-1-3",
+   "printed_bar": "37",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-37-3-1-3\" default-x=\"37.42\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>3</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-37-3-1-4",
+   "printed_bar": "37",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-37-3-1-4\" default-x=\"51.59\" default-y=\"-35.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>3</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-37-3-1-5",
+   "printed_bar": "37",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-37-3-1-5\" default-x=\"57.75\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>3</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-37-3-1-6",
+   "printed_bar": "37",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-37-3-1-6\" default-x=\"71.91\" default-y=\"-35.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>3</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-37-3-1-7",
+   "printed_bar": "37",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-37-3-1-7\" default-x=\"78.07\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>3</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-37-3-1-8",
+   "printed_bar": "37",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-37-3-1-8\" default-x=\"92.23\" default-y=\"-35.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <tie type=\"start\"/>\n        <voice>3</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tied type=\"start\" id=\"mn-1-37-3-1-8--tied--start--1\"/>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "mn-1-37-3-1-9",
+   "printed_bar": "37",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-37-3-1-9\" default-x=\"98.39\" default-y=\"-35.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>8</duration>\n        <tie type=\"stop\"/>\n        <tie type=\"start\"/>\n        <voice>3</voice>\n        <type size=\"cue\">quarter</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tied type=\"stop\" id=\"mn-1-37-3-1-9--tied--stop--1\"/>\n          <tied type=\"start\" id=\"mn-1-37-3-1-9--tied--start--2\"/>\n          </notations>\n        </note>"
+  },
+  {
+   "boundary": "backup_adjusted",
+   "printed_bar": "38",
+   "from_div": 4,
+   "to_div": 16
+  },
+  {
+   "note_id": "mn-1-38-3-1-1",
+   "printed_bar": "38",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"mn-1-38-3-1-1\" default-x=\"12.00\" default-y=\"-35.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>4</duration>\n        <tie type=\"stop\"/>\n        <voice>3</voice>\n        <type>eighth</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tied type=\"stop\" id=\"mn-1-38-3-1-1--tied--stop--1\"/>\n          </notations>\n        </note>"
+  }
+ ],
+ "written": "/Users/george/Projects/asap-dataset/modified/bach_bwv870_fugue/score.musicxml"
+}
