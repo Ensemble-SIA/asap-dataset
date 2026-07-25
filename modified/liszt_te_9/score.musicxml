@@ -107,7 +107,6 @@
           <words default-x="-33.50" default-y="40.00" relative-x="33.50" relative-y="-10.00" font-weight="bold" font-size="12" id="md-1-0-1-1">Andantino.</words>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="100"/>
         </direction>
       <note id="mn-1-0-1-1-1">
         <rest/>
@@ -527,7 +526,6 @@
           <words default-y="40.00" relative-x="3.84" relative-y="-104.05" font-style="italic" font-size="11" id="md-1-2-1-1">poco rallentando</words>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="70.0002"/>
         </direction>
       <note id="mn-1-2-1-1-1">
         <rest/>
@@ -1911,7 +1909,7 @@
           <line>2</line>
           </clef>
         </attributes>
-      <note id="mn-1-6-1-1-1">
+      <direction placement="below"><direction-type><pedal type="start" color="#FF7F00" id="md-1-6-2-7"/></direction-type><staff>2</staff></direction><note id="mn-1-6-1-1-1">
         <rest/>
         <duration>2880</duration>
         <voice>1</voice>
@@ -2154,7 +2152,7 @@
         <stem>down</stem>
         <staff>2</staff>
         </note>
-      </measure>
+      <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-6-2-8"/></direction-type><staff>2</staff></direction></measure>
     <measure number="8" width="715.64">
       <note id="mn-1-7-1-1-1">
         <rest/>
@@ -4110,7 +4108,6 @@
           <words default-y="40.00" font-weight="bold" font-size="12" id="md-1-10-1-2">Un poco animato.</words>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120"/>
         </direction>
       <note id="mn-1-10-1-1-1" default-x="96.29" default-y="-35.00">
         <pitch>
@@ -8317,7 +8314,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="66.67"/>
         </direction>
       <note id="mn-1-15-1-1-21" default-x="581.06" default-y="5.00" color="#EC4899">
         <cue/>
@@ -9857,7 +9853,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="46.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -10144,7 +10139,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="55.56"/>
         </direction>
       <note id="mn-1-16-5-2-1" color="#1D4ED8">
         <rest/>
@@ -17133,7 +17127,6 @@
           <words default-y="40.00" relative-x="-100.62" relative-y="1.42" font-weight="bold" font-size="12" id="md-1-31-1-2">Vivamente.</words>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="100"/>
         </direction>
       <note id="mn-1-31-1-1-3" default-x="124.64" default-y="-20.00">
         <pitch>
@@ -17682,7 +17675,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="66.67"/>
         </direction>
       <note id="mn-1-31-5-2-2" default-x="69.50" default-y="-168.34">
         <pitch>
@@ -18971,7 +18963,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -20374,7 +20365,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="66.67"/>
         </direction>
       <note id="mn-1-34-5-2-1" default-x="135.02" default-y="-208.34">
         <pitch>
@@ -23978,7 +23968,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="77.78"/>
         </direction>
       <note id="mn-1-40-1-1-1">
         <rest/>
@@ -30983,7 +30972,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="66.67"/>
         </direction>
       <note id="mn-1-47-1-2-1" default-x="636.23" default-y="-113.34" color="#EC4899">
         <cue/>
@@ -31196,7 +31184,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="55.56"/>
         </direction>
       <note id="mn-1-47-1-2-6" default-x="906.78" default-y="-113.34" color="#EC4899">
         <cue/>
@@ -42300,7 +42287,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="106.67"/>
         </direction>
       <note id="mn-1-64-1-1-1" default-x="23.51" default-y="-15.00">
         <pitch>
@@ -43387,7 +43373,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -61219,7 +61204,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="124.44"/>
         </direction>
       <note id="mn-1-88-1-1-2" default-x="51.94" default-y="0.00">
         <pitch>
@@ -63926,7 +63910,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="124.44"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -67579,7 +67562,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="71.11"/>
         </direction>
       <note id="mn-1-97-1-1-1" default-x="108.44" default-y="-15.00">
         <pitch>
@@ -68061,7 +68043,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="37.78"/>
         </direction>
       <note id="mn-1-97-5-2-1" default-x="108.44" default-y="-203.34">
         <pitch>
@@ -80017,7 +79998,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="36.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
