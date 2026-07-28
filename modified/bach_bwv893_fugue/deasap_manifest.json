@@ -2,28 +2,13 @@
  "work_id": "bach_bwv893_fugue",
  "bars": [
   {
-   "printed_bar": "75",
+   "printed_bar": "100",
    "segments_excised": 0,
    "deletes": 0,
-   "swaps": 1,
-   "cue_transfers": 0,
+   "swaps": 0,
+   "cue_transfers": 2,
    "forwards_removed": 0,
    "boundary_backups_adjusted": 0,
-   "boundary_backups_removed": 0,
-   "boundary_forwards_inserted": 0,
-   "chord_promotions": 0,
-   "bystanders_relocated": 0,
-   "cursor_corrupt": false,
-   "emptied": false
-  },
-  {
-   "printed_bar": "100",
-   "segments_excised": 1,
-   "deletes": 4,
-   "swaps": 0,
-   "cue_transfers": 0,
-   "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -33,14 +18,14 @@
   }
  ],
  "severed_ties": [],
- "manifest_entries": 8,
+ "manifest_entries": 0,
  "totals": {
-  "segments_excised": 1,
-  "deletes": 4,
-  "swaps": 1,
-  "cue_transfers": 0,
+  "segments_excised": 0,
+  "deletes": 0,
+  "swaps": 0,
+  "cue_transfers": 2,
   "forwards_removed": 0,
-  "boundary_backups_adjusted": 1,
+  "boundary_backups_adjusted": 0,
   "boundary_backups_removed": 0,
   "boundary_forwards_inserted": 0,
   "emptied_bars": 0,
@@ -48,71 +33,11 @@
   "severed_tie_faces": 0,
   "tuplet_repairs": 0,
   "span_repairs": 0,
-  "beam_repairs": 2,
+  "beam_repairs": 0,
   "marks_died_with_host": 0,
   "reject_released_hosts": 0,
   "element_handles_restamped": 0
  },
- "manifest": [
-  {
-   "beam_repair": "continue->begin",
-   "survivor_note_id": "n787"
-  },
-  {
-   "beam_repair": "continue->begin",
-   "survivor_note_id": "n787"
-  },
-  {
-   "note_id": "n786",
-   "printed_bar": "75",
-   "verdict": "delete",
-   "reasons": [
-    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
-   ],
-   "fragment": "<note id=\"n786\" default-x=\"12.00\" default-y=\"-35.00\" print-object=\"no\">\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        </note>"
-  },
-  {
-   "boundary": "backup_adjusted",
-   "printed_bar": "100",
-   "from_div": 12,
-   "to_div": 12
-  },
-  {
-   "note_id": "n1088",
-   "printed_bar": "100",
-   "verdict": "delete",
-   "reasons": [
-    "fabricated excursion \u2014 performance layer, excised whole (R2)"
-   ],
-   "fragment": "<note id=\"n1088\" default-x=\"42.41\" default-y=\"-40.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>3</voice>\n        <type size=\"cue\">eighth</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  },
-  {
-   "note_id": "n1089",
-   "printed_bar": "100",
-   "verdict": "delete",
-   "reasons": [
-    "fabricated excursion \u2014 performance layer, excised whole (R2)"
-   ],
-   "fragment": "<note id=\"n1089\" default-x=\"42.41\" default-y=\"-25.00\" print-object=\"no\">\n        <chord/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>3</voice>\n        <type size=\"cue\">eighth</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  },
-  {
-   "note_id": "n1090",
-   "printed_bar": "100",
-   "verdict": "delete",
-   "reasons": [
-    "fabricated excursion \u2014 performance layer, excised whole (R2)"
-   ],
-   "fragment": "<note id=\"n1090\" default-x=\"90.87\" default-y=\"-45.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>8</duration>\n        <voice>3</voice>\n        <type size=\"cue\">quarter</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  },
-  {
-   "note_id": "n1091",
-   "printed_bar": "100",
-   "verdict": "delete",
-   "reasons": [
-    "fabricated excursion \u2014 performance layer, excised whole (R2)"
-   ],
-   "fragment": "<note id=\"n1091\" default-x=\"90.87\" default-y=\"-20.00\" print-object=\"no\">\n        <chord/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>8</duration>\n        <voice>3</voice>\n        <type size=\"cue\">quarter</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  }
- ],
+ "manifest": [],
  "written": "/Users/george/Projects/asap-dataset/modified/bach_bwv893_fugue/score.musicxml"
 }
