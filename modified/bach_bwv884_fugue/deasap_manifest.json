@@ -33,7 +33,7 @@
   }
  ],
  "severed_ties": [],
- "manifest_entries": 9,
+ "manifest_entries": 7,
  "totals": {
   "segments_excised": 2,
   "deletes": 5,
@@ -48,52 +48,38 @@
   "severed_tie_faces": 0,
   "tuplet_repairs": 0,
   "span_repairs": 0,
-  "beam_repairs": 2,
+  "beam_repairs": 0,
   "marks_died_with_host": 0,
   "reject_released_hosts": 0,
   "element_handles_restamped": 0
  },
  "manifest": [
   {
-   "beam_repair": "end->continue",
-   "printed_bar": "44",
-   "voice": "5",
-   "number": "2",
-   "survivor_note_id": "mn-1-44-5-2-3"
-  },
-  {
-   "beam_repair": "begin->continue",
-   "printed_bar": "70",
-   "voice": "1",
-   "number": "2",
-   "survivor_note_id": "mn-1-70-1-1-3"
-  },
-  {
-   "note_id": "mn-1-62-7-2-1",
+   "note_id": "n676",
    "printed_bar": "62",
    "verdict": "delete",
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"mn-1-62-7-2-1\" default-x=\"14.76\" default-y=\"-115.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>7</voice>\n        <type size=\"cue\">64th</type>\n        <stem>none</stem>\n        <staff>2</staff>\n        </note>"
+   "fragment": "<note id=\"n676\" default-x=\"14.76\" default-y=\"-115.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>7</voice>\n        <type size=\"cue\">64th</type>\n        <stem>none</stem>\n        <staff>2</staff>\n        </note>"
   },
   {
-   "note_id": "mn-1-62-7-2-2",
+   "note_id": "n677",
    "printed_bar": "62",
    "verdict": "delete",
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"mn-1-62-7-2-2\" default-x=\"32.41\" default-y=\"-110.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>7</voice>\n        <type size=\"cue\">64th</type>\n        <stem>none</stem>\n        <staff>2</staff>\n        </note>"
+   "fragment": "<note id=\"n677\" default-x=\"32.41\" default-y=\"-110.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>7</voice>\n        <type size=\"cue\">64th</type>\n        <stem>none</stem>\n        <staff>2</staff>\n        </note>"
   },
   {
-   "note_id": "mn-1-62-7-2-3",
+   "note_id": "n678",
    "printed_bar": "62",
    "verdict": "delete",
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"mn-1-62-7-2-3\" default-x=\"38.62\" default-y=\"-115.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>7</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>2</staff>\n        </note>"
+   "fragment": "<note id=\"n678\" default-x=\"38.62\" default-y=\"-115.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>7</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>2</staff>\n        </note>"
   },
   {
    "note_id": null,
@@ -111,22 +97,22 @@
    "to_div": 24
   },
   {
-   "note_id": "mn-1-72-2-1-1",
+   "note_id": "n790",
    "printed_bar": "72",
    "verdict": "delete",
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"mn-1-72-2-1-1\" default-x=\"36.36\" default-y=\"-50.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>8</duration>\n        <voice>2</voice>\n        <type size=\"cue\">eighth</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n790\" default-x=\"36.36\" default-y=\"-50.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>8</duration>\n        <voice>2</voice>\n        <type size=\"cue\">eighth</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   },
   {
-   "note_id": "mn-1-72-2-1-2",
+   "note_id": "n791",
    "printed_bar": "72",
    "verdict": "delete",
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"mn-1-72-2-1-2\" default-x=\"53.93\" default-y=\"-55.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type size=\"cue\">quarter</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n791\" default-x=\"53.93\" default-y=\"-55.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type size=\"cue\">quarter</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   }
  ],
  "written": "/Users/george/Projects/asap-dataset/modified/bach_bwv884_fugue/score.musicxml"
