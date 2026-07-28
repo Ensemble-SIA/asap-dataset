@@ -1,0 +1,75 @@
+{
+ "work_id": "bach_bwv875_fugue",
+ "bars": [
+  {
+   "printed_bar": "27",
+   "segments_excised": 1,
+   "deletes": 2,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  }
+ ],
+ "severed_ties": [],
+ "manifest_entries": 4,
+ "totals": {
+  "segments_excised": 1,
+  "deletes": 2,
+  "swaps": 0,
+  "cue_transfers": 0,
+  "forwards_removed": 0,
+  "boundary_backups_adjusted": 1,
+  "boundary_backups_removed": 0,
+  "boundary_forwards_inserted": 0,
+  "emptied_bars": 0,
+  "cursor_corrupt_bars": 0,
+  "severed_tie_faces": 0,
+  "tuplet_repairs": 0,
+  "span_repairs": 0,
+  "beam_repairs": 0,
+  "marks_died_with_host": 1,
+  "reject_released_hosts": 1,
+  "element_handles_restamped": 0
+ },
+ "manifest": [
+  {
+   "printed_bar": "27",
+   "note_id": "n847",
+   "reasons": [
+    "duplicate mark(s) ['inverted-mordent'] already carried by a visible note at the same printed pitch \u2014 the copy dies with its fabricated host (the m6/m44 class, 2026-07-26)"
+   ]
+  },
+  {
+   "boundary": "backup_adjusted",
+   "printed_bar": "27",
+   "from_div": 21,
+   "to_div": 48
+  },
+  {
+   "note_id": "n847",
+   "printed_bar": "27",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n847\" default-x=\"181.69\" default-y=\"-40.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>6</duration>\n        <tie type=\"start\"/>\n        <voice>3</voice>\n        <type size=\"cue\">eighth</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tied type=\"start\" id=\"n847--tied--start--1\"/>\n          <ornaments>\n            <inverted-mordent/>\n            </ornaments>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "n848",
+   "printed_bar": "27",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n848\" default-x=\"247.86\" default-y=\"-40.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>3</duration>\n        <tie type=\"stop\"/>\n        <voice>3</voice>\n        <type size=\"cue\">16th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tied type=\"stop\" id=\"n848--tied--stop--1\"/>\n          </notations>\n        </note>"
+  }
+ ],
+ "written": "/Users/george/Projects/asap-dataset/modified/bach_bwv875_fugue/score.musicxml"
+}
