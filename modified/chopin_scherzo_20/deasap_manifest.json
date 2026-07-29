@@ -1,0 +1,173 @@
+{
+ "work_id": "chopin_scherzo_20",
+ "bars": [
+  {
+   "printed_bar": "324",
+   "segments_excised": 1,
+   "deletes": 2,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 1,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "327",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 2,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "356",
+   "segments_excised": 1,
+   "deletes": 2,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 1,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "359",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 2,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  }
+ ],
+ "severed_ties": [],
+ "manifest_entries": 10,
+ "totals": {
+  "segments_excised": 2,
+  "deletes": 4,
+  "swaps": 4,
+  "cue_transfers": 0,
+  "forwards_removed": 0,
+  "boundary_backups_adjusted": 2,
+  "boundary_backups_removed": 0,
+  "boundary_forwards_inserted": 0,
+  "emptied_bars": 0,
+  "cursor_corrupt_bars": 0,
+  "severed_tie_faces": 0,
+  "tuplet_repairs": 0,
+  "span_repairs": 0,
+  "beam_repairs": 0,
+  "marks_died_with_host": 0,
+  "reject_released_hosts": 0,
+  "element_handles_restamped": 0
+ },
+ "manifest": [
+  {
+   "boundary": "backup_adjusted",
+   "printed_bar": "324",
+   "from_div": 6,
+   "to_div": 12
+  },
+  {
+   "note_id": "n3070",
+   "printed_bar": "324",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n3070\" default-x=\"56.10\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>3</voice>\n        <type>16th</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n3071",
+   "printed_bar": "324",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n3071\" default-x=\"77.03\" default-y=\"-20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>3</voice>\n        <type>quarter</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n3099",
+   "printed_bar": "327",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n3099\" default-x=\"59.82\" default-y=\"5.00\" print-object=\"no\">\n        <grace slash=\"yes\"/>\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>"
+  },
+  {
+   "note_id": "n3100",
+   "printed_bar": "327",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n3100\" default-x=\"75.19\" default-y=\"10.00\" print-object=\"no\">\n        <grace slash=\"yes\"/>\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>"
+  },
+  {
+   "boundary": "backup_adjusted",
+   "printed_bar": "356",
+   "from_div": 6,
+   "to_div": 12
+  },
+  {
+   "note_id": "n3389",
+   "printed_bar": "356",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n3389\" default-x=\"56.10\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>3</voice>\n        <type>16th</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n3390",
+   "printed_bar": "356",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n3390\" default-x=\"76.54\" default-y=\"-20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>3</voice>\n        <type>quarter</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n3420",
+   "printed_bar": "359",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n3420\" default-x=\"183.16\" default-y=\"5.00\" print-object=\"no\">\n        <grace slash=\"yes\"/>\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        </note>"
+  },
+  {
+   "note_id": "n3421",
+   "printed_bar": "359",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n3421\" default-x=\"198.52\" default-y=\"10.00\" print-object=\"no\">\n        <grace slash=\"yes\"/>\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>"
+  }
+ ],
+ "written": "/Users/george/Projects/asap-dataset/modified/chopin_scherzo_20/score.musicxml"
+}

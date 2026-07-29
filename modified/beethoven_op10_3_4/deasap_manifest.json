@@ -1,0 +1,155 @@
+{
+ "work_id": "beethoven_op10_3_4",
+ "bars": [
+  {
+   "printed_bar": "4",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 0,
+   "cue_transfers": 5,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "28",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 0,
+   "cue_transfers": 5,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "60",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 0,
+   "cue_transfers": 5,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "88",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 0,
+   "cue_transfers": 5,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "92",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 4,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "99",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 0,
+   "cue_transfers": 19,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  }
+ ],
+ "severed_ties": [],
+ "manifest_entries": 4,
+ "totals": {
+  "segments_excised": 0,
+  "deletes": 0,
+  "swaps": 4,
+  "cue_transfers": 39,
+  "forwards_removed": 0,
+  "boundary_backups_adjusted": 0,
+  "boundary_backups_removed": 0,
+  "boundary_forwards_inserted": 0,
+  "emptied_bars": 0,
+  "cursor_corrupt_bars": 0,
+  "severed_tie_faces": 0,
+  "tuplet_repairs": 0,
+  "span_repairs": 0,
+  "beam_repairs": 0,
+  "marks_died_with_host": 0,
+  "reject_released_hosts": 0,
+  "element_handles_restamped": 0
+ },
+ "manifest": [
+  {
+   "note_id": "n1956",
+   "printed_bar": "92",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1956\" default-x=\"385.57\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>60</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1957",
+   "printed_bar": "92",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1957\" default-x=\"406.89\" default-y=\"-20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>60</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1958",
+   "printed_bar": "92",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1958\" default-x=\"428.22\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>60</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1959",
+   "printed_bar": "92",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1959\" default-x=\"449.54\" default-y=\"-20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>60</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  }
+ ],
+ "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op10_3_4/score.musicxml"
+}

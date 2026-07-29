@@ -1,0 +1,1179 @@
+{
+ "work_id": "schubert_wanderer_fantasie",
+ "bars": [
+  {
+   "printed_bar": "235",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 60,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  },
+  {
+   "printed_bar": "238",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 60,
+   "cue_transfers": 1,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false
+  }
+ ],
+ "severed_ties": [],
+ "manifest_entries": 130,
+ "totals": {
+  "segments_excised": 0,
+  "deletes": 0,
+  "swaps": 120,
+  "cue_transfers": 1,
+  "forwards_removed": 0,
+  "boundary_backups_adjusted": 0,
+  "boundary_backups_removed": 0,
+  "boundary_forwards_inserted": 0,
+  "emptied_bars": 0,
+  "cursor_corrupt_bars": 0,
+  "severed_tie_faces": 0,
+  "tuplet_repairs": 0,
+  "span_repairs": 0,
+  "beam_repairs": 10,
+  "marks_died_with_host": 0,
+  "reject_released_hosts": 0,
+  "element_handles_restamped": 0
+ },
+ "manifest": [
+  {
+   "beam_repair": "drop_singleton",
+   "survivor_note_id": "n7686"
+  },
+  {
+   "beam_repair": "drop_singleton",
+   "survivor_note_id": "n7686"
+  },
+  {
+   "beam_repair": "drop_singleton",
+   "survivor_note_id": "n7686"
+  },
+  {
+   "beam_repair": "drop_singleton",
+   "survivor_note_id": "n7686"
+  },
+  {
+   "beam_repair": "drop_singleton",
+   "survivor_note_id": "n7686"
+  },
+  {
+   "beam_repair": "drop_singleton",
+   "survivor_note_id": "n7979"
+  },
+  {
+   "beam_repair": "drop_singleton",
+   "survivor_note_id": "n7979"
+  },
+  {
+   "beam_repair": "drop_singleton",
+   "survivor_note_id": "n7979"
+  },
+  {
+   "beam_repair": "drop_singleton",
+   "survivor_note_id": "n7979"
+  },
+  {
+   "beam_repair": "drop_singleton",
+   "survivor_note_id": "n7979"
+  },
+  {
+   "note_id": "n7687",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7687\" default-x=\"670.26\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <accidental>natural</accidental>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7688",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7688\" default-x=\"685.92\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7689",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7689\" default-x=\"701.59\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7690",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7690\" default-x=\"717.25\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7691",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7691\" default-x=\"732.92\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7692",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7692\" default-x=\"748.58\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7693",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7693\" default-x=\"764.25\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7694",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7694\" default-x=\"779.92\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7695",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7695\" default-x=\"795.58\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7696",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7696\" default-x=\"811.25\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7697",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7697\" default-x=\"826.91\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7698",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7698\" default-x=\"842.58\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7699",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7699\" default-x=\"858.24\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7700",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7700\" default-x=\"873.91\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7701",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7701\" default-x=\"889.58\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        <beam number=\"4\">end</beam>\n        <beam number=\"5\">end</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7703",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7703\" default-x=\"920.91\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        <beam number=\"3\">begin</beam>\n        <beam number=\"4\">begin</beam>\n        <beam number=\"5\">begin</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7704",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7704\" default-x=\"936.57\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7705",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7705\" default-x=\"952.24\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7706",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7706\" default-x=\"967.90\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7707",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7707\" default-x=\"983.57\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7708",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7708\" default-x=\"999.23\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7709",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7709\" default-x=\"1014.90\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7710",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7710\" default-x=\"1030.57\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7711",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7711\" default-x=\"1046.23\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7712",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7712\" default-x=\"1061.90\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7713",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7713\" default-x=\"1077.56\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7714",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7714\" default-x=\"1093.23\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7715",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7715\" default-x=\"1108.89\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7716",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7716\" default-x=\"1124.56\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7717",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7717\" default-x=\"1140.23\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        <beam number=\"4\">end</beam>\n        <beam number=\"5\">end</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7719",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7719\" default-x=\"1171.56\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        <beam number=\"3\">begin</beam>\n        <beam number=\"4\">begin</beam>\n        <beam number=\"5\">begin</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7720",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7720\" default-x=\"1187.22\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7721",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7721\" default-x=\"1202.89\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7722",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7722\" default-x=\"1218.55\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7723",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7723\" default-x=\"1234.22\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7724",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7724\" default-x=\"1249.88\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7725",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7725\" default-x=\"1265.55\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7726",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7726\" default-x=\"1281.22\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7727",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7727\" default-x=\"1296.88\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7728",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7728\" default-x=\"1312.55\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7729",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7729\" default-x=\"1328.21\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7730",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7730\" default-x=\"1343.88\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7731",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7731\" default-x=\"1359.54\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7732",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7732\" default-x=\"1375.21\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7733",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7733\" default-x=\"1390.88\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        <beam number=\"4\">end</beam>\n        <beam number=\"5\">end</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7735",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7735\" default-x=\"1422.21\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        <beam number=\"3\">begin</beam>\n        <beam number=\"4\">begin</beam>\n        <beam number=\"5\">begin</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7736",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7736\" default-x=\"1437.87\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7737",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7737\" default-x=\"1453.54\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7738",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7738\" default-x=\"1469.20\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7739",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7739\" default-x=\"1484.87\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7740",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7740\" default-x=\"1500.53\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7741",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7741\" default-x=\"1516.20\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7742",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7742\" default-x=\"1531.87\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7743",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7743\" default-x=\"1547.53\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7744",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7744\" default-x=\"1563.20\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7745",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7745\" default-x=\"1578.86\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7746",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7746\" default-x=\"1594.53\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7747",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7747\" default-x=\"1610.19\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7748",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7748\" default-x=\"1625.86\" default-y=\"-55.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7749",
+   "printed_bar": "235",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7749\" default-x=\"1641.53\" default-y=\"-45.00\" color=\"#1D4ED8\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type size=\"cue\">128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        <beam number=\"4\">end</beam>\n        <beam number=\"5\">end</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7980",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7980\" default-x=\"661.96\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <accidental>natural</accidental>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7981",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7981\" default-x=\"677.62\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7982",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7982\" default-x=\"693.29\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7983",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7983\" default-x=\"708.96\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7984",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7984\" default-x=\"724.62\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7985",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7985\" default-x=\"740.29\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7986",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7986\" default-x=\"755.95\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7987",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7987\" default-x=\"771.62\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7988",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7988\" default-x=\"787.28\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7989",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7989\" default-x=\"802.95\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7990",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7990\" default-x=\"818.62\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7991",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7991\" default-x=\"834.28\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7992",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7992\" default-x=\"849.95\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7993",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7993\" default-x=\"865.61\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7994",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7994\" default-x=\"881.28\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        <beam number=\"4\">end</beam>\n        <beam number=\"5\">end</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7996",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7996\" default-x=\"912.61\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        <beam number=\"3\">begin</beam>\n        <beam number=\"4\">begin</beam>\n        <beam number=\"5\">begin</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7997",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7997\" default-x=\"928.27\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7998",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7998\" default-x=\"943.94\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n7999",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n7999\" default-x=\"959.61\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8000",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8000\" default-x=\"975.27\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8001",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8001\" default-x=\"990.94\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8002",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8002\" default-x=\"1006.60\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8003",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8003\" default-x=\"1022.27\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8004",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8004\" default-x=\"1037.93\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8005",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8005\" default-x=\"1053.60\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8006",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8006\" default-x=\"1069.27\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8007",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8007\" default-x=\"1084.93\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8008",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8008\" default-x=\"1100.60\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8009",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8009\" default-x=\"1116.26\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8010",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8010\" default-x=\"1131.93\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        <beam number=\"4\">end</beam>\n        <beam number=\"5\">end</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8012",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8012\" default-x=\"1163.26\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        <beam number=\"3\">begin</beam>\n        <beam number=\"4\">begin</beam>\n        <beam number=\"5\">begin</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8013",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8013\" default-x=\"1178.92\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8014",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8014\" default-x=\"1194.59\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8015",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8015\" default-x=\"1210.26\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8016",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8016\" default-x=\"1225.92\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8017",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8017\" default-x=\"1241.59\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8018",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8018\" default-x=\"1257.25\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8019",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8019\" default-x=\"1272.92\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8020",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8020\" default-x=\"1288.58\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8021",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8021\" default-x=\"1304.25\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8022",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8022\" default-x=\"1319.92\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8023",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8023\" default-x=\"1335.58\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8024",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8024\" default-x=\"1351.25\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8025",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8025\" default-x=\"1366.91\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8026",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8026\" default-x=\"1382.58\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        <beam number=\"4\">end</beam>\n        <beam number=\"5\">end</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8028",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8028\" default-x=\"1413.91\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        <beam number=\"3\">begin</beam>\n        <beam number=\"4\">begin</beam>\n        <beam number=\"5\">begin</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8029",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8029\" default-x=\"1429.57\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8030",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8030\" default-x=\"1445.24\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8031",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8031\" default-x=\"1460.91\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8032",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8032\" default-x=\"1476.57\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8033",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8033\" default-x=\"1492.24\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8034",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8034\" default-x=\"1507.90\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8035",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8035\" default-x=\"1523.57\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8036",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8036\" default-x=\"1539.23\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8037",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8037\" default-x=\"1554.90\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8038",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8038\" default-x=\"1570.57\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8039",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8039\" default-x=\"1586.23\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8040",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8040\" default-x=\"1601.90\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8041",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8041\" default-x=\"1617.56\" default-y=\"-55.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <beam number=\"4\">continue</beam>\n        <beam number=\"5\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n8042",
+   "printed_bar": "238",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n8042\" default-x=\"1633.23\" default-y=\"-45.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>128th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        <beam number=\"4\">end</beam>\n        <beam number=\"5\">end</beam>\n        </note>"
+  }
+ ],
+ "written": "/Users/george/Projects/asap-dataset/modified/schubert_wanderer_fantasie/score.musicxml"
+}
