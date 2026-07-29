@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.1">
   <identification>
@@ -105,14 +105,12 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <direction placement="above">
         <direction-type>
           <words default-x="-34.50" default-y="40.00" font-weight="bold" font-family="Times New Roman" font-size="12" id="md-1-0-1-2">Allegro</words>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="97.9998"/>
         </direction>
       <note id="n1">
         <rest/>
@@ -1868,47 +1866,14 @@
           <tuplet type="start" bracket="no" show-number="none" id="n121--tuplet--start--1"/>
           </notations>
         </note>
-      <note id="n122" default-x="158.98" default-y="-5.00" print-object="no" dynamics="67.78">
-        <cue/>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>5</actual-notes>
-          <normal-notes>2</normal-notes>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n123" default-x="174.18" default-y="-10.00" print-object="no" dynamics="67.78">
-        <cue/>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>5</actual-notes>
-          <normal-notes>2</normal-notes>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n124" default-x="203.75" default-y="-15.00" dynamics="68.89">
-        <cue/>
+      <note print-object="no" id="mn-1-9-2-1-1"><rest/><duration>12</duration><voice>2</voice><type>16th</type><staff>1</staff></note><note print-object="no" id="mn-1-9-2-1-2"><rest/><duration>12</duration><voice>2</voice><type>16th</type><staff>1</staff></note><note id="n124" default-x="203.75" default-y="-15.00" dynamics="68.89">
         <pitch>
           <step>C</step>
           <octave>5</octave>
           </pitch>
         <duration>12</duration>
         <voice>2</voice>
-        <type>16th</type>
+        <type size="cue">16th</type>
         <accidental>sharp</accidental>
         <time-modification>
           <actual-notes>5</actual-notes>
@@ -1920,14 +1885,13 @@
         <beam number="2">begin</beam>
         </note>
       <note id="n125" default-x="218.94" default-y="-10.00" dynamics="68.89">
-        <cue/>
         <pitch>
           <step>D</step>
           <octave>5</octave>
           </pitch>
         <duration>12</duration>
         <voice>2</voice>
-        <type>16th</type>
+        <type size="cue">16th</type>
         <time-modification>
           <actual-notes>5</actual-notes>
           <normal-notes>2</normal-notes>
@@ -2650,7 +2614,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n171" default-x="56.38" default-y="-10.00">
         <pitch>
@@ -3800,7 +3763,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n246" default-x="12.00" default-y="-10.00">
         <pitch>
@@ -5463,7 +5425,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n348" default-x="66.87" default-y="0.00">
         <pitch>
@@ -8815,7 +8776,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n584" default-x="76.65" default-y="15.00">
         <pitch>
@@ -9489,7 +9449,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="106.67"/>
         </direction>
       <note id="n633" default-x="80.71" default-y="25.00">
         <pitch>
@@ -9898,7 +9857,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="106.67"/>
         </direction>
       <note id="n661" default-x="12.00" default-y="-10.00">
         <pitch>
@@ -10293,7 +10251,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n688" default-x="12.00" default-y="-45.00">
         <pitch>
@@ -10597,7 +10554,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n709">
         <rest/>
@@ -12568,7 +12524,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n831" default-x="12.94" default-y="-45.00">
         <pitch>
@@ -13308,47 +13263,14 @@
           <tuplet type="start" bracket="no" show-number="none" id="n877--tuplet--start--1"/>
           </notations>
         </note>
-      <note id="n878" default-x="214.42" default-y="-10.00" print-object="no">
-        <cue/>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>5</actual-notes>
-          <normal-notes>2</normal-notes>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n879" default-x="233.59" default-y="-15.00" print-object="no">
-        <cue/>
-        <pitch>
-          <step>C</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>5</actual-notes>
-          <normal-notes>2</normal-notes>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n880" default-x="257.55" default-y="-20.00">
-        <cue/>
+      <note print-object="no" id="mn-1-61-2-1-1"><rest/><duration>12</duration><voice>2</voice><type>16th</type><staff>1</staff></note><note print-object="no" id="mn-1-61-2-1-2"><rest/><duration>12</duration><voice>2</voice><type>16th</type><staff>1</staff></note><note id="n880" default-x="257.55" default-y="-20.00">
         <pitch>
           <step>B</step>
           <octave>4</octave>
           </pitch>
         <duration>12</duration>
         <voice>2</voice>
-        <type>16th</type>
+        <type size="cue">16th</type>
         <time-modification>
           <actual-notes>5</actual-notes>
           <normal-notes>2</normal-notes>
@@ -13362,14 +13284,13 @@
           </notations>
         </note>
       <note id="n881" default-x="276.71" default-y="-15.00">
-        <cue/>
         <pitch>
           <step>C</step>
           <octave>5</octave>
           </pitch>
         <duration>12</duration>
         <voice>2</voice>
-        <type>16th</type>
+        <type size="cue">16th</type>
         <time-modification>
           <actual-notes>5</actual-notes>
           <normal-notes>2</normal-notes>
@@ -13768,7 +13689,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n907" default-x="88.42" default-y="-45.00">
         <pitch>
@@ -14481,7 +14401,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="36.67"/>
         </direction>
       <note id="n956" default-x="153.75" default-y="25.00">
         <pitch>
@@ -15599,7 +15518,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="106.67"/>
         </direction>
       <note id="n1029" default-x="12.00" default-y="-15.00">
         <pitch>
@@ -15919,7 +15837,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n1051" default-x="14.36" default-y="-10.00">
         <pitch>
@@ -17221,7 +17138,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="36.67"/>
         </direction>
       <note id="n1142" default-x="16.27" default-y="-15.00">
         <pitch>
@@ -17442,7 +17358,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="106.67"/>
         </direction>
       <note id="n1158" default-x="16.27" default-y="-5.00">
         <pitch>
@@ -23832,7 +23747,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n1494" default-x="80.00" default-y="-20.00">
         <pitch>
@@ -25645,7 +25559,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="106.67"/>
         </direction>
       <note id="n1612">
         <rest/>
@@ -28155,7 +28068,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="36.67"/>
         </direction>
       <note id="n1775" default-x="12.00" default-y="0.00">
         <pitch>
@@ -30200,7 +30112,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="106.67"/>
         </direction>
       <note id="n1887" default-x="65.29" default-y="10.00">
         <pitch>
@@ -30414,7 +30325,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="124.44"/>
         </direction>
       <note id="n1901" default-x="99.87" default-y="25.00">
         <pitch>
@@ -30757,7 +30667,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n1921" default-x="98.79" default-y="-45.00">
         <pitch>
@@ -30947,7 +30856,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n1935" default-x="61.51" default-y="-145.00">
         <pitch>
@@ -32558,47 +32466,14 @@
           <tuplet type="start" bracket="no" show-number="none" id="n2043--tuplet--start--1"/>
           </notations>
         </note>
-      <note id="n2044" default-x="196.09" default-y="-5.00" print-object="no" dynamics="67.78">
-        <cue/>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>5</actual-notes>
-          <normal-notes>2</normal-notes>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n2045" default-x="211.28" default-y="-10.00" print-object="no" dynamics="67.78">
-        <cue/>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>5</actual-notes>
-          <normal-notes>2</normal-notes>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n2046" default-x="239.68" default-y="-15.00" dynamics="68.89">
-        <cue/>
+      <note print-object="no" id="mn-1-134-2-1-1"><rest/><duration>12</duration><voice>2</voice><type>16th</type><staff>1</staff></note><note print-object="no" id="mn-1-134-2-1-2"><rest/><duration>12</duration><voice>2</voice><type>16th</type><staff>1</staff></note><note id="n2046" default-x="239.68" default-y="-15.00" dynamics="68.89">
         <pitch>
           <step>C</step>
           <octave>5</octave>
           </pitch>
         <duration>12</duration>
         <voice>2</voice>
-        <type>16th</type>
+        <type size="cue">16th</type>
         <accidental>sharp</accidental>
         <time-modification>
           <actual-notes>5</actual-notes>
@@ -32610,14 +32485,13 @@
         <beam number="2">begin</beam>
         </note>
       <note id="n2047" default-x="254.87" default-y="-10.00" dynamics="68.89">
-        <cue/>
         <pitch>
           <step>D</step>
           <octave>5</octave>
           </pitch>
         <duration>12</duration>
         <voice>2</voice>
-        <type>16th</type>
+        <type size="cue">16th</type>
         <time-modification>
           <actual-notes>5</actual-notes>
           <normal-notes>2</normal-notes>
@@ -33316,7 +33190,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="36.67"/>
         </direction>
       <note id="n2093" default-x="61.29" default-y="5.00">
         <pitch>
@@ -33389,47 +33262,14 @@
           <tuplet type="start" bracket="no" show-number="none" id="n2096--tuplet--start--1"/>
           </notations>
         </note>
-      <note id="n2097" default-x="162.71" default-y="10.00" print-object="no">
-        <cue/>
-        <pitch>
-          <step>A</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>5</actual-notes>
-          <normal-notes>2</normal-notes>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n2098" default-x="177.91" default-y="5.00" print-object="no">
-        <cue/>
-        <pitch>
-          <step>G</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>12</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>5</actual-notes>
-          <normal-notes>2</normal-notes>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n2099" default-x="207.17" default-y="0.00">
-        <cue/>
+      <note print-object="no" id="mn-1-138-2-1-1"><rest/><duration>12</duration><voice>2</voice><type>16th</type><staff>1</staff></note><note print-object="no" id="mn-1-138-2-1-2"><rest/><duration>12</duration><voice>2</voice><type>16th</type><staff>1</staff></note><note id="n2099" default-x="207.17" default-y="0.00">
         <pitch>
           <step>F</step>
           <octave>5</octave>
           </pitch>
         <duration>12</duration>
         <voice>2</voice>
-        <type>16th</type>
+        <type size="cue">16th</type>
         <accidental>sharp</accidental>
         <time-modification>
           <actual-notes>5</actual-notes>
@@ -33441,14 +33281,13 @@
         <beam number="2">begin</beam>
         </note>
       <note id="n2100" default-x="222.36" default-y="5.00">
-        <cue/>
         <pitch>
           <step>G</step>
           <octave>5</octave>
           </pitch>
         <duration>12</duration>
         <voice>2</voice>
-        <type>16th</type>
+        <type size="cue">16th</type>
         <time-modification>
           <actual-notes>5</actual-notes>
           <normal-notes>2</normal-notes>
@@ -33982,7 +33821,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n2134" default-x="12.00" default-y="10.00">
         <pitch>
@@ -35148,7 +34986,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n2210" default-x="12.00" default-y="5.00">
         <pitch>
@@ -36804,7 +36641,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n2312" default-x="13.00" default-y="15.00">
         <pitch>
@@ -40114,7 +39950,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n2545" default-x="76.65" default-y="-5.00">
         <pitch>
@@ -40775,7 +40610,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="106.67"/>
         </direction>
       <note id="n2593" default-x="76.65" default-y="5.00">
         <pitch>
@@ -41191,7 +41025,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="106.67"/>
         </direction>
       <note id="n2621" default-x="12.00" default-y="-30.00">
         <pitch>
@@ -41581,7 +41414,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n2648" default-x="12.00" default-y="-5.00">
         <pitch>
@@ -41880,7 +41712,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n2669">
         <rest/>
@@ -44746,7 +44577,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="71.11"/>
         </direction>
       <note id="n2856" default-x="12.20" default-y="10.00">
         <pitch>
@@ -44979,7 +44809,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n2870" default-x="18.42" default-y="-25.00">
         <pitch>
@@ -45596,7 +45425,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="106.67"/>
         </direction>
       <note id="n2910" default-x="12.20" default-y="20.00">
         <pitch>
@@ -46041,7 +45869,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n2934" default-x="12.36" default-y="-40.00">
         <pitch>
@@ -46246,7 +46073,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="54.44"/>
         </direction>
       <note id="n2947">
         <rest/>
