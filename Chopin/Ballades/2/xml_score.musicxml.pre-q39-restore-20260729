@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.1">
   <work>
@@ -54,7 +54,7 @@
       <score-instrument id="P1-I1">
         <instrument-name>Piano</instrument-name>
         </score-instrument>
-      <midi-device id="P1-I1" port="1"/>
+      <midi-device id="P1-I1" port="1"></midi-device>
       <midi-instrument id="P1-I1">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
@@ -9595,12 +9595,12 @@
           <octave>4</octave>
           </pitch>
         <duration>36</duration>
-        <tie type="stop"/><voice>2</voice>
+        <voice>2</voice>
         <type>quarter</type>
         <dot/>
         <stem>down</stem>
         <staff>1</staff>
-        <notations><tied type="stop"/></notations></note>
+        </note>
       <note id="n737" print-object="no">
         <rest/>
         <duration>48</duration>
@@ -10109,11 +10109,11 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="start"/><voice>5</voice>
+        <voice>5</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
-        <notations><tied type="start"/></notations></note>
+        </note>
       <note id="n772">
         <rest/>
         <duration>12</duration>
