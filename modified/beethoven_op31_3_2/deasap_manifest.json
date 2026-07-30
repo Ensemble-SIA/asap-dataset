@@ -32,21 +32,6 @@
    "emptied": false
   },
   {
-   "printed_bar": "64",
-   "segments_excised": 1,
-   "deletes": 1,
-   "swaps": 0,
-   "cue_transfers": 0,
-   "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
-   "boundary_backups_removed": 0,
-   "boundary_forwards_inserted": 0,
-   "chord_promotions": 0,
-   "bystanders_relocated": 0,
-   "cursor_corrupt": false,
-   "emptied": false
-  },
-  {
    "printed_bar": "91",
    "segments_excised": 1,
    "deletes": 5,
@@ -92,32 +77,20 @@
    "emptied": false
   }
  ],
- "severed_ties": [
-  {
-   "deleted_note_id": "n924",
-   "printed_bar": "64",
-   "side": "stop",
-   "line": "F3",
-   "survivor_note_id": "n906",
-   "candidates": [
-    "n906"
-   ],
-   "disposition": "survives in reach"
-  }
- ],
- "manifest_entries": 25,
+ "severed_ties": [],
+ "manifest_entries": 23,
  "totals": {
-  "segments_excised": 2,
-  "deletes": 6,
+  "segments_excised": 1,
+  "deletes": 5,
   "swaps": 16,
   "cue_transfers": 16,
   "forwards_removed": 0,
-  "boundary_backups_adjusted": 2,
+  "boundary_backups_adjusted": 1,
   "boundary_backups_removed": 0,
   "boundary_forwards_inserted": 0,
   "emptied_bars": 0,
   "cursor_corrupt_bars": 0,
-  "severed_tie_faces": 1,
+  "severed_tie_faces": 0,
   "tuplet_repairs": 1,
   "span_repairs": 0,
   "beam_repairs": 0,
@@ -207,21 +180,6 @@
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
    "fragment": "<note id=\"n378\" default-x=\"182.75\" default-y=\"-140.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>24</duration>\n        <voice>7</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>2</staff>\n        </note>"
-  },
-  {
-   "boundary": "backup_adjusted",
-   "printed_bar": "64",
-   "from_div": 120,
-   "to_div": 480
-  },
-  {
-   "note_id": "n924",
-   "printed_bar": "64",
-   "verdict": "delete",
-   "reasons": [
-    "fabricated excursion \u2014 performance layer, excised whole (R2)"
-   ],
-   "fragment": "<note id=\"n924\" default-x=\"18.33\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>120</duration>\n        <tie type=\"stop\"/>\n        <voice>2</voice>\n        <type>eighth</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tied type=\"stop\" id=\"n924--tied--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "boundary": "backup_adjusted",
