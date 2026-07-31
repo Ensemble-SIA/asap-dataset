@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.1">
   <identification>
@@ -5099,7 +5099,7 @@
           <octave>1</octave>
           </pitch>
         <duration>60</duration>
-        <voice>6</voice>
+        <tie type="stop"/><voice>6</voice>
         <type>quarter</type>
         <dot/>
         <stem>down</stem>
@@ -5107,7 +5107,7 @@
         <notations>
           <slur type="stop" number="2" id="n333--slur--stop--1"/>
           <slur type="start" placement="below" number="1" id="n333--slur--start--2"/>
-          </notations>
+          <tied type="stop" number="1" id="n333--tied--stop--1"/></notations>
         </note>
       <note id="n334" default-x="222.03" default-y="-194.43">
         <chord/>
@@ -6398,12 +6398,12 @@
           <octave>2</octave>
           </pitch>
         <duration>60</duration>
-        <voice>6</voice>
+        <tie type="stop"/><voice>6</voice>
         <type>quarter</type>
         <dot/>
         <stem>down</stem>
         <staff>2</staff>
-        </note>
+        <notations><tied type="stop" number="1" id="n428--tied--stop--1"/></notations></note>
       <note id="n429" default-x="316.72" default-y="-172.85">
         <pitch>
           <step>E</step>
@@ -13424,25 +13424,8 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>2</staff>
-        <beam number="1">begin</beam>
         <notations>
           <tied type="start" id="n945--tied--start--1"/>
-          </notations>
-        </note>
-      <note id="n946" default-x="64.54" default-y="-175.29">
-        <grace slash="yes"/>
-        <pitch>
-          <step>F</step>
-          <octave>2</octave>
-          </pitch>
-        <tie type="start"/>
-        <voice>6</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">end</beam>
-        <notations>
-          <tied type="start" id="n946--tied--start--1"/>
           </notations>
         </note>
       <note id="n947" default-x="76.25" default-y="-175.29">
@@ -13451,11 +13434,11 @@
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
-        <voice>6</voice>
+        <tie type="stop"/><voice>6</voice>
         <type>whole</type>
         <dot/>
         <staff>2</staff>
-        </note>
+        <notations><tied type="stop" number="1" id="n947--tied--stop--1"/></notations></note>
       <direction placement="below"><direction-type><pedal type="stop" color="#FF7F00" id="md-1-35-2-2"/></direction-type><staff>2</staff></direction></measure>
     <measure number="37" width="568.53">
       <print new-system="yes">
