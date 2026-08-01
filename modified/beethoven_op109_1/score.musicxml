@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.1">
   <identification>
@@ -16391,11 +16391,11 @@ cresc.</other-dynamics>
           <octave>5</octave>
           </pitch>
         <duration>240</duration>
-        <voice>1</voice>
+        <tie type="stop"/><voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
-        </note>
+        <notations><tied type="stop" number="1" id="n1051--tied--stop--1"/></notations></note>
       <note id="n1052" default-x="189.56" default-y="-5.00">
         <chord/>
         <pitch>
@@ -16403,11 +16403,11 @@ cresc.</other-dynamics>
           <octave>5</octave>
           </pitch>
         <duration>240</duration>
-        <voice>1</voice>
+        <tie type="stop"/><voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
-        </note>
+        <notations><tied type="stop" number="1" id="n1052--tied--stop--1"/></notations></note>
       <note id="n1053" default-x="189.56" default-y="5.00">
         <chord/>
         <pitch>
@@ -16415,11 +16415,11 @@ cresc.</other-dynamics>
           <octave>5</octave>
           </pitch>
         <duration>240</duration>
-        <voice>1</voice>
+        <tie type="stop"/><voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
-        </note>
+        <notations><tied type="stop" number="1" id="n1053--tied--stop--1"/></notations></note>
       <note id="n1054" default-x="189.56" default-y="15.00">
         <chord/>
         <pitch>
@@ -28631,12 +28631,6 @@ a tempo</other-dynamics>
           <slur type="start" placement="below" number="1" id="n1820--slur--start--1"/>
           </notations>
         </note>
-      <direction>
-        <direction-type>
-          <wedge type="diminuendo" number="1" relative-y="-35.00" id="md-1-99-1-2"/>
-          </direction-type>
-        <staff>1</staff>
-        </direction>
       <note id="n1821" default-x="38.04" default-y="5.00" dynamics="63.33">
         <pitch>
           <step>G</step>
