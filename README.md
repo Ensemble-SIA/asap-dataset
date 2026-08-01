@@ -211,3 +211,16 @@ The dataset is made available under a [Creative Commons Attribution Non-Commerci
 #### Versions
 - The initial version of (n)ASAP v2.0 (as it was released for TISMIR in 2023) is based on ASAP [v1.1](https://github.com/fosfrancesco/asap-dataset/releases/tag/v1.1).
 - The second version of (n)ASAP v2.1 (May 2025) merges the changes made in ASAP [v1.2](https://github.com/fosfrancesco/asap-dataset/releases/tag/v1.2). It also fixes 7 scores, and 18 alignments.
+
+---
+
+#### Commit gates (githooks/) — Ensemble fork only
+
+This clone carries a versioned pre-commit control (RESET.GLOBAL / CONTROLS 0.D,
+data-repo row): the wave guard refuses a commit touching more than 8 distinct
+works unless the ack `RESET_WAVE=1` is set, so a sweep is always a deliberate
+act. Enable once per clone:
+
+```bash
+git config core.hooksPath githooks
+```

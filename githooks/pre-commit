@@ -1,0 +1,115 @@
+#!/bin/sh
+#
+# asap-dataset — pre-commit control
+# RESET.GLOBAL / CONTROLS 0.D, data-repo row (ensemble: docs/delivery/global-reset.md §2).
+#
+# This file IS the control. .git/hooks is not versioned, so the hook lives here
+# and is activated with:
+#
+#     git config core.hooksPath githooks
+#
+# Gates:
+#
+#   GATE 2  WAVE GUARD    > 8 distinct works staged -> refuse unless RESET_WAVE=1
+#   GATE 1  ENTITY AUDIT  not applicable — this repo holds no entity YAMLs.
+#   GATE 3  LFS SANITY    not applicable — this repo has no LFS configuration.
+#                         Asserted, not assumed: a .gitattributes appearing at
+#                         the root refuses, because the gate would then be owed.
+#
+# No silent skips: a precondition that cannot be established (no work tree,
+# unreadable staged diff) REFUSES with the reason.
+
+set -u
+
+MAX_WORKS=8
+
+refuse() {
+    printf '\n[pre-commit] COMMIT REFUSED\n%s\n\n' "$1" >&2
+    exit 1
+}
+
+note() {
+    printf '[pre-commit] %s\n' "$1" >&2
+}
+
+# ---------------------------------------------------------------- preconditions
+
+TOP=$(git rev-parse --show-toplevel 2>/dev/null) || TOP=""
+[ -n "$TOP" ] || refuse "  not inside a git work tree (git rev-parse --show-toplevel failed)."
+cd "$TOP" || refuse "  cannot cd to the work tree root: $TOP"
+
+if git rev-parse --verify -q HEAD >/dev/null 2>&1; then
+    AGAINST=HEAD
+else
+    AGAINST=$(git hash-object -t tree /dev/null) || \
+        refuse "  no HEAD and the empty-tree object could not be produced."
+fi
+
+STAGED=$(git -c core.quotePath=false diff --cached --name-only --diff-filter=ACMRTD "$AGAINST") || \
+    refuse "  the staged diff could not be read (git diff --cached failed)."
+
+if [ -z "$STAGED" ]; then
+    note "nothing staged — no gate had anything to judge."
+    exit 0
+fi
+
+# ------------------------------------------- GATE 3 — LFS SANITY (not owed yet)
+
+if [ -f .gitattributes ]; then
+    refuse "  GATE 3 LFS SANITY — this repo has gained a root .gitattributes.
+  The hook was written when asap-dataset stored everything as plain git blobs,
+  so it carries no large-file/pointer gate. That gate is now owed: port the
+  GATE 3 block from ensemble-datasets-v2's githooks/pre-commit before committing."
+fi
+
+# --------------------------------------------------------- GATE 2 — WAVE GUARD
+# Two layouts live here and both are mapped:
+#   modified/<work>/...                      -> work id "modified/<work>"
+#   <Composer>/<Collection>[/<Piece>]/...    -> the piece directory, i.e. the
+#       directory holding the .mid/.match files. Per-performance alignment
+#       subtrees (*_note_alignments/, parangonada_data/) fold into their piece.
+# Root files and util/ belong to no work and count toward nothing.
+
+WORKS=$(printf '%s\n' "$STAGED" | awk '
+{
+    n = split($0, seg, "/")
+    if (n < 2) next
+    if (seg[1] == "util") next
+    if (seg[1] == "modified") { print "modified/" seg[2]; next }
+    last = n - 1                                   # drop the file name
+    while (last >= 2 && (seg[last] == "parangonada_data" || seg[last] ~ /_note_alignments$/))
+        last--
+    if (last < 2) next
+    d = seg[1]
+    for (i = 2; i <= last; i++) d = d "/" seg[i]
+    print d
+}' | sort -u)
+
+if [ -z "$WORKS" ]; then
+    N_WORKS=0
+else
+    N_WORKS=$(printf '%s\n' "$WORKS" | wc -l | tr -d ' ')
+fi
+
+if [ "$N_WORKS" -gt "$MAX_WORKS" ]; then
+    if [ "${RESET_WAVE:-}" = "1" ]; then
+        note "GATE 2 WAVE GUARD: $N_WORKS works staged — allowed by the RESET_WAVE=1 ack."
+    else
+        refuse "  GATE 2 WAVE GUARD — $N_WORKS distinct works are staged (limit $MAX_WORKS).
+
+  A sweep across the corpus must be a deliberate act, never an accident of a
+  broad \`git add\`. Commit by explicit pathspec, or repeat the commit with the
+  ack:
+
+      RESET_WAVE=1 git commit <pathspec> -m '...'
+
+  Works staged ($N_WORKS):
+$(printf '%s\n' "$WORKS" | sed 's/^/      /')"
+    fi
+else
+    note "GATE 2 WAVE GUARD: $N_WORKS work(s) staged (limit $MAX_WORKS) — ok."
+fi
+
+note "GATE 1 ENTITY AUDIT: not applicable here — asap-dataset holds no entity YAMLs."
+note "all gates passed."
+exit 0
