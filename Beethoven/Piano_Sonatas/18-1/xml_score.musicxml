@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.1">
   <identification>
@@ -56,7 +56,7 @@
       <score-instrument id="P1-I1">
         <instrument-name>Piano</instrument-name>
         </score-instrument>
-      <midi-device id="P1-I1" port="1"></midi-device>
+      <midi-device id="P1-I1" port="1"/>
       <midi-instrument id="P1-I1">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
@@ -29812,14 +29812,14 @@
           <octave>4</octave>
           </pitch>
         <duration>90</duration>
-        <voice>1</voice>
+        <tie type="stop"/><voice>1</voice>
         <type>eighth</type>
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <tied type="stop"/><slur type="start" number="1"/>
           </notations>
         </note>
       <note id="n1990" default-x="28.89" default-y="-25.00">
@@ -29830,12 +29830,12 @@
           <octave>4</octave>
           </pitch>
         <duration>90</duration>
-        <voice>1</voice>
+        <tie type="stop"/><voice>1</voice>
         <type>eighth</type>
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
-        </note>
+        <notations><tied type="stop"/></notations></note>
       <note id="n1991" default-x="28.89" default-y="-15.00">
         <chord/>
         <pitch>
@@ -29911,15 +29911,11 @@
           <octave>4</octave>
           </pitch>
         <duration>90</duration>
-        <tie type="stop"/>
         <voice>3</voice>
         <type>eighth</type>
         <dot/>
         <stem>none</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop"/>
-          </notations>
         </note>
       <backup>
         <duration>90</duration>
@@ -29932,15 +29928,11 @@
           <octave>4</octave>
           </pitch>
         <duration>90</duration>
-        <tie type="stop"/>
         <voice>4</voice>
         <type>eighth</type>
         <dot/>
         <stem>none</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop"/>
-          </notations>
         </note>
       <backup>
         <duration>90</duration>
