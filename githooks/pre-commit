@@ -20,6 +20,9 @@
 #   GATE 4  RAW RECEIPT   a staged raw-tier xml_score.musicxml whose sha256 is
 #                         not carried by a raw_repairs.jsonl receipt row
 #                         (sha256_after) -> refuse
+#   GATE 5  COW RECEIPT   a staged modified/-tier score.musicxml whose sha256 is
+#                         not carried by a modifications_log.jsonl ledger row
+#                         (content_sha256) -> refuse
 #   GATE 2  WAVE GUARD    > 8 distinct works staged -> refuse unless RESET_WAVE=1
 #   GATE 1  ENTITY AUDIT  not applicable — this repo holds no entity YAMLs.
 #   GATE 3  LFS SANITY    not applicable — this repo has no LFS configuration.
@@ -36,6 +39,24 @@
 # (`xml_score.musicxml.pre-*`) do not match the basename equality and are
 # deliberately ungated — they are the evidence the receipt points at.
 #
+# THE COW SHAPE OF THIS REPO (GATE 5; George's decision, 2026-08-04). The
+# modified/ copy-on-write tier was ungated here, on the reasoning that
+# ScoreManager keeps its own modifications log. Keeping a log is not a gate: a
+# hand edit to a COW score lands in the log's blind spot and the machine's next
+# materialization overwrites it with no trace that it ever existed. The COW tier
+# is `replay(raw upstream, recorded mutation chain)` — machine output whose only
+# writer is ScoreManager.write_modified_source, and every write appends a ledger
+# row carrying the sha256 of the exact bytes written (wheel-contract.md clause
+# 49: every write carries provenance, no anonymous mutation). GATE 5 makes that
+# row load-bearing. Note the two tiers carry DIFFERENT basenames here: raw is
+# `xml_score.musicxml`, and the COW normalizes to `score.musicxml` (the
+# modified/ convention ScoreManager's resolvers hardcode), so GATE 4 and GATE 5
+# are disjoint by basename as well as by the `modified` segment — stated, not
+# inferred. The COW sidecars (provenance.json, note_id_mint.csv,
+# element_id_mint.csv, deasap_manifest.json) stay ungated: the ledger records
+# SCORE bytes only, so gating a sidecar would refuse every legitimate
+# materialization.
+#
 # No silent skips: a precondition that cannot be established (no work tree,
 # unreadable staged diff, no sha256 tool) REFUSES with the reason.
 
@@ -44,6 +65,13 @@ set -u
 MAX_WORKS=8
 HARNESS="scripts/raw_repairs/harness.py"
 RECEIPT_NAME="raw_repairs.jsonl"
+# GATE 5 reads the ensemble repo's source-write ledger. Same reach, same
+# override, same loud-on-unreachable discipline as ensemble-datasets-v2's
+# githooks/pre-commit GATE 1 (which shells `make -C "$ENSEMBLE_REPO"`); the
+# location is a default, never the datum — every use below is guarded and
+# refuses with the reason if the repo or the ledger is not there.
+ENSEMBLE_REPO="${ENSEMBLE_REPO:-/Users/george/Projects/ensemble}"
+LEDGER_NAME="docs/modifications_log.jsonl"
 
 refuse() {
     printf '\n[pre-commit] COMMIT REFUSED\n%s\n\n' "$1" >&2
@@ -169,6 +197,110 @@ $(git cat-file blob "$AGAINST:$receipt")"
         fi
 
         note "GATE 4 RAW RECEIPT: $path matches a receipt row — ok."
+    done || exit 1
+fi
+
+# ------------------------------------------------------- GATE 5 — COW RECEIPT
+# The copy-on-write tier: `modified/<work>/score.musicxml`. A staged COW blob
+# whose sha256 no ledger row carries was not produced by a recorded machine
+# write: it is a hand edit, and the machine's next materialization would
+# overwrite it leaving no trace it existed (see the COW-shape note in the
+# header). Matcher: basename `score.musicxml` WITH a `modified` segment anywhere
+# in the path. Deletions need no ledger row: the gate judges staged CONTENT, so
+# it reads its own ACMRT-filtered list.
+
+COW=$(git -c core.quotePath=false diff --cached --name-only --diff-filter=ACMRT "$AGAINST" | awk -F/ '
+    $NF == "score.musicxml" {
+        for (i = 1; i < NF; i++) if ($i == "modified") { print; next }
+    }
+')
+
+if [ -z "$COW" ]; then
+    note "GATE 5 COW RECEIPT: no modified/-tier score staged — ok."
+else
+    command -v shasum >/dev/null 2>&1 || \
+        refuse "  GATE 5 COW RECEIPT — \`shasum\` is not on PATH; the staged blob cannot be
+  digested and the gate refuses rather than passing on an unknown."
+
+    [ -d "$ENSEMBLE_REPO" ] || \
+        refuse "  GATE 5 COW RECEIPT — the ensemble repo is not at: $ENSEMBLE_REPO
+  That is where the source-write ledger lives, so the gate cannot certify a
+  staged COW score. Set ENSEMBLE_REPO to the repo's path and retry. Refusing
+  rather than passing on an unknown."
+
+    LEDGER="$ENSEMBLE_REPO/$LEDGER_NAME"
+    [ -f "$LEDGER" ] || \
+        refuse "  GATE 5 COW RECEIPT — no source-write ledger at: $LEDGER
+  Every modified/ write appends a row there. Its absence means either the wrong
+  repo is named or no source write has ever been recorded; either way the staged
+  COW bytes cannot be certified. Refusing rather than passing on an unknown."
+
+    # The loop runs in a subshell (it is fed by a pipe), so a refusal inside it
+    # must be carried out through the exit status — hence the explicit
+    # \`|| exit 1\`.
+    printf '%s\n' "$COW" | while IFS= read -r path; do
+        [ -n "$path" ] || continue
+        work=$(basename "$(dirname "$path")")
+
+        git cat-file -e ":$path" 2>/dev/null || \
+            refuse "  GATE 5 COW RECEIPT — the staged blob for $path could not be read
+  (\`git cat-file -e :$path\` failed). Refusing rather than passing on an unknown."
+
+        sha=$(git cat-file blob ":$path" | shasum -a 256 | awk '{ print $1 }')
+        [ -n "$sha" ] || \
+            refuse "  GATE 5 COW RECEIPT — the sha256 of the staged $path came back empty."
+
+        rows=$(grep -E "\"content_sha256\"[[:space:]]*:[[:space:]]*\"$sha\"" "$LEDGER") || rows=""
+
+        if [ -z "$rows" ]; then
+            refuse "  GATE 5 COW RECEIPT — $path is staged with sha256
+
+      $sha
+
+  and no row in $LEDGER carries that content_sha256. The staged bytes are
+  therefore NOT what a recorded machine write produced: either the COW was
+  edited by hand, or it was restored to bytes no write ever produced.
+
+  A hand edit here VANISHES — the modified/ tier is \`replay(raw upstream,
+  recorded mutation chain)\`, so the next materialization rewrites the file from
+  the chain and the edit is gone with nothing in the tree able to say it existed.
+  That is why this is refused rather than warned about.
+
+  The two roads, per what you meant to change:
+
+    * the MUSIC is wrong in the raw source — repair the RAW score through the
+      harness in the ensemble repo,
+
+          $HARNESS
+
+      and let the COW re-derive from it. Raw is the source of truth.
+
+    * the COW is wrong or stale — rebuild it through the machine:
+
+          make work-run WORK=$work FROM_START=1
+
+      which replays the recorded decisions onto the original and appends fresh
+      ledger rows this gate matches.
+
+  To discard the hand edit outright: \`git checkout -- $path\`."
+        fi
+
+        if ! printf '%s\n' "$rows" | grep -Fq "modified/$work/score.musicxml"; then
+            refuse "  GATE 5 COW RECEIPT — $path is staged with sha256
+
+      $sha
+
+  and the ledger row(s) carrying that content_sha256 describe a DIFFERENT work's
+  modified/ copy — none of them names modified/$work/score.musicxml. The bytes
+  were produced by a machine write, but not the write that owns this path, so
+  what is staged is a file copied or moved into place by hand.
+
+  Rebuild this work's COW through the machine:
+
+      make work-run WORK=$work FROM_START=1"
+        fi
+
+        note "GATE 5 COW RECEIPT: $path matches a ledger row — ok."
     done || exit 1
 fi
 
