@@ -1,0 +1,68 @@
+{
+ "work_id": "beethoven_op110_2",
+ "bars": [
+  {
+   "printed_bar": "162",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 1,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 1
+  }
+ ],
+ "severed_ties": [],
+ "manifest_entries": 2,
+ "totals": {
+  "segments_excised": 0,
+  "deletes": 0,
+  "swaps": 0,
+  "cue_transfers": 0,
+  "forwards_removed": 0,
+  "boundary_backups_adjusted": 0,
+  "boundary_backups_removed": 0,
+  "boundary_forwards_inserted": 0,
+  "emptied_bars": 0,
+  "cursor_corrupt_bars": 0,
+  "severed_tie_faces": 0,
+  "tuplet_repairs": 0,
+  "span_repairs": 0,
+  "beam_repairs": 0,
+  "padding_rests_excised": 0,
+  "padding_rests_trimmed": 1,
+  "padding_rests_deferred": 0,
+  "padding_movers_resolved": 1,
+  "marks_died_with_host": 0,
+  "reject_released_hosts": 0,
+  "element_handles_restamped": 0
+ },
+ "manifest": [
+  {
+   "padding_trim": "trimmed_to_content_extent",
+   "printed_bar": "162",
+   "trimmed_note_id": "n1066",
+   "from_div": 2,
+   "to_div": 1,
+   "graphic_type": "16th",
+   "reasons": [
+    "over-content hidden padding (R7): hidden rest at 7 div STRADDLES the 8-div content extent \u2014 trimmed 2 -> 1 div, ending exactly at the extent, re-stated as <type>16th</type>"
+   ]
+  },
+  {
+   "padding_boundary": "dangling_backup_removed",
+   "printed_bar": "162",
+   "from_div": 1
+  }
+ ],
+ "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op110_2/score.musicxml"
+}

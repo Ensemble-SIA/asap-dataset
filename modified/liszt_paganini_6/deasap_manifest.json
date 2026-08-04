@@ -1,0 +1,181 @@
+{
+ "work_id": "liszt_paganini_6",
+ "bars": [
+  {
+   "printed_bar": "15",
+   "segments_excised": 1,
+   "deletes": 2,
+   "swaps": 1,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "23",
+   "segments_excised": 1,
+   "deletes": 2,
+   "swaps": 1,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "39",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 1,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "185",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 1,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  }
+ ],
+ "severed_ties": [],
+ "manifest_entries": 8,
+ "totals": {
+  "segments_excised": 2,
+  "deletes": 4,
+  "swaps": 4,
+  "cue_transfers": 0,
+  "forwards_removed": 0,
+  "boundary_backups_adjusted": 0,
+  "boundary_backups_removed": 0,
+  "boundary_forwards_inserted": 0,
+  "emptied_bars": 0,
+  "cursor_corrupt_bars": 0,
+  "severed_tie_faces": 0,
+  "tuplet_repairs": 0,
+  "span_repairs": 0,
+  "beam_repairs": 0,
+  "padding_rests_excised": 0,
+  "padding_rests_trimmed": 0,
+  "padding_rests_deferred": 0,
+  "padding_movers_resolved": 0,
+  "marks_died_with_host": 0,
+  "reject_released_hosts": 0,
+  "element_handles_restamped": 0
+ },
+ "manifest": [
+  {
+   "note_id": "n232",
+   "printed_bar": "15",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n232\" default-x=\"41.75\" default-y=\"-145.00\" print-object=\"no\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>480</duration>\n        <voice>6</voice>\n        <type>quarter</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        </note>"
+  },
+  {
+   "note_id": "n233",
+   "printed_bar": "15",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n233\" default-x=\"121.94\" default-y=\"-150.00\" print-object=\"no\">\n        <pitch>\n          <step>E</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>480</duration>\n        <voice>6</voice>\n        <type>quarter</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        </note>"
+  },
+  {
+   "note_id": "n224",
+   "printed_bar": "15",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n224\" default-x=\"41.75\" default-y=\"-35.00\" print-object=\"no\">\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>480</duration>\n        <voice>2</voice>\n        <type>quarter</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n361",
+   "printed_bar": "23",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n361\" default-x=\"10.00\" default-y=\"-145.00\" print-object=\"no\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>480</duration>\n        <voice>6</voice>\n        <type>quarter</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        </note>"
+  },
+  {
+   "note_id": "n362",
+   "printed_bar": "23",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n362\" default-x=\"98.78\" default-y=\"-150.00\" print-object=\"no\">\n        <pitch>\n          <step>E</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>480</duration>\n        <voice>6</voice>\n        <type>quarter</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        </note>"
+  },
+  {
+   "note_id": "n353",
+   "printed_bar": "23",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n353\" default-x=\"10.00\" default-y=\"-35.00\" print-object=\"no\">\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>480</duration>\n        <voice>2</voice>\n        <type>quarter</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n613",
+   "printed_bar": "39",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n613\" default-x=\"10.20\" default-y=\"-145.00\" print-object=\"no\">\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>480</duration>\n        <voice>6</voice>\n        <type>quarter</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        </note>"
+  },
+  {
+   "note_id": "n3627",
+   "printed_bar": "185",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n3627\" default-x=\"79.80\" default-y=\"-110.00\" print-object=\"no\">\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>120</duration>\n        <voice>5</voice>\n        <type>16th</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        </note>"
+  }
+ ],
+ "written": "/Users/george/Projects/asap-dataset/modified/liszt_paganini_6/score.musicxml"
+}

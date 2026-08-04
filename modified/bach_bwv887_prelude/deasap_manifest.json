@@ -1,0 +1,165 @@
+{
+ "work_id": "bach_bwv887_prelude",
+ "bars": [
+  {
+   "printed_bar": "18",
+   "segments_excised": 1,
+   "deletes": 3,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "19",
+   "segments_excised": 1,
+   "deletes": 3,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "50",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 1,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  }
+ ],
+ "severed_ties": [],
+ "manifest_entries": 9,
+ "totals": {
+  "segments_excised": 2,
+  "deletes": 6,
+  "swaps": 1,
+  "cue_transfers": 0,
+  "forwards_removed": 0,
+  "boundary_backups_adjusted": 2,
+  "boundary_backups_removed": 0,
+  "boundary_forwards_inserted": 0,
+  "emptied_bars": 0,
+  "cursor_corrupt_bars": 0,
+  "severed_tie_faces": 0,
+  "tuplet_repairs": 0,
+  "span_repairs": 0,
+  "beam_repairs": 0,
+  "padding_rests_excised": 0,
+  "padding_rests_trimmed": 0,
+  "padding_rests_deferred": 0,
+  "padding_movers_resolved": 0,
+  "marks_died_with_host": 0,
+  "reject_released_hosts": 0,
+  "element_handles_restamped": 0
+ },
+ "manifest": [
+  {
+   "boundary": "backup_adjusted",
+   "printed_bar": "18",
+   "from_div": 22,
+   "to_div": 64
+  },
+  {
+   "note_id": "n464",
+   "printed_bar": "18",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n464\" default-x=\"70.10\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>2</voice>\n        <type size=\"cue\">64th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n465",
+   "printed_bar": "18",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n465\" default-x=\"85.74\" default-y=\"-5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>2</voice>\n        <type size=\"cue\">64th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n466",
+   "printed_bar": "18",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n466\" default-x=\"92.34\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>2</voice>\n        <type size=\"cue\">16th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_adjusted",
+   "printed_bar": "19",
+   "from_div": 20,
+   "to_div": 64
+  },
+  {
+   "note_id": "n498",
+   "printed_bar": "19",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n498\" default-x=\"174.73\" default-y=\"-45.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>4</voice>\n        <type size=\"cue\">64th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n499",
+   "printed_bar": "19",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n499\" default-x=\"198.98\" default-y=\"-40.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>4</voice>\n        <type size=\"cue\">64th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n500",
+   "printed_bar": "19",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n500\" default-x=\"198.98\" default-y=\"-45.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>4</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1345",
+   "printed_bar": "50",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1345\" default-x=\"51.08\" default-y=\"-45.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        </note>"
+  }
+ ],
+ "written": "/Users/george/Projects/asap-dataset/modified/bach_bwv887_prelude/score.musicxml"
+}

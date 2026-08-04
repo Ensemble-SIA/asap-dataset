@@ -1,0 +1,295 @@
+{
+ "work_id": "beethoven_op10_3_2",
+ "bars": [
+  {
+   "printed_bar": "11",
+   "segments_excised": 1,
+   "deletes": 4,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "18",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 4,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "50",
+   "segments_excised": 1,
+   "deletes": 4,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "57",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 4,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  }
+ ],
+ "severed_ties": [],
+ "manifest_entries": 21,
+ "totals": {
+  "segments_excised": 2,
+  "deletes": 8,
+  "swaps": 8,
+  "cue_transfers": 0,
+  "forwards_removed": 0,
+  "boundary_backups_adjusted": 2,
+  "boundary_backups_removed": 0,
+  "boundary_forwards_inserted": 0,
+  "emptied_bars": 0,
+  "cursor_corrupt_bars": 0,
+  "severed_tie_faces": 0,
+  "tuplet_repairs": 3,
+  "span_repairs": 0,
+  "beam_repairs": 0,
+  "padding_rests_excised": 0,
+  "padding_rests_trimmed": 0,
+  "padding_rests_deferred": 0,
+  "padding_movers_resolved": 0,
+  "marks_died_with_host": 0,
+  "reject_released_hosts": 0,
+  "element_handles_restamped": 0
+ },
+ "manifest": [
+  {
+   "tuplet_repair": "drop",
+   "printed_bar": "11",
+   "number": "1",
+   "survivors": 0,
+   "from": [
+    "n217",
+    "n219"
+   ]
+  },
+  {
+   "tuplet_repair": "drop",
+   "printed_bar": "18",
+   "number": "1",
+   "survivors": 0,
+   "from": [
+    "n388",
+    "n390"
+   ]
+  },
+  {
+   "tuplet_repair": "drop",
+   "printed_bar": "57",
+   "number": "1",
+   "survivors": 0,
+   "from": [
+    "n1431",
+    "n1433"
+   ]
+  },
+  {
+   "boundary": "backup_adjusted",
+   "printed_bar": "11",
+   "from_div": 24,
+   "to_div": 144
+  },
+  {
+   "note_id": "n217",
+   "printed_bar": "11",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n217\" default-x=\"39.17\" default-y=\"-5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n218",
+   "printed_bar": "11",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n218\" default-x=\"54.36\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n219",
+   "printed_bar": "11",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n219\" default-x=\"79.03\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <accidental>sharp</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n220",
+   "printed_bar": "11",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n220\" default-x=\"94.22\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>12</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n388",
+   "printed_bar": "18",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n388\" default-x=\"107.03\" default-y=\"-20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n389",
+   "printed_bar": "18",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n389\" default-x=\"122.22\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n390",
+   "printed_bar": "18",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n390\" default-x=\"146.88\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <accidental>sharp</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n391",
+   "printed_bar": "18",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n391\" default-x=\"162.08\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>12</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_adjusted",
+   "printed_bar": "50",
+   "from_div": 72,
+   "to_div": 144
+  },
+  {
+   "note_id": "n1240",
+   "printed_bar": "50",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n1240\" default-x=\"204.64\" default-y=\"0.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>3</duration>\n        <voice>3</voice>\n        <type>64th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1241",
+   "printed_bar": "50",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n1241\" default-x=\"219.84\" default-y=\"-5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>3</duration>\n        <voice>3</voice>\n        <type>64th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1242",
+   "printed_bar": "50",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n1242\" default-x=\"235.03\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>3</duration>\n        <voice>3</voice>\n        <type>64th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1243",
+   "printed_bar": "50",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n1243\" default-x=\"250.22\" default-y=\"-5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>3</duration>\n        <voice>3</voice>\n        <type>64th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1431",
+   "printed_bar": "57",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1431\" default-x=\"98.10\" default-y=\"-40.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1432",
+   "printed_bar": "57",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1432\" default-x=\"113.29\" default-y=\"-45.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1433",
+   "printed_bar": "57",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1433\" default-x=\"139.96\" default-y=\"-50.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <accidental>sharp</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1434",
+   "printed_bar": "57",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1434\" default-x=\"155.15\" default-y=\"-45.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>12</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  }
+ ],
+ "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op10_3_2/score.musicxml"
+}
