@@ -1,0 +1,225 @@
+#!/bin/sh
+#
+# asap-dataset — pre-commit control
+# RESET.GLOBAL / CONTROLS 0.D, data-repo row (ensemble: docs/delivery/global-reset.md §2)
+# + THE RAW-REPAIR DISCIPLINE (George, 2026-08-03): raw source repairs are
+# generated scripts that audit what they did.
+#
+# This file IS the control. .git/hooks is not versioned, so the hook lives here
+# and is activated with:
+#
+#     git config core.hooksPath githooks
+#
+# Rebuilt 2026-08-04: the reclone to pristine upstream (4097b457) deleted the
+# previous hook tree (archived at archive/pre-reclone-20260803); this rebuild
+# restores the wave guard and adds the raw-receipt gate the ensemble-scores
+# repo already carries, re-shaped for THIS repo's raw layout.
+#
+# Gates:
+#
+#   GATE 4  RAW RECEIPT   a staged raw-tier xml_score.musicxml whose sha256 is
+#                         not carried by a raw_repairs.jsonl receipt row
+#                         (sha256_after) -> refuse
+#   GATE 2  WAVE GUARD    > 8 distinct works staged -> refuse unless RESET_WAVE=1
+#   GATE 1  ENTITY AUDIT  not applicable — this repo holds no entity YAMLs.
+#   GATE 3  LFS SANITY    not applicable — this repo has no LFS configuration.
+#                         Asserted, not assumed: a .gitattributes appearing at
+#                         the root refuses, because the gate would then be owed.
+#
+# THE RAW SHAPE OF THIS REPO (why the ensemble-scores matcher cannot be copied):
+# here the raw tier is `<Composer>/<Collection>[/<Piece>]/xml_score.musicxml` —
+# basename `xml_score.musicxml`, at varying depth — and `score.musicxml` is the
+# name the COW tier used. The matcher below tests the basename and excludes any
+# path carrying a `modified` segment (the pre-reclone tree held both a root
+# `modified/` COW and one stray work-local `modified/` dir; both shapes are
+# excluded, stated not inferred). Sidecar snapshots
+# (`xml_score.musicxml.pre-*`) do not match the basename equality and are
+# deliberately ungated — they are the evidence the receipt points at.
+#
+# No silent skips: a precondition that cannot be established (no work tree,
+# unreadable staged diff, no sha256 tool) REFUSES with the reason.
+
+set -u
+
+MAX_WORKS=8
+HARNESS="scripts/raw_repairs/harness.py"
+RECEIPT_NAME="raw_repairs.jsonl"
+
+refuse() {
+    printf '\n[pre-commit] COMMIT REFUSED\n%s\n\n' "$1" >&2
+    exit 1
+}
+
+note() {
+    printf '[pre-commit] %s\n' "$1" >&2
+}
+
+# ---------------------------------------------------------------- preconditions
+
+TOP=$(git rev-parse --show-toplevel 2>/dev/null) || TOP=""
+[ -n "$TOP" ] || refuse "  not inside a git work tree (git rev-parse --show-toplevel failed)."
+cd "$TOP" || refuse "  cannot cd to the work tree root: $TOP"
+
+if git rev-parse --verify -q HEAD >/dev/null 2>&1; then
+    AGAINST=HEAD
+else
+    AGAINST=$(git hash-object -t tree /dev/null) || \
+        refuse "  no HEAD and the empty-tree object could not be produced."
+fi
+
+STAGED=$(git -c core.quotePath=false diff --cached --name-only --diff-filter=ACMRTD "$AGAINST") || \
+    refuse "  the staged diff could not be read (git diff --cached failed)."
+
+if [ -z "$STAGED" ]; then
+    note "nothing staged — no gate had anything to judge."
+    exit 0
+fi
+
+# ------------------------------------------- GATE 3 — LFS SANITY (not owed yet)
+
+if [ -f .gitattributes ]; then
+    refuse "  GATE 3 LFS SANITY — this repo has gained a root .gitattributes.
+  The hook was written when asap-dataset stored everything as plain git blobs,
+  so it carries no large-file/pointer gate. That gate is now owed: port the
+  GATE 3 block from ensemble-datasets-v2's githooks/pre-commit before committing."
+fi
+
+# ------------------------------------------------------- GATE 4 — RAW RECEIPT
+# A raw-tier score here is any staged path whose basename is exactly
+# `xml_score.musicxml` with no `modified` segment anywhere in the path (see the
+# raw-shape note in the header). Deletions need no receipt: the gate judges
+# staged CONTENT, so it reads its own ACMRT-filtered list.
+
+RAW=$(git -c core.quotePath=false diff --cached --name-only --diff-filter=ACMRT "$AGAINST" | awk -F/ '
+    $NF == "xml_score.musicxml" {
+        for (i = 1; i < NF; i++) if ($i == "modified") next
+        print
+    }
+')
+
+if [ -z "$RAW" ]; then
+    note "GATE 4 RAW RECEIPT: no raw-tier score staged — ok."
+else
+    command -v shasum >/dev/null 2>&1 || \
+        refuse "  GATE 4 RAW RECEIPT — \`shasum\` is not on PATH; the staged blob cannot be
+  digested and the gate refuses rather than passing on an unknown."
+
+    # The loop runs in a subshell (it is fed by a pipe), so a refusal inside it
+    # must be carried out through the exit status — hence the explicit `|| exit 1`.
+    printf '%s\n' "$RAW" | while IFS= read -r path; do
+        [ -n "$path" ] || continue
+        work=$(dirname "$path")
+        receipt="$work/$RECEIPT_NAME"
+
+        git cat-file -e ":$path" 2>/dev/null || \
+            refuse "  GATE 4 RAW RECEIPT — the staged blob for $path could not be read
+  (\`git cat-file -e :$path\` failed). Refusing rather than passing on an unknown."
+
+        sha=$(git cat-file blob ":$path" | shasum -a 256 | awk '{ print $1 }')
+        [ -n "$sha" ] || \
+            refuse "  GATE 4 RAW RECEIPT — the sha256 of the staged $path came back empty."
+
+        # The receipt may be staged in this same commit (the normal case: the
+        # repair and its receipt land together) or already committed (a later
+        # commit that re-stages the same bytes). Both are read; neither is
+        # required on its own.
+        rows=""
+        if git cat-file -e ":$receipt" 2>/dev/null; then
+            rows="$rows
+$(git cat-file blob ":$receipt")"
+        fi
+        if git cat-file -e "$AGAINST:$receipt" 2>/dev/null; then
+            rows="$rows
+$(git cat-file blob "$AGAINST:$receipt")"
+        fi
+
+        if [ -z "$(printf '%s' "$rows" | tr -d '[:space:]')" ]; then
+            refuse "  GATE 4 RAW RECEIPT — $path is staged and $receipt does not exist.
+
+  A raw source file changes ONLY through an audited repair (George, 2026-08-03:
+  raw source repairs are generated scripts that audit what they did). Write the
+  repair as a declaration riding the harness in the ensemble repo:
+
+      $HARNESS
+
+  Running it writes the pre-repair sidecar snapshot, proves the conservation
+  postconditions, and appends the receipt row this gate matches. A hand edit to
+  a raw score has no receipt and is refused here by construction."
+        fi
+
+        if ! printf '%s\n' "$rows" | grep -Eq "\"sha256_after\"[[:space:]]*:[[:space:]]*\"$sha\""; then
+            refuse "  GATE 4 RAW RECEIPT — $path is staged with sha256
+
+      $sha
+
+  and no row in $receipt carries that sha256_after. The staged bytes are
+  therefore NOT what an audited repair produced: either the file was edited by
+  hand after the repair ran, or it was edited without a repair at all.
+
+  The road (George, 2026-08-03 — raw source repairs are generated scripts that
+  audit what they did): restore the file from its pre-repair sidecar snapshot
+  (\`$work/xml_score.musicxml.pre-<slug>-<yyyymmdd>\`) and re-apply the change
+  as a declaration riding
+
+      $HARNESS
+
+  which proves its preconditions, counts exactly what it changed, verifies that
+  every other measure is byte-identical and that the touched bars conserve
+  their voice time, and then writes the receipt row."
+        fi
+
+        note "GATE 4 RAW RECEIPT: $path matches a receipt row — ok."
+    done || exit 1
+fi
+
+# --------------------------------------------------------- GATE 2 — WAVE GUARD
+# Two layouts live here and both are mapped:
+#   modified/<work>/...                      -> work id "modified/<work>"
+#   <Composer>/<Collection>[/<Piece>]/...    -> the piece directory, i.e. the
+#       directory holding the .mid/.match files. Per-performance alignment
+#       subtrees (*_note_alignments/, parangonada_data/) fold into their piece.
+# Root files and util/ belong to no work and count toward nothing.
+
+WORKS=$(printf '%s\n' "$STAGED" | awk '
+{
+    n = split($0, seg, "/")
+    if (n < 2) next
+    if (seg[1] == "util") next
+    if (seg[1] == "modified") { print "modified/" seg[2]; next }
+    last = n - 1                                   # drop the file name
+    while (last >= 2 && (seg[last] == "parangonada_data" || seg[last] ~ /_note_alignments$/))
+        last--
+    if (last < 2) next
+    d = seg[1]
+    for (i = 2; i <= last; i++) d = d "/" seg[i]
+    print d
+}' | sort -u)
+
+if [ -z "$WORKS" ]; then
+    N_WORKS=0
+else
+    N_WORKS=$(printf '%s\n' "$WORKS" | wc -l | tr -d ' ')
+fi
+
+if [ "$N_WORKS" -gt "$MAX_WORKS" ]; then
+    if [ "${RESET_WAVE:-}" = "1" ]; then
+        note "GATE 2 WAVE GUARD: $N_WORKS works staged — allowed by the RESET_WAVE=1 ack."
+    else
+        refuse "  GATE 2 WAVE GUARD — $N_WORKS distinct works are staged (limit $MAX_WORKS).
+
+  A sweep across the corpus must be a deliberate act, never an accident of a
+  broad \`git add\`. Commit by explicit pathspec, or repeat the commit with the
+  ack:
+
+      RESET_WAVE=1 git commit <pathspec> -m '...'
+
+  Works staged ($N_WORKS):
+$(printf '%s\n' "$WORKS" | sed 's/^/      /')"
+    fi
+else
+    note "GATE 2 WAVE GUARD: $N_WORKS work(s) staged (limit $MAX_WORKS) — ok."
+fi
+
+note "GATE 1 ENTITY AUDIT: not applicable here — asap-dataset holds no entity YAMLs."
+note "all gates passed."
+exit 0
