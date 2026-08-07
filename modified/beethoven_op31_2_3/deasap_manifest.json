@@ -27,7 +27,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 1,
-   "boundary_backups_adjusted": 1,
+   "boundary_backups_adjusted": 0,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -46,7 +46,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
+   "boundary_backups_adjusted": 0,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -65,7 +65,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 1,
-   "boundary_backups_adjusted": 1,
+   "boundary_backups_adjusted": 0,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -103,7 +103,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
+   "boundary_backups_adjusted": 0,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -122,7 +122,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
+   "boundary_backups_adjusted": 0,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -141,7 +141,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
+   "boundary_backups_adjusted": 0,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -160,7 +160,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
+   "boundary_backups_adjusted": 0,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -193,14 +193,14 @@
   }
  ],
  "severed_ties": [],
- "manifest_entries": 48,
+ "manifest_entries": 41,
  "totals": {
   "segments_excised": 9,
   "deletes": 34,
   "swaps": 3,
   "cue_transfers": 0,
   "forwards_removed": 2,
-  "boundary_backups_adjusted": 9,
+  "boundary_backups_adjusted": 2,
   "boundary_backups_removed": 0,
   "boundary_forwards_inserted": 0,
   "emptied_bars": 0,
@@ -244,12 +244,6 @@
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
    "fragment": "<note id=\"n458\" default-x=\"99.51\" default-y=\"0.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>42</duration>\n        <voice>2</voice>\n        <type>eighth</type>\n        <dot/>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>"
-  },
-  {
-   "boundary": "backup_adjusted",
-   "printed_bar": "44",
-   "from_div": 72,
-   "to_div": 72
   },
   {
    "note_id": "n469",
@@ -297,12 +291,6 @@
    "fragment": "<note id=\"n472\" default-x=\"191.27\" default-y=\"0.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>18</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "45",
-   "from_div": 72,
-   "to_div": 72
-  },
-  {
    "note_id": "n484",
    "printed_bar": "45",
    "verdict": "delete",
@@ -319,12 +307,6 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n485\" default-x=\"180.45\" default-y=\"0.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>42</duration>\n        <voice>2</voice>\n        <type>eighth</type>\n        <dot/>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>"
-  },
-  {
-   "boundary": "backup_adjusted",
-   "printed_bar": "46",
-   "from_div": 72,
-   "to_div": 72
   },
   {
    "note_id": "n496",
@@ -372,12 +354,6 @@
    "fragment": "<note id=\"n499\" default-x=\"189.13\" default-y=\"0.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>18</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "49",
-   "from_div": 48,
-   "to_div": 72
-  },
-  {
    "note_id": "n531",
    "printed_bar": "49",
    "verdict": "delete",
@@ -405,10 +381,11 @@
    "fragment": "<note id=\"n533\" default-x=\"43.31\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>42</duration>\n        <voice>2</voice>\n        <type>eighth</type>\n        <dot/>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "271",
-   "from_div": 72,
-   "to_div": 72
+   "boundary": "backup_restated",
+   "printed_bar": "49",
+   "from_div": 48,
+   "to_div": 72,
+   "landing_div": 0
   },
   {
    "note_id": "n2904",
@@ -436,12 +413,6 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n2906\" default-x=\"103.70\" default-y=\"-20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>42</duration>\n        <voice>2</voice>\n        <type>eighth</type>\n        <dot/>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>"
-  },
-  {
-   "boundary": "backup_adjusted",
-   "printed_bar": "272",
-   "from_div": 72,
-   "to_div": 72
   },
   {
    "note_id": "n2917",
@@ -498,12 +469,6 @@
    "fragment": "<note id=\"n2922\" default-x=\"825.14\" default-y=\"-20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>18</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "273",
-   "from_div": 72,
-   "to_div": 72
-  },
-  {
    "note_id": "n2934",
    "printed_bar": "273",
    "verdict": "delete",
@@ -529,12 +494,6 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n2936\" default-x=\"179.37\" default-y=\"-20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>42</duration>\n        <voice>2</voice>\n        <type>eighth</type>\n        <dot/>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>"
-  },
-  {
-   "boundary": "backup_adjusted",
-   "printed_bar": "274",
-   "from_div": 72,
-   "to_div": 72
   },
   {
    "note_id": "n2947",
@@ -591,12 +550,6 @@
    "fragment": "<note id=\"n2952\" default-x=\"190.10\" default-y=\"-20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>18</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "277",
-   "from_div": 48,
-   "to_div": 72
-  },
-  {
    "note_id": "n2984",
    "printed_bar": "277",
    "verdict": "delete",
@@ -622,7 +575,16 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n2986\" default-x=\"43.31\" default-y=\"-35.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>42</duration>\n        <voice>2</voice>\n        <type>eighth</type>\n        <dot/>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "277",
+   "from_div": 48,
+   "to_div": 72,
+   "landing_div": 0
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op31_2_3/score.musicxml"
+ "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op31_2_3/score.musicxml",
+ "source_sha256": "b9c673435b00a82a39504ad26025848bb020bb64ab160a676f33e9b285e27a41",
+ "upstream_sha256": "7982e8e62daef6feb0534d78ea203b6cfd8cd68a3d014615d36da2cc0a656dff"
 }

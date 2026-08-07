@@ -65,7 +65,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
+   "boundary_backups_adjusted": 0,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -129,14 +129,14 @@
    "disposition": "survives in reach"
   }
  ],
- "manifest_entries": 41,
+ "manifest_entries": 40,
  "totals": {
   "segments_excised": 2,
   "deletes": 6,
   "swaps": 16,
   "cue_transfers": 16,
   "forwards_removed": 0,
-  "boundary_backups_adjusted": 2,
+  "boundary_backups_adjusted": 1,
   "boundary_backups_removed": 0,
   "boundary_forwards_inserted": 0,
   "emptied_bars": 0,
@@ -277,12 +277,6 @@
    "transferred_note_id": "n380"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "64",
-   "from_div": 120,
-   "to_div": 480
-  },
-  {
    "note_id": "n924",
    "printed_bar": "64",
    "verdict": "delete",
@@ -292,10 +286,11 @@
    "fragment": "<note id=\"n924\" default-x=\"18.33\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>120</duration>\n        <tie type=\"stop\"/>\n        <voice>2</voice>\n        <type>eighth</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tied type=\"stop\" id=\"n924--tied--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "91",
-   "from_div": 480,
-   "to_div": 480
+   "boundary": "backup_restated",
+   "printed_bar": "64",
+   "from_div": 120,
+   "to_div": 480,
+   "landing_div": 0
   },
   {
    "note_id": "n1334",
@@ -455,5 +450,7 @@
    "transferred_note_id": "n1996"
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op31_3_2/score.musicxml"
+ "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op31_3_2/score.musicxml",
+ "source_sha256": "2976cb4e1907bf4338f04555de2552ceb723223d17545d6d0112daae3fccc589",
+ "upstream_sha256": "408620eefa7014f0faf72728c32ce5c201b4467255c6ec91f05b9c62aec2928f"
 }

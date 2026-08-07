@@ -1,0 +1,111 @@
+{
+ "work_id": "scriabin_sonatas_5",
+ "bars": [
+  {
+   "printed_bar": "279",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 0,
+   "cue_transfers": 1,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "283",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 0,
+   "cue_transfers": 1,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "439",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 1,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  }
+ ],
+ "severed_ties": [],
+ "manifest_entries": 3,
+ "totals": {
+  "segments_excised": 0,
+  "deletes": 0,
+  "swaps": 1,
+  "cue_transfers": 2,
+  "forwards_removed": 0,
+  "boundary_backups_adjusted": 0,
+  "boundary_backups_removed": 0,
+  "boundary_forwards_inserted": 0,
+  "emptied_bars": 0,
+  "cursor_corrupt_bars": 0,
+  "severed_tie_faces": 0,
+  "tuplet_repairs": 0,
+  "span_repairs": 0,
+  "beam_repairs": 0,
+  "padding_rests_excised": 0,
+  "padding_rests_trimmed": 0,
+  "padding_rests_deferred": 0,
+  "padding_movers_resolved": 0,
+  "marks_died_with_host": 0,
+  "reject_released_hosts": 0,
+  "element_handles_restamped": 0
+ },
+ "manifest": [
+  {
+   "cue_transfer": "element_to_type_size",
+   "printed_bar": "279",
+   "transferred_note_id": "n4945"
+  },
+  {
+   "cue_transfer": "element_to_type_size",
+   "printed_bar": "283",
+   "transferred_note_id": "n5025"
+  },
+  {
+   "note_id": "n9616",
+   "printed_bar": "439",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n9616\" default-x=\"132.87\" default-y=\"-215.00\" color=\"#0D9488\">\n        <grace slash=\"yes\"/>\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <voice>1</voice>\n        <type size=\"cue\">eighth</type>\n        <stem>none</stem>\n        </note>"
+  }
+ ],
+ "written": "/Users/george/Projects/asap-dataset/modified/scriabin_sonatas_5/score.musicxml",
+ "source_sha256": "e0a681da01a4c6645d24ac3b76c1646631d23e36df6e0e3acb1b736a94a82b5e",
+ "upstream_sha256": "a42a3dd4de392fca3b4c4b02f7f191ee5cccc3ed9680ca9bebd9c885ac728b65"
+}

@@ -27,7 +27,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
+   "boundary_backups_adjusted": 0,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -41,14 +41,14 @@
   }
  ],
  "severed_ties": [],
- "manifest_entries": 7,
+ "manifest_entries": 6,
  "totals": {
   "segments_excised": 2,
   "deletes": 5,
   "swaps": 0,
   "cue_transfers": 0,
   "forwards_removed": 1,
-  "boundary_backups_adjusted": 1,
+  "boundary_backups_adjusted": 0,
   "boundary_backups_removed": 0,
   "boundary_forwards_inserted": 0,
   "emptied_bars": 0,
@@ -103,12 +103,6 @@
    "fragment": "<forward>\n        <duration>20</duration>\n        </forward>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "72",
-   "from_div": 24,
-   "to_div": 24
-  },
-  {
    "note_id": "n790",
    "printed_bar": "72",
    "verdict": "delete",
@@ -127,5 +121,7 @@
    "fragment": "<note id=\"n791\" default-x=\"53.93\" default-y=\"-55.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type size=\"cue\">quarter</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/bach_bwv884_fugue/score.musicxml"
+ "written": "/Users/george/Projects/asap-dataset/modified/bach_bwv884_fugue/score.musicxml",
+ "source_sha256": "202a8cea3e03cfd71f77dcfc5ea7997491d992cf4e05d42c514d1cff2a405a1c",
+ "upstream_sha256": "1be630f0a5f3488697953443d577113c69357ff4b4c1b9101326ae2513085a7c"
 }

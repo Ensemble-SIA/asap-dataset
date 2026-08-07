@@ -125,12 +125,6 @@
    ]
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "74",
-   "from_div": 180,
-   "to_div": 480
-  },
-  {
    "note_id": "n1550",
    "printed_bar": "74",
    "verdict": "delete",
@@ -248,6 +242,13 @@
    "fragment": "<note id=\"n1561\" default-x=\"296.37\" default-y=\"-5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>10</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   },
   {
+   "boundary": "backup_restated",
+   "printed_bar": "74",
+   "from_div": 180,
+   "to_div": 480,
+   "landing_div": 0
+  },
+  {
    "note_id": "n1667",
    "printed_bar": "79",
    "verdict": "delete",
@@ -287,12 +288,6 @@
    "cue_transfer": "element_to_type_size",
    "printed_bar": "79",
    "transferred_note_id": "n1666"
-  },
-  {
-   "boundary": "backup_adjusted",
-   "printed_bar": "80",
-   "from_div": 360,
-   "to_div": 480
   },
   {
    "note_id": "n1682",
@@ -338,7 +333,16 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n1686\" default-x=\"281.63\" default-y=\"20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>12</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "80",
+   "from_div": 360,
+   "to_div": 480,
+   "landing_div": 0
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op2_3_2/score.musicxml"
+ "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op2_3_2/score.musicxml",
+ "source_sha256": "abfed84fb3ac3f1829fa2640bad60a25ff0e8b2fb4bd4443caa49355f016418e",
+ "upstream_sha256": "75d671d876bf3f76bdb86bbcad8c7a0760c8c3331b77051b30364009cfbc9a66"
 }

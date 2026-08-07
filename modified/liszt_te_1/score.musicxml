@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.1">
   <identification>
@@ -102,7 +102,6 @@
           <words default-x="-35.01" default-y="40.00" font-weight="bold" font-size="12" id="md-1-1-1-1">Presto.</words>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="100"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -111,7 +110,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -626,17 +624,8 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         </note>
-      <note id="n27" print-object="no">
-        <rest/>
-        <duration>25</duration>
-        <voice>1</voice>
-        <type>128th</type>
-        <dot/>
-        <dot/>
-        <staff>1</staff>
-        </note>
       <backup>
-        <duration>1585</duration>
+        <duration>1560</duration>
         </backup>
       <note id="n28" default-x="153.00" default-y="-130.00">
         <pitch>
@@ -856,15 +845,6 @@
             <staccatissimo/>
             </articulations>
           </notations>
-        </note>
-      <note id="n40" print-object="no">
-        <rest/>
-        <duration>25</duration>
-        <voice>5</voice>
-        <type>128th</type>
-        <dot/>
-        <dot/>
-        <staff>2</staff>
         </note>
       </measure>
     <measure number="2" width="554.57">
@@ -1373,7 +1353,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="124.44"/>
         </direction>
       <note id="n74" default-x="140.20" default-y="-50.00">
         <pitch>
@@ -1820,7 +1799,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="77.78"/>
         </direction>
       <note id="n96" default-x="827.54" default-y="-40.00">
         <pitch>
@@ -1874,17 +1852,8 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         </note>
-      <note id="n100" print-object="no">
-        <rest/>
-        <duration>25</duration>
-        <voice>1</voice>
-        <type>128th</type>
-        <dot/>
-        <dot/>
-        <staff>1</staff>
-        </note>
       <backup>
-        <duration>1585</duration>
+        <duration>1560</duration>
         </backup>
       <note id="n101" default-x="165.50" default-y="-130.00">
         <pitch>
@@ -2115,15 +2084,6 @@
             <staccatissimo/>
             </articulations>
           </notations>
-        </note>
-      <note id="n115" print-object="no">
-        <rest/>
-        <duration>25</duration>
-        <voice>5</voice>
-        <type>128th</type>
-        <dot/>
-        <dot/>
-        <staff>2</staff>
         </note>
       </measure>
     <measure number="4" width="552.92">
@@ -5975,7 +5935,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="140.00"/>
         </direction>
       <note id="n395" default-x="21.23" default-y="-135.00">
         <pitch>
@@ -6382,7 +6341,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="88.89"/>
         </direction>
       <direction placement="above">
         <direction-type>
@@ -9022,7 +8980,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="140.00"/>
         </direction>
       <note id="r12">
         <rest>
@@ -9360,7 +9317,6 @@
           <words default-y="40.00" relative-y="-119.99" font-weight="bold" font-style="italic" font-size="12" id="md-1-22-1-1">poco rallentando</words>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="110"/>
         </direction>
       <direction placement="above">
         <direction-type>
@@ -9905,14 +9861,13 @@
         <staff>2</staff>
         </direction>
       <note id="n643" default-x="14.17" default-y="-165.00">
-        <cue/>
         <pitch>
           <step>C</step>
           <octave>2</octave>
           </pitch>
         <duration>60</duration>
         <voice>5</voice>
-        <type>32nd</type>
+        <type size="cue">32nd</type>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
@@ -9920,14 +9875,13 @@
         <beam number="3">begin</beam>
         </note>
       <note id="n644" default-x="63.53" default-y="-155.00">
-        <cue/>
         <pitch>
           <step>E</step>
           <octave>2</octave>
           </pitch>
         <duration>60</duration>
         <voice>5</voice>
-        <type>32nd</type>
+        <type size="cue">32nd</type>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
@@ -9935,14 +9889,13 @@
         <beam number="3">continue</beam>
         </note>
       <note id="n645" default-x="112.88" default-y="-145.00">
-        <cue/>
         <pitch>
           <step>G</step>
           <octave>2</octave>
           </pitch>
         <duration>60</duration>
         <voice>5</voice>
-        <type>32nd</type>
+        <type size="cue">32nd</type>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
@@ -9950,14 +9903,13 @@
         <beam number="3">continue</beam>
         </note>
       <note id="n646" default-x="162.23" default-y="-130.00">
-        <cue/>
         <pitch>
           <step>C</step>
           <octave>3</octave>
           </pitch>
         <duration>60</duration>
         <voice>5</voice>
-        <type>32nd</type>
+        <type size="cue">32nd</type>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">end</beam>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.1">
   <identification>
@@ -84,16 +84,6 @@
         </attributes>
       <direction placement="above">
         <direction-type>
-          <metronome parentheses="no" default-x="-35.74" default-y="40.00" id="md-1-0-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
-      <direction placement="above">
-        <direction-type>
           <words default-y="41.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-0-1-2">Allegro moderato</words>
           </direction-type>
         <staff>1</staff>
@@ -105,7 +95,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="77.78"/>
         </direction>
       <note id="n1" default-x="110.51" default-y="-15.00">
         <pitch>
@@ -425,13 +414,11 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start" id="n26--tied--start--1"/>
           <slur type="stop" number="1" id="n26--slur--stop--1"/>
           </notations>
         </note>
@@ -979,14 +966,10 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="stop"/>
         <voice>2</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="n68--tied--stop--1"/>
-          </notations>
         </note>
       <note id="n69" default-x="12.00" default-y="-40.00">
         <chord/>
@@ -1410,16 +1393,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-6-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <direction placement="above">
         <direction-type>
           <wedge type="diminuendo" number="1" default-y="25.00" id="md-1-6-1-2"/>
@@ -1969,7 +1942,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="100.00"/>
         </direction>
       <note id="n142" default-x="182.25" default-y="-60.00">
         <pitch>
@@ -2527,7 +2499,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="66.67"/>
         </direction>
       <note id="n181" default-x="382.45" default-y="-30.00">
         <pitch>
@@ -2629,14 +2600,10 @@
           <octave>5</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="start" id="n188--tied--start--1"/>
-          </notations>
         </note>
       <note id="n189" default-x="657.35" default-y="5.00">
         <chord/>
@@ -2805,16 +2772,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-11-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-x="3.29" default-y="-73.00" relative-y="6.61" id="md-1-11-1-2">
@@ -2822,7 +2779,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="100.00"/>
         </direction>
       <note id="n201" default-x="105.18" default-y="-30.00">
         <pitch>
@@ -3333,7 +3289,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="77.78"/>
         </direction>
       <note id="n237" default-x="12.00" default-y="-5.00">
         <pitch>
@@ -3603,14 +3558,10 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="start" id="n258--tied--start--1"/>
-          </notations>
         </note>
       <note id="n259" default-x="12.00" default-y="-40.00">
         <chord/>
@@ -3880,16 +3831,12 @@
           <octave>5</octave>
           </pitch>
         <duration>3</duration>
-        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
-        <notations>
-          <tied type="stop" id="n279--tied--stop--1"/>
-          </notations>
         </note>
       <note id="n280" default-x="907.17" default-y="-20.00">
         <pitch>
@@ -4119,16 +4066,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-16-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n296" default-x="89.77" default-y="-15.00">
         <pitch>
           <step>C</step>
@@ -4188,14 +4125,10 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="stop"/>
         <voice>2</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="n300--tied--stop--1"/>
-          </notations>
         </note>
       <note id="n301" default-x="89.77" default-y="-40.00">
         <chord/>
@@ -5490,16 +5423,6 @@
           <line>2</line>
           </clef>
         </attributes>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-21-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n395" default-x="86.69" default-y="30.00">
         <pitch>
           <step>E</step>
@@ -6852,16 +6775,6 @@
           <line>4</line>
           </clef>
         </attributes>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-25-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n473" default-x="87.27" default-y="-30.00">
         <pitch>
           <step>G</step>
@@ -8404,16 +8317,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-29-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n564">
         <rest/>
         <duration>4</duration>
@@ -9844,16 +9747,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-34-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n652" default-x="100.62" default-y="-50.00">
         <pitch>
           <step>C</step>
@@ -10093,7 +9986,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="100.00"/>
         </direction>
       <note id="n664" default-x="100.62" default-y="-140.00">
         <pitch>
@@ -11391,16 +11283,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-38-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n741">
         <rest/>
         <duration>4</duration>
@@ -13512,16 +13394,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-42-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n879" default-x="87.27" default-y="-40.00">
         <pitch>
           <step>E</step>
@@ -13554,7 +13426,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="66.67"/>
         </direction>
       <note id="n882" default-x="194.37" default-y="-40.00">
         <pitch>
@@ -14660,7 +14531,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="55.56"/>
         </direction>
       <note id="n961" default-x="146.61" default-y="-15.00">
         <pitch>
@@ -15628,16 +15498,6 @@
           <line>2</line>
           </clef>
         </attributes>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-48-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-x="6.58" default-y="-64.00" relative-y="6.61" id="md-1-48-1-2">
@@ -15645,7 +15505,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="77.78"/>
         </direction>
       <note id="n1030" default-x="88.21" default-y="-30.00">
         <pitch>
@@ -16561,7 +16420,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="100.00"/>
         </direction>
       <note id="n1101" default-x="131.06" default-y="-40.00">
         <pitch>
@@ -17006,16 +16864,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-54-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n1134" default-x="107.18" default-y="-65.00">
         <pitch>
           <step>G</step>
@@ -17059,7 +16907,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="66.67"/>
         </direction>
       <note id="n1137" default-x="161.09" default-y="-45.00">
         <pitch>
@@ -17196,14 +17043,10 @@
           <octave>5</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="start" id="n1147--tied--start--1"/>
-          </notations>
         </note>
       <note id="n1148" default-x="282.23" default-y="-10.00">
         <chord/>
@@ -17601,7 +17444,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="100.00"/>
         </direction>
       <note id="n1179" default-x="88.33" default-y="-145.00">
         <pitch>
@@ -17976,14 +17818,12 @@
           <octave>1</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="start"/>
         <voice>6</voice>
         <type>half</type>
         <accidental>sharp</accidental>
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start" id="n1205--tied--start--1"/>
           <slur type="stop" number="1" id="n1205--slur--stop--1"/>
           </notations>
         </note>
@@ -18200,7 +18040,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="111.11"/>
         </direction>
       <note id="n1222" default-x="89.77" default-y="-50.00">
         <pitch>
@@ -18244,14 +18083,10 @@
           <octave>5</octave>
           </pitch>
         <duration>12</duration>
-        <tie type="stop"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="n1225--tied--stop--1"/>
-          </notations>
         </note>
       <note id="n1226">
         <rest/>
@@ -18690,16 +18525,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-59-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n1254" default-x="90.59" default-y="-40.00">
         <pitch>
           <step>E</step>
@@ -20384,16 +20209,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-63-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n1356" default-x="90.59" default-y="-25.00">
         <pitch>
           <step>A</step>
@@ -21004,7 +20819,6 @@
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
-        <tie type="stop"/>
         <voice>5</voice>
         <type>eighth</type>
         <accidental>natural</accidental>
@@ -21015,9 +20829,6 @@
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">continue</beam>
-        <notations>
-          <tied type="stop" id="n1394--tied--stop--1"/>
-          </notations>
         </note>
       <note id="n1395" default-x="205.63" default-y="-130.00">
         <chord/>
@@ -21707,7 +21518,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="77.78"/>
         </direction>
       <note id="n1438" default-x="71.16" default-y="-5.00">
         <pitch>
@@ -22132,16 +21942,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-68-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n1468" default-x="102.68" default-y="40.00">
         <pitch>
           <step>G</step>
@@ -22396,14 +22196,10 @@
           <octave>4</octave>
           </pitch>
         <duration>12</duration>
-        <tie type="start"/>
         <voice>5</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
-        <notations>
-          <tied type="start" id="n1487--tied--start--1"/>
-          </notations>
         </note>
       <note id="n1488" default-x="236.39" default-y="-120.00">
         <pitch>
@@ -22730,14 +22526,10 @@
           <octave>4</octave>
           </pitch>
         <duration>12</duration>
-        <tie type="stop"/>
         <voice>5</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
-        <notations>
-          <tied type="stop" id="n1515--tied--stop--1"/>
-          </notations>
         </note>
       <note id="n1516" default-x="146.81" default-y="-125.00">
         <pitch>
@@ -23523,7 +23315,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="66.67"/>
         </direction>
       <note id="n1578" default-x="865.92" default-y="5.00">
         <pitch>
@@ -23778,16 +23569,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-74-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n1596" default-x="102.68" default-y="5.00">
         <pitch>
           <step>G</step>
@@ -24917,7 +24698,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="100.00"/>
         </direction>
       <note id="n1685" default-x="20.78" default-y="-130.00">
         <pitch>
@@ -25207,14 +24987,10 @@
           <octave>2</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="start"/>
         <voice>6</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>2</staff>
-        <notations>
-          <tied type="start" id="n1705--tied--start--1"/>
-          </notations>
         </note>
       </measure>
     <measure number="81" width="370.91">
@@ -25230,16 +25006,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-80-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n1706" default-x="110.62" default-y="-15.00">
         <pitch>
           <step>C</step>
@@ -25641,7 +25407,6 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
-        <sound dynamics="77.78"/>
         </direction>
       <note id="n1734" default-x="12.36" default-y="-175.00">
         <pitch>
@@ -26525,16 +26290,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-85-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n1803" default-x="102.32" default-y="-5.00">
         <pitch>
           <step>E</step>
@@ -27754,14 +27509,10 @@
           <octave>5</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="start" id="n1900--tied--start--1"/>
-          </notations>
         </note>
       <note id="n1901" default-x="361.96" default-y="5.00">
         <chord/>
@@ -27956,7 +27707,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="66.67"/>
         </direction>
       <note id="n1916" default-x="150.76" default-y="-50.00">
         <pitch>
@@ -28099,14 +27849,10 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="start"/>
         <voice>2</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="start" id="n1927--tied--start--1"/>
-          </notations>
         </note>
       <backup>
         <duration>48</duration>
@@ -28181,14 +27927,10 @@
           <octave>3</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="start"/>
         <voice>5</voice>
         <type>half</type>
         <stem>up</stem>
         <staff>2</staff>
-        <notations>
-          <tied type="start" id="n1933--tied--start--1"/>
-          </notations>
         </note>
       <backup>
         <duration>48</duration>
@@ -28229,16 +27971,10 @@
           <octave>2</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="stop"/>
-        <tie type="start"/>
         <voice>6</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>2</staff>
-        <notations>
-          <tied type="stop" id="n1937--tied--stop--1"/>
-          <tied type="start" id="n1937--tied--start--2"/>
-          </notations>
         </note>
       </measure>
     <measure number="92" width="377.35">
@@ -28254,16 +27990,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-91-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n1938" default-x="107.18" default-y="-50.00">
         <pitch>
           <step>C</step>
@@ -28310,7 +28036,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="100.00"/>
         </direction>
       <note id="n1941" default-x="147.88" default-y="-30.00">
         <pitch>
@@ -28446,16 +28171,10 @@
           <octave>5</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="stop"/>
-        <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="n1951--tied--stop--1"/>
-          <tied type="start" id="n1951--tied--start--2"/>
-          </notations>
         </note>
       <note id="n1952" default-x="247.01" default-y="5.00">
         <chord/>
@@ -28915,7 +28634,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="77.78"/>
         </direction>
       <note id="n1987" default-x="12.00" default-y="-5.00">
         <pitch>
@@ -29006,14 +28724,10 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="stop"/>
         <voice>2</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="n1993--tied--stop--1"/>
-          </notations>
         </note>
       <note id="n1994" default-x="12.00" default-y="-15.00">
         <chord/>
@@ -29124,15 +28838,11 @@
           <octave>3</octave>
           </pitch>
         <duration>6</duration>
-        <tie type="stop"/>
         <voice>5</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <tied type="stop" id="n2003--tied--stop--1"/>
-          </notations>
         </note>
       <note id="n2004" default-x="131.15" default-y="-135.00">
         <pitch>
@@ -29223,14 +28933,10 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="start" id="n2011--tied--start--1"/>
-          </notations>
         </note>
       <note id="n2012" default-x="12.00" default-y="-40.00">
         <chord/>
@@ -29518,16 +29224,12 @@
           <octave>5</octave>
           </pitch>
         <duration>3</duration>
-        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">forward hook</beam>
-        <notations>
-          <tied type="stop" id="n2034--tied--stop--1"/>
-          </notations>
         </note>
       <note id="n2035" default-x="907.17" default-y="-20.00">
         <pitch>
@@ -29772,16 +29474,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-96-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n2053" default-x="89.77" default-y="-15.00">
         <pitch>
           <step>C</step>
@@ -29866,14 +29558,10 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="stop"/>
         <voice>2</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="n2059--tied--stop--1"/>
-          </notations>
         </note>
       <note id="n2060" default-x="89.77" default-y="-40.00">
         <chord/>
@@ -31182,16 +30870,6 @@
           <line>2</line>
           </clef>
         </attributes>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-101-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n2154" default-x="86.69" default-y="30.00">
         <pitch>
           <step>E</step>
@@ -32569,16 +32247,6 @@
           <line>4</line>
           </clef>
         </attributes>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-105-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n2233" default-x="87.27" default-y="-50.00">
         <pitch>
           <step>C</step>
@@ -34176,7 +33844,6 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes" id="n2333--tuplet--start--1"/>
           </notations>
         </note>
       </measure>
@@ -34193,16 +33860,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-109-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n2334">
         <rest/>
         <duration>4</duration>
@@ -35680,16 +35337,6 @@
           <line>4</line>
           </clef>
         </attributes>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-114-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-x="3.29" default-y="-64.00" relative-y="6.61" id="md-1-114-1-2">
@@ -35697,7 +35344,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="100.00"/>
         </direction>
       <note id="n2428" default-x="98.62" default-y="-10.00">
         <pitch>
@@ -36413,7 +36059,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="111.11"/>
         </direction>
       <note id="n2469" default-x="14.36" default-y="-10.00">
         <pitch>
@@ -37245,16 +36890,6 @@
           <line>2</line>
           </clef>
         </attributes>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-118-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n2517">
         <rest/>
         <duration>4</duration>
@@ -38516,14 +38151,10 @@
           <octave>2</octave>
           </pitch>
         <duration>12</duration>
-        <tie type="stop"/>
         <voice>5</voice>
         <type>quarter</type>
         <stem>up</stem>
         <staff>2</staff>
-        <notations>
-          <tied type="stop" id="n2596--tied--stop--1"/>
-          </notations>
         </note>
       <direction placement="above">
         <direction-type>
@@ -38704,7 +38335,6 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="stop" id="n2610--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -38716,7 +38346,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="77.78"/>
         </direction>
       <note id="n2611" default-x="12.36" default-y="-40.00">
         <pitch>
@@ -39401,16 +39030,6 @@
           <line>4</line>
           </clef>
         </attributes>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-122-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-x="3.29" default-y="-63.00" relative-y="6.61" id="md-1-122-1-2">
@@ -39418,7 +39037,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="66.67"/>
         </direction>
       <note id="n2655" default-x="87.27" default-y="10.00">
         <pitch>
@@ -40517,7 +40135,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="55.56"/>
         </direction>
       <note id="n2735">
         <rest/>
@@ -41246,13 +40863,11 @@
           <octave>3</octave>
           </pitch>
         <duration>12</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start" id="n2787--tied--start--1"/>
           <articulations>
             <accent/>
             </articulations>
@@ -41265,15 +40880,11 @@
           <octave>4</octave>
           </pitch>
         <duration>12</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <accidental parentheses="yes">sharp</accidental>
         <stem>up</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="start" id="n2788--tied--start--1"/>
-          </notations>
         </note>
       <note id="n2789" default-x="29.55" default-y="-40.00">
         <chord/>
@@ -41408,14 +41019,10 @@
           <octave>3</octave>
           </pitch>
         <duration>6</duration>
-        <tie type="stop"/>
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="n2798--tied--stop--1"/>
-          </notations>
         </note>
       <note id="n2799" default-x="320.08" default-y="-50.00">
         <chord/>
@@ -41424,15 +41031,11 @@
           <octave>4</octave>
           </pitch>
         <duration>6</duration>
-        <tie type="stop"/>
         <voice>2</voice>
         <type>eighth</type>
         <accidental parentheses="yes">sharp</accidental>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="n2799--tied--stop--1"/>
-          </notations>
         </note>
       <note id="n2800">
         <rest/>
@@ -41450,14 +41053,10 @@
           <octave>2</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="start"/>
         <voice>5</voice>
         <type>half</type>
         <stem>up</stem>
         <staff>2</staff>
-        <notations>
-          <tied type="start" id="n2801--tied--start--1"/>
-          </notations>
         </note>
       <note id="n2802" default-x="29.19" default-y="-120.00">
         <chord/>
@@ -41540,16 +41139,6 @@
           <staff-distance>65.00</staff-distance>
           </staff-layout>
         </print>
-      <direction placement="above">
-        <direction-type>
-          <metronome parentheses="no" default-y="40.00" id="md-1-128-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>85</per-minute>
-            </metronome>
-          </direction-type>
-        <staff>1</staff>
-        <sound tempo="85"/>
-        </direction>
       <note id="n2808">
         <rest/>
         <duration>12</duration>
@@ -41610,7 +41199,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="66.67"/>
         </direction>
       <note id="n2814" default-x="93.85" default-y="-15.00">
         <pitch>
@@ -41965,14 +41553,10 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="start" id="n2843--tied--start--1"/>
-          </notations>
         </note>
       <note id="n2844" default-x="12.00" default-y="-40.00">
         <chord/>
@@ -42213,7 +41797,6 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="66.67"/>
         </direction>
       <note id="n2861" default-x="148.14" default-y="10.00">
         <pitch>
@@ -42264,14 +41847,10 @@
           <octave>4</octave>
           </pitch>
         <duration>6</duration>
-        <tie type="stop"/>
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="n2864--tied--stop--1"/>
-          </notations>
         </note>
       <note id="r3">
         <rest>
@@ -42519,14 +42098,10 @@
           <octave>2</octave>
           </pitch>
         <duration>24</duration>
-        <tie type="stop"/>
         <voice>5</voice>
         <type>half</type>
         <stem>up</stem>
         <staff>2</staff>
-        <notations>
-          <tied type="stop" id="n2884--tied--stop--1"/>
-          </notations>
         </note>
       <note id="n2885" default-x="20.26" default-y="-145.00">
         <chord/>

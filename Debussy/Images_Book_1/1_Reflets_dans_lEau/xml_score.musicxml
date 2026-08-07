@@ -14811,35 +14811,17 @@
         <beam number="2">end</beam>
         <beam number="3">end</beam>
         <beam number="4">end</beam>
-      </note>
-      <note id="n811" default-x="245">
-        <rest/>
-        <duration>307</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <dot/>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>32nd</normal-type>
-        </time-modification>
-        <staff>1</staff>
-      </note>
-      <note id="n812" default-x="275">
-        <rest/>
-        <duration>205</duration>
-        <voice>1</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>32nd</normal-type>
-        </time-modification>
-        <staff>1</staff>
-        <notations>
+      <notations>
           <tuplet number="1" type="stop"/>
-        </notations>
+          </notations>
       </note>
+      <note>
+        <rest/>
+        <duration>512</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <staff>1</staff>
+        </note>
       <direction placement="below">
         <direction-type>
           <wedge default-y="-66" spread="0" type="crescendo"/>

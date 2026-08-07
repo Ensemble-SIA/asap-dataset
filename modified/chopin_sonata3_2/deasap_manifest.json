@@ -87,12 +87,6 @@
    ]
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "32",
-   "from_div": 9,
-   "to_div": 18
-  },
-  {
    "note_id": "n311",
    "printed_bar": "32",
    "verdict": "delete",
@@ -120,10 +114,11 @@
    "fragment": "<note id=\"n313\" default-x=\"118.39\" default-y=\"-60.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "188",
+   "boundary": "backup_restated",
+   "printed_bar": "32",
    "from_div": 9,
-   "to_div": 18
+   "to_div": 18,
+   "landing_div": 0
   },
   {
    "note_id": "n1537",
@@ -151,7 +146,16 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n1539\" default-x=\"118.39\" default-y=\"-60.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "188",
+   "from_div": 9,
+   "to_div": 18,
+   "landing_div": 0
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/chopin_sonata3_2/score.musicxml"
+ "written": "/Users/george/Projects/asap-dataset/modified/chopin_sonata3_2/score.musicxml",
+ "source_sha256": "d4874a342dbb22113458af17dd978be89aadc0c6a4d53174e7603b2d1db6fe58",
+ "upstream_sha256": "ee51cc1833163929acf3a9052056a36fb3366883e5c077e6f614224767724ac9"
 }

@@ -1,0 +1,743 @@
+{
+ "work_id": "beethoven_op10_1_1",
+ "bars": [
+  {
+   "printed_bar": "61",
+   "segments_excised": 1,
+   "deletes": 4,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "75",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 0,
+   "cue_transfers": 3,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "134",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 3,
+   "cue_transfers": 1,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "220",
+   "segments_excised": 1,
+   "deletes": 4,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 1,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "231",
+   "segments_excised": 1,
+   "deletes": 4,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "252",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 15,
+   "cue_transfers": 2,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  }
+ ],
+ "severed_ties": [],
+ "manifest_entries": 57,
+ "totals": {
+  "segments_excised": 3,
+  "deletes": 12,
+  "swaps": 18,
+  "cue_transfers": 6,
+  "forwards_removed": 0,
+  "boundary_backups_adjusted": 2,
+  "boundary_backups_removed": 0,
+  "boundary_forwards_inserted": 0,
+  "emptied_bars": 0,
+  "cursor_corrupt_bars": 0,
+  "severed_tie_faces": 0,
+  "tuplet_repairs": 4,
+  "span_repairs": 0,
+  "beam_repairs": 0,
+  "padding_rests_excised": 0,
+  "padding_rests_trimmed": 0,
+  "padding_rests_deferred": 0,
+  "padding_movers_resolved": 0,
+  "marks_died_with_host": 0,
+  "reject_released_hosts": 0,
+  "element_handles_restamped": 1
+ },
+ "manifest": [
+  {
+   "tuplet_repair": "drop",
+   "printed_bar": "61",
+   "number": "1",
+   "survivors": 0,
+   "from": [
+    "n495",
+    "n497"
+   ]
+  },
+  {
+   "tuplet_repair": "drop",
+   "printed_bar": "134",
+   "number": "1",
+   "survivors": 0,
+   "from": [
+    "n1184",
+    "n1186"
+   ]
+  },
+  {
+   "tuplet_repair": "drop",
+   "printed_bar": "220",
+   "number": "1",
+   "survivors": 0,
+   "from": [
+    "n1861",
+    "n1863"
+   ]
+  },
+  {
+   "tuplet_repair": "re-anchor",
+   "printed_bar": "252",
+   "number": "1",
+   "face": "start",
+   "to_note_id": "n2181",
+   "from": [
+    "n2166"
+   ]
+  },
+  {
+   "note_id": "n495",
+   "printed_bar": "61",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n495\" default-x=\"48.78\" default-y=\"-15.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n496",
+   "printed_bar": "61",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n496\" default-x=\"66.62\" default-y=\"-20.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n497",
+   "printed_bar": "61",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n497\" default-x=\"88.44\" default-y=\"-25.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n498",
+   "printed_bar": "61",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n498\" default-x=\"106.28\" default-y=\"-20.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>48</duration>\n        <voice>2</voice>\n        <type>eighth</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "61",
+   "from_div": 144,
+   "to_div": 288,
+   "landing_div": 0
+  },
+  {
+   "cue_transfer": "element_to_type_size",
+   "printed_bar": "75",
+   "transferred_note_id": "n622"
+  },
+  {
+   "cue_transfer": "element_to_type_size",
+   "printed_bar": "75",
+   "transferred_note_id": "n637"
+  },
+  {
+   "cue_transfer": "element_to_type_size",
+   "printed_bar": "75",
+   "transferred_note_id": "n638"
+  },
+  {
+   "note_id": "n1184",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1184\" default-x=\"100.00\" default-y=\"0.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1185",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1185\" default-x=\"115.19\" default-y=\"-5.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1186",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1186\" default-x=\"137.02\" default-y=\"-10.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "cue_transfer": "element_to_type_size",
+   "printed_bar": "134",
+   "transferred_note_id": "n1183"
+  },
+  {
+   "note_id": "n1861",
+   "printed_bar": "220",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n1861\" default-x=\"49.25\" default-y=\"-10.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1862",
+   "printed_bar": "220",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n1862\" default-x=\"66.12\" default-y=\"-15.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1863",
+   "printed_bar": "220",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n1863\" default-x=\"87.95\" default-y=\"-20.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1864",
+   "printed_bar": "220",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n1864\" default-x=\"104.82\" default-y=\"-15.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>48</duration>\n        <voice>2</voice>\n        <type>eighth</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "220",
+   "from_div": 144,
+   "to_div": 288,
+   "landing_div": 0
+  },
+  {
+   "note_id": "n1968",
+   "printed_bar": "231",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n1968\" default-x=\"151.92\" default-y=\"0.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>24</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1969",
+   "printed_bar": "231",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n1969\" default-x=\"172.75\" default-y=\"-5.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>24</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1970",
+   "printed_bar": "231",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n1970\" default-x=\"193.58\" default-y=\"-10.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>24</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n1971",
+   "printed_bar": "231",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n1971\" default-x=\"214.41\" default-y=\"-5.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>24</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n2166",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2166\" default-x=\"16.69\" default-y=\"-70.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2166",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2167",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2167\" default-x=\"49.65\" default-y=\"-65.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2167",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2168",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2168\" default-x=\"72.24\" default-y=\"-70.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2168",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2169",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2169\" default-x=\"101.39\" default-y=\"-65.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2169",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2170",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2170\" default-x=\"123.98\" default-y=\"-70.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2170",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2171",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2171\" default-x=\"146.57\" default-y=\"-65.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2171",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2172",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2172\" default-x=\"176.19\" default-y=\"-70.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2172",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2173",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2173\" default-x=\"198.78\" default-y=\"-65.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2173",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2174",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2174\" default-x=\"221.37\" default-y=\"-70.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2174",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2175",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2175\" default-x=\"251.49\" default-y=\"-65.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2175",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2176",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2176\" default-x=\"274.08\" default-y=\"-70.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2176",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2177",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2177\" default-x=\"296.67\" default-y=\"-65.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2177",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2178",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2178\" default-x=\"325.74\" default-y=\"-70.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2178",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2179",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2179\" default-x=\"348.33\" default-y=\"-65.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2179",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "note_id": "n2180",
+   "printed_bar": "252",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2180\" default-x=\"370.92\" default-y=\"-70.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "mint": "swap_rest_incoherent_written_value",
+   "printed_bar": "252",
+   "note_id": "n2180",
+   "graphic_type": "16th",
+   "dot_count": 0,
+   "time_modification": [
+    17,
+    12
+   ],
+   "written_quarters": "3/17",
+   "duration_quarters": "17/96",
+   "reasons": [
+    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (17, 12) = 3/17 quarters, over <duration>17</duration> = 17/96 quarters at divisions=96"
+   ]
+  },
+  {
+   "cue_transfer": "element_to_type_size",
+   "printed_bar": "252",
+   "transferred_note_id": "n2181"
+  },
+  {
+   "cue_transfer": "element_to_type_size",
+   "printed_bar": "252",
+   "transferred_note_id": "n2182"
+  }
+ ],
+ "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op10_1_1/score.musicxml",
+ "source_sha256": "f7b171d53591186228c21314bec412cfb72e334c03bc93ef8c9d55531156eb48",
+ "upstream_sha256": "0eb383a4e71fe285f19c54dadb6ae0665a3df5092188531bb38075dcdf0a93df"
+}

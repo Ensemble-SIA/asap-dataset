@@ -239,12 +239,6 @@
    ]
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "3",
-   "from_div": 240,
-   "to_div": 1080
-  },
-  {
    "note_id": "n83",
    "printed_bar": "3",
    "verdict": "delete",
@@ -279,6 +273,13 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n86\" default-x=\"122.24\" default-y=\"-20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "3",
+   "from_div": 240,
+   "to_div": 1080,
+   "landing_div": 0
   },
   {
    "note_id": "n267",
@@ -393,12 +394,6 @@
    "transferred_note_id": "n405"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "20",
-   "from_div": 120,
-   "to_div": 1080
-  },
-  {
    "note_id": "n560",
    "printed_bar": "20",
    "verdict": "delete",
@@ -426,10 +421,11 @@
    "fragment": "<note id=\"n562\" default-x=\"68.16\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "49",
-   "from_div": 240,
-   "to_div": 1080
+   "boundary": "backup_restated",
+   "printed_bar": "20",
+   "from_div": 120,
+   "to_div": 1080,
+   "landing_div": 0
   },
   {
    "note_id": "n1580",
@@ -466,6 +462,13 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n1583\" default-x=\"328.52\" default-y=\"-20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "49",
+   "from_div": 240,
+   "to_div": 1080,
+   "landing_div": 0
   },
   {
    "note_id": "n1788",
@@ -580,12 +583,6 @@
    "transferred_note_id": "n1902"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "67",
-   "from_div": 120,
-   "to_div": 1080
-  },
-  {
    "note_id": "n2088",
    "printed_bar": "67",
    "verdict": "delete",
@@ -611,7 +608,16 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n2090\" default-x=\"61.52\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "67",
+   "from_div": 120,
+   "to_div": 1080,
+   "landing_div": 0
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op22_2/score.musicxml"
+ "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op22_2/score.musicxml",
+ "source_sha256": "9d0b6d763ea7009c476889c61f9a3794e5bd307fad679aa95a3c148511d55dc8",
+ "upstream_sha256": "d0f0b5d0ff6f91949f7d9ce4c525eae96149b34c337e2c83ae2beb2b14e17c96"
 }

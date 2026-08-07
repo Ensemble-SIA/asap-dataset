@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="3.1">
   <identification>
@@ -22191,7 +22191,19 @@
       <backup>
         <duration>8</duration>
         </backup>
-      <note print-object="no" id="mn-1-53-6-2-1"><rest/><duration>1</duration><voice>6</voice><type>eighth</type><staff>2</staff></note><note id="n1505" default-x="96.52" default-y="-183.00" dynamics="71.11">
+      <note id="n1504" default-x="61.73" default-y="-208.00" print-object="no" dynamics="71.11">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>6</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note id="n1505" default-x="96.52" default-y="-183.00" dynamics="71.11">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -22202,6 +22214,7 @@
         <accidental>flat</accidental>
         <stem>down</stem>
         <staff>2</staff>
+        <beam number="1">end</beam>
         <notations>
           <articulations>
             <staccato/>
@@ -25950,6 +25963,21 @@
         <staff>1</staff>
         <notations>
           <tied type="start" id="n1753--tied--start--1"/>
+          </notations>
+        </note>
+      <note id="n1754" default-x="68.95" default-y="-35.00" print-object="no">
+        <chord/>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>8</duration>
+        <tie type="start"/>
+        <voice>2</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <notations>
+          <tied type="start" id="n1754--tied--start--1"/>
           </notations>
         </note>
       <backup>

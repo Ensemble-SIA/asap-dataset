@@ -8,7 +8,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 0,
-   "boundary_backups_adjusted": 2,
+   "boundary_backups_adjusted": 1,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -27,7 +27,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 0,
-   "boundary_backups_adjusted": 2,
+   "boundary_backups_adjusted": 1,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -41,14 +41,14 @@
   }
  ],
  "severed_ties": [],
- "manifest_entries": 40,
+ "manifest_entries": 38,
  "totals": {
   "segments_excised": 4,
   "deletes": 34,
   "swaps": 0,
   "cue_transfers": 0,
   "forwards_removed": 0,
-  "boundary_backups_adjusted": 4,
+  "boundary_backups_adjusted": 2,
   "boundary_backups_removed": 0,
   "boundary_forwards_inserted": 0,
   "emptied_bars": 0,
@@ -85,27 +85,6 @@
     "n2286",
     "n2302"
    ]
-  },
-  {
-   "boundary": "backup_adjusted",
-   "printed_bar": "42",
-   "from_div": 1427,
-   "to_div": 1292
-  },
-  {
-   "note_id": "n611",
-   "printed_bar": "42",
-   "verdict": "delete",
-   "reasons": [
-    "fabricated excursion \u2014 performance layer, excised whole (R2)"
-   ],
-   "fragment": "<note id=\"n611\" default-x=\"315.07\" default-y=\"5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>152</duration>\n        <voice>3</voice>\n        <type>eighth</type>\n        <time-modification>\n          <actual-notes>19</actual-notes>\n          <normal-notes>12</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  },
-  {
-   "boundary": "backup_adjusted",
-   "printed_bar": "42",
-   "from_div": 1292,
-   "to_div": 1440
   },
   {
    "note_id": "n595",
@@ -252,25 +231,20 @@
    "fragment": "<note id=\"n610\" default-x=\"291.93\" default-y=\"0.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>152</duration>\n        <voice>3</voice>\n        <type>eighth</type>\n        <time-modification>\n          <actual-notes>19</actual-notes>\n          <normal-notes>12</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "159",
-   "from_div": 1427,
-   "to_div": 1292
-  },
-  {
-   "note_id": "n2302",
-   "printed_bar": "159",
+   "note_id": "n611",
+   "printed_bar": "42",
    "verdict": "delete",
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n2302\" default-x=\"467.79\" default-y=\"20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>152</duration>\n        <voice>3</voice>\n        <type>eighth</type>\n        <time-modification>\n          <actual-notes>19</actual-notes>\n          <normal-notes>12</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n611\" default-x=\"315.07\" default-y=\"5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>152</duration>\n        <voice>3</voice>\n        <type>eighth</type>\n        <time-modification>\n          <actual-notes>19</actual-notes>\n          <normal-notes>12</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "159",
-   "from_div": 1292,
-   "to_div": 1440
+   "boundary": "backup_restated",
+   "printed_bar": "42",
+   "from_div": 1427,
+   "to_div": 1440,
+   "landing_div": 0
   },
   {
    "note_id": "n2286",
@@ -415,7 +389,25 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n2301\" default-x=\"433.33\" default-y=\"15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>152</duration>\n        <voice>3</voice>\n        <type>eighth</type>\n        <time-modification>\n          <actual-notes>19</actual-notes>\n          <normal-notes>12</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n2302",
+   "printed_bar": "159",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2302\" default-x=\"467.79\" default-y=\"20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>152</duration>\n        <voice>3</voice>\n        <type>eighth</type>\n        <time-modification>\n          <actual-notes>19</actual-notes>\n          <normal-notes>12</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "159",
+   "from_div": 1427,
+   "to_div": 1440,
+   "landing_div": 0
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op28_4/score.musicxml"
+ "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op28_4/score.musicxml",
+ "source_sha256": "592ac8a9f87219dd30fad8267eea6efd64931362c19b1252cf9e5807beeb17c3",
+ "upstream_sha256": "f77275b9e61abf9d674973e96d5e7ad36787b7d0b5bf2727601efbd0b24599ac"
 }

@@ -27,7 +27,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
+   "boundary_backups_adjusted": 0,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -46,7 +46,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
+   "boundary_backups_adjusted": 0,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -60,14 +60,14 @@
   }
  ],
  "severed_ties": [],
- "manifest_entries": 15,
+ "manifest_entries": 13,
  "totals": {
   "segments_excised": 3,
   "deletes": 12,
   "swaps": 0,
   "cue_transfers": 0,
   "forwards_removed": 0,
-  "boundary_backups_adjusted": 3,
+  "boundary_backups_adjusted": 1,
   "boundary_backups_removed": 0,
   "boundary_forwards_inserted": 0,
   "emptied_bars": 0,
@@ -85,12 +85,6 @@
   "element_handles_restamped": 0
  },
  "manifest": [
-  {
-   "boundary": "backup_adjusted",
-   "printed_bar": "26",
-   "from_div": 16,
-   "to_div": 24
-  },
   {
    "note_id": "n482",
    "printed_bar": "26",
@@ -128,10 +122,11 @@
    "fragment": "<note id=\"n485\" default-x=\"194.94\" default-y=\"0.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>2</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "27",
-   "from_div": 24,
-   "to_div": 24
+   "boundary": "backup_restated",
+   "printed_bar": "26",
+   "from_div": 16,
+   "to_div": 24,
+   "landing_div": 0
   },
   {
    "note_id": "n506",
@@ -170,12 +165,6 @@
    "fragment": "<note id=\"n509\" default-x=\"207.68\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>2</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "45",
-   "from_div": 24,
-   "to_div": 24
-  },
-  {
    "note_id": "n852",
    "printed_bar": "45",
    "verdict": "delete",
@@ -212,5 +201,7 @@
    "fragment": "<note id=\"n855\" default-x=\"265.92\" default-y=\"0.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>2</voice>\n        <type size=\"cue\">32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/bach_bwv884_prelude/score.musicxml"
+ "written": "/Users/george/Projects/asap-dataset/modified/bach_bwv884_prelude/score.musicxml",
+ "source_sha256": "f0548bc9cc68d879c09f12df5910f8878a9fc1d8d0c6bd2e9a83ba4e3f1a9ac9",
+ "upstream_sha256": "81983e51f8b242f21fd7cc0b8eeeba839937f6b4685d3ba4e95e7bd02e320a38"
 }

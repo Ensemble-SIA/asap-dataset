@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN" "http://www.musicxml.org/dtds/2.0/partwise.dtd">
 <score-partwise version="2.0">
   <identification>
@@ -67,7 +67,7 @@
   </credit>
   <part-list>
     <score-part id="P1">
-      <part-name>MusicXML Part</part-name>
+      <part-name color="#1D4ED8">MusicXML Part</part-name>
       <score-instrument id="P1-I1">
         <instrument-name>Midi_1</instrument-name>
       </score-instrument>
@@ -115,16 +115,6 @@
           <line>4</line>
         </clef>
       </attributes>
-      <direction placement="above">
-        <direction-type>
-          <metronome default-y="41" font-family="EngraverTextT" font-size="9.9" id="md-1-1-1-1">
-            <beat-unit>quarter</beat-unit>
-            <per-minute>90</per-minute>
-          </metronome>
-        </direction-type>
-        <staff>1</staff>
-        <sound tempo="90"/>
-      </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-90" id="md-1-1-1-2">
@@ -132,8 +122,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <direction placement="above">
         <direction-type>
           <words default-y="35" font-family="FreeSerif" font-size="11" font-weight="bold" id="md-1-1-1-3">Adagio</words>
@@ -258,8 +247,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n9" default-x="145">
         <pitch>
           <step>E</step>
@@ -543,8 +531,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="n26" default-x="197">
         <pitch>
           <step>B</step>
@@ -747,8 +734,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n35" default-x="25">
         <pitch>
           <step>B</step>
@@ -882,8 +868,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n43" default-x="82">
         <pitch>
           <step>D</step>
@@ -1130,8 +1115,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="n58" default-x="219">
         <pitch>
           <step>D</step>
@@ -1381,8 +1365,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n69" default-x="65">
         <pitch>
           <step>A</step>
@@ -1503,8 +1486,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n77" default-x="135">
         <pitch>
           <step>C</step>
@@ -2231,8 +2213,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n130" default-x="74">
         <pitch>
           <step>C</step>
@@ -2252,8 +2233,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n131" default-x="275">
         <pitch>
           <step>E</step>
@@ -2347,8 +2327,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n137" default-x="107">
         <pitch>
           <step>G</step>
@@ -2410,8 +2389,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n141" default-x="241">
         <pitch>
           <step>G</step>
@@ -2565,8 +2543,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n152" default-x="25">
         <pitch>
           <step>B</step>
@@ -2587,8 +2564,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n153" default-x="222">
         <pitch>
           <step>G</step>
@@ -2683,8 +2659,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n159" default-x="58">
         <pitch>
           <step>G</step>
@@ -2746,8 +2721,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n163" default-x="189">
         <pitch>
           <step>G</step>
@@ -3404,8 +3378,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n211" default-x="66">
         <pitch>
           <step>E</step>
@@ -3514,8 +3487,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n219" default-x="214">
         <pitch>
           <step>E</step>
@@ -3826,8 +3798,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n243" default-x="66">
         <pitch>
           <step>A</step>
@@ -3862,8 +3833,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n245" default-x="288">
         <pitch>
           <step>C</step>
@@ -3943,8 +3913,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n250" default-x="34">
         <pitch>
           <step>C</step>
@@ -4101,8 +4070,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n262" default-x="151">
         <pitch>
           <step>C</step>
@@ -4557,8 +4525,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n298" default-x="34">
         <pitch>
           <step>A</step>
@@ -4593,8 +4560,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n300" default-x="210">
         <pitch>
           <step>C</step>
@@ -4711,8 +4677,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n307" default-x="128">
         <pitch>
           <step>C</step>
@@ -4795,8 +4760,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n313" default-x="228">
         <pitch>
           <step>C</step>
@@ -5107,8 +5071,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n337" default-x="95">
         <pitch>
           <step>A</step>
@@ -5143,8 +5106,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n339" default-x="294">
         <pitch>
           <step>C</step>
@@ -5260,8 +5222,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n347" default-x="49">
         <pitch>
           <step>B</step>
@@ -5380,8 +5341,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n356" default-x="146">
         <pitch>
           <step>B</step>
@@ -5836,8 +5796,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n392" default-x="16">
         <pitch>
           <step>G</step>
@@ -5870,8 +5829,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n394" default-x="210">
         <pitch>
           <step>B</step>
@@ -5987,8 +5945,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n401" default-x="144">
         <pitch>
           <step>B</step>
@@ -6071,8 +6028,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n407" default-x="347">
         <pitch>
           <step>B</step>
@@ -6383,8 +6339,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n431" default-x="76">
         <pitch>
           <step>G</step>
@@ -6419,8 +6374,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n433" default-x="482">
         <pitch>
           <step>B</step>
@@ -7360,8 +7314,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="n498" default-x="320">
         <pitch>
           <step>D</step>
@@ -7657,8 +7610,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="n522" default-x="913">
         <pitch>
           <step>D</step>
@@ -7972,8 +7924,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n544" default-x="585">
         <pitch>
           <step>B</step>
@@ -8006,8 +7957,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n546" default-x="645">
         <pitch>
           <step>C</step>
@@ -8090,8 +8040,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n552" default-x="873">
         <pitch>
           <step>B</step>
@@ -8124,8 +8073,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n554" default-x="933">
         <pitch>
           <step>C</step>
@@ -8320,8 +8268,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n568" default-x="585">
         <pitch>
           <step>G</step>
@@ -8373,8 +8320,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n571" default-x="721">
         <pitch>
           <step>F</step>
@@ -8454,8 +8400,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n576" default-x="933">
         <pitch>
           <step>D</step>
@@ -8494,8 +8439,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n578" default-x="1008">
         <pitch>
           <step>F</step>
@@ -9028,8 +8972,7 @@
         </direction-type>
         <offset>-84</offset>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n612" default-x="660">
         <pitch>
           <step>E</step>
@@ -9674,8 +9617,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="107"/>
-      </direction>
+        </direction>
       <note id="n649" default-x="154">
         <pitch>
           <step>F</step>
@@ -9927,8 +9869,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n664" default-x="154">
         <pitch>
           <step>B</step>
@@ -9960,8 +9901,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n666" default-x="188">
         <pitch>
           <step>D</step>
@@ -11218,8 +11158,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="n741" default-x="357">
         <pitch>
           <step>F</step>
@@ -11309,8 +11248,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n747" default-x="92">
         <pitch>
           <step>F</step>
@@ -11366,8 +11304,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <note id="n750" default-x="337">
         <pitch>
           <step>E</step>
@@ -11433,8 +11370,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n754" default-x="533">
         <pitch>
           <step>F</step>
@@ -11562,8 +11498,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <note id="n763" default-x="337">
         <pitch>
           <step>G</step>
@@ -11650,8 +11585,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n769" default-x="533">
         <pitch>
           <step>F</step>
@@ -12298,8 +12232,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <note id="n808" default-x="284">
         <pitch>
           <step>E</step>
@@ -12365,8 +12298,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-87" id="md-1-28-1-3">
@@ -12374,8 +12306,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n812" default-x="460">
         <pitch>
           <step>F</step>
@@ -12615,8 +12546,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <note id="n829" default-x="284">
         <pitch>
           <step>D</step>
@@ -14855,8 +14785,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <note id="n981" default-x="277">
         <pitch>
           <step>E</step>
@@ -14922,8 +14851,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n985" default-x="450">
         <pitch>
           <step>F</step>
@@ -15142,8 +15070,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1001" default-x="475">
         <pitch>
           <step>D</step>
@@ -15172,8 +15099,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <note id="n1002" default-x="277">
         <pitch>
           <step>D</step>
@@ -15885,8 +15811,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1047" default-x="1025">
         <pitch>
           <step>F</step>
@@ -16013,8 +15938,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-80" id="md-1-34-2-2">
@@ -16022,8 +15946,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <note id="n1056" default-x="604">
         <pitch>
           <step>G</step>
@@ -16110,8 +16033,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1062" default-x="1025">
         <pitch>
           <step>F</step>
@@ -16948,8 +16870,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1113" default-x="208">
         <pitch>
           <step>D</step>
@@ -17119,8 +17040,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-91" id="md-1-36-1-2">
@@ -17128,8 +17048,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1124" default-x="179">
         <pitch>
           <step>B</step>
@@ -17439,8 +17358,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1142" default-x="56">
         <pitch>
           <step>E</step>
@@ -17574,8 +17492,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1151" default-x="16">
         <pitch>
           <step>D</step>
@@ -18985,8 +18902,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1258" default-x="271">
         <pitch>
           <step>A</step>
@@ -19484,8 +19400,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1295" default-x="16">
         <pitch>
           <step>D</step>
@@ -19621,8 +19536,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1304" default-x="16">
         <pitch>
           <step>C</step>
@@ -21043,8 +20957,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1411" default-x="275">
         <pitch>
           <step>G</step>
@@ -21593,8 +21506,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1455" default-x="182">
         <pitch>
           <step>C</step>
@@ -21754,8 +21666,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1468" default-x="34">
         <pitch>
           <step>D</step>
@@ -21841,8 +21752,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1474" default-x="55">
         <pitch>
           <step>F</step>
@@ -22071,8 +21981,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1491" default-x="14">
         <pitch>
           <step>C</step>
@@ -22615,8 +22524,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1529" default-x="56">
         <grace/>
         <pitch>
@@ -22844,8 +22752,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1545" default-x="14">
         <pitch>
           <step>C</step>
@@ -23393,8 +23300,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1583" default-x="65">
         <pitch>
           <step>C</step>
@@ -23420,8 +23326,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1585" default-x="749">
         <pitch>
           <step>A</step>
@@ -23539,8 +23444,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1592" default-x="612">
         <pitch>
           <step>E</step>
@@ -25071,8 +24975,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1700" default-x="90">
         <pitch>
           <step>E</step>
@@ -25267,8 +25170,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1710" default-x="26">
         <pitch>
           <step>F</step>
@@ -26550,17 +26452,13 @@
           <octave>5</octave>
         </pitch>
         <duration>24</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>eighth</type>
         <accidental>flat</accidental>
         <stem default-y="-40">down</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
-        <notations>
-          <tied type="start" id="n1785--tied--start--1"/>
-        </notations>
-      </note>
+        </note>
       <backup>
         <duration>192</duration>
       </backup>
@@ -29051,8 +28949,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <direction placement="above">
         <direction-type>
           <words default-y="50" font-family="FreeSerif" font-size="11" id="md-1-87-1-2">Andantino</words>
@@ -29384,8 +29281,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1971" default-x="214">
         <pitch>
           <step>F</step>
@@ -29581,8 +29477,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1983" default-x="214">
         <pitch>
           <step>D</step>
@@ -29672,8 +29567,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1988" default-x="124">
         <pitch>
           <step>F</step>
@@ -30468,8 +30362,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n2040" default-x="64">
         <pitch>
           <step>F</step>
@@ -30689,8 +30582,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n2053" default-x="231">
         <pitch>
           <step>C</step>
@@ -31479,8 +31371,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n2106" default-x="736">
         <pitch>
           <step>D</step>
@@ -31686,8 +31577,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n2119" default-x="802">
         <pitch>
           <step>D</step>
@@ -31795,8 +31685,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n2124" default-x="555">
         <pitch>
           <step>F</step>
@@ -35799,17 +35688,13 @@
           <octave>5</octave>
         </pitch>
         <duration>12</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>16th</type>
         <stem default-y="-45">down</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
-        <notations>
-          <tied type="start" id="n2392--tied--start--1"/>
-        </notations>
-      </note>
+        </note>
       <note id="n2393" default-x="1067">
         <chord/>
         <pitch>
@@ -35817,15 +35702,11 @@
           <octave>5</octave>
         </pitch>
         <duration>12</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="start" id="n2393--tied--start--1"/>
-        </notations>
-      </note>
+        </note>
       <backup>
         <duration>144</duration>
       </backup>
@@ -40186,8 +40067,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n2672" default-x="53">
         <pitch>
           <step>G</step>
@@ -47274,8 +47154,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3154" default-x="37">
         <pitch>
           <step>G</step>
@@ -47570,8 +47449,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3175" default-x="646">
         <pitch>
           <step>G</step>
@@ -47764,8 +47642,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3189" default-x="140">
         <pitch>
           <step>C</step>
@@ -47901,8 +47778,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3196" default-x="206">
         <pitch>
           <step>G</step>
@@ -48256,8 +48132,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3220" default-x="108">
         <pitch>
           <step>A</step>
@@ -48631,8 +48506,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3246" default-x="151">
         <pitch>
           <step>F</step>
@@ -48792,8 +48666,7 @@
         </direction-type>
         <offset>-36</offset>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="r124" default-x="239">
         <rest>
           <display-step>A</display-step>
@@ -48926,17 +48799,13 @@
           <octave>4</octave>
         </pitch>
         <duration>12</duration>
-        <tie type="start"/>
         <voice>2</voice>
         <type>16th</type>
         <stem default-y="-85">down</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
-        <notations>
-          <tied orientation="under" type="start" id="n3261--tied--start--1"/>
-        </notations>
-      </note>
+        </note>
       <backup>
         <duration>144</duration>
       </backup>
@@ -48992,8 +48861,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3266" default-x="181">
         <pitch>
           <step>A</step>
@@ -49342,8 +49210,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3290" default-x="90">
         <pitch>
           <step>D</step>
@@ -49623,17 +49490,13 @@
           <octave>5</octave>
         </pitch>
         <duration>12</duration>
-        <tie type="start"/>
         <voice>1</voice>
         <type>16th</type>
         <stem default-y="-45">down</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
-        <notations>
-          <tied type="start" id="n3309--tied--start--1"/>
-        </notations>
-      </note>
+        </note>
       <backup>
         <duration>144</duration>
       </backup>
@@ -49651,8 +49514,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3311" default-x="58">
         <pitch>
           <step>G</step>
@@ -50295,8 +50157,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <direction placement="above">
         <direction-type>
           <words default-y="95" font-family="FreeSerif" font-size="9.9" id="md-1-154-2-2">ral</words>
@@ -50310,8 +50171,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <note id="n3359" default-x="126">
         <pitch>
           <step>D</step>
@@ -50361,8 +50221,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3362" default-x="156">
         <pitch>
           <step>D</step>
@@ -50411,8 +50270,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3365" default-x="187">
         <pitch>
           <step>D</step>
@@ -50670,8 +50528,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-128" id="md-1-155-2-2">
@@ -50679,8 +50536,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <note id="n3383" default-x="126">
         <pitch>
           <step>F</step>
@@ -50720,8 +50576,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3385" default-x="159">
         <pitch>
           <step>F</step>
@@ -50758,8 +50613,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3387" default-x="193">
         <pitch>
           <step>F</step>
@@ -51126,8 +50980,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <direction placement="above">
         <direction-type>
           <dynamics default-y="38" id="md-1-156-2-3">
@@ -51135,8 +50988,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <note id="n3410" default-x="576">
         <pitch>
           <step>E</step>
@@ -51175,8 +51027,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3412" default-x="770">
         <pitch>
           <step>E</step>
@@ -51368,8 +51219,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <note id="n3424" default-x="188">
         <pitch>
           <step>E</step>
@@ -51588,8 +51438,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="124"/>
-      </direction>
+        </direction>
       <note id="n3439" default-x="188">
         <pitch>
           <step>C</step>
@@ -51626,8 +51475,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-88" id="md-1-157-2-3">
@@ -51635,8 +51483,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3441" default-x="228">
         <pitch>
           <step>C</step>
@@ -52116,8 +51963,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="n3476" default-x="117">
         <pitch>
           <step>B</step>
@@ -52314,8 +52160,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="n3491" default-x="46">
         <pitch>
           <step>A</step>
@@ -52509,8 +52354,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3502" default-x="56">
         <pitch>
           <step>C</step>
@@ -52546,8 +52390,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3504" default-x="112">
         <pitch>
           <step>E</step>
@@ -52775,8 +52618,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="n3519" default-x="207">
         <pitch>
           <step>C</step>
@@ -53015,8 +52857,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3530" default-x="25">
         <pitch>
           <step>A</step>
@@ -53145,8 +52986,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3538" default-x="84">
         <pitch>
           <step>B</step>
@@ -53385,8 +53225,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="n3553" default-x="186">
         <pitch>
           <step>C</step>
@@ -53617,8 +53456,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3564" default-x="65">
         <pitch>
           <step>D</step>
@@ -53639,8 +53477,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3565" default-x="258">
         <pitch>
           <step>D</step>
@@ -53720,8 +53557,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3570" default-x="65">
         <pitch>
           <step>F</step>
@@ -53783,8 +53619,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3574" default-x="194">
         <pitch>
           <step>F</step>
@@ -53951,8 +53786,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3586" default-x="46">
         <pitch>
           <step>A</step>
@@ -54000,8 +53834,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3589" default-x="249">
         <pitch>
           <step>C</step>
@@ -54080,8 +53913,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3594" default-x="46">
         <pitch>
           <step>F</step>
@@ -54143,8 +53975,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3598" default-x="183">
         <pitch>
           <step>F</step>
@@ -54330,8 +54161,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3611" default-x="122">
         <pitch>
           <step>C</step>
@@ -54733,8 +54563,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3638" default-x="53">
         <pitch>
           <step>G</step>
@@ -55453,8 +55282,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3690" default-x="25">
         <pitch>
           <step>E</step>
@@ -55488,8 +55316,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3692" default-x="50">
         <pitch>
           <step>F</step>
@@ -55572,8 +55399,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3698" default-x="170">
         <pitch>
           <step>E</step>
@@ -55606,8 +55432,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3700" default-x="195">
         <pitch>
           <step>F</step>
@@ -55715,8 +55540,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3708" default-x="348">
         <pitch>
           <step>E</step>
@@ -55978,8 +55802,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3728" default-x="50">
         <pitch>
           <step>G</step>
@@ -56018,8 +55841,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3730" default-x="90">
         <pitch>
           <step>B</step>
@@ -56099,8 +55921,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3735" default-x="195">
         <pitch>
           <step>G</step>
@@ -56139,8 +55960,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3737" default-x="235">
         <pitch>
           <step>B</step>
@@ -56220,8 +56040,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3742" default-x="348">
         <pitch>
           <step>B</step>
@@ -56681,8 +56500,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3777" default-x="180">
         <pitch>
           <step>F</step>
@@ -57623,8 +57441,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3840" default-x="121">
         <pitch>
           <step>G</step>
@@ -57677,8 +57494,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3843" default-x="229">
         <pitch>
           <step>C</step>
@@ -57744,8 +57560,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3847" default-x="394">
         <pitch>
           <step>G</step>
@@ -57798,8 +57613,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3850" default-x="503">
         <pitch>
           <step>C</step>
@@ -57863,8 +57677,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3854" default-x="672">
         <pitch>
           <step>C</step>
@@ -58220,8 +58033,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3882" default-x="64">
         <pitch>
           <step>E</step>
@@ -58255,8 +58067,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3884" default-x="121">
         <pitch>
           <step>F</step>
@@ -58339,8 +58150,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3890" default-x="338">
         <pitch>
           <step>E</step>
@@ -58373,8 +58183,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3892" default-x="394">
         <pitch>
           <step>F</step>
@@ -58503,8 +58312,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3901" default-x="708">
         <pitch>
           <step>D</step>
@@ -58787,8 +58595,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3919" default-x="225">
         <pitch>
           <step>F</step>
@@ -58977,8 +58784,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3933" default-x="180">
         <pitch>
           <step>F</step>
@@ -59022,8 +58828,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="r142" default-x="590">
         <rest>
           <display-step>C</display-step>
@@ -59230,8 +59035,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3947" default-x="255">
         <pitch>
           <step>F</step>
@@ -59318,8 +59122,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3953" default-x="56">
         <pitch>
           <step>G</step>
@@ -59338,8 +59141,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3954" default-x="187">
         <pitch>
           <step>G</step>
@@ -59358,8 +59160,7 @@
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="r143" default-x="322">
         <rest>
           <display-step>C</display-step>
@@ -59518,8 +59319,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3964" default-x="17">
         <pitch>
           <step>C</step>
@@ -59639,8 +59439,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n3972" default-x="382">
         <pitch>
           <step>E</step>
@@ -59844,8 +59643,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n3984" default-x="157">
         <pitch>
           <step>C</step>

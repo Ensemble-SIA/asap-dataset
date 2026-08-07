@@ -107,12 +107,6 @@
    ]
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "10",
-   "from_div": 39,
-   "to_div": 48
-  },
-  {
    "note_id": "n213",
    "printed_bar": "10",
    "verdict": "delete",
@@ -176,10 +170,11 @@
    "fragment": "<note id=\"n218\" default-x=\"571.87\" default-y=\"25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "137",
+   "boundary": "backup_restated",
+   "printed_bar": "10",
    "from_div": 39,
-   "to_div": 48
+   "to_div": 48,
+   "landing_div": 0
   },
   {
    "note_id": "n2808",
@@ -243,7 +238,16 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n2813\" default-x=\"464.51\" default-y=\"25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "137",
+   "from_div": 39,
+   "to_div": 48,
+   "landing_div": 0
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op22_1/score.musicxml"
+ "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op22_1/score.musicxml",
+ "source_sha256": "5a264526feda50f181937e3bea3e88f8621a10837db1c6977d2879f9a4a5b455",
+ "upstream_sha256": "6a7c26118aa61c1b2b82e2503b10d40c8b3fef584fa8e2ade30ee5f78be231a6"
 }

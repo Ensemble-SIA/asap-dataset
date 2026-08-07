@@ -116,12 +116,6 @@
    ]
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "3",
-   "from_div": 225,
-   "to_div": 240
-  },
-  {
    "note_id": "n20",
    "printed_bar": "3",
    "verdict": "delete",
@@ -156,6 +150,13 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n23\" default-x=\"225.51\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "3",
+   "from_div": 225,
+   "to_div": 240,
+   "landing_div": 0
   },
   {
    "note_id": "n113",
@@ -194,12 +195,6 @@
    "fragment": "<note id=\"n116\" default-x=\"194.89\" default-y=\"-5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "10",
-   "from_div": 225,
-   "to_div": 240
-  },
-  {
    "note_id": "n134",
    "printed_bar": "10",
    "verdict": "delete",
@@ -234,7 +229,16 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n137\" default-x=\"203.91\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>15</duration>\n        <voice>3</voice>\n        <type>32nd</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "10",
+   "from_div": 225,
+   "to_div": 240,
+   "landing_div": 0
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op81a_1/score.musicxml"
+ "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op81a_1/score.musicxml",
+ "source_sha256": "232950a5328d5a229ee7cec0abf54db88281e36aaa3d2056170129cb1985955a",
+ "upstream_sha256": "65a221c59288c549385052f85f6f973fc9d291d86abfdf384efb9253881def1d"
 }

@@ -84,7 +84,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
+   "boundary_backups_adjusted": 0,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -103,7 +103,7 @@
    "swaps": 0,
    "cue_transfers": 0,
    "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
+   "boundary_backups_adjusted": 0,
    "boundary_backups_removed": 0,
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
@@ -149,14 +149,14 @@
    "disposition": "survives in reach [machine-nominated partner \u2014 George decides]"
   }
  ],
- "manifest_entries": 33,
+ "manifest_entries": 31,
  "totals": {
   "segments_excised": 7,
   "deletes": 26,
   "swaps": 0,
   "cue_transfers": 0,
   "forwards_removed": 1,
-  "boundary_backups_adjusted": 6,
+  "boundary_backups_adjusted": 4,
   "boundary_backups_removed": 0,
   "boundary_forwards_inserted": 0,
   "emptied_bars": 0,
@@ -174,12 +174,6 @@
   "element_handles_restamped": 0
  },
  "manifest": [
-  {
-   "boundary": "backup_adjusted",
-   "printed_bar": "2",
-   "from_div": 8,
-   "to_div": 16
-  },
   {
    "note_id": "n8",
    "printed_bar": "2",
@@ -199,10 +193,11 @@
    "fragment": "<note id=\"n9\" default-x=\"41.05\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>6</duration>\n        <voice>2</voice>\n        <type size=\"cue\">eighth</type>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "6",
+   "boundary": "backup_restated",
+   "printed_bar": "2",
    "from_div": 8,
-   "to_div": 16
+   "to_div": 16,
+   "landing_div": 0
   },
   {
    "note_id": "n51",
@@ -221,6 +216,13 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n52\" default-x=\"46.61\" default-y=\"-5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>6</duration>\n        <voice>3</voice>\n        <type size=\"cue\">eighth</type>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "6",
+   "from_div": 8,
+   "to_div": 16,
+   "landing_div": 0
   },
   {
    "note_id": "n107",
@@ -248,12 +250,6 @@
     "fabricated-excursion plumbing (R2)"
    ],
    "fragment": "<forward>\n        <duration>8</duration>\n        </forward>"
-  },
-  {
-   "boundary": "backup_adjusted",
-   "printed_bar": "21",
-   "from_div": 14,
-   "to_div": 16
   },
   {
    "note_id": "n266",
@@ -292,10 +288,11 @@
    "fragment": "<note id=\"n269\" default-x=\"99.75\" default-y=\"0.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>3</duration>\n        <voice>4</voice>\n        <type size=\"cue\">16th</type>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "28",
-   "from_div": 16,
-   "to_div": 16
+   "boundary": "backup_restated",
+   "printed_bar": "21",
+   "from_div": 14,
+   "to_div": 16,
+   "landing_div": 0
   },
   {
    "note_id": "n369",
@@ -350,12 +347,6 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n374\" default-x=\"186.29\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>3</duration>\n        <voice>4</voice>\n        <type size=\"cue\">16th</type>\n        <dot/>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  },
-  {
-   "boundary": "backup_adjusted",
-   "printed_bar": "37",
-   "from_div": 16,
-   "to_div": 16
   },
   {
    "note_id": "n503",
@@ -439,12 +430,6 @@
    "fragment": "<note id=\"n511\" default-x=\"98.39\" default-y=\"-35.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>8</duration>\n        <tie type=\"stop\"/>\n        <tie type=\"start\"/>\n        <voice>3</voice>\n        <type size=\"cue\">quarter</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tied type=\"stop\" id=\"n511--tied--stop--1\"/>\n          <tied type=\"start\" id=\"n511--tied--start--2\"/>\n          </notations>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "38",
-   "from_div": 4,
-   "to_div": 16
-  },
-  {
    "note_id": "n526",
    "printed_bar": "38",
    "verdict": "delete",
@@ -452,7 +437,16 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n526\" default-x=\"12.00\" default-y=\"-35.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>4</duration>\n        <tie type=\"stop\"/>\n        <voice>3</voice>\n        <type>eighth</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tied type=\"stop\" id=\"n526--tied--stop--1\"/>\n          </notations>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "38",
+   "from_div": 4,
+   "to_div": 16,
+   "landing_div": 0
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/bach_bwv870_fugue/score.musicxml"
+ "written": "/Users/george/Projects/asap-dataset/modified/bach_bwv870_fugue/score.musicxml",
+ "source_sha256": "09c860879825cb35ccbb139a662952bdee54bc212f4a0cf9343f56da8f7024a6",
+ "upstream_sha256": "09c62f752dd2932afd7fec655a4931b064274a2a2861a8fdedd7e14c9817852d"
 }

@@ -105,12 +105,6 @@
  },
  "manifest": [
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "66",
-   "from_div": 8,
-   "to_div": 32
-  },
-  {
    "note_id": "n1281",
    "printed_bar": "66",
    "verdict": "delete",
@@ -120,10 +114,11 @@
    "fragment": "<note id=\"n1281\" default-x=\"75.74\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>8</duration>\n        <voice>2</voice>\n        <type size=\"cue\">eighth</type>\n        <accidental>flat</accidental>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "68",
+   "boundary": "backup_restated",
+   "printed_bar": "66",
    "from_div": 8,
-   "to_div": 32
+   "to_div": 32,
+   "landing_div": 0
   },
   {
    "note_id": "n1309",
@@ -135,10 +130,11 @@
    "fragment": "<note id=\"n1309\" default-x=\"16.96\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>8</duration>\n        <voice>2</voice>\n        <type size=\"cue\">eighth</type>\n        <accidental>flat</accidental>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "162",
+   "boundary": "backup_restated",
+   "printed_bar": "68",
    "from_div": 8,
-   "to_div": 32
+   "to_div": 32,
+   "landing_div": 0
   },
   {
    "note_id": "n3443",
@@ -150,10 +146,11 @@
    "fragment": "<note id=\"n3443\" default-x=\"16.96\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>8</duration>\n        <voice>2</voice>\n        <type size=\"cue\">eighth</type>\n        <accidental>flat</accidental>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
   },
   {
-   "boundary": "backup_adjusted",
-   "printed_bar": "164",
+   "boundary": "backup_restated",
+   "printed_bar": "162",
    "from_div": 8,
-   "to_div": 32
+   "to_div": 32,
+   "landing_div": 0
   },
   {
    "note_id": "n3475",
@@ -163,7 +160,16 @@
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
    "fragment": "<note id=\"n3475\" default-x=\"16.96\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>8</duration>\n        <voice>2</voice>\n        <type size=\"cue\">eighth</type>\n        <accidental>flat</accidental>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "boundary": "backup_restated",
+   "printed_bar": "164",
+   "from_div": 8,
+   "to_div": 32,
+   "landing_div": 0
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/prokofiev_toccata/score.musicxml"
+ "written": "/Users/george/Projects/asap-dataset/modified/prokofiev_toccata/score.musicxml",
+ "source_sha256": "597bf3c41bf43512b6f2ea0b30f17f87290505081c67686f711a8a00592b5c60",
+ "upstream_sha256": "255d7a5ffd2b0e4f5031eab85da44b586ad27b5792c0d2c3674ce159d9161fac"
 }
