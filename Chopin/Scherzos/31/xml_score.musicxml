@@ -55860,12 +55860,12 @@
           <octave>4</octave>
           </pitch>
         <duration>120</duration>
-        <voice>2</voice>
+        <tie type="stop"/><voice>2</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="2"/>
+          <tied type="stop"/><slur type="stop" number="2"/>
           </notations>
         </note>
       <note id="n3888" default-x="68.56" default-y="-45.00">
@@ -58328,13 +58328,13 @@
           </pitch>
         <duration>120</duration>
         <tie type="start"/>
-        <voice>2</voice>
+        <tie type="stop"/><voice>2</voice>
         <type>half</type>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
           <tied type="start"/>
-          </notations>
+          <tied type="stop"/></notations>
         </note>
       <note id="n4049" default-x="123.81" default-y="-50.00">
         <pitch>
