@@ -53,7 +53,7 @@
       <score-instrument id="P1-I1">
         <instrument-name>Piano</instrument-name>
         </score-instrument>
-      <midi-device id="P1-I1" port="1"/>
+      <midi-device id="P1-I1" port="1"></midi-device>
       <midi-instrument id="P1-I1">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
@@ -41895,15 +41895,11 @@
           <step>A</step>
           <octave>5</octave>
           </pitch>
-        <tie type="start"/>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
-        <notations>
-          <tied type="start"/>
-          </notations>
         </note>
       <note id="n2901" default-x="178.81" default-y="25.00">
         <grace/>
@@ -41927,15 +41923,11 @@
           <octave>6</octave>
           </pitch>
         <duration>720</duration>
-        <tie type="stop"/>
         <voice>1</voice>
         <type>quarter</type>
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop"/>
-          </notations>
         </note>
       <backup>
         <duration>1440</duration>
@@ -42000,14 +41992,10 @@
           <octave>5</octave>
           </pitch>
         <duration>480</duration>
-        <tie type="stop"/>
         <voice>2</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop"/>
-          </notations>
         </note>
       <note id="n2908" default-x="189.91" default-y="45.00">
         <chord/>
@@ -42333,15 +42321,11 @@
           <octave>6</octave>
           </pitch>
         <duration>720</duration>
-        <tie type="stop"/>
         <voice>1</voice>
         <type>quarter</type>
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop"/>
-          </notations>
         </note>
       <note id="n2931" default-x="207.12" default-y="10.00">
         <pitch>
@@ -42404,16 +42388,12 @@
           <octave>5</octave>
           </pitch>
         <duration>360</duration>
-        <tie type="stop"/>
         <voice>2</voice>
         <type>eighth</type>
         <dot/>
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <tied type="stop"/>
-          </notations>
         </note>
       <note id="n2936" default-x="48.59" default-y="45.00">
         <chord/>
@@ -47711,16 +47691,12 @@
           <octave>5</octave>
           </pitch>
         <duration>360</duration>
-        <tie type="stop"/>
         <voice>1</voice>
         <type>eighth</type>
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <tied type="stop"/>
-          </notations>
         </note>
       <note id="n3284" default-x="155.01" default-y="10.00">
         <pitch>
@@ -59607,15 +59583,16 @@
       <note id="n4011" default-x="270.99" default-y="10.00">
         <grace slash="yes"/>
         <pitch>
-          <step>B</step>
+          <step>A</step>
           <octave>6</octave>
           </pitch>
+        <tie type="start"/>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1"/>
+          <tied type="start"/>
           </notations>
         </note>
       <note id="n4012" default-x="290.18" default-y="-25.00">
@@ -59654,9 +59631,6 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>1</staff>
-        <notations>
-          <slur type="stop" number="1"/>
-          </notations>
         </note>
       <note id="n4015" default-x="381.41" default-y="-30.00">
         <pitch>
@@ -134280,14 +134254,10 @@
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
-        <tie type="stop"/>
         <voice>6</voice>
         <type>eighth</type>
         <stem>down</stem>
         <staff>2</staff>
-        <notations>
-          <tied type="stop"/>
-          </notations>
         </note>
       <note id="r206">
         <rest>
@@ -134493,14 +134463,10 @@
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
-        <tie type="stop"/>
         <voice>6</voice>
         <type>eighth</type>
         <stem>down</stem>
         <staff>2</staff>
-        <notations>
-          <tied type="stop"/>
-          </notations>
         </note>
       <note id="n9313" default-x="22.82" default-y="-179.26">
         <chord/>
@@ -134510,14 +134476,10 @@
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
-        <tie type="stop"/>
         <voice>6</voice>
         <type>eighth</type>
         <stem>down</stem>
         <staff>2</staff>
-        <notations>
-          <tied type="stop"/>
-          </notations>
         </note>
       <forward>
         <duration>720</duration>
