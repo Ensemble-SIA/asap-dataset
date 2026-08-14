@@ -32,7 +32,7 @@
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
    "bystanders_relocated": 0,
-   "cursor_corrupt": false,
+   "cursor_corrupt": true,
    "emptied": false,
    "padding_rests_excised": 2,
    "padding_rests_trimmed": 0,
@@ -89,7 +89,7 @@
    "boundary_forwards_inserted": 0,
    "chord_promotions": 0,
    "bystanders_relocated": 0,
-   "cursor_corrupt": false,
+   "cursor_corrupt": true,
    "emptied": false,
    "padding_rests_excised": 2,
    "padding_rests_trimmed": 0,
@@ -534,9 +534,8 @@
   "boundary_backups_removed": 0,
   "boundary_forwards_inserted": 0,
   "emptied_bars": 0,
-  "cursor_corrupt_bars": 0,
+  "cursor_corrupt_bars": 2,
   "severed_tie_faces": 16,
-  "tuplet_repairs": 0,
   "span_repairs": 0,
   "beam_repairs": 0,
   "padding_rests_excised": 4,
@@ -570,8 +569,8 @@
    "padding_boundary": "backup_restated",
    "printed_bar": "50",
    "from_div": 2910,
-   "to_div": 2882,
-   "landing_div": 0
+   "to_div": 2892,
+   "landing_div": -10
   },
   {
    "note_id": "n2647",
@@ -595,8 +594,8 @@
    "padding_boundary": "backup_restated",
    "printed_bar": "126",
    "from_div": 2910,
-   "to_div": 2882,
-   "landing_div": 0
+   "to_div": 2892,
+   "landing_div": -10
   },
   {
    "note_id": "n879",
@@ -2473,7 +2472,7 @@
    "transferred_note_id": "n3541"
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/debussy_pour_le_piano_1/score.musicxml",
- "source_sha256": "879a89027c38bdc41df7ebf9280adaf37f8ba4e733f7fafa9bc267a7526facfa",
+ "written": "/Volumes/PortableSSD/Projects/asap-dataset/modified/debussy_pour_le_piano_1/score.musicxml",
+ "source_sha256": "3c2d9849955528749c14aaba6e7f8efccbd27e88b1e8f7824b2eb53ea1a52337",
  "upstream_sha256": "64dbc77123c24f678e9317d7e05a06c04a549608e0b616fd9dd56533e8fbfe91"
 }

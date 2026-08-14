@@ -104,6 +104,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="above">
         <direction-type>
@@ -111,11 +112,18 @@
 </words>
           </direction-type>
         <direction-type>
+          <metronome parentheses="no" default-x="-32.50" default-y="40.00" relative-x="20.50" relative-y="19.00" id="md-1-1-1-3">
+            <beat-unit>eighth</beat-unit>
+            <per-minute>92</per-minute>
+            </metronome>
+          </direction-type>
+        <direction-type>
           <words default-x="-32.50" default-y="40.00" relative-x="20.50" relative-y="19.00" font-weight="bold" font-family="Times New Roman" font-size="12" id="md-1-1-1-4">)
 </words>
           <words font-weight="normal" font-style="italic" id="md-1-1-1-5">Appassionato e con molto sentimento</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="46"/>
         </direction>
       <note id="n1" default-x="105.87" default-y="-60.00">
         <pitch>
@@ -4222,6 +4230,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n311" default-x="122.52" default-y="-35.00">
         <pitch>
@@ -5322,6 +5331,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n396" default-x="24.33" default-y="-60.00">
         <pitch>
@@ -8024,8 +8034,9 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
+        <sound dynamics="54.44"/>
         </direction>
-      <note id="n599" print-object="no">
+      <note id="n599" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -8039,7 +8050,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n601" print-object="no">
+      <note id="n601" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -8053,7 +8064,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n603" print-object="no">
+      <note id="n603" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -8067,7 +8078,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n605" print-object="no">
+      <note id="n605" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -8081,7 +8092,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n607" print-object="no">
+      <note id="n607" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -8461,7 +8472,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n635" print-object="no">
+      <note id="n635" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -8475,7 +8486,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n637" print-object="no">
+      <note id="n637" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -8489,7 +8500,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n639" print-object="no">
+      <note id="n639" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -8503,7 +8514,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n641" print-object="no">
+      <note id="n641" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -8517,7 +8528,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n643" print-object="no">
+      <note id="n643" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -8531,7 +8542,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n645" print-object="no">
+      <note id="n645" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -9029,7 +9040,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n682" print-object="no">
+      <note id="n682" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -9043,7 +9054,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n684" print-object="no">
+      <note id="n684" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -9057,7 +9068,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n686" print-object="no">
+      <note id="n686" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -9071,7 +9082,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n688" print-object="no">
+      <note id="n688" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -9085,7 +9096,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n690" print-object="no">
+      <note id="n690" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -9099,7 +9110,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n692" print-object="no">
+      <note id="n692" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -9620,7 +9631,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n730" print-object="no">
+      <note id="n730" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -9634,7 +9645,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n732" print-object="no">
+      <note id="n732" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -9648,7 +9659,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n734" print-object="no">
+      <note id="n734" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -9662,7 +9673,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n736" print-object="no">
+      <note id="n736" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -9676,7 +9687,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n738" print-object="no">
+      <note id="n738" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -9690,7 +9701,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n740" print-object="no">
+      <note id="n740" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -9945,6 +9956,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n760" default-x="13.00" default-y="-20.00">
         <pitch>
@@ -10188,7 +10200,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n773" print-object="no">
+      <note id="n773" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -10202,7 +10214,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n775" print-object="no">
+      <note id="n775" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -10216,7 +10228,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n777" print-object="no">
+      <note id="n777" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -10230,7 +10242,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n779" print-object="no">
+      <note id="n779" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -10244,7 +10256,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n781" print-object="no">
+      <note id="n781" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -10258,7 +10270,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n783" print-object="no">
+      <note id="n783" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -10531,8 +10543,6 @@
           <ornaments>
             <trill-mark/>
             <wavy-line type="start" number="1" default-y="20.60" relative-x="7.60"/>
-            </ornaments>
-          <ornaments>
             <wavy-line type="stop" number="1" relative-x="7.60"/>
             </ornaments>
           </notations>
@@ -10793,75 +10803,35 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n816" print-object="no">
-        <rest/>
-        <duration>41</duration>
+      <forward>
+        <duration>2</duration>
+        </forward>
+      <forward><duration>349</duration><voice>2</voice><staff>1</staff></forward><note id="n824" default-x="403.57" default-y="20.00" dynamics="67.78" color="#EC4899">
+        <cue/>
+        <pitch>
+          <step>C</step>
+          <octave>6</octave>
+          </pitch>
+        <duration>44</duration>
         <voice>2</voice>
-        <type>32nd</type>
-        <dot/>
-        <dot/>
-        <dot/>
+        <type>16th</type>
         <time-modification>
           <actual-notes>11</actual-notes>
           <normal-notes>4</normal-notes>
           <normal-type>16th</normal-type>
           </time-modification>
+        <stem>none</stem>
         <staff>1</staff>
-        <notations>
-          <tuplet type="start" bracket="no" show-number="none" id="n816--tuplet--start--1"/>
-          </notations>
         </note>
-      <forward>
-        <duration>2</duration>
-        </forward>
-      <note print-object="no" id="mn-1-32-2-1-1"><rest/><duration>44</duration><voice>2</voice><type>16th</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>4</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-32-2-1-2"><rest/><duration>44</duration><voice>2</voice><type>16th</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>4</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-32-2-1-3"><rest/><duration>44</duration><voice>2</voice><type>16th</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>4</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-32-2-1-4"><rest/><duration>44</duration><voice>2</voice><type>16th</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>4</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-32-2-1-5"><rest/><duration>44</duration><voice>2</voice><type>16th</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>4</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-32-2-1-6"><rest/><duration>44</duration><voice>2</voice><type>16th</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>4</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-32-2-1-7"><rest/><duration>44</duration><voice>2</voice><type>16th</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>4</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-32-2-1-8"><rest/><duration>44</duration><voice>2</voice><type>16th</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>4</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note id="n825" default-x="445.55" default-y="15.00" dynamics="67.78" color="#EC4899">
+      <note id="n825" default-x="445.55" default-y="15.00" dynamics="67.78" color="#EC4899">
+        <cue/>
         <pitch>
           <step>B</step>
           <octave>5</octave>
           </pitch>
         <duration>44</duration>
         <voice>2</voice>
-        <type size="cue">16th</type>
+        <type>16th</type>
         <accidental>sharp</accidental>
         <time-modification>
           <actual-notes>11</actual-notes>
@@ -10874,13 +10844,14 @@
         <beam number="2">begin</beam>
         </note>
       <note id="n826" default-x="476.92" default-y="20.00" dynamics="67.78" color="#EC4899">
+        <cue/>
         <pitch>
           <step>C</step>
           <octave>6</octave>
           </pitch>
         <duration>44</duration>
         <voice>2</voice>
-        <type size="cue">16th</type>
+        <type>16th</type>
         <time-modification>
           <actual-notes>11</actual-notes>
           <normal-notes>4</normal-notes>
@@ -10890,14 +10861,11 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
-        <notations>
-          <tuplet type="stop" id="n826--tuplet--stop--1"/>
-          </notations>
         </note>
       <backup>
         <duration>483</duration>
         </backup>
-      <note id="n827" print-object="no">
+      <note id="n827" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -10911,7 +10879,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n829" print-object="no">
+      <note id="n829" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -10925,7 +10893,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n831" print-object="no">
+      <note id="n831" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -10939,7 +10907,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n833" print-object="no">
+      <note id="n833" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -10953,7 +10921,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n835" print-object="no">
+      <note id="n835" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -10967,7 +10935,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n837" print-object="no">
+      <note id="n837" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -11246,6 +11214,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="36.67"/>
         </direction>
       <note id="n858" default-x="101.28" default-y="15.00">
         <pitch>
@@ -11618,7 +11587,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n880" print-object="no">
+      <note id="n880" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -11632,7 +11601,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n882" print-object="no">
+      <note id="n882" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -11646,7 +11615,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n884" print-object="no">
+      <note id="n884" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -11660,7 +11629,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n886" print-object="no">
+      <note id="n886" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -11674,7 +11643,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n888" print-object="no">
+      <note id="n888" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -11688,7 +11657,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n890" print-object="no">
+      <note id="n890" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -12179,7 +12148,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n927" print-object="no">
+      <note id="n927" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -12193,7 +12162,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n929" print-object="no">
+      <note id="n929" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -12207,7 +12176,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n931" print-object="no">
+      <note id="n931" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -12221,7 +12190,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n933" print-object="no">
+      <note id="n933" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -12235,7 +12204,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n935" print-object="no">
+      <note id="n935" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -12249,7 +12218,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n937" print-object="no">
+      <note id="n937" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -12895,7 +12864,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n981" print-object="no">
+      <note id="n981" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -12909,7 +12878,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n983" print-object="no">
+      <note id="n983" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -12923,7 +12892,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n985" print-object="no">
+      <note id="n985" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -12937,7 +12906,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n987" print-object="no">
+      <note id="n987" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -12951,7 +12920,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n989" print-object="no">
+      <note id="n989" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -12965,7 +12934,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n991" print-object="no">
+      <note id="n991" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -13208,6 +13177,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -13465,7 +13435,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n1027" print-object="no">
+      <note id="n1027" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -13479,7 +13449,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n1029" print-object="no">
+      <note id="n1029" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -13493,7 +13463,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n1031" print-object="no">
+      <note id="n1031" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -13507,7 +13477,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n1033" print-object="no">
+      <note id="n1033" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -13521,7 +13491,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n1035" print-object="no">
+      <note id="n1035" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -13535,7 +13505,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n1037" print-object="no">
+      <note id="n1037" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -13975,7 +13945,7 @@
       <backup>
         <duration>1080</duration>
         </backup>
-      <note id="n1068" print-object="no">
+      <note id="n1068" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -13989,7 +13959,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n1070" print-object="no">
+      <note id="n1070" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -14003,7 +13973,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n1072" print-object="no">
+      <note id="n1072" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -14017,7 +13987,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n1074" print-object="no">
+      <note id="n1074" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -14031,7 +14001,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n1076" print-object="no">
+      <note id="n1076" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -14045,7 +14015,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n1078" print-object="no">
+      <note id="n1078" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -14731,6 +14701,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n1128" default-x="85.29" default-y="30.00">
         <pitch>
@@ -17172,6 +17143,7 @@
           <words default-y="40.00" relative-x="-8.00" relative-y="-9.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-44-1-2">ritard.</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="41"/>
         </direction>
       <note id="n1293" default-x="123.75" default-y="-30.00">
         <pitch>
@@ -17480,6 +17452,7 @@
           <words default-y="40.00" relative-x="-15.00" relative-y="-25.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-45-1-1">a tempo</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="46"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -17488,6 +17461,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n1314" default-x="75.87" default-y="-35.00">
         <pitch>
@@ -21091,6 +21065,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n1533" default-x="75.87" default-y="0.00">
         <pitch>
@@ -24984,6 +24959,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="36.67"/>
         </direction>
       <note id="n1758" default-x="325.27" default-y="-55.00">
         <pitch>
@@ -25467,6 +25443,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n1791" default-x="75.87" default-y="-25.00">
         <pitch>
@@ -25534,6 +25511,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="36.67"/>
         </direction>
       <note id="n1795" default-x="377.97" default-y="-65.00">
         <pitch>
@@ -29075,6 +29053,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n2058" default-x="68.93" default-y="-40.00">
         <pitch>
@@ -30574,6 +30553,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -31520,6 +31500,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <note id="n2227" default-x="239.90" default-y="0.00">
         <pitch>
@@ -32912,6 +32893,7 @@
           <words default-y="40.00" relative-x="-13.00" relative-y="-123.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-86-1-1">smorz.</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="42"/>
         </direction>
       <note id="n2329" default-x="18.42" default-y="-45.00" dynamics="72.22">
         <pitch>
@@ -33243,6 +33225,7 @@
           <words default-y="40.00" relative-x="-2.00" relative-y="-86.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-87-1-1">espress.</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="46"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -33251,6 +33234,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="36.67"/>
         </direction>
       <note id="n2356" default-x="88.37" default-y="-133.00">
         <pitch>
@@ -35851,6 +35835,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n2540">
         <rest/>
@@ -38432,6 +38417,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n2729">
         <rest/>
@@ -39508,6 +39494,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n2809" default-x="114.50" default-y="-5.00">
         <pitch>
@@ -42404,6 +42391,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n3016" default-x="935.36" default-y="40.00" dynamics="54.44">
         <pitch>
@@ -42731,6 +42719,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n3040" default-x="85.87" default-y="35.00">
         <pitch>
@@ -44189,6 +44178,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n3141" default-x="12.00" default-y="-20.00">
         <pitch>
@@ -45712,6 +45702,7 @@
           <words default-y="40.00" relative-x="-2.00" relative-y="-14.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-107-1-1">ri  -</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="44"/>
         </direction>
       <note id="n3253" default-x="12.20" default-y="-35.00">
         <pitch>
@@ -45744,6 +45735,7 @@
           <words default-y="40.00" relative-x="-2.00" relative-y="-14.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-107-1-2">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="42"/>
         </direction>
       <note id="n3255" default-x="130.57" default-y="-40.00">
         <pitch>
@@ -46328,6 +46320,7 @@
           <words default-y="40.00" relative-x="-1.00" relative-y="5.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-108-1-1">-tar -</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="38"/>
         </direction>
       <note id="n3295" default-x="246.29" default-y="-25.00">
         <pitch>
@@ -46412,6 +46405,7 @@
           <words default-y="40.00" relative-x="-1.00" relative-y="5.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-108-1-2">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="37"/>
         </direction>
       <note id="n3301" default-x="351.72" default-y="-10.00">
         <pitch>
@@ -46456,6 +46450,7 @@
           <words default-y="40.00" relative-x="-1.00" relative-y="5.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-108-1-3">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="39"/>
         </direction>
       <note id="n3304" default-x="169.38" default-y="-20.00">
         <pitch>
@@ -46703,6 +46698,7 @@
           <words default-y="40.00" relative-x="7.00" relative-y="5.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-109-1-1">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="36"/>
         </direction>
       <note id="n3321" default-x="73.40" default-y="-15.00">
         <pitch>
@@ -46781,6 +46777,7 @@
           <words default-y="40.00" relative-x="7.00" relative-y="5.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-109-1-2">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="35"/>
         </direction>
       <note id="n3326" default-x="190.83" default-y="-25.00">
         <pitch>
@@ -46932,6 +46929,7 @@
           <words default-y="40.00" relative-x="-21.00" relative-y="3.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-109-1-3">- dan -</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="35"/>
         </direction>
       <note id="n3337" default-x="322.82" default-y="-35.00">
         <pitch>
@@ -47316,6 +47314,7 @@
           <words default-y="40.00" relative-x="3.00" relative-y="3.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-110-1-1">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="34"/>
         </direction>
       <note id="n3364" default-x="121.65" default-y="-35.00">
         <pitch>
@@ -47358,6 +47357,7 @@
           <words default-y="40.00" relative-x="3.00" relative-y="3.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-110-1-2">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="34"/>
         </direction>
       <note id="n3367" default-x="188.69" default-y="-50.00">
         <pitch>
@@ -47412,6 +47412,7 @@
           <words default-y="40.00" relative-x="3.00" relative-y="3.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-110-1-3">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="34"/>
         </direction>
       <note id="n3371" default-x="285.01" default-y="-50.00">
         <pitch>
@@ -47803,6 +47804,7 @@
           <words default-y="40.00" relative-x="3.00" relative-y="3.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-111-1-1">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="34"/>
         </direction>
       <note id="n3400" default-x="85.87" default-y="-50.00">
         <pitch>
@@ -47848,6 +47850,7 @@
           <words default-y="40.00" relative-x="3.00" relative-y="3.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-111-1-2">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="33"/>
         </direction>
       <note id="n3403" default-x="135.35" default-y="-45.00">
         <pitch>
@@ -47916,6 +47919,7 @@
           <words default-y="40.00" relative-x="3.00" relative-y="3.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-111-1-3">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="33"/>
         </direction>
       <note id="n3408" default-x="238.08" default-y="-55.00">
         <pitch>
@@ -47958,6 +47962,7 @@
           <words default-y="40.00" relative-x="3.00" relative-y="3.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-111-1-4">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="33"/>
         </direction>
       <note id="n3411" default-x="340.10" default-y="-75.00">
         <pitch>
@@ -48243,6 +48248,7 @@
           <words default-y="40.00" relative-x="3.00" relative-y="3.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-112-1-1">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="32"/>
         </direction>
       <note id="n3431" default-x="12.00" default-y="-70.00">
         <pitch>
@@ -48302,6 +48308,7 @@
           <words default-y="40.00" relative-x="3.00" relative-y="3.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-112-1-2">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="32"/>
         </direction>
       <note id="n3435" default-x="167.91" default-y="-65.00">
         <pitch>
@@ -48362,6 +48369,7 @@
           <words default-y="40.00" relative-x="3.00" relative-y="3.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-112-1-3">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="32"/>
         </direction>
       <note id="n3439" default-x="256.65" default-y="-25.00">
         <pitch>
@@ -48397,6 +48405,7 @@
           <words default-y="40.00" relative-x="-13.00" relative-y="3.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-112-1-4">- do</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="30"/>
         </direction>
       <note id="n3441" default-x="345.39" default-y="-40.00">
         <pitch>
@@ -48656,6 +48665,7 @@
           <words default-y="40.00" relative-x="-2.00" relative-y="-22.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-113-1-1">a tempo</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="46"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -48711,7 +48721,7 @@
         <type>eighth</type>
         <staff>2</staff>
         </note>
-      <note id="n3465" print-object="no">
+      <note id="n3465" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -48725,7 +48735,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3467" print-object="no">
+      <note id="n3467" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -48739,7 +48749,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3469" print-object="no">
+      <note id="n3469" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -48753,7 +48763,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3471" print-object="no">
+      <note id="n3471" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -48767,7 +48777,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3473" print-object="no">
+      <note id="n3473" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -49175,7 +49185,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n3503" print-object="no">
+      <note id="n3503" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -49189,7 +49199,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3505" print-object="no">
+      <note id="n3505" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -49203,7 +49213,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3507" print-object="no">
+      <note id="n3507" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -49217,7 +49227,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3509" print-object="no">
+      <note id="n3509" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -49231,7 +49241,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3511" print-object="no">
+      <note id="n3511" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -49245,7 +49255,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3513" print-object="no">
+      <note id="n3513" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -49724,7 +49734,93 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n3555" print-object="no">
+      <note id="n3550" color="#1D4ED8">
+        <rest/>
+        <duration>48</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <time-modification>
+          <actual-notes>5</actual-notes>
+          <normal-notes>4</normal-notes>
+          </time-modification>
+        <staff>1</staff>
+        <notations>
+          <tuplet type="start" bracket="no" show-number="none" id="n3550--tuplet--start--1"/>
+          </notations>
+        </note>
+      <note id="n3551" default-x="42.73" default-y="40.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>G</step>
+          <octave>6</octave>
+          </pitch>
+        <duration>48</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <time-modification>
+          <actual-notes>5</actual-notes>
+          <normal-notes>4</normal-notes>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        </note>
+      <note id="n3552" default-x="69.28" default-y="35.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>F</step>
+          <octave>6</octave>
+          </pitch>
+        <duration>48</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <time-modification>
+          <actual-notes>5</actual-notes>
+          <normal-notes>4</normal-notes>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        </note>
+      <note id="n3553" default-x="104.71" default-y="35.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>F</step>
+          <octave>6</octave>
+          </pitch>
+        <duration>48</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <accidental>natural</accidental>
+        <time-modification>
+          <actual-notes>5</actual-notes>
+          <normal-notes>4</normal-notes>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        </note>
+      <note id="n3554" default-x="131.37" default-y="35.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>F</step>
+          <octave>6</octave>
+          </pitch>
+        <duration>48</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <accidental>sharp</accidental>
+        <time-modification>
+          <actual-notes>5</actual-notes>
+          <normal-notes>4</normal-notes>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <notations>
+          <tuplet type="stop" id="n3554--tuplet--stop--1"/>
+          </notations>
+        </note>
+      <backup>
+        <duration>240</duration>
+        </backup>
+      <note id="n3555" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -49738,7 +49834,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3557" print-object="no">
+      <note id="n3557" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -49752,7 +49848,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3559" print-object="no">
+      <note id="n3559" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -49766,7 +49862,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3561" print-object="no">
+      <note id="n3561" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -49780,7 +49876,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3563" print-object="no">
+      <note id="n3563" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -49794,7 +49890,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3565" print-object="no">
+      <note id="n3565" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -50398,7 +50494,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n3604" print-object="no">
+      <note id="n3604" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -50412,7 +50508,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3606" print-object="no">
+      <note id="n3606" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -50426,7 +50522,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3608" print-object="no">
+      <note id="n3608" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -50440,7 +50536,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3610" print-object="no">
+      <note id="n3610" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -50454,7 +50550,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3612" print-object="no">
+      <note id="n3612" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -50468,7 +50564,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3614" print-object="no">
+      <note id="n3614" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -50863,7 +50959,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n3644" print-object="no">
+      <note id="n3644" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -50877,7 +50973,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3646" print-object="no">
+      <note id="n3646" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -50891,7 +50987,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3648" print-object="no">
+      <note id="n3648" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -50905,7 +51001,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3650" print-object="no">
+      <note id="n3650" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -50919,7 +51015,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3652" print-object="no">
+      <note id="n3652" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -50933,7 +51029,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3654" print-object="no">
+      <note id="n3654" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -51218,8 +51314,6 @@
           <ornaments>
             <trill-mark/>
             <wavy-line type="start" number="1" default-y="30.15" relative-x="5.52"/>
-            </ornaments>
-          <ornaments>
             <wavy-line type="stop" number="1" relative-x="5.52"/>
             </ornaments>
           </notations>
@@ -51391,75 +51485,52 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n3686" print-object="no">
-        <rest/>
-        <duration>41</duration>
+      <forward>
+        <duration>2</duration>
+        </forward>
+      <forward><duration>305</duration><voice>3</voice><staff>1</staff></forward><note id="n3693" default-x="232.72" default-y="40.00" color="#EC4899">
+        <cue/>
+        <pitch>
+          <step>G</step>
+          <octave>6</octave>
+          </pitch>
+        <duration>44</duration>
         <voice>3</voice>
-        <type>64th</type>
-        <dot/>
-        <dot/>
-        <dot/>
+        <type>32nd</type>
         <time-modification>
           <actual-notes>11</actual-notes>
           <normal-notes>8</normal-notes>
           <normal-type>32nd</normal-type>
           </time-modification>
+        <stem>none</stem>
         <staff>1</staff>
-        <notations>
-          <tuplet type="start" bracket="no" show-number="none" id="n3686--tuplet--start--1"/>
-          </notations>
         </note>
-      <forward>
-        <duration>2</duration>
-        </forward>
-      <note print-object="no" id="mn-1-118-3-1-1"><rest/><duration>44</duration><voice>3</voice><type>32nd</type><time-modification>
+      <note id="n3694" default-x="255.32" default-y="35.00" color="#EC4899">
+        <cue/>
+        <pitch>
+          <step>F</step>
+          <octave>6</octave>
+          </pitch>
+        <duration>44</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <time-modification>
           <actual-notes>11</actual-notes>
           <normal-notes>8</normal-notes>
           <normal-type>32nd</normal-type>
           </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-118-3-1-2"><rest/><duration>44</duration><voice>3</voice><type>32nd</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>32nd</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-118-3-1-3"><rest/><duration>44</duration><voice>3</voice><type>32nd</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>32nd</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-118-3-1-4"><rest/><duration>44</duration><voice>3</voice><type>32nd</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>32nd</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-118-3-1-5"><rest/><duration>44</duration><voice>3</voice><type>32nd</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>32nd</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-118-3-1-6"><rest/><duration>44</duration><voice>3</voice><type>32nd</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>32nd</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-118-3-1-7"><rest/><duration>44</duration><voice>3</voice><type>32nd</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>32nd</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note print-object="no" id="mn-1-118-3-1-8"><rest/><duration>44</duration><voice>3</voice><type>32nd</type><time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>8</normal-notes>
-          <normal-type>32nd</normal-type>
-          </time-modification>
-        <staff>1</staff></note><note id="n3695" default-x="285.62" default-y="30.00" color="#EC4899">
+        <stem>none</stem>
+        <staff>1</staff>
+        </note>
+      <note id="n3695" default-x="285.62" default-y="30.00" color="#EC4899">
+        <cue/>
         <pitch>
           <step>E</step>
           <octave>6</octave>
           </pitch>
         <duration>44</duration>
         <voice>3</voice>
-        <type size="cue">32nd</type>
+        <type>32nd</type>
         <accidental>sharp</accidental>
         <time-modification>
           <actual-notes>11</actual-notes>
@@ -51476,13 +51547,14 @@
           </notations>
         </note>
       <note id="n3696" default-x="308.21" default-y="35.00" color="#EC4899">
+        <cue/>
         <pitch>
           <step>F</step>
           <octave>6</octave>
           </pitch>
         <duration>44</duration>
         <voice>3</voice>
-        <type size="cue">32nd</type>
+        <type>32nd</type>
         <time-modification>
           <actual-notes>11</actual-notes>
           <normal-notes>8</normal-notes>
@@ -51494,14 +51566,13 @@
         <beam number="2">end</beam>
         <beam number="3">end</beam>
         <notations>
-          <tuplet type="stop" id="n3696--tuplet--stop--1"/>
           <slur type="stop" number="1" id="n3696--slur--stop--1"/>
           </notations>
         </note>
       <backup>
         <duration>483</duration>
         </backup>
-      <note id="n3697" print-object="no">
+      <note id="n3697" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -51515,7 +51586,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3699" print-object="no">
+      <note id="n3699" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -51529,7 +51600,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3701" print-object="no">
+      <note id="n3701" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -51543,7 +51614,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3703" print-object="no">
+      <note id="n3703" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -51557,7 +51628,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3705" print-object="no">
+      <note id="n3705" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -51571,7 +51642,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3707" print-object="no">
+      <note id="n3707" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -52200,7 +52271,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n3751" print-object="no">
+      <note id="n3751" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -52214,7 +52285,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3753" print-object="no">
+      <note id="n3753" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -52228,7 +52299,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3755" print-object="no">
+      <note id="n3755" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -52242,7 +52313,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3757" print-object="no">
+      <note id="n3757" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -52256,7 +52327,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3759" print-object="no">
+      <note id="n3759" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -52270,7 +52341,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3761" print-object="no">
+      <note id="n3761" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -52742,7 +52813,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n3799" print-object="no">
+      <note id="n3799" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -52756,7 +52827,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3801" print-object="no">
+      <note id="n3801" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -52770,7 +52841,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3803" print-object="no">
+      <note id="n3803" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -52784,7 +52855,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3805" print-object="no">
+      <note id="n3805" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -52798,7 +52869,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3807" print-object="no">
+      <note id="n3807" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -52812,7 +52883,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3809" print-object="no">
+      <note id="n3809" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -53487,7 +53558,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n3859" print-object="no">
+      <note id="n3859" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -53501,7 +53572,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3861" print-object="no">
+      <note id="n3861" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -53515,7 +53586,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3863" print-object="no">
+      <note id="n3863" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -53529,7 +53600,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3865" print-object="no">
+      <note id="n3865" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -53543,7 +53614,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3867" print-object="no">
+      <note id="n3867" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -53557,7 +53628,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3869" print-object="no">
+      <note id="n3869" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -54357,7 +54428,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n3926" print-object="no">
+      <note id="n3926" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -54371,7 +54442,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3928" print-object="no">
+      <note id="n3928" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -54385,7 +54456,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3930" print-object="no">
+      <note id="n3930" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -54399,7 +54470,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3932" print-object="no">
+      <note id="n3932" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -54413,7 +54484,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3934" print-object="no">
+      <note id="n3934" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -54427,7 +54498,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3936" print-object="no">
+      <note id="n3936" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -55224,7 +55295,7 @@
       <backup>
         <duration>720</duration>
         </backup>
-      <note id="n3992" print-object="no">
+      <note id="n3992" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -55238,7 +55309,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3994" print-object="no">
+      <note id="n3994" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -55252,7 +55323,7 @@
         <type>16th</type>
         <staff>2</staff>
         </note>
-      <note id="n3996" print-object="no">
+      <note id="n3996" color="#1D4ED8">
         <rest/>
         <duration>120</duration>
         <voice>5</voice>
@@ -55512,6 +55583,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n4016" default-x="18.42" default-y="-15.00">
         <pitch>
@@ -58168,6 +58240,7 @@
           <words default-y="40.00" relative-x="-8.00" relative-y="-27.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-129-1-3">ritard.</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="41"/>
         </direction>
       <note id="n4201" default-x="81.70" default-y="-20.00">
         <pitch>
@@ -58458,6 +58531,7 @@
           <words default-y="40.00" relative-x="-15.00" relative-y="-25.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-130-1-1">a tempo</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="46"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -58466,6 +58540,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n4222" default-x="12.00" default-y="-25.00">
         <pitch>
@@ -66057,6 +66132,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n4672" default-x="136.38" default-y="-40.00">
         <pitch>
@@ -66149,6 +66225,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="36.67"/>
         </direction>
       <note id="n4678" default-x="783.76" default-y="-45.00">
         <pitch>
@@ -66518,6 +66595,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n4703" default-x="115.87" default-y="-50.00">
         <pitch>
@@ -66608,6 +66686,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="36.67"/>
         </direction>
       <note id="n4709" default-x="360.96" default-y="-45.00">
         <pitch>
@@ -69598,6 +69677,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="36.67"/>
         </direction>
       <note id="n4934" default-x="16.36" default-y="-20.00">
         <pitch>
@@ -70169,6 +70249,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n4973" default-x="65.87" default-y="-30.00">
         <pitch>
@@ -74327,6 +74408,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <note id="n5210" default-x="91.28" default-y="0.00">
         <pitch>
@@ -74375,6 +74457,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="116.67"/>
         </direction>
       <note id="n5213" default-x="201.22" default-y="35.00">
         <pitch>
@@ -75236,6 +75319,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n5262" default-x="53.52" default-y="-15.00">
         <pitch>
@@ -75902,6 +75986,7 @@
           <words default-y="40.00" relative-x="-5.00" relative-y="-124.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-168-1-1">ri-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="46"/>
         </direction>
       <note id="n5315" default-x="262.98" default-y="-60.00">
         <pitch>
@@ -76159,6 +76244,7 @@
           <words default-y="40.00" relative-x="-16.00" relative-y="-127.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-169-1-1">-tar  -</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="43"/>
         </direction>
       <note id="n5335" default-x="153.30" default-y="-65.00">
         <pitch>
@@ -76239,6 +76325,7 @@
           <words default-y="40.00" relative-x="4.00" relative-y="-124.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-169-1-2">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="44"/>
         </direction>
       <note id="n5341" default-x="61.30" default-y="-50.00">
         <pitch>
@@ -76490,6 +76577,7 @@
           <words default-y="40.00" relative-x="-2.00" relative-y="-125.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-170-1-1">-</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="42"/>
         </direction>
       <note id="n5360" default-x="17.41" default-y="-30.00">
         <grace/>
@@ -76540,6 +76628,7 @@
           <words default-y="40.00" relative-x="-9.00" relative-y="-125.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-170-1-2">-dan -</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="41"/>
         </direction>
       <note id="n5363" default-x="140.90" default-y="-25.00">
         <pitch>
@@ -76747,6 +76836,7 @@
           <words default-y="40.00" relative-x="-3.00" relative-y="-127.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-171-1-1">-          -</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="40"/>
         </direction>
       <note id="n5377" default-x="14.36" default-y="-35.00">
         <pitch>
@@ -76831,6 +76921,7 @@
           <words default-y="40.00" relative-x="26.00" relative-y="-125.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-171-1-2">-          -</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="39"/>
         </direction>
       <note id="n5383" default-x="110.44" default-y="-35.00">
         <pitch>
@@ -77067,6 +77158,7 @@
           <words default-y="40.00" relative-x="26.00" relative-y="-124.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-172-1-1">-             -  </words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="38"/>
         </direction>
       <note id="n5398" default-x="85.87" default-y="-70.00">
         <pitch>
@@ -77389,6 +77481,7 @@
           <words default-y="40.00" relative-x="14.00" relative-y="-124.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-173-1-1">-             -</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="37"/>
         </direction>
       <note id="n5424" default-x="12.00" default-y="-50.00">
         <pitch>
@@ -77520,6 +77613,7 @@
           <words default-y="40.00" relative-x="-6.00" relative-y="-135.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-173-1-2">do</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="36"/>
         </direction>
       <note id="n5434" default-x="269.76" default-y="-75.00">
         <pitch>
@@ -77768,6 +77862,7 @@
           <words default-y="40.00" relative-x="33.00" relative-y="-130.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-174-1-1">a tempo</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="46"/>
         </direction>
       <note id="n5452" default-x="27.57" default-y="-35.00">
         <pitch>
@@ -80913,6 +81008,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="36.67"/>
         </direction>
       <note id="n5644" default-x="88.37" default-y="0.00">
         <pitch>
@@ -82615,6 +82711,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="36.67"/>
         </direction>
       <note id="n5760" default-x="97.53" default-y="-60.00">
         <pitch>
@@ -82756,12 +82853,14 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="17.78"/>
         </direction>
       <direction placement="above">
         <direction-type>
           <words default-y="40.00" relative-x="-13.00" relative-y="-17.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-187-1-2">tre corde</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="20"/>
         </direction>
       <note id="n5769" default-x="31.50" default-y="-60.00" dynamics="0.00">
         <pitch>
@@ -82889,7 +82988,7 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n5781" default-x="31.50" default-y="-185.00" dynamics="36.67">
+      <note id="n5781" default-x="31.50" default-y="-185.00" dynamics="36.67" color="#1D4ED8">
         <pitch>
           <step>F</step>
           <octave>1</octave>
@@ -82903,7 +83002,7 @@
           <arpeggiate default-x="-28.50" default-y="50.51" id="n5781--arpeggiate--1"/>
           </notations>
         </note>
-      <note id="n5782" default-x="31.50" default-y="-165.00" dynamics="36.67">
+      <note id="n5782" default-x="31.50" default-y="-165.00" dynamics="36.67" color="#1D4ED8">
         <chord/>
         <pitch>
           <step>C</step>
@@ -82918,7 +83017,7 @@
           <arpeggiate default-x="-28.50" default-y="50.51" id="n5782--arpeggiate--1"/>
           </notations>
         </note>
-      <note id="n5783" default-x="31.50" default-y="-140.00" dynamics="36.67">
+      <note id="n5783" default-x="31.50" default-y="-140.00" dynamics="36.67" color="#1D4ED8">
         <chord/>
         <pitch>
           <step>A</step>
@@ -82933,7 +83032,7 @@
           <arpeggiate default-x="-28.50" default-y="50.51" id="n5783--arpeggiate--1"/>
           </notations>
         </note>
-      <note id="n5784" default-x="31.50" default-y="-105.00" dynamics="36.67">
+      <note id="n5784" default-x="31.50" default-y="-105.00" dynamics="36.67" color="#1D4ED8">
         <chord/>
         <pitch>
           <step>A</step>
@@ -82949,7 +83048,7 @@
           <arpeggiate default-x="-28.50" default-y="50.51" id="n5784--arpeggiate--1"/>
           </notations>
         </note>
-      <note id="n5785" default-x="31.50" default-y="-80.00" dynamics="36.67">
+      <note id="n5785" default-x="31.50" default-y="-80.00" dynamics="36.67" color="#1D4ED8">
         <chord/>
         <pitch>
           <step>F</step>
@@ -82964,7 +83063,7 @@
           <arpeggiate default-x="-28.50" default-y="50.51" id="n5785--arpeggiate--1"/>
           </notations>
         </note>
-      <note id="n5786" default-x="31.50" default-y="-60.00" dynamics="36.67">
+      <note id="n5786" default-x="31.50" default-y="-60.00" dynamics="36.67" color="#1D4ED8">
         <chord/>
         <pitch>
           <step>C</step>

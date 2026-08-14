@@ -45,7 +45,7 @@
   </credit>
   <part-list>
     <score-part id="P1">
-      <part-name print-object="no">MusicXML Part</part-name>
+      <part-name color="#1D4ED8">MusicXML Part</part-name>
       <score-instrument id="P1-I1">
         <instrument-name>Midi_1</instrument-name>
       </score-instrument>
@@ -90,7 +90,6 @@
           <line>4</line>
         </clef>
       </attributes>
-      <sound tempo="120"/>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-65" id="md-1-0-1-1">
@@ -98,8 +97,7 @@
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <direction placement="above">
         <direction-type>
           <words default-y="28" font-size="11" font-weight="bold" id="md-1-0-1-2">Allegro</words>
@@ -1922,8 +1920,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n95" default-x="98">
         <pitch>
           <step>G</step>
@@ -5425,8 +5422,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="n281" default-x="25">
         <pitch>
           <step>G</step>
@@ -6301,16 +6297,10 @@ Komponiert 1827</words>
         <voice>2</voice>
         <type>half</type>
         <accidental parentheses="yes">flat</accidental>
-        <time-modification>
-          <actual-notes>3</actual-notes>
-          <normal-notes>2</normal-notes>
-          <normal-type>quarter</normal-type>
-        </time-modification>
         <stem default-y="15.5">up</stem>
         <staff>1</staff>
         <notations>
-          <tuplet bracket="yes" number="1" type="start" id="n327--tuplet--start--1"/>
-        </notations>
+          </notations>
       </note>
       <note id="r17" print-object="no">
         <rest>
@@ -6326,7 +6316,7 @@ Komponiert 1827</words>
           <normal-type>quarter</normal-type>
         </time-modification>
         <staff>1</staff>
-      <notations><tuplet type="stop" number="1" id="r17--tuplet--stop--1"/></notations></note>
+      </note>
       <backup>
         <duration>72</duration>
       </backup>
@@ -9526,15 +9516,11 @@ Komponiert 1827</words>
           <octave>3</octave>
         </pitch>
         <duration>48</duration>
-        <tie type="start"/>
         <voice>3</voice>
         <type>half</type>
         <stem default-y="29">up</stem>
         <staff>2</staff>
-        <notations>
-          <tied orientation="over" type="start" id="n491--tied--start--1"/>
-        </notations>
-      </note>
+        </note>
       <backup>
         <duration>72</duration>
       </backup>
@@ -10914,12 +10900,12 @@ Komponiert 1827</words>
           <octave>3</octave>
         </pitch>
         <duration>72</duration>
-        <voice>3</voice>
+        <tie type="stop"/><voice>3</voice>
         <type>half</type>
         <dot/>
         <stem default-y="39">up</stem>
         <staff>2</staff>
-      </note>
+      <notations><tied type="stop" number="1" id="n564--tied--stop--1"/></notations></note>
       <note id="n565" default-x="16">
         <chord/>
         <pitch>
@@ -10927,12 +10913,12 @@ Komponiert 1827</words>
           <octave>3</octave>
         </pitch>
         <duration>72</duration>
-        <voice>3</voice>
+        <tie type="stop"/><voice>3</voice>
         <type>half</type>
         <dot/>
         <stem>up</stem>
         <staff>2</staff>
-      </note>
+      <notations><tied type="stop" number="1" id="n565--tied--stop--1"/></notations></note>
       <note id="n566" default-x="16">
         <chord/>
         <pitch>
@@ -10940,12 +10926,12 @@ Komponiert 1827</words>
           <octave>4</octave>
         </pitch>
         <duration>72</duration>
-        <voice>3</voice>
+        <tie type="stop"/><voice>3</voice>
         <type>half</type>
         <dot/>
         <stem>up</stem>
         <staff>2</staff>
-      </note>
+      <notations><tied type="stop" number="1" id="n566--tied--stop--1"/></notations></note>
       <backup>
         <duration>72</duration>
       </backup>
@@ -10955,12 +10941,12 @@ Komponiert 1827</words>
           <octave>2</octave>
         </pitch>
         <duration>72</duration>
-        <voice>4</voice>
+        <tie type="stop"/><voice>4</voice>
         <type>half</type>
         <dot/>
         <stem default-y="-59">down</stem>
         <staff>2</staff>
-      </note>
+      <notations><tied type="stop" number="1" id="n567--tied--stop--1"/></notations></note>
     </measure>
     <!--=======================================================-->
     <measure number="49" width="359">
@@ -11658,14 +11644,14 @@ Komponiert 1827</words>
           <octave>4</octave>
         </pitch>
         <duration>72</duration>
-        <tie type="start"/>
+        <tie type="stop"/><tie type="start"/>
         <voice>3</voice>
         <type>half</type>
         <dot/>
         <stem default-y="14">up</stem>
         <staff>2</staff>
         <notations>
-          <tied orientation="over" type="start" id="n603--tied--start--1"/>
+          <tied type="stop" number="1" id="n603--tied--stop--1"/><tied orientation="over" type="start" id="n603--tied--start--1"/>
         </notations>
       </note>
       <note id="n604" default-x="99">
@@ -11675,14 +11661,14 @@ Komponiert 1827</words>
           <octave>4</octave>
         </pitch>
         <duration>72</duration>
-        <tie type="start"/>
+        <tie type="stop"/><tie type="start"/>
         <voice>3</voice>
         <type>half</type>
         <dot/>
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied orientation="over" type="start" id="n604--tied--start--1"/>
+          <tied type="stop" number="1" id="n604--tied--stop--1"/><tied orientation="over" type="start" id="n604--tied--start--1"/>
         </notations>
       </note>
       <note id="n605" default-x="99">
@@ -11692,16 +11678,12 @@ Komponiert 1827</words>
           <octave>5</octave>
         </pitch>
         <duration>72</duration>
-        <tie type="start"/>
-        <voice>3</voice>
+        <tie type="stop"/><voice>3</voice>
         <type>half</type>
         <dot/>
         <stem>up</stem>
         <staff>2</staff>
-        <notations>
-          <tied orientation="over" type="start" id="n605--tied--start--1"/>
-        </notations>
-      </note>
+        <notations><tied type="stop" number="1" id="n605--tied--stop--1"/></notations></note>
       <backup>
         <duration>72</duration>
       </backup>
@@ -11982,8 +11964,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n620" default-x="14">
         <pitch>
           <step>G</step>
@@ -13750,8 +13731,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n713" default-x="17">
         <pitch>
           <step>G</step>
@@ -15532,8 +15512,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="122"/>
-      </direction>
+        </direction>
       <note id="n805" default-x="34">
         <pitch>
           <step>C</step>
@@ -17099,15 +17078,9 @@ Komponiert 1827</words>
         <duration>32</duration>
         <voice>3</voice>
         <type>half</type>
-        <time-modification>
-          <actual-notes>3</actual-notes>
-          <normal-notes>2</normal-notes>
-          <normal-type>quarter</normal-type>
-        </time-modification>
         <stem default-y="13.5">up</stem>
         <staff>2</staff>
         <notations>
-          <tuplet bracket="yes" number="1" type="start" id="n887--tuplet--start--1"/>
           <slur number="1" type="stop" id="n887--slur--stop--1"/>
         </notations>
       </note>
@@ -17125,7 +17098,7 @@ Komponiert 1827</words>
           <normal-type>quarter</normal-type>
         </time-modification>
         <staff>2</staff>
-      <notations><tuplet type="stop" number="1" id="r50--tuplet--stop--1"/></notations></note>
+      </note>
       <backup>
         <duration>72</duration>
       </backup>
@@ -18923,8 +18896,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="122"/>
-      </direction>
+        </direction>
       <direction placement="above">
         <direction-type>
           <words default-y="32" font-size="11" font-style="italic" id="md-1-83-1-2">ben marcato</words>
@@ -20411,8 +20383,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1062" default-x="34">
         <pitch>
           <step>B</step>
@@ -21222,8 +21193,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1107" default-x="90">
         <pitch>
           <step>F</step>
@@ -21515,8 +21485,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="122"/>
-      </direction>
+        </direction>
       <note id="n1124" default-x="17">
         <pitch>
           <step>B</step>
@@ -21918,8 +21887,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1148" default-x="13">
         <pitch>
           <step>A</step>
@@ -22635,8 +22603,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1193" default-x="17">
         <pitch>
           <step>F</step>
@@ -23155,8 +23122,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="122"/>
-      </direction>
+        </direction>
       <note id="n1222" default-x="16">
         <pitch>
           <step>F</step>
@@ -23278,8 +23244,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="122"/>
-      </direction>
+        </direction>
       <note id="n1228" default-x="76">
         <pitch>
           <step>B</step>
@@ -23326,8 +23291,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1231" default-x="17">
         <pitch>
           <step>F</step>
@@ -23884,8 +23848,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1260" default-x="27">
         <pitch>
           <step>C</step>
@@ -26183,8 +26146,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1392" default-x="27">
         <pitch>
           <step>E</step>
@@ -26500,8 +26462,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1406" default-x="34">
         <pitch>
           <step>G</step>
@@ -26898,8 +26859,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1429" default-x="17">
         <pitch>
           <step>B</step>
@@ -28317,8 +28277,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1514" default-x="16">
         <pitch>
           <step>E</step>
@@ -30466,8 +30425,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1647" default-x="16">
         <pitch>
           <step>B</step>
@@ -31125,8 +31083,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1685" default-x="17">
         <pitch>
           <step>B</step>
@@ -31630,8 +31587,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1714" default-x="16">
         <pitch>
           <step>B</step>
@@ -34423,8 +34379,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n1872" default-x="98">
         <pitch>
           <step>G</step>
@@ -36191,8 +36146,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n1965" default-x="98">
         <pitch>
           <step>G</step>
@@ -39694,8 +39648,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="67"/>
-      </direction>
+        </direction>
       <note id="n2151" default-x="25">
         <pitch>
           <step>G</step>
@@ -42542,15 +42495,9 @@ Komponiert 1827</words>
         <duration>16</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <time-modification>
-          <actual-notes>3</actual-notes>
-          <normal-notes>2</normal-notes>
-          <normal-type>eighth</normal-type>
-        </time-modification>
         <staff>1</staff>
         <notations>
-          <tuplet bracket="yes" number="1" type="start" id="r178--tuplet--start--1"/>
-        </notations>
+          </notations>
       </note>
       <note id="r179" print-object="no">
         <rest>
@@ -43796,15 +43743,11 @@ Komponiert 1827</words>
           <octave>3</octave>
         </pitch>
         <duration>48</duration>
-        <tie type="start"/>
         <voice>3</voice>
         <type>half</type>
         <stem default-y="28.5">up</stem>
         <staff>2</staff>
-        <notations>
-          <tied orientation="over" type="start" id="n2361--tied--start--1"/>
-        </notations>
-      </note>
+        </note>
       <backup>
         <duration>72</duration>
       </backup>
@@ -45186,12 +45129,12 @@ Komponiert 1827</words>
           <octave>3</octave>
         </pitch>
         <duration>72</duration>
-        <voice>3</voice>
+        <tie type="stop"/><voice>3</voice>
         <type>half</type>
         <dot/>
         <stem default-y="39">up</stem>
         <staff>2</staff>
-      </note>
+      <notations><tied type="stop" number="1" id="n2434--tied--stop--1"/></notations></note>
       <note id="n2435" default-x="16">
         <chord/>
         <pitch>
@@ -45199,12 +45142,12 @@ Komponiert 1827</words>
           <octave>3</octave>
         </pitch>
         <duration>72</duration>
-        <voice>3</voice>
+        <tie type="stop"/><voice>3</voice>
         <type>half</type>
         <dot/>
         <stem>up</stem>
         <staff>2</staff>
-      </note>
+      <notations><tied type="stop" number="1" id="n2435--tied--stop--1"/></notations></note>
       <note id="n2436" default-x="16">
         <chord/>
         <pitch>
@@ -45212,12 +45155,12 @@ Komponiert 1827</words>
           <octave>4</octave>
         </pitch>
         <duration>72</duration>
-        <voice>3</voice>
+        <tie type="stop"/><voice>3</voice>
         <type>half</type>
         <dot/>
         <stem>up</stem>
         <staff>2</staff>
-      </note>
+      <notations><tied type="stop" number="1" id="n2436--tied--stop--1"/></notations></note>
       <backup>
         <duration>72</duration>
       </backup>
@@ -45227,12 +45170,12 @@ Komponiert 1827</words>
           <octave>2</octave>
         </pitch>
         <duration>72</duration>
-        <voice>4</voice>
+        <tie type="stop"/><voice>4</voice>
         <type>half</type>
         <dot/>
         <stem default-y="-59">down</stem>
         <staff>2</staff>
-      </note>
+      <notations><tied type="stop" number="1" id="n2437--tied--stop--1"/></notations></note>
     </measure>
     <!--=======================================================-->
     <measure number="217" width="359">
@@ -45929,14 +45872,14 @@ Komponiert 1827</words>
           <octave>4</octave>
         </pitch>
         <duration>72</duration>
-        <tie type="start"/>
+        <tie type="stop"/><tie type="start"/>
         <voice>3</voice>
         <type>half</type>
         <dot/>
         <stem default-y="13.5">up</stem>
         <staff>2</staff>
         <notations>
-          <tied orientation="over" type="start" id="n2473--tied--start--1"/>
+          <tied type="stop" number="1" id="n2473--tied--stop--1"/><tied orientation="over" type="start" id="n2473--tied--start--1"/>
         </notations>
       </note>
       <note id="n2474" default-x="99">
@@ -45946,14 +45889,14 @@ Komponiert 1827</words>
           <octave>4</octave>
         </pitch>
         <duration>72</duration>
-        <tie type="start"/>
+        <tie type="stop"/><tie type="start"/>
         <voice>3</voice>
         <type>half</type>
         <dot/>
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied orientation="over" type="start" id="n2474--tied--start--1"/>
+          <tied type="stop" number="1" id="n2474--tied--stop--1"/><tied orientation="over" type="start" id="n2474--tied--start--1"/>
         </notations>
       </note>
       <note id="n2475" default-x="99">
@@ -45963,12 +45906,12 @@ Komponiert 1827</words>
           <octave>5</octave>
         </pitch>
         <duration>72</duration>
-        <voice>3</voice>
+        <tie type="stop"/><voice>3</voice>
         <type>half</type>
         <dot/>
         <stem>up</stem>
         <staff>2</staff>
-      </note>
+      <notations><tied type="stop" number="1" id="n2475--tied--stop--1"/></notations></note>
       <backup>
         <duration>72</duration>
       </backup>
@@ -46249,8 +46192,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="78"/>
-      </direction>
+        </direction>
       <note id="n2490" default-x="14">
         <pitch>
           <step>G</step>
@@ -48017,8 +47959,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="111"/>
-      </direction>
+        </direction>
       <note id="n2583" default-x="17">
         <pitch>
           <step>G</step>
@@ -49769,8 +49710,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="122"/>
-      </direction>
+        </direction>
       <note id="n2675" default-x="34">
         <pitch>
           <step>C</step>
@@ -52882,8 +52822,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="122"/>
-      </direction>
+        </direction>
       <note id="n2837" default-x="25">
         <pitch>
           <step>G</step>
@@ -52956,8 +52895,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="122"/>
-      </direction>
+        </direction>
       <note id="n2840" default-x="37">
         <pitch>
           <step>B</step>
@@ -53202,8 +53140,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>2</staff>
-        <sound dynamics="122"/>
-      </direction>
+        </direction>
       <note id="n2852" default-x="109">
         <pitch>
           <step>B</step>
@@ -54518,8 +54455,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="122"/>
-      </direction>
+        </direction>
       <note id="n2929" default-x="25">
         <pitch>
           <step>B</step>
@@ -56037,8 +55973,7 @@ Komponiert 1827</words>
           </dynamics>
         </direction-type>
         <staff>1</staff>
-        <sound dynamics="122"/>
-      </direction>
+        </direction>
       <direction placement="above">
         <direction-type>
           <dashes default-y="15" number="1" type="start" id="md-1-267-1-2"/>

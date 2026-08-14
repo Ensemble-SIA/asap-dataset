@@ -24,7 +24,7 @@
    "printed_bar": "114",
    "segments_excised": 0,
    "deletes": 0,
-   "swaps": 8,
+   "swaps": 0,
    "cue_transfers": 2,
    "forwards_removed": 0,
    "boundary_backups_adjusted": 0,
@@ -41,11 +41,11 @@
   }
  ],
  "severed_ties": [],
- "manifest_entries": 27,
+ "manifest_entries": 11,
  "totals": {
   "segments_excised": 1,
   "deletes": 8,
-  "swaps": 8,
+  "swaps": 0,
   "cue_transfers": 2,
   "forwards_removed": 0,
   "boundary_backups_adjusted": 1,
@@ -54,8 +54,9 @@
   "emptied_bars": 0,
   "cursor_corrupt_bars": 0,
   "severed_tie_faces": 0,
-  "tuplet_repairs": 0,
-  "span_repairs": 0,
+  "anchor_rides": 0,
+  "constructs_died_whole": 0,
+  "balance_lanes": 0,
   "beam_repairs": 0,
   "padding_rests_excised": 0,
   "padding_rests_trimmed": 0,
@@ -146,206 +147,6 @@
    "landing_div": 0
   },
   {
-   "note_id": "n2044",
-   "printed_bar": "114",
-   "verdict": "delete",
-   "reasons": [
-    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
-   ],
-   "fragment": "<note id=\"n2044\" default-x=\"51.60\" default-y=\"-15.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>65</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>11</actual-notes>\n          <normal-notes>6</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  },
-  {
-   "mint": "swap_rest_incoherent_written_value",
-   "printed_bar": "114",
-   "note_id": "n2044",
-   "graphic_type": "16th",
-   "dot_count": 0,
-   "time_modification": [
-    11,
-    6
-   ],
-   "written_quarters": "3/22",
-   "duration_quarters": "13/96",
-   "reasons": [
-    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (11, 6) = 3/22 quarters, over <duration>65</duration> = 13/96 quarters at divisions=480"
-   ]
-  },
-  {
-   "note_id": "n2045",
-   "printed_bar": "114",
-   "verdict": "delete",
-   "reasons": [
-    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
-   ],
-   "fragment": "<note id=\"n2045\" default-x=\"66.79\" default-y=\"-20.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>65</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>11</actual-notes>\n          <normal-notes>6</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  },
-  {
-   "mint": "swap_rest_incoherent_written_value",
-   "printed_bar": "114",
-   "note_id": "n2045",
-   "graphic_type": "16th",
-   "dot_count": 0,
-   "time_modification": [
-    11,
-    6
-   ],
-   "written_quarters": "3/22",
-   "duration_quarters": "13/96",
-   "reasons": [
-    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (11, 6) = 3/22 quarters, over <duration>65</duration> = 13/96 quarters at divisions=480"
-   ]
-  },
-  {
-   "note_id": "n2046",
-   "printed_bar": "114",
-   "verdict": "delete",
-   "reasons": [
-    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
-   ],
-   "fragment": "<note id=\"n2046\" default-x=\"81.98\" default-y=\"-15.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>65</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>11</actual-notes>\n          <normal-notes>6</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  },
-  {
-   "mint": "swap_rest_incoherent_written_value",
-   "printed_bar": "114",
-   "note_id": "n2046",
-   "graphic_type": "16th",
-   "dot_count": 0,
-   "time_modification": [
-    11,
-    6
-   ],
-   "written_quarters": "3/22",
-   "duration_quarters": "13/96",
-   "reasons": [
-    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (11, 6) = 3/22 quarters, over <duration>65</duration> = 13/96 quarters at divisions=480"
-   ]
-  },
-  {
-   "note_id": "n2047",
-   "printed_bar": "114",
-   "verdict": "delete",
-   "reasons": [
-    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
-   ],
-   "fragment": "<note id=\"n2047\" default-x=\"97.18\" default-y=\"-20.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>65</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>11</actual-notes>\n          <normal-notes>6</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  },
-  {
-   "mint": "swap_rest_incoherent_written_value",
-   "printed_bar": "114",
-   "note_id": "n2047",
-   "graphic_type": "16th",
-   "dot_count": 0,
-   "time_modification": [
-    11,
-    6
-   ],
-   "written_quarters": "3/22",
-   "duration_quarters": "13/96",
-   "reasons": [
-    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (11, 6) = 3/22 quarters, over <duration>65</duration> = 13/96 quarters at divisions=480"
-   ]
-  },
-  {
-   "note_id": "n2048",
-   "printed_bar": "114",
-   "verdict": "delete",
-   "reasons": [
-    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
-   ],
-   "fragment": "<note id=\"n2048\" default-x=\"112.37\" default-y=\"-15.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>65</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>11</actual-notes>\n          <normal-notes>6</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  },
-  {
-   "mint": "swap_rest_incoherent_written_value",
-   "printed_bar": "114",
-   "note_id": "n2048",
-   "graphic_type": "16th",
-   "dot_count": 0,
-   "time_modification": [
-    11,
-    6
-   ],
-   "written_quarters": "3/22",
-   "duration_quarters": "13/96",
-   "reasons": [
-    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (11, 6) = 3/22 quarters, over <duration>65</duration> = 13/96 quarters at divisions=480"
-   ]
-  },
-  {
-   "note_id": "n2049",
-   "printed_bar": "114",
-   "verdict": "delete",
-   "reasons": [
-    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
-   ],
-   "fragment": "<note id=\"n2049\" default-x=\"127.56\" default-y=\"-20.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>65</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>11</actual-notes>\n          <normal-notes>6</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  },
-  {
-   "mint": "swap_rest_incoherent_written_value",
-   "printed_bar": "114",
-   "note_id": "n2049",
-   "graphic_type": "16th",
-   "dot_count": 0,
-   "time_modification": [
-    11,
-    6
-   ],
-   "written_quarters": "3/22",
-   "duration_quarters": "13/96",
-   "reasons": [
-    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (11, 6) = 3/22 quarters, over <duration>65</duration> = 13/96 quarters at divisions=480"
-   ]
-  },
-  {
-   "note_id": "n2050",
-   "printed_bar": "114",
-   "verdict": "delete",
-   "reasons": [
-    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
-   ],
-   "fragment": "<note id=\"n2050\" default-x=\"142.75\" default-y=\"-15.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>65</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>11</actual-notes>\n          <normal-notes>6</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  },
-  {
-   "mint": "swap_rest_incoherent_written_value",
-   "printed_bar": "114",
-   "note_id": "n2050",
-   "graphic_type": "16th",
-   "dot_count": 0,
-   "time_modification": [
-    11,
-    6
-   ],
-   "written_quarters": "3/22",
-   "duration_quarters": "13/96",
-   "reasons": [
-    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (11, 6) = 3/22 quarters, over <duration>65</duration> = 13/96 quarters at divisions=480"
-   ]
-  },
-  {
-   "note_id": "n2051",
-   "printed_bar": "114",
-   "verdict": "delete",
-   "reasons": [
-    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
-   ],
-   "fragment": "<note id=\"n2051\" default-x=\"157.94\" default-y=\"-20.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>65</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>11</actual-notes>\n          <normal-notes>6</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
-  },
-  {
-   "mint": "swap_rest_incoherent_written_value",
-   "printed_bar": "114",
-   "note_id": "n2051",
-   "graphic_type": "16th",
-   "dot_count": 0,
-   "time_modification": [
-    11,
-    6
-   ],
-   "written_quarters": "3/22",
-   "duration_quarters": "13/96",
-   "reasons": [
-    "INHERITED incoherence carried verbatim into the minted hidden rest (M1: fabrication's statement has no authority; recorded, never raised on) \u2014 the doomed note states <type>16th</type> with 0 dot(s) and ratio (11, 6) = 3/22 quarters, over <duration>65</duration> = 13/96 quarters at divisions=480"
-   ]
-  },
-  {
    "cue_transfer": "element_to_type_size",
    "printed_bar": "114",
    "transferred_note_id": "n2052"
@@ -356,7 +157,7 @@
    "transferred_note_id": "n2053"
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op110_3_4/score.musicxml",
- "source_sha256": "c4d2fced04e2cd5d4ff88e165dd949e8c4867b4ef8835e038616612277332574",
+ "written": "/Volumes/PortableSSD/Projects/asap-dataset/modified/beethoven_op110_3_4/score.musicxml",
+ "source_sha256": "9d1e329590d5be362d11216863cf81b030cef839f31e64ae052c0d30d5f67740",
  "upstream_sha256": "2df309b5b82255c86f02477064e366b36cc5faf43bf98cc4195cd6a0e4cba8a5"
 }

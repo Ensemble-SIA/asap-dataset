@@ -3185,6 +3185,10 @@
         <notations>
           <tied type="start" id="n194--tied--start--1"/>
           <slur type="stop" number="1" id="n194--slur--stop--1"/>
+          <ornaments>
+            <trill-mark/>
+            <wavy-line type="start" number="1" default-y="10.00"/>
+            </ornaments>
           </notations>
         </note>
       <note id="n195" default-x="437.31" default-y="0.00">
@@ -3203,6 +3207,9 @@
         <notations>
           <tied type="stop" id="n195--tied--stop--1"/>
           <slur type="start" placement="above" number="1" id="n195--slur--start--1"/>
+          <ornaments>
+            <wavy-line type="stop" number="1"/>
+            </ornaments>
           </notations>
         </note>
       <note id="n196" default-x="566.84" default-y="-5.00">
@@ -3269,10 +3276,6 @@
         <beam number="2">begin</beam>
         <notations>
           <tuplet type="start" bracket="no" show-number="none" id="n199--tuplet--start--1"/>
-          <ornaments>
-            <trill-mark/>
-            <wavy-line type="start" number="1" default-y="10.00"/>
-            </ornaments>
           </notations>
         </note>
       <direction placement="below">
@@ -3472,11 +3475,6 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <notations>
-          <ornaments>
-            <wavy-line type="stop" number="1"/>
-            </ornaments>
-          </notations>
         </note>
       <note id="n210" default-x="483.40" default-y="0.00" color="#0D9488">
         <cue/>
@@ -15325,6 +15323,17 @@
         <staff>1</staff>
         <notations>
           <slur type="stop" number="1" id="n1056--slur--stop--1"/>
+          <ornaments>
+            <trill-mark/>
+            <wavy-line type="start" number="1" default-y="10.00"/>
+            </ornaments>
+          <ornaments>
+            <trill-mark/>
+            <wavy-line type="start" number="1" default-y="10.00"/>
+            </ornaments>
+          <ornaments>
+            <wavy-line type="stop" number="1"/>
+            </ornaments>
           </notations>
         </note>
       <backup>
@@ -15343,12 +15352,6 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
-        <notations>
-          <ornaments>
-            <trill-mark/>
-            <wavy-line type="start" number="1" default-y="10.00"/>
-            </ornaments>
-          </notations>
         </note>
       <note id="n1058" default-x="182.85" default-y="-5.00" color="#0D9488">
         <cue/>
@@ -15629,11 +15632,6 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
-        <notations>
-          <ornaments>
-            <wavy-line type="stop" number="1"/>
-            </ornaments>
-          </notations>
         </note>
       <note id="n1078" default-x="942.52" default-y="-5.00" color="#0D9488">
         <cue/>
@@ -15758,12 +15756,6 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
-        <notations>
-          <ornaments>
-            <trill-mark/>
-            <wavy-line type="start" number="1" default-y="10.00"/>
-            </ornaments>
-          </notations>
         </note>
       <note id="n1085" default-x="199.65" default-y="30.00" color="#0D9488">
         <cue/>
@@ -24670,7 +24662,7 @@
         <beam number="2">end</beam>
         </note>
       <backup>
-        <duration>2880</duration>
+        <duration>320389</duration>
         </backup>
       <note id="n1720" default-x="17.77" default-y="-10.00" color="#0D9488">
         <cue/>
@@ -25355,7 +25347,7 @@
           </notations>
         </note>
       <backup>
-        <duration>2880</duration>
+        <duration>320389</duration>
         </backup>
       <note id="n1762" default-x="15.57" default-y="10.00" color="#0D9488">
         <cue/>
@@ -26036,7 +26028,7 @@
           </notations>
         </note>
       <backup>
-        <duration>2880</duration>
+        <duration>320389</duration>
         </backup>
       <note id="n1803" default-x="17.77" default-y="-30.00" color="#0D9488">
         <cue/>
@@ -26948,7 +26940,7 @@
           </notations>
         </note>
       <backup>
-        <duration>2880</duration>
+        <duration>320389</duration>
         </backup>
       <note id="n1854" default-x="17.77" default-y="5.00" color="#0D9488">
         <cue/>
@@ -52758,7 +52750,7 @@
           </notations>
         </note>
       <backup>
-        <duration>2880</duration>
+        <duration>639819</duration>
         </backup>
       <note id="n3710" default-x="17.77" default-y="-5.00" color="#0D9488">
         <cue/>
@@ -54420,7 +54412,7 @@
           </notations>
         </note>
       <backup>
-        <duration>2880</duration>
+        <duration>639819</duration>
         </backup>
       <note id="n3822" default-x="15.57" default-y="0.00" color="#0D9488">
         <cue/>
@@ -55465,7 +55457,7 @@
           </notations>
         </note>
       <backup>
-        <duration>2880</duration>
+        <duration>639819</duration>
         </backup>
       <note id="n3893" default-x="17.77" default-y="-5.00" color="#0D9488">
         <cue/>
@@ -56379,7 +56371,7 @@
           </notations>
         </note>
       <backup>
-        <duration>2880</duration>
+        <duration>639819</duration>
         </backup>
       <note id="n3950" default-x="15.57" default-y="5.00" color="#0D9488">
         <cue/>
@@ -60766,7 +60758,7 @@
           </notations>
         </note>
       <backup>
-        <duration>2880</duration>
+        <duration>639819</duration>
         </backup>
       <note id="n4250" default-x="17.77" default-y="-5.00" color="#0D9488">
         <cue/>
@@ -61902,7 +61894,7 @@
           </notations>
         </note>
       <backup>
-        <duration>2880</duration>
+        <duration>639819</duration>
         </backup>
       <note id="n4320" default-x="17.77" default-y="-5.00" color="#0D9488">
         <cue/>
@@ -63007,7 +62999,7 @@
           </notations>
         </note>
       <backup>
-        <duration>2880</duration>
+        <duration>639819</duration>
         </backup>
       <note id="n4389" default-x="15.57" default-y="5.00" color="#0D9488">
         <cue/>
@@ -64136,7 +64128,7 @@
           </notations>
         </note>
       <backup>
-        <duration>2880</duration>
+        <duration>639819</duration>
         </backup>
       <note id="n4461" default-x="15.57" default-y="15.00" color="#0D9488">
         <cue/>

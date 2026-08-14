@@ -1,0 +1,852 @@
+{
+ "work_id": "chopin_ballade_3",
+ "bars": [
+  {
+   "printed_bar": "46",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 10,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "118",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 7,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 7,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "122",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 7,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 7,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "134",
+   "segments_excised": 1,
+   "deletes": 24,
+   "swaps": 0,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 1,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "135",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 16,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "202",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 1,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  }
+ ],
+ "severed_ties": [
+  {
+   "deleted_note_id": "n863",
+   "printed_bar": "46",
+   "side": "start",
+   "line": "E5",
+   "survivor_note_id": "n868",
+   "candidates": [
+    "n868"
+   ],
+   "disposition": "survives in reach"
+  },
+  {
+   "deleted_note_id": "n864",
+   "printed_bar": "46",
+   "side": "start",
+   "line": "B5",
+   "survivor_note_id": "n869",
+   "candidates": [
+    "n869"
+   ],
+   "disposition": "survives in reach"
+  },
+  {
+   "deleted_note_id": "n865",
+   "printed_bar": "46",
+   "side": "start",
+   "line": "D6",
+   "survivor_note_id": "n870",
+   "candidates": [
+    "n870"
+   ],
+   "disposition": "survives in reach"
+  },
+  {
+   "deleted_note_id": "n866",
+   "printed_bar": "46",
+   "side": "start",
+   "line": "F6",
+   "survivor_note_id": null,
+   "candidates": [],
+   "disposition": "beyond reach (unresolved at cut time)"
+  },
+  {
+   "deleted_note_id": "n867",
+   "printed_bar": "46",
+   "side": "start",
+   "line": "A6",
+   "survivor_note_id": null,
+   "candidates": [],
+   "disposition": "beyond reach (unresolved at cut time)"
+  }
+ ],
+ "manifest_entries": 75,
+ "totals": {
+  "segments_excised": 1,
+  "deletes": 24,
+  "swaps": 41,
+  "cue_transfers": 0,
+  "forwards_removed": 0,
+  "boundary_backups_adjusted": 0,
+  "boundary_backups_removed": 1,
+  "boundary_forwards_inserted": 0,
+  "emptied_bars": 0,
+  "cursor_corrupt_bars": 0,
+  "severed_tie_faces": 5,
+  "span_repairs": 5,
+  "beam_repairs": 1,
+  "padding_rests_excised": 0,
+  "padding_rests_trimmed": 0,
+  "padding_rests_deferred": 0,
+  "padding_movers_resolved": 0,
+  "marks_died_with_host": 0,
+  "reject_released_hosts": 3,
+  "element_handles_restamped": 0
+ },
+ "manifest": [
+  {
+   "span_repair": "strip_orphaned_face",
+   "family": "slur",
+   "number": "1",
+   "survivor_note_id": "n843",
+   "doomed_note_id": "n846"
+  },
+  {
+   "span_repair": "strip_orphaned_face",
+   "family": "slur",
+   "number": "2",
+   "survivor_note_id": "n858",
+   "doomed_note_id": "n861"
+  },
+  {
+   "span_repair": "strip_orphaned_face",
+   "family": "slur",
+   "number": "1",
+   "survivor_note_id": "n2213",
+   "doomed_note_id": "n2199"
+  },
+  {
+   "span_repair": "strip_orphaned_face",
+   "family": "slur",
+   "number": "1",
+   "survivor_note_id": "n2292",
+   "doomed_note_id": "n2278"
+  },
+  {
+   "span_repair": "strip_orphaned_face",
+   "family": "slur",
+   "number": "1",
+   "survivor_note_id": "n4077",
+   "doomed_note_id": "n4092"
+  },
+  {
+   "beam_repair": "drop_singleton",
+   "survivor_note_id": "n4077"
+  },
+  {
+   "note_id": "n846",
+   "printed_bar": "46",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n846\" default-x=\"198.56\" default-y=\"-5.00\" print-object=\"no\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>80</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <notations>\n          <slur type=\"stop\" number=\"1\" id=\"n846--slur--stop--1\"/>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "n847",
+   "printed_bar": "46",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n847\" default-x=\"198.56\" default-y=\"10.00\" print-object=\"no\">\n        <chord/>\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>80</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n848",
+   "printed_bar": "46",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n848\" default-x=\"198.56\" default-y=\"30.00\" print-object=\"no\">\n        <chord/>\n        <pitch>\n          <step>E</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>80</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        </note>"
+  },
+  {
+   "note_id": "n861",
+   "printed_bar": "46",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n861\" default-x=\"198.56\" default-y=\"-165.00\" print-object=\"no\">\n        <pitch>\n          <step>E</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>80</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        <notations>\n          <slur type=\"stop\" number=\"2\" id=\"n861--slur--stop--1\"/>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "n862",
+   "printed_bar": "46",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n862\" default-x=\"198.56\" default-y=\"-140.00\" print-object=\"no\">\n        <chord/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>80</duration>\n        <voice>5</voice>\n        <type>eighth</type>\n        <stem>up</stem>\n        <staff>2</staff>\n        </note>"
+  },
+  {
+   "note_id": "n863",
+   "printed_bar": "46",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n863\" default-x=\"235.45\" default-y=\"-130.00\" print-object=\"no\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <tie type=\"start\"/>\n        <voice>5</voice>\n        <type>32nd</type>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        <beam number=\"3\">begin</beam>\n        <notations>\n          <tied type=\"start\" id=\"n863--tied--start--1\"/>\n          <tuplet type=\"start\" bracket=\"no\" id=\"n863--tuplet--start--1\"/>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "n864",
+   "printed_bar": "46",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n864\" default-x=\"264.47\" default-y=\"-110.00\" print-object=\"no\">\n        <pitch>\n          <step>B</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <tie type=\"start\"/>\n        <voice>5</voice>\n        <type>32nd</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <notations>\n          <tied type=\"start\" id=\"n864--tied--start--1\"/>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "n865",
+   "printed_bar": "46",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n865\" default-x=\"293.49\" default-y=\"-100.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>16</duration>\n        <tie type=\"start\"/>\n        <voice>5</voice>\n        <type>32nd</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>up</stem>\n        <staff>2</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <notations>\n          <tied type=\"start\" id=\"n865--tied--start--1\"/>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "n866",
+   "printed_bar": "46",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n866\" default-x=\"309.16\" default-y=\"0.00\" print-object=\"no\">\n        <pitch>\n          <step>F</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>16</duration>\n        <tie type=\"start\"/>\n        <voice>5</voice>\n        <type>32nd</type>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        <notations>\n          <tied type=\"start\" id=\"n866--tied--start--1\"/>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "n867",
+   "printed_bar": "46",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n867\" default-x=\"324.82\" default-y=\"10.00\" print-object=\"no\">\n        <pitch>\n          <step>A</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>16</duration>\n        <tie type=\"start\"/>\n        <voice>5</voice>\n        <type>32nd</type>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        <notations>\n          <tied type=\"start\" id=\"n867--tied--start--1\"/>\n          <tuplet type=\"stop\" id=\"n867--tuplet--stop--1\"/>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "n2199",
+   "printed_bar": "118",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2199\" default-x=\"101.51\" default-y=\"-85.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>C</step>\n          <octave>4</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <notations>\n          <slur type=\"start\" placement=\"above\" number=\"1\" id=\"n2199--slur--start--1\"/>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "n2201",
+   "printed_bar": "118",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2201\" default-x=\"119.87\" default-y=\"-75.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>E</step>\n          <octave>4</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2203",
+   "printed_bar": "118",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2203\" default-x=\"138.24\" default-y=\"-60.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2205",
+   "printed_bar": "118",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2205\" default-x=\"156.60\" default-y=\"-50.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2207",
+   "printed_bar": "118",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2207\" default-x=\"167.57\" default-y=\"-40.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2209",
+   "printed_bar": "118",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2209\" default-x=\"178.54\" default-y=\"-25.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>A</step>\n          <octave>5</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2211",
+   "printed_bar": "118",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2211\" default-x=\"196.90\" default-y=\"-15.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2278",
+   "printed_bar": "122",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2278\" default-x=\"7.75\" default-y=\"-100.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>G</step>\n          <octave>3</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <notations>\n          <slur type=\"start\" number=\"1\" id=\"n2278--slur--start--1\"/>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "n2280",
+   "printed_bar": "122",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2280\" default-x=\"26.12\" default-y=\"-90.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>B</step>\n          <octave>3</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2282",
+   "printed_bar": "122",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2282\" default-x=\"44.48\" default-y=\"-75.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>E</step>\n          <octave>4</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2284",
+   "printed_bar": "122",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2284\" default-x=\"62.85\" default-y=\"-65.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2286",
+   "printed_bar": "122",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2286\" default-x=\"81.21\" default-y=\"-55.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2288",
+   "printed_bar": "122",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2288\" default-x=\"92.18\" default-y=\"-40.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2290",
+   "printed_bar": "122",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2290\" default-x=\"103.15\" default-y=\"-30.00\" print-object=\"no\">\n        <grace/>\n        <pitch>\n          <step>G</step>\n          <octave>5</octave>\n          </pitch>\n        <voice>1</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        </note>"
+  },
+  {
+   "printed_bar": "134",
+   "note_id": "n2531",
+   "reasons": [
+    "duplicate-owned host: marks ['articulations'] are copies riding a copy \u2014 die with the host (the m27 class; George's release, 2026-07-12)"
+   ]
+  },
+  {
+   "printed_bar": "134",
+   "note_id": "n2543",
+   "reasons": [
+    "duplicate-owned host: marks ['articulations'] are copies riding a copy \u2014 die with the host (the m27 class; George's release, 2026-07-12)"
+   ]
+  },
+  {
+   "note_id": "n2531",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2531\" default-x=\"44.50\" default-y=\"-20.00\" print-object=\"no\">\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        <beam number=\"3\">begin</beam>\n        <notations>\n          <articulations>\n            <accent/>\n            </articulations>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "n2532",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2532\" default-x=\"68.20\" default-y=\"-15.00\" print-object=\"no\">\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2533",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2533\" default-x=\"86.62\" default-y=\"-20.00\" print-object=\"no\">\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2534",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2534\" default-x=\"105.04\" default-y=\"-15.00\" print-object=\"no\">\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2535",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2535\" default-x=\"123.46\" default-y=\"-20.00\" print-object=\"no\">\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2536",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2536\" default-x=\"141.87\" default-y=\"-15.00\" print-object=\"no\">\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2537",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2537\" default-x=\"160.29\" default-y=\"-20.00\" print-object=\"no\">\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2538",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2538\" default-x=\"178.71\" default-y=\"-15.00\" print-object=\"no\">\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2539",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2539\" default-x=\"197.13\" default-y=\"-20.00\" print-object=\"no\">\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2540",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2540\" default-x=\"215.55\" default-y=\"-15.00\" print-object=\"no\">\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2541",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2541\" default-x=\"242.57\" default-y=\"-25.00\" print-object=\"no\">\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <accidental>natural</accidental>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2542",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2542\" default-x=\"260.99\" default-y=\"-20.00\" print-object=\"no\">\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2543",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2543\" default-x=\"301.09\" default-y=\"-15.00\" print-object=\"no\">\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        <beam number=\"3\">begin</beam>\n        <notations>\n          <articulations>\n            <accent/>\n            </articulations>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "n2544",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2544\" default-x=\"324.78\" default-y=\"-10.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2545",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2545\" default-x=\"343.20\" default-y=\"-15.00\" print-object=\"no\">\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2546",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2546\" default-x=\"361.62\" default-y=\"-10.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2547",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2547\" default-x=\"380.04\" default-y=\"-15.00\" print-object=\"no\">\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2548",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2548\" default-x=\"398.46\" default-y=\"-10.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2549",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2549\" default-x=\"416.88\" default-y=\"-15.00\" print-object=\"no\">\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2550",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2550\" default-x=\"435.30\" default-y=\"-10.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2551",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2551\" default-x=\"453.71\" default-y=\"-15.00\" print-object=\"no\">\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2552",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2552\" default-x=\"472.13\" default-y=\"-10.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2553",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2553\" default-x=\"490.55\" default-y=\"-20.00\" print-object=\"no\">\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2554",
+   "printed_bar": "134",
+   "verdict": "delete",
+   "reasons": [
+    "fabricated excursion \u2014 performance layer, excised whole (R2)"
+   ],
+   "fragment": "<note id=\"n2554\" default-x=\"508.97\" default-y=\"-15.00\" print-object=\"no\">\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        </note>"
+  },
+  {
+   "boundary": "backup_removed",
+   "printed_bar": "134",
+   "from_div": 480,
+   "to_div": null,
+   "landing_div": 0
+  },
+  {
+   "printed_bar": "135",
+   "note_id": "n2590",
+   "reasons": [
+    "duplicate-owned host: marks ['articulations'] are copies riding a copy \u2014 die with the host (the m27 class; George's release, 2026-07-12)"
+   ]
+  },
+  {
+   "note_id": "n2568",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2568\" default-x=\"119.79\" default-y=\"-10.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        <beam number=\"3\">begin</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2569",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2569\" default-x=\"143.49\" default-y=\"-5.00\" print-object=\"no\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2570",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2570\" default-x=\"159.15\" default-y=\"-10.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2571",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2571\" default-x=\"174.82\" default-y=\"-5.00\" print-object=\"no\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2572",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2572\" default-x=\"190.48\" default-y=\"-10.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2573",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2573\" default-x=\"206.15\" default-y=\"-5.00\" print-object=\"no\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2574",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2574\" default-x=\"221.81\" default-y=\"-10.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2575",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2575\" default-x=\"237.48\" default-y=\"-5.00\" print-object=\"no\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2576",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2576\" default-x=\"253.14\" default-y=\"-10.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2577",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2577\" default-x=\"268.81\" default-y=\"-5.00\" print-object=\"no\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2578",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2578\" default-x=\"284.48\" default-y=\"-15.00\" print-object=\"no\">\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2579",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2579\" default-x=\"300.14\" default-y=\"-10.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>1</voice>\n        <type>32nd</type>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2590",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2590\" default-x=\"351.59\" default-y=\"-5.00\" print-object=\"no\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        <beam number=\"3\">begin</beam>\n        <notations>\n          <articulations>\n            <accent/>\n            </articulations>\n          </notations>\n        </note>"
+  },
+  {
+   "note_id": "n2591",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2591\" default-x=\"367.26\" default-y=\"0.00\" print-object=\"no\">\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2592",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2592\" default-x=\"382.93\" default-y=\"-5.00\" print-object=\"no\">\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        <beam number=\"3\">continue</beam>\n        </note>"
+  },
+  {
+   "note_id": "n2593",
+   "printed_bar": "135",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n2593\" default-x=\"398.59\" default-y=\"0.00\" print-object=\"no\">\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <stem>down</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <beam number=\"3\">end</beam>\n        </note>"
+  },
+  {
+   "note_id": "n4092",
+   "printed_bar": "202",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n4092\" default-x=\"20.42\" default-y=\"-45.00\" print-object=\"no\">\n        <pitch>\n          <step>D</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>80</duration>\n        <voice>1</voice>\n        <type>eighth</type>\n        <accidental>natural</accidental>\n        <stem>up</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <notations>\n          <slur type=\"stop\" number=\"1\" id=\"n4092--slur--stop--1\"/>\n          </notations>\n        </note>"
+  }
+ ],
+ "written": "/Volumes/PortableSSD/Projects/asap-dataset/modified/chopin_ballade_3/score.musicxml",
+ "source_sha256": "d7d9e413a819d9eba21c9bac3f4ef13997b7e4b4b4da774f551f8c929bdcae36",
+ "upstream_sha256": "110a9e31d9c5743053b30460102a642313b707be2553253e27528ada340644d5"
+}

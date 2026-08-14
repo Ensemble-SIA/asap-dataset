@@ -1,0 +1,107 @@
+{
+ "work_id": "chopin_op25_4",
+ "bars": [
+  {
+   "printed_bar": "53",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 1,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  },
+  {
+   "printed_bar": "63",
+   "segments_excised": 0,
+   "deletes": 0,
+   "swaps": 1,
+   "cue_transfers": 0,
+   "forwards_removed": 0,
+   "boundary_backups_adjusted": 0,
+   "boundary_backups_removed": 0,
+   "boundary_forwards_inserted": 0,
+   "chord_promotions": 0,
+   "bystanders_relocated": 0,
+   "cursor_corrupt": false,
+   "emptied": false,
+   "padding_rests_excised": 0,
+   "padding_rests_trimmed": 0,
+   "padding_rests_deferred": 0,
+   "padding_movers_resolved": 0
+  }
+ ],
+ "severed_ties": [
+  {
+   "deleted_note_id": "n1754",
+   "printed_bar": "63",
+   "side": "start",
+   "line": "F4",
+   "survivor_note_id": "n1763",
+   "candidates": [
+    "n1763"
+   ],
+   "disposition": "survives in reach"
+  }
+ ],
+ "manifest_entries": 3,
+ "totals": {
+  "segments_excised": 0,
+  "deletes": 0,
+  "swaps": 2,
+  "cue_transfers": 0,
+  "forwards_removed": 0,
+  "boundary_backups_adjusted": 0,
+  "boundary_backups_removed": 0,
+  "boundary_forwards_inserted": 0,
+  "emptied_bars": 0,
+  "cursor_corrupt_bars": 0,
+  "severed_tie_faces": 1,
+  "tuplet_repairs": 0,
+  "span_repairs": 0,
+  "beam_repairs": 1,
+  "padding_rests_excised": 0,
+  "padding_rests_trimmed": 0,
+  "padding_rests_deferred": 0,
+  "padding_movers_resolved": 0,
+  "marks_died_with_host": 0,
+  "reject_released_hosts": 0,
+  "element_handles_restamped": 0
+ },
+ "manifest": [
+  {
+   "beam_repair": "drop_singleton",
+   "survivor_note_id": "n1505"
+  },
+  {
+   "note_id": "n1504",
+   "printed_bar": "53",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1504\" default-x=\"61.73\" default-y=\"-208.00\" print-object=\"no\" dynamics=\"71.11\">\n        <pitch>\n          <step>D</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>1</duration>\n        <voice>6</voice>\n        <type>eighth</type>\n        <stem>down</stem>\n        <staff>2</staff>\n        <beam number=\"1\">begin</beam>\n        </note>"
+  },
+  {
+   "note_id": "n1754",
+   "printed_bar": "63",
+   "verdict": "delete",
+   "reasons": [
+    "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
+   ],
+   "fragment": "<note id=\"n1754\" default-x=\"68.95\" default-y=\"-35.00\" print-object=\"no\">\n        <chord/>\n        <pitch>\n          <step>F</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>8</duration>\n        <tie type=\"start\"/>\n        <voice>2</voice>\n        <type>whole</type>\n        <staff>1</staff>\n        <notations>\n          <tied type=\"start\" id=\"n1754--tied--start--1\"/>\n          </notations>\n        </note>"
+  }
+ ],
+ "written": "/Volumes/PortableSSD/Projects/asap-dataset/modified/chopin_op25_4/score.musicxml",
+ "source_sha256": "9ae9324c59120e600328a2d37be8977dcb617104ffa27f6942bd339b936cc422",
+ "upstream_sha256": "3c37ef6b620a6baf243a559e0b7f524a2744d4ffbf5ae45ad93b6e98307cbb3a"
+}

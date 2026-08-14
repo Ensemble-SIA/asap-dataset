@@ -40,25 +40,6 @@
    "padding_movers_resolved": 0
   },
   {
-   "printed_bar": "64",
-   "segments_excised": 1,
-   "deletes": 1,
-   "swaps": 0,
-   "cue_transfers": 0,
-   "forwards_removed": 0,
-   "boundary_backups_adjusted": 1,
-   "boundary_backups_removed": 0,
-   "boundary_forwards_inserted": 0,
-   "chord_promotions": 0,
-   "bystanders_relocated": 0,
-   "cursor_corrupt": false,
-   "emptied": false,
-   "padding_rests_excised": 0,
-   "padding_rests_trimmed": 0,
-   "padding_rests_deferred": 0,
-   "padding_movers_resolved": 0
-  },
-  {
    "printed_bar": "91",
    "segments_excised": 1,
    "deletes": 5,
@@ -116,33 +97,20 @@
    "padding_movers_resolved": 0
   }
  ],
- "severed_ties": [
-  {
-   "deleted_note_id": "n924",
-   "printed_bar": "64",
-   "side": "stop",
-   "line": "F3",
-   "survivor_note_id": "n906",
-   "candidates": [
-    "n906"
-   ],
-   "disposition": "survives in reach"
-  }
- ],
- "manifest_entries": 40,
+ "severed_ties": [],
+ "manifest_entries": 37,
  "totals": {
-  "segments_excised": 2,
-  "deletes": 6,
+  "segments_excised": 1,
+  "deletes": 5,
   "swaps": 16,
   "cue_transfers": 16,
   "forwards_removed": 0,
-  "boundary_backups_adjusted": 1,
+  "boundary_backups_adjusted": 0,
   "boundary_backups_removed": 0,
   "boundary_forwards_inserted": 0,
   "emptied_bars": 0,
   "cursor_corrupt_bars": 0,
-  "severed_tie_faces": 1,
-  "tuplet_repairs": 1,
+  "severed_tie_faces": 0,
   "span_repairs": 0,
   "beam_repairs": 0,
   "padding_rests_excised": 0,
@@ -154,16 +122,6 @@
   "element_handles_restamped": 0
  },
  "manifest": [
-  {
-   "tuplet_repair": "drop",
-   "printed_bar": "91",
-   "number": "1",
-   "survivors": 0,
-   "from": [
-    "n1334",
-    "n1338"
-   ]
-  },
   {
    "note_id": "n143",
    "printed_bar": "11",
@@ -277,29 +235,13 @@
    "transferred_note_id": "n380"
   },
   {
-   "note_id": "n924",
-   "printed_bar": "64",
-   "verdict": "delete",
-   "reasons": [
-    "fabricated excursion \u2014 performance layer, excised whole (R2)"
-   ],
-   "fragment": "<note id=\"n924\" default-x=\"18.33\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>120</duration>\n        <tie type=\"stop\"/>\n        <voice>2</voice>\n        <type>eighth</type>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tied type=\"stop\" id=\"n924--tied--stop--1\"/>\n          </notations>\n        </note>"
-  },
-  {
-   "boundary": "backup_restated",
-   "printed_bar": "64",
-   "from_div": 120,
-   "to_div": 480,
-   "landing_div": 0
-  },
-  {
    "note_id": "n1334",
    "printed_bar": "91",
    "verdict": "delete",
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n1334\" print-object=\"no\">\n        <rest/>\n        <duration>24</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n1334\" print-object=\"no\">\n        <rest/>\n        <duration>24</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n1334--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n1335",
@@ -335,7 +277,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n1338\" default-x=\"322.26\" default-y=\"20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>24</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n1338\" default-x=\"322.26\" default-y=\"20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>6</octave>\n          </pitch>\n        <duration>24</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n1338--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n1728",
@@ -450,7 +392,7 @@
    "transferred_note_id": "n1996"
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op31_3_2/score.musicxml",
- "source_sha256": "2976cb4e1907bf4338f04555de2552ceb723223d17545d6d0112daae3fccc589",
- "upstream_sha256": "408620eefa7014f0faf72728c32ce5c201b4467255c6ec91f05b9c62aec2928f"
+ "written": "/Volumes/PortableSSD/Projects/asap-dataset/modified/beethoven_op31_3_2/score.musicxml",
+ "source_sha256": "5cc91e33ffd9d93235f7de2fda96ed64897e46b35c39ebb13052b468c2ceefcb",
+ "upstream_sha256": "31faa47eb108fe502219be46bdbbed009de305224105f8c97a4810694e26769d"
 }

@@ -130,8 +130,9 @@
   "emptied_bars": 0,
   "cursor_corrupt_bars": 0,
   "severed_tie_faces": 0,
-  "tuplet_repairs": 4,
-  "span_repairs": 0,
+  "anchor_rides": 1,
+  "constructs_died_whole": 3,
+  "balance_lanes": 0,
   "beam_repairs": 0,
   "padding_rests_excised": 0,
   "padding_rests_trimmed": 0,
@@ -139,47 +140,47 @@
   "padding_movers_resolved": 0,
   "marks_died_with_host": 0,
   "reject_released_hosts": 0,
-  "element_handles_restamped": 1
+  "element_handles_restamped": 0,
+  "obscene_purge_notations": 0
  },
  "manifest": [
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "61",
+   "anchor_ride": "face_follows_position",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n495",
-    "n497"
+   "doomed_note_id": "n2166",
+   "survivor_note_id": "n2182",
+   "successor": "swap_rest",
+   "successor_note_id": null
+  },
+  {
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
+   "number": "1",
+   "start_note_id": "n495",
+   "stop_note_id": "n497",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "134",
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n1184",
-    "n1186"
+   "start_note_id": "n1184",
+   "stop_note_id": "n1186",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "220",
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n1861",
-    "n1863"
-   ]
-  },
-  {
-   "tuplet_repair": "re-anchor",
-   "printed_bar": "252",
-   "number": "1",
-   "face": "start",
-   "to_note_id": "n2181",
-   "from": [
-    "n2166"
+   "start_note_id": "n1861",
+   "stop_note_id": "n1863",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
@@ -189,7 +190,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n495\" default-x=\"48.78\" default-y=\"-15.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n495\" default-x=\"48.78\" default-y=\"-15.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n495--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n496",
@@ -207,7 +208,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n497\" default-x=\"88.44\" default-y=\"-25.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n497\" default-x=\"88.44\" default-y=\"-25.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n497--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n498",
@@ -247,7 +248,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n1184\" default-x=\"100.00\" default-y=\"0.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n1184\" default-x=\"100.00\" default-y=\"0.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n1184--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n1185",
@@ -265,7 +266,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n1186\" default-x=\"137.02\" default-y=\"-10.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n1186\" default-x=\"137.02\" default-y=\"-10.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n1186--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "cue_transfer": "element_to_type_size",
@@ -279,7 +280,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n1861\" default-x=\"49.25\" default-y=\"-10.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n1861\" default-x=\"49.25\" default-y=\"-10.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n1861--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n1862",
@@ -297,7 +298,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n1863\" default-x=\"87.95\" default-y=\"-20.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n1863\" default-x=\"87.95\" default-y=\"-20.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n1863--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n1864",
@@ -358,7 +359,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n2166\" default-x=\"16.69\" default-y=\"-70.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n2166\" default-x=\"16.69\" default-y=\"-70.00\" dynamics=\"90.00\" color=\"#0D9488\">\n        <cue/>\n        <pitch>\n          <step>F</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>17</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>17</actual-notes>\n          <normal-notes>12</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n2166--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "mint": "swap_rest_incoherent_written_value",
@@ -737,7 +738,7 @@
    "transferred_note_id": "n2182"
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/beethoven_op10_1_1/score.musicxml",
- "source_sha256": "f7b171d53591186228c21314bec412cfb72e334c03bc93ef8c9d55531156eb48",
+ "written": "/Volumes/PortableSSD/Projects/asap-dataset/modified/beethoven_op10_1_1/score.musicxml",
+ "source_sha256": "09836228765b9c496462da1fee9e28881a114489d12ff169711675ccb849b632",
  "upstream_sha256": "0eb383a4e71fe285f19c54dadb6ae0665a3df5092188531bb38075dcdf0a93df"
 }

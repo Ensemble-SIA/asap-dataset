@@ -81529,6 +81529,12 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         </note>
+      <direction>
+        <direction-type>
+          <wedge type="crescendo" number="1" relative-y="-35.00" id="md-1-217-1-1"/>
+          </direction-type>
+        <staff>1</staff>
+        </direction>
       <note id="n5533" default-x="241.19" default-y="-10.00">
         <pitch>
           <step>D</step>
@@ -81655,7 +81661,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         </note>
-      <note id="n5540">
+      <direction><direction-type><wedge type="stop" number="1" id="md-1-217-1-2"/></direction-type><staff>1</staff></direction><note id="n5540">
         <rest/>
         <duration>80</duration>
         <voice>2</voice>

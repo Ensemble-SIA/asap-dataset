@@ -103,7 +103,7 @@
    "printed_bar": "66",
    "verdict": "delete",
    "reasons": [
-    "over-content hidden padding (R7): hidden rest at 1920 div for 30 div lies WHOLLY beyond the measure's 1920-div content extent"
+    "over-content hidden padding (R7): hidden rest at 1920 div STRADDLES the 1922-div content extent, and its trim to 2 div = 1/240 quarter(s) at divisions=480 states no note-type value \u2014 excised whole rather than left asserting a written value its own duration contradicts (#32/#35)"
    ],
    "fragment": "<note id=\"n1894\" color=\"#1D4ED8\">\n        <rest/>\n        <duration>30</duration>\n        <voice>1</voice>\n        <type>64th</type>\n        <staff>1</staff>\n        </note>"
   },
@@ -112,7 +112,7 @@
    "printed_bar": "66",
    "verdict": "delete",
    "reasons": [
-    "over-content hidden padding (R7): hidden rest at 1922 div for 28 div lies WHOLLY beyond the measure's 1920-div content extent"
+    "over-content hidden padding (R7): hidden rest at 1922 div for 28 div lies WHOLLY beyond the measure's 1922-div content extent"
    ],
    "fragment": "<note id=\"n1906\" color=\"#1D4ED8\">\n        <rest/>\n        <duration>28</duration>\n        <voice>5</voice>\n        <type>64th</type>\n        <staff>2</staff>\n        </note>"
   },
@@ -134,7 +134,7 @@
    "transferred_note_id": "n1905"
   }
  ],
- "written": "/Users/george/Projects/asap-dataset/modified/ravel_pavane/score.musicxml",
+ "written": "/Volumes/PortableSSD/Projects/asap-dataset/modified/ravel_pavane/score.musicxml",
  "source_sha256": "e745e656b2c4f7cf9d484fe2401c967369eac41b69015427045502ffc32b0951",
  "upstream_sha256": "c0bf36d83e251071545a9ad095024e044967d2217d2da0af3b99feb657e42a86"
 }
