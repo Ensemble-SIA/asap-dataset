@@ -149,8 +149,9 @@
   "emptied_bars": 0,
   "cursor_corrupt_bars": 0,
   "severed_tie_faces": 0,
-  "tuplet_repairs": 1,
-  "span_repairs": 0,
+  "anchor_rides": 0,
+  "constructs_died_whole": 1,
+  "balance_lanes": 0,
   "beam_repairs": 0,
   "padding_rests_excised": 0,
   "padding_rests_trimmed": 0,
@@ -162,13 +163,13 @@
  },
  "manifest": [
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "18",
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n361",
-    "n364"
+   "start_note_id": "n361",
+   "stop_note_id": "n364",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
@@ -281,7 +282,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n361\" default-x=\"364.20\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>1</normal-notes>\n          <normal-type>32nd</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n361\" default-x=\"364.20\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>32nd</type>\n        <time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>1</normal-notes>\n          <normal-type>32nd</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n361--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n362",
@@ -308,7 +309,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n364\" print-object=\"no\">\n        <rest/>\n        <duration>6</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <dot/>\n        <time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>1</normal-notes>\n          <normal-type>32nd</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n364\" print-object=\"no\">\n        <rest/>\n        <duration>6</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <dot/>\n        <time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>1</normal-notes>\n          <normal-type>32nd</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n364--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "boundary": "backup_restated",

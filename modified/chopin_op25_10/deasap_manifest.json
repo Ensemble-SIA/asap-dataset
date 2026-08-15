@@ -54,8 +54,9 @@
   "emptied_bars": 0,
   "cursor_corrupt_bars": 0,
   "severed_tie_faces": 0,
-  "tuplet_repairs": 2,
-  "span_repairs": 0,
+  "anchor_rides": 2,
+  "constructs_died_whole": 0,
+  "balance_lanes": 0,
   "beam_repairs": 0,
   "padding_rests_excised": 0,
   "padding_rests_trimmed": 0,
@@ -67,22 +68,22 @@
  },
  "manifest": [
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "51",
+   "anchor_ride": "face_follows_position",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 1,
-   "from": [
-    "n1772"
-   ]
+   "doomed_note_id": "n1772",
+   "survivor_note_id": "n1768",
+   "successor": "swap_rest",
+   "successor_note_id": null
   },
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "71",
+   "anchor_ride": "face_follows_position",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 1,
-   "from": [
-    "n2160"
-   ]
+   "doomed_note_id": "n2160",
+   "survivor_note_id": "n2156",
+   "successor": "swap_rest",
+   "successor_note_id": null
   },
   {
    "note_id": "n1769",
@@ -118,7 +119,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n1772\" default-x=\"182.30\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>12</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n1772\" default-x=\"182.30\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>12</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n1772--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n2157",
@@ -154,10 +155,10 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n2160\" default-x=\"80.75\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>12</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n2160\" default-x=\"80.75\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>12</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>5</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n2160--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   }
  ],
  "written": "/Volumes/PortableSSD/Projects/asap-dataset/modified/chopin_op25_10/score.musicxml",
- "source_sha256": "822498616cc049e12fed07bbf05c13722df99b7a049fb8d825f0353f2e1a00f2",
+ "source_sha256": "8e844bbbb5cab04428eeb59433925b0805bdd1be5b22b5daba8845afb124ed76",
  "upstream_sha256": "0fb04b03b9b7cbcbb28d39b738c37aca7add99df199d9830a8d75a5f6a067c48"
 }

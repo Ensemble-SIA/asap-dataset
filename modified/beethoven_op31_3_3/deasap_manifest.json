@@ -130,8 +130,9 @@
   "emptied_bars": 0,
   "cursor_corrupt_bars": 0,
   "severed_tie_faces": 0,
-  "tuplet_repairs": 4,
-  "span_repairs": 0,
+  "anchor_rides": 0,
+  "constructs_died_whole": 4,
+  "balance_lanes": 0,
   "beam_repairs": 0,
   "padding_rests_excised": 0,
   "padding_rests_trimmed": 0,
@@ -159,43 +160,43 @@
    ]
   },
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "11",
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n165",
-    "n167"
+   "start_note_id": "n165",
+   "stop_note_id": "n167",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "13",
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n194",
-    "n196"
+   "start_note_id": "n194",
+   "stop_note_id": "n196",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "56",
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n762",
-    "n765"
+   "start_note_id": "n762",
+   "stop_note_id": "n765",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "58",
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n792",
-    "n795"
+   "start_note_id": "n792",
+   "stop_note_id": "n795",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
@@ -241,7 +242,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n165\" print-object=\"no\">\n        <rest/>\n        <duration>32</duration>\n        <voice>2</voice>\n        <type>half</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n165\" print-object=\"no\">\n        <rest/>\n        <duration>32</duration>\n        <voice>2</voice>\n        <type>half</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n165--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": null,
@@ -268,7 +269,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n167\" default-x=\"237.81\" default-y=\"-25.00\" print-object=\"no\">\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        </note>"
+   "fragment": "<note id=\"n167\" default-x=\"237.81\" default-y=\"-25.00\" print-object=\"no\">\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <notations>\n          <tuplet type=\"stop\" id=\"n167--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n194",
@@ -277,7 +278,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n194\" print-object=\"no\">\n        <rest/>\n        <duration>32</duration>\n        <voice>2</voice>\n        <type>half</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n194\" print-object=\"no\">\n        <rest/>\n        <duration>32</duration>\n        <voice>2</voice>\n        <type>half</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n194--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": null,
@@ -304,7 +305,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n196\" default-x=\"237.81\" default-y=\"-25.00\" print-object=\"no\">\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        </note>"
+   "fragment": "<note id=\"n196\" default-x=\"237.81\" default-y=\"-25.00\" print-object=\"no\">\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>2</voice>\n        <type>16th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <beam number=\"1\">end</beam>\n        <beam number=\"2\">end</beam>\n        <notations>\n          <tuplet type=\"stop\" id=\"n196--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n728",
@@ -349,7 +350,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n762\" print-object=\"no\">\n        <rest/>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>quarter</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n762\" print-object=\"no\">\n        <rest/>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>quarter</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n762--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n763",
@@ -376,7 +377,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n765\" print-object=\"no\">\n        <rest/>\n        <duration>24</duration>\n        <voice>2</voice>\n        <type>quarter</type>\n        <dot/>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n765\" print-object=\"no\">\n        <rest/>\n        <duration>24</duration>\n        <voice>2</voice>\n        <type>quarter</type>\n        <dot/>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n765--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "boundary": "backup_restated",
@@ -392,7 +393,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n792\" print-object=\"no\">\n        <rest/>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>quarter</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n792\" print-object=\"no\">\n        <rest/>\n        <duration>16</duration>\n        <voice>2</voice>\n        <type>quarter</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n792--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n793",
@@ -419,7 +420,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n795\" print-object=\"no\">\n        <rest/>\n        <duration>24</duration>\n        <voice>2</voice>\n        <type>quarter</type>\n        <dot/>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n795\" print-object=\"no\">\n        <rest/>\n        <duration>24</duration>\n        <voice>2</voice>\n        <type>quarter</type>\n        <dot/>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          <normal-type>quarter</normal-type>\n          </time-modification>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n795--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "boundary": "backup_restated",

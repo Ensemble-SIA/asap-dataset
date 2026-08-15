@@ -92,8 +92,9 @@
   "emptied_bars": 0,
   "cursor_corrupt_bars": 0,
   "severed_tie_faces": 0,
-  "tuplet_repairs": 3,
-  "span_repairs": 0,
+  "anchor_rides": 0,
+  "constructs_died_whole": 3,
+  "balance_lanes": 0,
   "beam_repairs": 0,
   "padding_rests_excised": 0,
   "padding_rests_trimmed": 0,
@@ -105,33 +106,33 @@
  },
  "manifest": [
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "11",
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n217",
-    "n219"
+   "start_note_id": "n217",
+   "stop_note_id": "n219",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "18",
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n388",
-    "n390"
+   "start_note_id": "n388",
+   "stop_note_id": "n390",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "57",
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n1431",
-    "n1433"
+   "start_note_id": "n1431",
+   "stop_note_id": "n1433",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
@@ -141,7 +142,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n217\" default-x=\"39.17\" default-y=\"-5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n217\" default-x=\"39.17\" default-y=\"-5.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n217--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n218",
@@ -159,7 +160,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n219\" default-x=\"79.03\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <accidental>sharp</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n219\" default-x=\"79.03\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <accidental>sharp</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n219--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n220",
@@ -184,7 +185,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n388\" default-x=\"107.03\" default-y=\"-20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n388\" default-x=\"107.03\" default-y=\"-20.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>B</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n388--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n389",
@@ -202,7 +203,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n390\" default-x=\"146.88\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <accidental>sharp</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n390\" default-x=\"146.88\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <accidental>sharp</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n390--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n391",
@@ -263,7 +264,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n1431\" default-x=\"98.10\" default-y=\"-40.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n1431\" default-x=\"98.10\" default-y=\"-40.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>E</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n1431--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n1432",
@@ -281,7 +282,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n1433\" default-x=\"139.96\" default-y=\"-50.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <accidental>sharp</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        </note>"
+   "fragment": "<note id=\"n1433\" default-x=\"139.96\" default-y=\"-50.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>2</duration>\n        <voice>2</voice>\n        <type>64th</type>\n        <accidental>sharp</accidental>\n        <time-modification>\n          <actual-notes>3</actual-notes>\n          <normal-notes>2</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>1</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n1433--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n1434",

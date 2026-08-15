@@ -41,7 +41,7 @@
   }
  ],
  "severed_ties": [],
- "manifest_entries": 8,
+ "manifest_entries": 10,
  "totals": {
   "segments_excised": 2,
   "deletes": 6,
@@ -54,7 +54,9 @@
   "emptied_bars": 0,
   "cursor_corrupt_bars": 0,
   "severed_tie_faces": 0,
-  "span_repairs": 0,
+  "anchor_rides": 0,
+  "constructs_died_whole": 2,
+  "balance_lanes": 0,
   "beam_repairs": 0,
   "padding_rests_excised": 0,
   "padding_rests_trimmed": 0,
@@ -65,6 +67,26 @@
   "element_handles_restamped": 0
  },
  "manifest": [
+  {
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
+   "number": "1",
+   "start_note_id": "n311",
+   "stop_note_id": "n313",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
+   ]
+  },
+  {
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
+   "number": "1",
+   "start_note_id": "n1537",
+   "stop_note_id": "n1539",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
+   ]
+  },
   {
    "note_id": "n311",
    "printed_bar": "32",

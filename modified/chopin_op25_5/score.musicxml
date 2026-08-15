@@ -103,7 +103,14 @@
         <direction-type>
           <words default-x="-34.44" default-y="40.00" relative-x="26.54" font-weight="bold" font-family="Times New Roman" font-size="12" id="md-1-0-1-1">Vivace </words>
           </direction-type>
+        <direction-type>
+          <metronome parentheses="yes" default-x="-34.44" default-y="40.00" relative-x="26.54" id="md-1-0-1-2">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>184</per-minute>
+            </metronome>
+          </direction-type>
         <staff>1</staff>
+        <sound tempo="184"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -112,6 +119,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n1" default-x="87.91" default-y="-20.00">
         <pitch>
@@ -3247,6 +3255,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <note id="n208" default-x="105.53" default-y="-5.00">
         <pitch>
@@ -3974,6 +3983,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n253" default-x="18.42" default-y="-25.00">
         <pitch>
@@ -6571,6 +6581,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n421" default-x="40.19" default-y="-20.00">
         <pitch>
@@ -8060,7 +8071,7 @@
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      <note id="n526" default-x="131.46" default-y="-130.00">
+      <note id="n526" default-x="131.46" default-y="-130.00" color="#1D4ED8">
         <pitch>
           <step>C</step>
           <octave>3</octave>
@@ -8077,7 +8088,7 @@
           <arpeggiate default-x="-13.09" default-y="25.51" id="n526--arpeggiate--1"/>
           </notations>
         </note>
-      <note id="n527" default-x="131.46" default-y="-110.00">
+      <note id="n527" default-x="131.46" default-y="-110.00" color="#1D4ED8">
         <chord/>
         <pitch>
           <step>G</step>
@@ -8480,6 +8491,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n553" default-x="81.28" default-y="-45.00">
         <pitch>
@@ -9765,6 +9777,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <direction placement="above">
         <direction-type>
@@ -10299,7 +10312,14 @@
         <direction-type>
           <words default-y="40.00" relative-x="-33.00" relative-y="37.00" font-weight="bold" font-family="Times New Roman" font-size="12" id="md-1-45-1-1">Più lento </words>
           </direction-type>
+        <direction-type>
+          <metronome parentheses="yes" default-y="40.00" relative-x="-33.00" relative-y="37.00" id="md-1-45-1-2">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>168</per-minute>
+            </metronome>
+          </direction-type>
         <staff>1</staff>
+        <sound tempo="168"/>
         </direction>
       <direction placement="above">
         <direction-type>
@@ -10309,7 +10329,7 @@
           </direction-type>
         <staff>1</staff>
         </direction>
-      <note id="n664" default-x="63.88" default-y="-106.00" dynamics="0.00">
+      <note id="n664" default-x="63.88" default-y="-106.00" dynamics="0.00" color="#1D4ED8">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -10530,6 +10550,7 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -18794,6 +18815,7 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <note id="n1148" default-x="95.87" default-y="-170.00">
         <pitch>
@@ -21033,6 +21055,7 @@
           <words default-y="40.00" relative-x="-29.00" relative-y="-148.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-80-1-1">poco rit.</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="158"/>
         </direction>
       <note id="n1277" default-x="91.93" default-y="-45.00" dynamics="74.44">
         <pitch>
@@ -21281,6 +21304,7 @@
           <words default-y="40.00" relative-x="-16.00" relative-y="15.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-81-1-1">a tempo</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="168"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -21289,6 +21313,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="above">
         <direction-type>
@@ -23480,6 +23505,7 @@
           <words default-y="40.00" relative-x="-14.00" relative-y="-24.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-88-1-2">poco rit.</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="157"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -23804,6 +23830,7 @@
           <words default-y="40.00" relative-x="-17.00" relative-y="-19.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-89-1-1">a tempo</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="168"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -23812,6 +23839,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -26106,6 +26134,7 @@
           <words default-y="40.00" relative-x="-13.00" relative-y="-124.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-97-1-1">smorz.</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="157"/>
         </direction>
       <note id="n1632" default-x="98.73" default-y="-55.00">
         <pitch>
@@ -26348,6 +26377,7 @@
           <words default-y="40.00" relative-x="-8.00" font-weight="bold" font-family="Times New Roman" font-size="12" id="md-1-98-1-1">Tempo I</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="184"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -26356,6 +26386,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n1649" default-x="88.44" default-y="-45.00">
         <pitch>
@@ -28580,6 +28611,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n1802" default-x="81.28" default-y="-45.00">
         <pitch>
@@ -29927,6 +29959,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <note id="n1892" default-x="95.64" default-y="-5.00">
         <pitch>
@@ -30816,6 +30849,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -33391,6 +33425,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="124.44"/>
         </direction>
       <direction placement="above">
         <direction-type>
@@ -33646,6 +33681,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n2144">
         <rest/>
@@ -33988,6 +34024,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <note id="n2168" default-x="108.34" default-y="-40.00">
         <pitch>
@@ -36385,6 +36422,7 @@
           <words default-y="40.00" relative-x="-9.00" relative-y="-110.99" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-137-1-2">rit.</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="141"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -36746,6 +36784,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="140.00"/>
         </direction>
       <direction placement="below">
         <direction-type>

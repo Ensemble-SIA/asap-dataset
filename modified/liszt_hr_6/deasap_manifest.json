@@ -782,7 +782,7 @@
   }
  ],
  "severed_ties": [],
- "manifest_entries": 462,
+ "manifest_entries": 467,
  "totals": {
   "segments_excised": 1,
   "deletes": 4,
@@ -795,8 +795,9 @@
   "emptied_bars": 0,
   "cursor_corrupt_bars": 0,
   "severed_tie_faces": 0,
-  "tuplet_repairs": 3,
-  "span_repairs": 0,
+  "anchor_rides": 0,
+  "constructs_died_whole": 8,
+  "balance_lanes": 0,
   "beam_repairs": 2,
   "padding_rests_excised": 0,
   "padding_rests_trimmed": 0,
@@ -808,33 +809,83 @@
  },
  "manifest": [
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "12",
+   "anchor_ride": "died_whole",
+   "family": "tremolo",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n232",
-    "n235"
+   "start_note_id": "n1015",
+   "stop_note_id": "n1016",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "20",
+   "anchor_ride": "died_whole",
+   "family": "tremolo",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n466",
-    "n469"
+   "start_note_id": "n1021",
+   "stop_note_id": "n1022",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "28",
+   "anchor_ride": "died_whole",
+   "family": "tremolo",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n704",
-    "n707"
+   "start_note_id": "n1054",
+   "stop_note_id": "n1055",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
+   ]
+  },
+  {
+   "anchor_ride": "died_whole",
+   "family": "tremolo",
+   "number": "1",
+   "start_note_id": "n1060",
+   "stop_note_id": "n1061",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
+   ]
+  },
+  {
+   "anchor_ride": "died_whole",
+   "family": "tremolo",
+   "number": "1",
+   "start_note_id": "n1135",
+   "stop_note_id": "n1136",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
+   ]
+  },
+  {
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
+   "number": "1",
+   "start_note_id": "n232",
+   "stop_note_id": "n235",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
+   ]
+  },
+  {
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
+   "number": "1",
+   "start_note_id": "n466",
+   "stop_note_id": "n469",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
+   ]
+  },
+  {
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
+   "number": "1",
+   "start_note_id": "n704",
+   "stop_note_id": "n707",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
@@ -852,7 +903,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n232\" default-x=\"21.83\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>10</voice>\n        <type size=\"cue\">128th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>4</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>3</staff>\n        </note>"
+   "fragment": "<note id=\"n232\" default-x=\"21.83\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>10</voice>\n        <type size=\"cue\">128th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>4</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>3</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"yes\" id=\"n232--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "mint": "swap_rest_incoherent_written_value",
@@ -927,7 +978,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n235\" default-x=\"84.20\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>10</voice>\n        <type size=\"cue\">128th</type>\n        <time-modification>\n          <actual-notes>4</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>3</staff>\n        </note>"
+   "fragment": "<note id=\"n235\" default-x=\"84.20\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>10</voice>\n        <type size=\"cue\">128th</type>\n        <time-modification>\n          <actual-notes>4</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>3</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n235--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "mint": "swap_rest_incoherent_written_value",
@@ -970,7 +1021,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n466\" default-x=\"21.83\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>10</voice>\n        <type size=\"cue\">128th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>4</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>3</staff>\n        </note>"
+   "fragment": "<note id=\"n466\" default-x=\"21.83\" default-y=\"-30.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>G</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>10</voice>\n        <type size=\"cue\">128th</type>\n        <accidental>natural</accidental>\n        <time-modification>\n          <actual-notes>4</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>3</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"yes\" id=\"n466--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "mint": "swap_rest_incoherent_written_value",
@@ -1045,7 +1096,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n469\" default-x=\"80.78\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>10</voice>\n        <type size=\"cue\">128th</type>\n        <time-modification>\n          <actual-notes>4</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>3</staff>\n        </note>"
+   "fragment": "<note id=\"n469\" default-x=\"80.78\" default-y=\"-25.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>A</step>\n          <octave>4</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>10</voice>\n        <type size=\"cue\">128th</type>\n        <time-modification>\n          <actual-notes>4</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>3</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n469--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "mint": "swap_rest_incoherent_written_value",
@@ -1080,7 +1131,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n704\" default-x=\"122.68\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>10</voice>\n        <type size=\"cue\">128th</type>\n        <time-modification>\n          <actual-notes>4</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>3</staff>\n        </note>"
+   "fragment": "<note id=\"n704\" default-x=\"122.68\" default-y=\"-15.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>C</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>10</voice>\n        <type size=\"cue\">128th</type>\n        <time-modification>\n          <actual-notes>4</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>3</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"yes\" id=\"n704--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "mint": "swap_rest_incoherent_written_value",
@@ -1155,7 +1206,7 @@
    "reasons": [
     "hidden sounding note inside a printed voice \u2014 swapped in place for an equal-duration hidden rest (R3)"
    ],
-   "fragment": "<note id=\"n707\" default-x=\"171.65\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>10</voice>\n        <type size=\"cue\">128th</type>\n        <time-modification>\n          <actual-notes>4</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>3</staff>\n        </note>"
+   "fragment": "<note id=\"n707\" default-x=\"171.65\" default-y=\"-10.00\" print-object=\"no\">\n        <cue/>\n        <pitch>\n          <step>D</step>\n          <octave>5</octave>\n          </pitch>\n        <duration>20</duration>\n        <voice>10</voice>\n        <type size=\"cue\">128th</type>\n        <time-modification>\n          <actual-notes>4</actual-notes>\n          <normal-notes>4</normal-notes>\n          </time-modification>\n        <stem>none</stem>\n        <staff>3</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n707--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "mint": "swap_rest_incoherent_written_value",

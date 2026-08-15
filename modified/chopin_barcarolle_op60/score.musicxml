@@ -104,6 +104,7 @@
           <words default-x="-51.17" relative-y="20.00" font-weight="bold" font-family="Times New Roman" font-size="12" id="md-1-1-1-1">Allegretto</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="96"/>
         </direction>
       <note id="n1">
         <rest/>
@@ -133,6 +134,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <note id="n4" default-x="273.35" default-y="5.00">
         <pitch>
@@ -282,6 +284,7 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -1238,6 +1241,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n79">
         <rest/>
@@ -1698,6 +1702,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="above">
         <direction-type>
@@ -3541,6 +3546,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="88.89"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -5650,6 +5656,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -7974,6 +7981,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -9298,6 +9306,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="88.89"/>
         </direction>
       <note id="n614" default-x="147.39" default-y="-50.00">
         <pitch>
@@ -10688,10 +10697,7 @@
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
-        <notations><ornaments><trill-mark/>
-            <wavy-line type="start" number="1" default-y="56.38"/>
-            <wavy-line type="stop" number="1"/>
-            </ornaments></notations></note>
+        </note>
       <backup>
         <duration>720</duration>
         </backup>
@@ -10710,7 +10716,108 @@
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         </note>
-      <forward><duration>360</duration><voice>4</voice><staff>1</staff></forward><note id="n717" default-x="957.41" default-y="-10.00" color="#0D9488">
+      <note id="n711" default-x="815.41" default-y="-10.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>4</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        <notations>
+          <ornaments>
+            <trill-mark/>
+            <wavy-line type="start" number="1" default-y="56.38"/>
+            </ornaments>
+          </notations>
+        </note>
+      <note id="n712" default-x="839.08" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>4</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n713" default-x="862.74" default-y="-10.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>4</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n714" default-x="886.41" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>4</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n715" default-x="910.08" default-y="-10.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>4</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n716" default-x="931.77" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>4</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        <notations>
+          <ornaments>
+            <wavy-line type="stop" number="1"/>
+            </ornaments>
+          </notations>
+        </note>
+      <note id="n717" default-x="957.41" default-y="-10.00" color="#0D9488">
         <cue/>
         <pitch>
           <step>D</step>
@@ -13264,6 +13371,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <note id="n902" default-x="132.39" default-y="-25.00">
         <grace slash="yes"/>
@@ -15984,7 +16092,7 @@
         <stem>none</stem>
         <staff>1</staff>
         </note>
-      <note id="n1087" default-x="813.53" default-y="-10.00" color="#EC4899">
+      <note id="n1087" default-x="813.53" default-y="-10.00" color="#0D9488">
         <cue/>
         <pitch>
           <step>D</step>
@@ -15999,7 +16107,7 @@
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         </note>
-      <note id="n1088" default-x="813.53" default-y="0.00">
+      <note id="n1088" default-x="813.53" default-y="0.00" color="#1D4ED8">
         <chord/>
         <pitch>
           <step>F</step>
@@ -19698,6 +19806,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -21427,6 +21536,7 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <note id="n1457" default-x="152.02" default-y="-199.30">
         <pitch>
@@ -21746,6 +21856,7 @@
           <words default-y="-97.05" relative-y="20.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-34-1-2">rallent.</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="90"/>
         </direction>
       <note id="n1476" default-x="210.74" default-y="-20.00" dynamics="56.67">
         <grace/>
@@ -22158,6 +22269,7 @@
           <words relative-y="20.00" font-weight="bold" font-family="Times New Roman" font-size="12" id="md-1-35-1-1">Poco più mosso</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="97.9998"/>
         </direction>
       <note id="n1502">
         <rest/>
@@ -22278,6 +22390,7 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
+        <sound dynamics="36.67"/>
         </direction>
       <note id="n1511" default-x="198.77" default-y="-145.71">
         <pitch>
@@ -24844,6 +24957,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="above">
         <direction-type>
@@ -28381,6 +28495,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -28457,9 +28572,7 @@
         <staff>1</staff>
         <notations>
           <tied type="start" id="n1942--tied--start--1"/>
-          <ornaments><trill-mark/>
-            <wavy-line type="start" number="1" default-y="52.17"/>
-            </ornaments></notations>
+          </notations>
         </note>
       <note id="n1943" default-x="413.34" default-y="-5.00">
         <pitch>
@@ -28476,8 +28589,7 @@
         <notations>
           <tied type="stop" id="n1943--tied--stop--1"/>
           <slur type="start" placement="below" number="1" id="n1943--slur--start--1"/>
-          <ornaments><wavy-line type="stop" number="1"/>
-            </ornaments></notations>
+          </notations>
         </note>
       <note id="n1944" default-x="712.09" default-y="-25.00">
         <pitch>
@@ -28727,16 +28839,222 @@
         <type>32nd</type>
         <stem>none</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
         </note>
-      <forward><duration>780</duration><voice>3</voice><staff>1</staff></forward><direction placement="below">
+      <note id="n1964" default-x="247.33" default-y="0.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        <notations>
+          <ornaments>
+            <trill-mark/>
+            <wavy-line type="start" number="1" default-y="52.17"/>
+            </ornaments>
+          </notations>
+        </note>
+      <direction placement="below">
         <direction-type>
           <wedge type="crescendo" number="1" default-y="-75.00" id="md-1-51-1-3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
+      <note id="n1965" default-x="273.29" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n1966" default-x="299.26" default-y="0.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n1967" default-x="325.22" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n1968" default-x="351.19" default-y="0.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n1969" default-x="377.15" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <beam number="3">end</beam>
+        </note>
+      <note id="n1970" default-x="403.12" default-y="0.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note id="n1971" default-x="449.22" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n1972" default-x="475.19" default-y="0.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n1973" default-x="501.15" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n1974" default-x="527.12" default-y="0.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n1975" default-x="553.08" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n1976" default-x="579.05" default-y="0.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        <notations>
+          <ornaments>
+            <wavy-line type="stop" number="1"/>
+            </ornaments>
+          </notations>
+        </note>
       <note id="n1977" default-x="605.01" default-y="-5.00" color="#0D9488">
         <cue/>
         <pitch>
@@ -28748,6 +29066,9 @@
         <type>32nd</type>
         <stem>none</stem>
         <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <beam number="3">end</beam>
         </note>
       <direction placement="below">
         <direction-type>
@@ -30282,6 +30603,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <note id="n2076" default-x="420.54" default-y="40.00">
         <pitch>
@@ -30307,6 +30629,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -30656,6 +30979,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -30719,9 +31043,7 @@
         <staff>1</staff>
         <notations>
           <tied type="start" id="n2104--tied--start--1"/>
-          <ornaments><trill-mark/>
-            <wavy-line type="start" number="1" default-y="47.17"/>
-            </ornaments></notations>
+          </notations>
         </note>
       <note id="n2105" default-x="407.17" default-y="-10.00">
         <pitch>
@@ -30738,8 +31060,7 @@
         <notations>
           <tied type="stop" id="n2105--tied--stop--1"/>
           <slur type="start" placement="below" number="2" id="n2105--slur--start--1"/>
-          <ornaments><wavy-line type="stop" number="1"/>
-            </ornaments></notations>
+          </notations>
         </note>
       <note id="n2106" default-x="708.61" default-y="-30.00">
         <pitch>
@@ -30985,6 +31306,9 @@
         <accidental>sharp</accidental>
         <stem>none</stem>
         <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        <beam number="3">begin</beam>
         </note>
       <direction placement="below">
         <direction-type>
@@ -30992,7 +31316,7 @@
           </direction-type>
         <staff>1</staff>
         </direction>
-      <forward><duration>840</duration><voice>3</voice><staff>1</staff></forward><note id="n2139" default-x="600.43" default-y="-10.00" color="#0D9488">
+      <note id="n2125" default-x="213.35" default-y="-10.00" color="#0D9488">
         <cue/>
         <pitch>
           <step>D</step>
@@ -31003,6 +31327,230 @@
         <type>32nd</type>
         <stem>none</stem>
         <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        <notations>
+          <ornaments>
+            <trill-mark/>
+            <wavy-line type="start" number="1" default-y="47.17"/>
+            </ornaments>
+          </notations>
+        </note>
+      <note id="n2126" default-x="239.58" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n2127" default-x="265.81" default-y="-10.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n2128" default-x="292.04" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n2129" default-x="318.27" default-y="-10.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n2130" default-x="344.50" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n2131" default-x="370.72" default-y="-10.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <beam number="3">end</beam>
+        </note>
+      <note id="n2132" default-x="396.95" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note id="n2133" default-x="443.06" default-y="-10.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n2134" default-x="469.28" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n2135" default-x="495.51" default-y="-10.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n2136" default-x="521.74" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n2137" default-x="547.97" default-y="-10.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n2138" default-x="574.20" default-y="-5.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        <notations>
+          <ornaments>
+            <wavy-line type="stop" number="1"/>
+            </ornaments>
+          </notations>
+        </note>
+      <note id="n2139" default-x="600.43" default-y="-10.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>3</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <beam number="3">end</beam>
         </note>
       <note id="n2140" default-x="626.66" default-y="-15.00" color="#EC4899">
         <cue/>
@@ -32528,6 +33076,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <note id="n2238" default-x="275.61" default-y="35.00">
         <pitch>
@@ -32559,6 +33108,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -33913,6 +34463,7 @@
           <words default-y="16.13" relative-y="20.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-61-1-4">ritenuto</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="96"/>
         </direction>
       <note id="n2332" default-x="120.41" default-y="-15.00">
         <pitch>
@@ -34241,7 +34792,7 @@
           <tied type="start" id="n2355--tied--start--1"/>
           </notations>
         </note>
-      <note id="n2356" default-x="252.46" default-y="-40.00">
+      <note id="n2356" default-x="252.46" default-y="-40.00" color="#1D4ED8">
         <pitch>
           <step>E</step>
           <octave>4</octave>
@@ -34274,7 +34825,7 @@
           <tied type="start" id="n2357--tied--start--1"/>
           </notations>
         </note>
-      <note id="n2358" default-x="252.46" default-y="-30.00">
+      <note id="n2358" default-x="252.46" default-y="-30.00" color="#1D4ED8">
         <pitch>
           <step>G</step>
           <octave>4</octave>
@@ -34488,6 +35039,7 @@
           <words default-y="28.01" relative-y="20.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-62-1-2">poco più mosso</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="102"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -37842,6 +38394,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n2599" default-x="102.39" default-y="-35.00">
         <pitch>
@@ -40347,6 +40900,7 @@
           <words relative-y="20.00" font-weight="bold" font-family="Times New Roman" font-size="12" id="md-1-72-1-1">Meno mosso</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="85.9998"/>
         </direction>
       <note id="n2768" default-x="122.78" default-y="-35.00">
         <pitch>
@@ -40683,6 +41237,7 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n2790" default-x="256.24" default-y="-199.04">
         <pitch>
@@ -45353,9 +45908,7 @@
         <staff>1</staff>
         <notations>
           <tied type="start" id="n3107--tied--start--1"/>
-          <ornaments><trill-mark/>
-            <wavy-line type="start" number="1" default-y="10.80"/>
-            </ornaments></notations>
+          </notations>
         </note>
       <note id="n3108" default-x="436.94" default-y="-15.00">
         <pitch>
@@ -45371,8 +45924,7 @@
         <beam number="1">begin</beam>
         <notations>
           <tied type="stop" id="n3108--tied--stop--1"/>
-          <ornaments><wavy-line type="stop" number="1"/>
-            </ornaments></notations>
+          </notations>
         </note>
       <note id="n3109" default-x="520.44" default-y="-20.00" dynamics="66.67">
         <pitch>
@@ -45602,7 +46154,258 @@
       <backup>
         <duration>2880</duration>
         </backup>
-      <forward><duration>60</duration><voice>2</voice><staff>1</staff></forward><forward><duration>900</duration><voice>2</voice><staff>1</staff></forward><backup>
+      <note id="n3125" default-x="177.65" default-y="-10.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note id="n3126" default-x="201.35" default-y="-15.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        <notations>
+          <ornaments>
+            <trill-mark/>
+            <wavy-line type="start" number="1" default-y="10.80"/>
+            </ornaments>
+          </notations>
+        </note>
+      <note id="n3127" default-x="222.22" default-y="-10.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n3128" default-x="243.10" default-y="-15.00" dynamics="58.89" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n3129" default-x="263.97" default-y="-10.00" dynamics="58.89" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n3130" default-x="284.85" default-y="-15.00" dynamics="58.89" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n3131" default-x="305.72" default-y="-10.00" dynamics="58.89" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n3132" default-x="326.60" default-y="-15.00" dynamics="58.89" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n3133" default-x="347.47" default-y="-10.00" dynamics="61.11" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n3134" default-x="368.34" default-y="-15.00" dynamics="61.11" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <beam number="3">end</beam>
+        </note>
+      <note id="n3135" default-x="389.22" default-y="-10.00" dynamics="61.11" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note id="n3136" default-x="410.09" default-y="-15.00" dynamics="61.11" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n3137" default-x="436.94" default-y="-10.00" dynamics="64.44" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n3138" default-x="459.79" default-y="-15.00" dynamics="64.44" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n3139" default-x="480.67" default-y="-10.00" dynamics="64.44" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n3140" default-x="501.54" default-y="-15.00" dynamics="64.44" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <beam number="3">end</beam>
+        <notations>
+          <ornaments>
+            <wavy-line type="stop" number="1"/>
+            </ornaments>
+          </notations>
+        </note>
+      <backup>
         <duration>1080</duration>
         </backup>
       <note id="n3141" color="#1D4ED8">
@@ -45974,6 +46777,7 @@
           <words relative-y="20.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-83-1-4">ritenuto</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="90"/>
         </direction>
       <note id="n3167" default-x="437.19" default-y="-20.00" dynamics="92.22">
         <pitch>
@@ -46702,6 +47506,7 @@
           <words default-y="41.71" relative-y="20.00" font-weight="bold" font-family="Times New Roman" font-size="12" id="md-1-84-1-1">Tempo I</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="96"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -46710,6 +47515,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -54846,12 +55652,14 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="124.44"/>
         </direction>
       <direction placement="above">
         <direction-type>
           <words default-y="40.06" relative-y="20.00" font-weight="bold" font-family="Times New Roman" font-size="12" id="md-1-93-1-2">Più mosso</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="116"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -62149,6 +62957,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="124.44"/>
         </direction>
       <note id="n4314" default-x="135.83" default-y="-30.00">
         <pitch>
@@ -62161,10 +62970,7 @@
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
-        <notations><ornaments><trill-mark/>
-            <wavy-line type="start" number="1" default-y="72.22"/>
-            <wavy-line type="stop" number="1"/>
-            </ornaments></notations></note>
+        </note>
       <direction placement="below">
         <direction-type>
           <pedal type="start" id="md-1-102-1-2"/>
@@ -62237,6 +63043,7 @@
           <words default-y="-82.00" relative-y="20.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-102-1-4">rit.</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="91.0002"/>
         </direction>
       <note id="n4319" default-x="729.50" default-y="-35.00">
         <pitch>
@@ -62474,12 +63281,324 @@
       <backup>
         <duration>2820</duration>
         </backup>
-      <forward><duration>1220</duration><voice>2</voice><staff>1</staff></forward><direction placement="below">
+      <note id="n4337" default-x="161.13" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        <beam number="3">begin</beam>
+        <notations>
+          <ornaments>
+            <trill-mark/>
+            <wavy-line type="start" number="1" default-y="72.22"/>
+            </ornaments>
+          </notations>
+        </note>
+      <note id="n4338" default-x="184.10" default-y="-30.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4339" default-x="207.07" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4340" default-x="230.04" default-y="-30.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4341" default-x="253.01" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4342" default-x="275.98" default-y="-30.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4343" default-x="298.95" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4344" default-x="321.92" default-y="-30.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4345" default-x="344.89" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4346" default-x="367.86" default-y="-30.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4347" default-x="390.83" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <beam number="3">end</beam>
+        </note>
+      <direction placement="below">
         <direction-type>
           <pedal type="stop" id="md-1-102-1-7"/>
           </direction-type>
         <staff>1</staff>
         </direction>
+      <note id="n4348" default-x="413.80" default-y="-30.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>80</duration>
+        <voice>2</voice>
+        <type>16th</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>6</normal-notes>
+          <normal-type>16th</normal-type>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        <notations>
+          <tuplet type="start" bracket="no" show-number="none" id="n4348--tuplet--start--1"/>
+          </notations>
+        </note>
+      <note id="n4349" default-x="442.49" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>80</duration>
+        <voice>2</voice>
+        <type>16th</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>6</normal-notes>
+          <normal-type>16th</normal-type>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note id="n4350" default-x="471.18" default-y="-30.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>80</duration>
+        <voice>2</voice>
+        <type>16th</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>6</normal-notes>
+          <normal-type>16th</normal-type>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note id="n4351" default-x="499.87" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>80</duration>
+        <voice>2</voice>
+        <type>16th</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>6</normal-notes>
+          <normal-type>16th</normal-type>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note id="n4352" default-x="528.56" default-y="-30.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>80</duration>
+        <voice>2</voice>
+        <type>16th</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>6</normal-notes>
+          <normal-type>16th</normal-type>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note id="n4353" default-x="557.24" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>80</duration>
+        <voice>2</voice>
+        <type>16th</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>6</normal-notes>
+          <normal-type>16th</normal-type>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        </note>
+      <note id="n4354" default-x="585.93" default-y="-30.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>80</duration>
+        <voice>2</voice>
+        <type>16th</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>6</normal-notes>
+          <normal-type>16th</normal-type>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">end</beam>
+        <notations>
+          <ornaments>
+            <wavy-line type="stop" number="1"/>
+            </ornaments>
+          </notations>
+        </note>
       <note id="n4355" default-x="614.62" default-y="-35.00" color="#0D9488">
         <cue/>
         <pitch>
@@ -62497,7 +63616,9 @@
           </time-modification>
         <stem>none</stem>
         <staff>1</staff>
+        <beam number="1">end</beam>
         <notations>
+          <tuplet type="stop" id="n4355--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -62842,6 +63963,7 @@
           <words default-y="5.23" relative-y="20.00" font-weight="bold" font-family="Times New Roman" font-size="12" id="md-1-103-1-1">Tempo I</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="96"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -62850,6 +63972,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -64801,10 +65924,7 @@
         <accidental>sharp</accidental>
         <stem>up</stem>
         <staff>1</staff>
-        <notations><ornaments><trill-mark/>
-            <wavy-line type="start" number="1" default-y="68.92"/>
-            <wavy-line type="stop" number="1"/>
-            </ornaments></notations></note>
+        </note>
       <note id="n4515" color="#1D4ED8">
         <rest/>
         <duration>150</duration>
@@ -65242,7 +66362,7 @@
       <backup>
         <duration>60</duration>
         </backup>
-      <note id="n4540" default-x="700.56" default-y="-25.00" color="#EC4899">
+      <note id="n4540" default-x="700.56" default-y="-25.00" color="#0D9488">
         <cue/>
         <pitch>
           <step>A</step>
@@ -65488,8 +66608,8 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         <notations>
           <slur type="stop" number="2" id="n4552--slur--stop--1"/>
           </notations>
@@ -65510,13 +66630,205 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
+        <beam number="3">begin</beam>
         </note>
-      <forward><duration>551</duration><voice>2</voice><staff>1</staff></forward><forward>
-        <duration>1</duration>
-        </forward>
+      <note id="n4554" default-x="1041.61" default-y="-20.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <accidental>sharp</accidental>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        <notations>
+          <ornaments>
+            <trill-mark/>
+            <wavy-line type="start" number="1" default-y="68.92"/>
+            </ornaments>
+          </notations>
+        </note>
+      <note id="n4555" default-x="1057.27" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4556" default-x="1072.94" default-y="-20.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>60</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4557" default-x="1088.61" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>53</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>8</normal-notes>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        <notations>
+          <tuplet type="start" bracket="no" show-number="none" id="n4557--tuplet--start--1"/>
+          </notations>
+        </note>
       <forward>
         <duration>1</duration>
         </forward>
+      <note id="n4558" default-x="1119.94" default-y="-20.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>53</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>8</normal-notes>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4559" default-x="1135.60" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>53</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>8</normal-notes>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4560" default-x="1151.27" default-y="-20.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>53</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>8</normal-notes>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <forward>
+        <duration>1</duration>
+        </forward>
+      <note id="n4561" default-x="1166.93" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>53</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>8</normal-notes>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4562" default-x="1198.27" default-y="-20.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>53</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>8</normal-notes>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
+        <beam number="3">continue</beam>
+        </note>
+      <note id="n4563" default-x="1213.93" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>53</duration>
+        <voice>2</voice>
+        <type>32nd</type>
+        <time-modification>
+          <actual-notes>9</actual-notes>
+          <normal-notes>8</normal-notes>
+          </time-modification>
+        <stem>none</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <beam number="3">end</beam>
+        <notations>
+          <tuplet type="stop" id="n4563--tuplet--stop--1"/>
+          </notations>
+        </note>
       <direction placement="below">
         <direction-type>
           <wedge type="stop" number="1" id="md-1-106-1-7"/>
@@ -65542,6 +66854,9 @@
         <beam number="2">begin</beam>
         <notations>
           <slur type="start" placement="above" number="2" id="n4564--slur--start--1"/>
+          <ornaments>
+            <wavy-line type="stop" number="1"/>
+            </ornaments>
           </notations>
         </note>
       <backup>
@@ -69114,6 +70429,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="below">
         <direction-type>
@@ -69126,6 +70442,7 @@
           <words relative-y="20.00" font-weight="bold" font-style="italic" font-family="Times New Roman" font-size="12" id="md-1-111-1-3">calando</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="60"/>
         </direction>
       <note id="n4798" default-x="131.20" default-y="-70.00" dynamics="106.67">
         <pitch>
@@ -70383,6 +71700,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="36.67"/>
         </direction>
       <note id="n4886">
         <rest/>
@@ -73329,6 +74647,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="124.44"/>
         </direction>
       <note id="n5080" default-x="298.62" default-y="-15.00">
         <pitch>

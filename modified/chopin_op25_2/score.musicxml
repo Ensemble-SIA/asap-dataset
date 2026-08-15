@@ -27556,10 +27556,25 @@
         <duration>3</duration>
         <voice>2</voice>
         <type>eighth</type>
+        <time-modification>
+          <actual-notes>2</actual-notes>
+          <normal-notes>1</normal-notes>
+          <normal-type>eighth</normal-type>
+        </time-modification>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          </notations>
+          <tuplet type="start" bracket="yes" number="1" id="n1194--tuplet--start--1">
+            <tuplet-actual>
+              <tuplet-number>2</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-actual>
+            <tuplet-normal>
+              <tuplet-number>1</tuplet-number>
+              <tuplet-type>eighth</tuplet-type>
+            </tuplet-normal>
+          </tuplet>
+        </notations>
       </note>
       <backup>
         <duration>48</duration>
@@ -27878,13 +27893,27 @@
         <tie type="stop"/>
         <voice>3</voice>
         <type>whole</type>
+        <time-modification>
+          <actual-notes>4</actual-notes>
+          <normal-notes>3</normal-notes>
+        </time-modification>
         <stem>down</stem>
         <staff>2</staff>
         <notations>
           <tied type="stop" id="n1211--tied--stop--1"/>
         </notations>
         <notations>
-          </notations>
+          <tuplet type="start" bracket="yes" number="2" id="n1211--tuplet--start--1">
+            <tuplet-actual>
+              <tuplet-number>4</tuplet-number>
+              <tuplet-type>whole</tuplet-type>
+            </tuplet-actual>
+            <tuplet-normal>
+              <tuplet-number>3</tuplet-number>
+              <tuplet-type>whole</tuplet-type>
+            </tuplet-normal>
+          </tuplet>
+        </notations>
       </note>
       <note id="n1212">
         <chord/>

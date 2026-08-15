@@ -206,8 +206,9 @@
   "emptied_bars": 0,
   "cursor_corrupt_bars": 0,
   "severed_tie_faces": 0,
-  "tuplet_repairs": 1,
-  "span_repairs": 0,
+  "anchor_rides": 0,
+  "constructs_died_whole": 1,
+  "balance_lanes": 0,
   "beam_repairs": 0,
   "padding_rests_excised": 0,
   "padding_rests_trimmed": 0,
@@ -219,13 +220,13 @@
  },
  "manifest": [
   {
-   "tuplet_repair": "drop",
-   "printed_bar": "59",
+   "anchor_ride": "died_whole",
+   "family": "tuplet",
    "number": "1",
-   "survivors": 0,
-   "from": [
-    "n1945",
-    "n1949"
+   "start_note_id": "n1945",
+   "stop_note_id": "n1949",
+   "reasons": [
+    "both anchors are fabrication \u2014 a wholly-fabricated construct dies whole with its notes and neither face rides (George, 2026-08-11); riding both would resurrect on two hidden rests a construct no page ever printed"
    ]
   },
   {
@@ -2065,7 +2066,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n1945\" print-object=\"no\">\n        <rest/>\n        <duration>72</duration>\n        <voice>6</voice>\n        <type size=\"cue\">eighth</type>\n        <dot/>\n        <time-modification>\n          <actual-notes>10</actual-notes>\n          <normal-notes>8</normal-notes>\n          <normal-type>32nd</normal-type>\n          </time-modification>\n        <staff>2</staff>\n        </note>"
+   "fragment": "<note id=\"n1945\" print-object=\"no\">\n        <rest/>\n        <duration>72</duration>\n        <voice>6</voice>\n        <type size=\"cue\">eighth</type>\n        <dot/>\n        <time-modification>\n          <actual-notes>10</actual-notes>\n          <normal-notes>8</normal-notes>\n          <normal-type>32nd</normal-type>\n          </time-modification>\n        <staff>2</staff>\n        <notations>\n          <tuplet type=\"start\" bracket=\"no\" show-number=\"none\" id=\"n1945--tuplet--start--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": "n1946",
@@ -2101,7 +2102,7 @@
    "reasons": [
     "fabricated excursion \u2014 performance layer, excised whole (R2)"
    ],
-   "fragment": "<note id=\"n1949\" print-object=\"no\">\n        <rest/>\n        <duration>12</duration>\n        <voice>6</voice>\n        <type size=\"cue\">32nd</type>\n        <time-modification>\n          <actual-notes>10</actual-notes>\n          <normal-notes>8</normal-notes>\n          <normal-type>32nd</normal-type>\n          </time-modification>\n        <staff>2</staff>\n        </note>"
+   "fragment": "<note id=\"n1949\" print-object=\"no\">\n        <rest/>\n        <duration>12</duration>\n        <voice>6</voice>\n        <type size=\"cue\">32nd</type>\n        <time-modification>\n          <actual-notes>10</actual-notes>\n          <normal-notes>8</normal-notes>\n          <normal-type>32nd</normal-type>\n          </time-modification>\n        <staff>2</staff>\n        <notations>\n          <tuplet type=\"stop\" id=\"n1949--tuplet--stop--1\"/>\n          </notations>\n        </note>"
   },
   {
    "note_id": null,

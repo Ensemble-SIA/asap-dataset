@@ -1158,6 +1158,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="111.11"/>
         </direction>
       <note id="n83" default-x="204.77" default-y="-15.00">
         <pitch>
@@ -7200,10 +7201,14 @@
           <octave>3</octave>
           </pitch>
         <duration>48</duration>
+        <tie type="start"/>
         <voice>5</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+          <tied type="start" id="n460--tied--start--1"/>
+          </notations>
         </note>
       <note id="n461" default-x="372.46" default-y="-125.00">
         <pitch>
@@ -7672,10 +7677,14 @@
           <octave>3</octave>
           </pitch>
         <duration>48</duration>
+        <tie type="stop"/>
         <voice>5</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+          <tied type="stop" id="n489--tied--stop--1"/>
+          </notations>
         </note>
       <note id="n490">
         <rest/>
@@ -23644,6 +23653,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n1441" default-x="292.56" default-y="10.00">
         <pitch>
@@ -24065,6 +24075,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="111.11"/>
         </direction>
       <note id="n1464" default-x="192.87" default-y="0.00">
         <pitch>
@@ -24815,6 +24826,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n1506" default-x="383.59" default-y="5.00">
         <pitch>

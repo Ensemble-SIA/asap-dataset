@@ -95,6 +95,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="36.67"/>
         </direction>
       <note id="n1" default-x="97.66" default-y="-20.00">
         <pitch>
@@ -1445,6 +1446,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n94" default-x="134.03" default-y="-5.00">
         <pitch>
@@ -1605,6 +1607,7 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n104" default-x="12.00" default-y="-105.00">
         <pitch>
@@ -2765,6 +2768,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n186" default-x="231.16" default-y="25.00">
         <pitch>
@@ -2782,6 +2786,20 @@
           <slur type="stop" number="1" id="n186--slur--stop--1"/>
           </notations>
         </note>
+      <note id="n187" default-x="256.58" default-y="20.00" print-object="no">
+        <grace/>
+        <pitch>
+          <step>C</step>
+          <octave>6</octave>
+          </pitch>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <notations>
+          <slur type="start" placement="above" number="1" id="n187--slur--start--1"/>
+          </notations>
+        </note>
       <note id="n188" default-x="282.44" default-y="15.00">
         <pitch>
           <step>B</step>
@@ -2794,6 +2812,24 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
+        <notations>
+          <slur type="stop" number="1" id="n188--slur--stop--1"/>
+          </notations>
+        </note>
+      <note id="n189" default-x="311.80" default-y="10.00" print-object="no">
+        <grace/>
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+          </pitch>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <stem>up</stem>
+        <staff>1</staff>
+        <notations>
+          <slur type="start" placement="above" number="1" id="n189--slur--start--1"/>
+          </notations>
         </note>
       <note id="n190" default-x="330.26" default-y="5.00">
         <pitch>
@@ -2807,6 +2843,23 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
+        <notations>
+          <slur type="stop" number="1" id="n190--slur--stop--1"/>
+          </notations>
+        </note>
+      <note id="n191" default-x="347.68" default-y="0.00" print-object="no">
+        <grace/>
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+          </pitch>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <notations>
+          <slur type="start" placement="above" number="1" id="n191--slur--start--1"/>
+          </notations>
         </note>
       <note id="n192" default-x="366.14" default-y="-5.00">
         <pitch>
@@ -2820,6 +2873,9 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
+        <notations>
+          <slur type="stop" number="1" id="n192--slur--stop--1"/>
+          </notations>
         </note>
       <note id="n193" default-x="395.07" default-y="5.00">
         <pitch>
@@ -3490,6 +3546,7 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n243" default-x="306.01" default-y="-95.00">
         <pitch>
@@ -3654,6 +3711,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n254" default-x="86.71" default-y="-20.00">
         <pitch>
@@ -4238,6 +4296,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n295" default-x="419.59" default-y="-5.00">
         <pitch>
@@ -4551,6 +4610,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n319" default-x="75.36" default-y="-10.00">
         <pitch>
@@ -4676,6 +4736,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n327" default-x="221.24" default-y="-20.00">
         <pitch>
@@ -4808,10 +4869,14 @@
           <octave>4</octave>
           </pitch>
         <duration>480</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n336--tied--start--1"/>
+          </notations>
         </note>
       <note id="n337" default-x="355.34" default-y="-25.00">
         <chord/>
@@ -4820,10 +4885,14 @@
           <octave>4</octave>
           </pitch>
         <duration>480</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n337--tied--start--1"/>
+          </notations>
         </note>
       <note id="n338" default-x="429.10" default-y="-45.00">
         <pitch>
@@ -4874,6 +4943,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n341" default-x="462.63" default-y="-20.00">
         <pitch>
@@ -5005,6 +5075,7 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n351" default-x="429.10" default-y="-100.00">
         <pitch>
@@ -5105,6 +5176,7 @@
           <octave>4</octave>
           </pitch>
         <duration>80</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <time-modification>
@@ -5116,6 +5188,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
+          <tied type="stop" id="n358--tied--stop--1"/>
           <tuplet type="stop" id="n358--tuplet--stop--1"/>
           </notations>
         </note>
@@ -6142,6 +6215,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n430" default-x="384.58" default-y="0.00">
         <pitch>
@@ -6661,6 +6735,7 @@
           <octave>4</octave>
           </pitch>
         <duration>120</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
@@ -6668,6 +6743,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
+          <tied type="stop" id="n470--tied--stop--1"/>
           <slur type="stop" number="1" id="n470--slur--stop--1"/>
           </notations>
         </note>
@@ -6706,11 +6782,15 @@
           <octave>4</octave>
           </pitch>
         <duration>480</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n473--tied--start--1"/>
+          </notations>
         </note>
       <note id="n474" default-x="305.65" default-y="-25.00">
         <chord/>
@@ -6719,10 +6799,14 @@
           <octave>4</octave>
           </pitch>
         <duration>480</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n474--tied--start--1"/>
+          </notations>
         </note>
       <note id="n475" default-x="367.30" default-y="-45.00">
         <pitch>
@@ -6879,6 +6963,7 @@
             </dynamics>
           </direction-type>
         <staff>2</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n486" default-x="367.30" default-y="-100.00">
         <pitch>
@@ -6983,6 +7068,7 @@
           <octave>4</octave>
           </pitch>
         <duration>80</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <time-modification>
@@ -6994,6 +7080,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
+          <tied type="stop" id="n493--tied--stop--1"/>
           <tuplet type="stop" id="n493--tuplet--stop--1"/>
           </notations>
         </note>
@@ -7109,6 +7196,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="111.11"/>
         </direction>
       <note id="n500" default-x="258.26" default-y="10.00">
         <pitch>
@@ -7806,6 +7894,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n543" default-x="810.31" default-y="25.00">
         <pitch>
@@ -8227,6 +8316,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n571" default-x="145.98" default-y="20.00">
         <pitch>
@@ -8378,6 +8468,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="111.11"/>
         </direction>
       <note id="n580" default-x="366.68" default-y="-30.00">
         <pitch>
@@ -8394,6 +8485,34 @@
             <trill-mark/>
             </ornaments>
           </notations>
+        </note>
+      <note id="n581" default-x="540.34" default-y="-35.00">
+        <grace/>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        <beam number="3">begin</beam>
+        </note>
+      <note id="n582" default-x="551.31" default-y="-30.00">
+        <grace/>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <voice>1</voice>
+        <type>32nd</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+        <beam number="3">end</beam>
         </note>
       <backup>
         <duration>1920</duration>
@@ -8637,34 +8756,6 @@
         </note>
       </measure>
     <measure number="19" width="532.88">
-      <note id="n581" default-x="540.34" default-y="-35.00">
-        <grace/>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-          </pitch>
-        <voice>1</voice>
-        <type>32nd</type>
-        <stem>up</stem>
-        <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <beam number="3">begin</beam>
-        </note>
-      <note id="n582" default-x="551.31" default-y="-30.00">
-        <grace/>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-          </pitch>
-        <voice>1</voice>
-        <type>32nd</type>
-        <stem>up</stem>
-        <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <beam number="3">end</beam>
-        </note>
       <note id="n602" default-x="12.00" default-y="-35.00">
         <pitch>
           <step>F</step>
@@ -9200,6 +9291,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n639" default-x="761.76" default-y="-5.00">
         <pitch>
@@ -11117,6 +11209,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n771" default-x="148.40" default-y="-5.00">
         <pitch>
@@ -11204,6 +11297,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n775" default-x="396.77" default-y="-10.00">
         <pitch>
@@ -12251,6 +12345,7 @@
           <octave>4</octave>
           </pitch>
         <duration>30</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>64th</type>
         <accidental>flat</accidental>
@@ -12261,6 +12356,7 @@
         <beam number="3">begin</beam>
         <beam number="4">begin</beam>
         <notations>
+          <tied type="stop" id="n843--tied--stop--1"/>
           <slur type="start" number="1" id="n843--slur--start--1"/>
           </notations>
         </note>
@@ -12618,7 +12714,7 @@
         <staff>1</staff>
         </note>
       <backup>
-        <duration>1904</duration>
+        <duration>1950</duration>
         </backup>
       <note id="n869" default-x="91.12" default-y="-110.00">
         <pitch>
@@ -12886,6 +12982,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n888" default-x="355.61" default-y="25.00">
         <pitch>
@@ -12903,6 +13000,17 @@
           <slur type="stop" number="1" id="n888--slur--stop--1"/>
           </notations>
         </note>
+      <note id="n889" default-x="388.79" default-y="20.00" print-object="no">
+        <grace/>
+        <pitch>
+          <step>C</step>
+          <octave>6</octave>
+          </pitch>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        </note>
       <note id="n890" default-x="414.65" default-y="15.00">
         <pitch>
           <step>B</step>
@@ -12916,6 +13024,18 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         </note>
+      <note id="n891" default-x="455.23" default-y="10.00" print-object="no">
+        <grace/>
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+          </pitch>
+        <voice>1</voice>
+        <type>16th</type>
+        <accidental>flat</accidental>
+        <stem>up</stem>
+        <staff>1</staff>
+        </note>
       <note id="n892" default-x="473.69" default-y="5.00">
         <pitch>
           <step>G</step>
@@ -12928,6 +13048,17 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
+        </note>
+      <note id="n893" default-x="514.28" default-y="0.00" print-object="no">
+        <grace/>
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+          </pitch>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
         </note>
       <note id="n894" default-x="532.74" default-y="-5.00">
         <pitch>
@@ -14336,6 +14467,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n996" default-x="393.12" default-y="15.00">
         <pitch>
@@ -14784,6 +14916,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n1028" default-x="74.78" default-y="5.00">
         <pitch>
@@ -14908,6 +15041,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n1036" default-x="204.02" default-y="-5.00">
         <pitch>
@@ -15032,6 +15166,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n1044" default-x="324.36" default-y="-30.00">
         <pitch>
@@ -15112,6 +15247,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n1050" default-x="420.63" default-y="-5.00">
         <pitch>
@@ -17461,6 +17597,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="111.11"/>
         </direction>
       <note id="n1221" default-x="351.22" default-y="-30.00">
         <pitch>
@@ -17485,10 +17622,14 @@
           <octave>4</octave>
           </pitch>
         <duration>480</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n1222--tied--start--1"/>
+          </notations>
         </note>
       <note id="n1223" default-x="351.22" default-y="-10.00">
         <chord/>
@@ -17497,10 +17638,14 @@
           <octave>5</octave>
           </pitch>
         <duration>480</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n1223--tied--start--1"/>
+          </notations>
         </note>
       <direction placement="below">
         <direction-type>
@@ -17509,6 +17654,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n1224" default-x="395.89" default-y="-30.00">
         <pitch>
@@ -17927,6 +18073,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n1255" default-x="25.40" default-y="0.00">
         <pitch>
@@ -17972,6 +18119,7 @@
           <octave>5</octave>
           </pitch>
         <duration>80</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <time-modification>
@@ -17983,6 +18131,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
+          <tied type="stop" id="n1257--tied--stop--1"/>
           <tuplet type="stop" id="n1257--tuplet--stop--1"/>
           </notations>
         </note>
@@ -18080,6 +18229,7 @@
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="111.11"/>
         </direction>
       <note id="n1263" default-x="251.67" default-y="-45.00">
         <grace/>
@@ -18282,6 +18432,7 @@
           <octave>4</octave>
           </pitch>
         <duration>30</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>64th</type>
         <stem>down</stem>
@@ -18290,6 +18441,9 @@
         <beam number="2">continue</beam>
         <beam number="3">continue</beam>
         <beam number="4">begin</beam>
+        <notations>
+          <tied type="stop" id="n1275--tied--stop--1"/>
+          </notations>
         </note>
       <note id="n1276" default-x="580.63" default-y="-15.00">
         <pitch>
