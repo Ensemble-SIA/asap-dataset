@@ -6138,6 +6138,33 @@
       <backup>
         <duration>24</duration>
         </backup>
+      <note id="n451" default-x="110.23" default-y="-25.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>3</voice>
+        <type size="cue">eighth</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        </note>
+      <note id="n452" default-x="135.54" default-y="-30.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>8</duration>
+        <voice>3</voice>
+        <type size="cue">half</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        </note>
+      <backup>
+        <duration>10</duration>
+        </backup>
       <note id="n453" default-x="107.46" default-y="-120.00">
         <pitch>
           <step>E</step>
@@ -10319,7 +10346,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         </note>
-      <note id="n774" print-object="no">
+      <note id="n774" color="#1D4ED8">
         <rest/>
         <duration>4</duration>
         <voice>5</voice>
@@ -10400,7 +10427,19 @@
         </forward>
       </measure>
     <measure number="33" width="327.03">
-      <note print-object="no" id="mn-1-33-1-1-1"><rest/><duration>2</duration><voice>1</voice><type>eighth</type><staff>1</staff></note><note id="n781" default-x="41.06" default-y="10.00">
+      <note id="n780" default-x="12.36" default-y="0.00" color="#1D4ED8">
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note id="n781" default-x="41.06" default-y="10.00">
         <pitch>
           <step>A</step>
           <octave>5</octave>
@@ -10410,7 +10449,7 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         </note>
       <note id="n782" default-x="68.60" default-y="5.00">
         <pitch>

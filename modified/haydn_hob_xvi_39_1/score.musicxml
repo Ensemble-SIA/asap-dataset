@@ -2972,10 +2972,14 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n211--tied--start--1"/>
+          </notations>
         </note>
       <note id="n212" default-x="98.53" default-y="5.00">
         <chord/>
@@ -3147,10 +3151,14 @@
           <step>G</step>
           <octave>4</octave>
           </pitch>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="stop" id="n225--tied--stop--1"/>
+          </notations>
         </note>
       <note id="n226" default-x="41.61" default-y="-35.00">
         <pitch>

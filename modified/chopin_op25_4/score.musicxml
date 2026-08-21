@@ -15935,7 +15935,7 @@
           <tied type="stop" id="n1067--tied--stop--1"/>
           </notations>
         </note>
-      <note id="n1068" print-object="no">
+      <note id="n1068" color="#1D4ED8">
         <rest/>
         <duration>2</duration>
         <voice>1</voice>
@@ -22172,7 +22172,19 @@
       <backup>
         <duration>8</duration>
         </backup>
-      <note print-object="no" id="mn-1-53-6-2-1"><rest/><duration>1</duration><voice>6</voice><type>eighth</type><staff>2</staff></note><note id="n1505" default-x="96.52" default-y="-183.00" dynamics="71.11">
+      <note id="n1504" default-x="61.73" default-y="-208.00" dynamics="71.11" color="#1D4ED8">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>6</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note id="n1505" default-x="96.52" default-y="-183.00" dynamics="71.11">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -22183,6 +22195,7 @@
         <accidental>flat</accidental>
         <stem>down</stem>
         <staff>2</staff>
+        <beam number="1">end</beam>
         <notations>
           <articulations>
             <staccato/>
@@ -25926,6 +25939,21 @@
           <tied type="start" id="n1753--tied--start--1"/>
           </notations>
         </note>
+      <note id="n1754" default-x="68.95" default-y="-35.00" color="#1D4ED8">
+        <chord/>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>8</duration>
+        <tie type="start"/>
+        <voice>2</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <notations>
+          <tied type="start" id="n1754--tied--start--1"/>
+          </notations>
+        </note>
       <backup>
         <duration>8</duration>
         </backup>
@@ -26053,9 +26081,13 @@
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="stop"/>
         <voice>2</voice>
         <type>whole</type>
         <staff>1</staff>
+        <notations>
+          <tied type="stop" id="n1763--tied--stop--1"/>
+          </notations>
         </note>
       <backup>
         <duration>8</duration>

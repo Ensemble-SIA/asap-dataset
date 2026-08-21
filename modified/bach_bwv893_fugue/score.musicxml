@@ -1909,7 +1909,7 @@
         <type>eighth</type>
         <staff>2</staff>
         </note>
-      <note id="n126" print-object="no">
+      <note id="n126" color="#1D4ED8">
         <rest/>
         <duration>4</duration>
         <voice>5</voice>
@@ -11196,7 +11196,20 @@
         </note>
       </measure>
     <measure number="75" width="217.40">
-      <note print-object="no" id="mn-1-75-1-1-1"><rest/><duration>2</duration><voice>1</voice><type>16th</type><staff>1</staff></note><note id="n787" default-x="45.97" default-y="-5.00">
+      <note id="n786" default-x="12.00" default-y="-35.00" color="#1D4ED8">
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note id="n787" default-x="45.97" default-y="-5.00">
         <pitch>
           <step>E</step>
           <octave>5</octave>
@@ -11206,8 +11219,8 @@
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="n788" default-x="79.93" default-y="-10.00">
         <pitch>
@@ -15292,6 +15305,57 @@
         <notations>
           <slur type="stop" number="1" id="n1087--slur--stop--1"/>
           </notations>
+        </note>
+      <backup>
+        <duration>12</duration>
+        </backup>
+      <note id="n1088" default-x="42.41" default-y="-40.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>3</voice>
+        <type size="cue">eighth</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        </note>
+      <note id="n1089" default-x="42.41" default-y="-25.00" color="#1D4ED8">
+        <chord/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>3</voice>
+        <type size="cue">eighth</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        </note>
+      <note id="n1090" default-x="90.87" default-y="-45.00" color="#0D9488">
+        <cue/>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>8</duration>
+        <voice>3</voice>
+        <type size="cue">quarter</type>
+        <stem>none</stem>
+        <staff>1</staff>
+        </note>
+      <note id="n1091" default-x="90.87" default-y="-20.00" color="#1D4ED8">
+        <chord/>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>8</duration>
+        <voice>3</voice>
+        <type size="cue">quarter</type>
+        <stem>none</stem>
+        <staff>1</staff>
         </note>
       <backup>
         <duration>12</duration>

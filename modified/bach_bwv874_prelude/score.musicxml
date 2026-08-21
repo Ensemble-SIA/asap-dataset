@@ -6077,7 +6077,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         </note>
-      <note id="n365" print-object="no">
+      <note id="n365" color="#1D4ED8">
         <rest/>
         <duration>8</duration>
         <voice>5</voice>
@@ -8344,7 +8344,7 @@
       <backup>
         <duration>48</duration>
         </backup>
-      <note id="n495" print-object="no">
+      <note id="n495" color="#1D4ED8">
         <rest/>
         <duration>12</duration>
         <voice>2</voice>
@@ -8727,7 +8727,7 @@
           </time-modification>
         <staff>2</staff>
         </note>
-      <note id="r61" print-object="no">
+      <note id="r61" color="#1D4ED8">
         <rest>
           <display-step>E</display-step>
           <display-octave>2</display-octave>
@@ -8742,7 +8742,7 @@
           </time-modification>
         <staff>2</staff>
         </note>
-      <note id="r62" print-object="no">
+      <note id="r62" color="#1D4ED8">
         <rest>
           <display-step>E</display-step>
           <display-octave>2</display-octave>
@@ -8757,7 +8757,7 @@
           </time-modification>
         <staff>2</staff>
         </note>
-      <note id="r63" print-object="no">
+      <note id="r63" color="#1D4ED8">
         <rest>
           <display-step>E</display-step>
           <display-octave>2</display-octave>
@@ -18317,7 +18317,7 @@
           <tied type="stop" id="n1138--tied--stop--1"/>
           </notations>
         </note>
-      <note id="r99" print-object="no">
+      <note id="r99" color="#1D4ED8">
         <rest>
           <display-step>C</display-step>
           <display-octave>4</display-octave>
@@ -18332,7 +18332,7 @@
           </time-modification>
         <staff>1</staff>
         </note>
-      <note id="r100" print-object="no">
+      <note id="r100" color="#1D4ED8">
         <rest>
           <display-step>C</display-step>
           <display-octave>4</display-octave>
@@ -18347,7 +18347,7 @@
           </time-modification>
         <staff>1</staff>
         </note>
-      <note id="r101" print-object="no">
+      <note id="r101" color="#1D4ED8">
         <rest>
           <display-step>C</display-step>
           <display-octave>4</display-octave>
@@ -25463,7 +25463,19 @@
       <backup>
         <duration>48</duration>
         </backup>
-      <note print-object="no" id="mn-1-56-2-1-1"><rest/><duration>4</duration><voice>2</voice><type>eighth</type><staff>1</staff></note><note id="n1561" default-x="41.31" default-y="-25.00">
+      <note id="n1560" default-x="10.00" default-y="-30.00" color="#1D4ED8">
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        </note>
+      <note id="n1561" default-x="41.31" default-y="-25.00">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -25473,7 +25485,7 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         </note>
       <note id="n1562" default-x="72.62" default-y="-20.00">
         <pitch>

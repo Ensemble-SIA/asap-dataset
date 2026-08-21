@@ -4121,10 +4121,14 @@
           <step>E</step>
           <octave>4</octave>
           </pitch>
+        <tie type="start"/>
         <voice>2</voice>
         <type>eighth</type>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n294--tied--start--1"/>
+          </notations>
         </note>
       <note id="n295" default-x="255.98" default-y="-45.00">
         <pitch>
@@ -5852,10 +5856,14 @@
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n432--tied--start--1"/>
+          </notations>
         </note>
       <backup>
         <duration>32</duration>
@@ -6609,11 +6617,13 @@
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
+          <tied type="stop" id="n488--tied--stop--1"/>
           <slur type="stop" number="1" id="n488--slur--stop--1"/>
           </notations>
         </note>
@@ -6905,10 +6915,14 @@
           <octave>1</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="start"/>
         <voice>5</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+          <tied type="start" id="n510--tied--start--1"/>
+          </notations>
         </note>
       <backup>
         <duration>32</duration>
@@ -9315,12 +9329,16 @@
           <octave>3</octave>
           </pitch>
         <duration>2</duration>
+        <tie type="start"/>
         <voice>5</voice>
         <type>16th</type>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
         <beam number="2">end</beam>
+        <notations>
+          <tied type="start" id="n689--tied--start--1"/>
+          </notations>
         </note>
       <direction placement="below">
         <direction-type>
@@ -9802,10 +9820,14 @@
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="stop"/>
         <voice>5</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+          <tied type="stop" id="n725--tied--stop--1"/>
+          </notations>
         </note>
       <note id="n726" default-x="307.95" default-y="-135.43">
         <pitch>
@@ -11045,11 +11067,13 @@
           <octave>1</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="stop"/>
         <voice>5</voice>
         <type>quarter</type>
         <stem>up</stem>
         <staff>2</staff>
         <notations>
+          <tied type="stop" id="n817--tied--stop--1"/>
           <slur type="start" placement="above" number="1" id="n817--slur--start--1"/>
           </notations>
         </note>

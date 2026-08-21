@@ -669,7 +669,20 @@
       <backup>
         <duration>30</duration>
         </backup>
-      <note print-object="no" id="mn-1-3-2-1-1"><rest/><duration>2</duration><voice>2</voice><type>16th</type><staff>1</staff></note><note id="n43" default-x="104.61" default-y="-55.00">
+      <note id="n42" default-x="71.84" default-y="-50.00" color="#1D4ED8">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>16th</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        </note>
+      <note id="n43" default-x="104.61" default-y="-55.00">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -679,8 +692,8 @@
         <type>16th</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
+        <beam number="1">continue</beam>
+        <beam number="2">continue</beam>
         </note>
       <note id="n44" default-x="127.78" default-y="-60.00">
         <pitch>

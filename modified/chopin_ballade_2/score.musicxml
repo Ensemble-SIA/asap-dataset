@@ -9309,11 +9309,15 @@
           <step>A</step>
           <octave>3</octave>
           </pitch>
+        <tie type="start"/>
         <voice>1</voice>
         <type size="cue">eighth</type>
         <stem>up</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
+        <notations>
+          <tied type="start" id="n724--tied--start--1"/>
+          </notations>
         </note>
       <note id="n725" default-x="155.43" default-y="-50.00">
         <grace/>
@@ -9600,11 +9604,15 @@
           <octave>3</octave>
           </pitch>
         <duration>72</duration>
+        <tie type="stop"/>
         <voice>5</voice>
         <type>half</type>
         <dot/>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+          <tied type="stop" id="n746--tied--stop--1"/>
+          </notations>
         </note>
       <note id="n747" print-object="no">
         <rest/>
@@ -11430,10 +11438,14 @@
           <octave>3</octave>
           </pitch>
         <duration>12</duration>
+        <tie type="stop"/>
         <voice>5</voice>
         <type>eighth</type>
         <stem>down</stem>
         <staff>2</staff>
+        <notations>
+          <tied type="stop" id="n879--tied--stop--1"/>
+          </notations>
         </note>
       <note id="n880" default-x="310.50" default-y="-135.00">
         <pitch>

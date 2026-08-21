@@ -6853,10 +6853,14 @@
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n445--tied--start--1"/>
+          </notations>
         </note>
       <note id="n446" default-x="96.36" default-y="15.00">
         <chord/>
@@ -6880,10 +6884,14 @@
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n447--tied--start--1"/>
+          </notations>
         </note>
       <note id="n448" default-x="363.62" default-y="15.00">
         <chord/>
@@ -6909,6 +6917,7 @@
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <time-modification>
@@ -6920,6 +6929,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
+          <tied type="stop" id="n449--tied--stop--1"/>
           <tuplet type="start" bracket="no" id="n449--tuplet--start--1"/>
           </notations>
         </note>
@@ -6969,6 +6979,7 @@
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <time-modification>
@@ -6980,6 +6991,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
+          <tied type="stop" id="n452--tied--stop--1"/>
           <tuplet type="stop" id="n452--tuplet--stop--1"/>
           </notations>
         </note>
@@ -7432,10 +7444,14 @@
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n476--tied--start--1"/>
+          </notations>
         </note>
       <note id="n477" default-x="96.36" default-y="15.00">
         <chord/>
@@ -7459,10 +7475,14 @@
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n478--tied--start--1"/>
+          </notations>
         </note>
       <note id="n479" default-x="363.62" default-y="15.00">
         <chord/>
@@ -7488,6 +7508,7 @@
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <time-modification>
@@ -7499,6 +7520,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
+          <tied type="stop" id="n480--tied--stop--1"/>
           <tuplet type="start" bracket="no" id="n480--tuplet--start--1"/>
           </notations>
         </note>
@@ -7548,6 +7570,7 @@
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <time-modification>
@@ -7559,6 +7582,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
+          <tied type="stop" id="n483--tied--stop--1"/>
           <tuplet type="stop" id="n483--tuplet--stop--1"/>
           </notations>
         </note>
@@ -14550,11 +14574,15 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>eighth</type>
         <accidental>natural</accidental>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n909--tied--start--1"/>
+          </notations>
         </note>
       <backup>
         <duration>192</duration>
@@ -14823,10 +14851,16 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="stop" id="n929--tied--stop--1"/>
+          <tied type="start" id="n929--tied--start--2"/>
+          </notations>
         </note>
       <note id="n930" default-x="145.39" default-y="-55.00">
         <pitch>
@@ -30776,10 +30810,14 @@
           <step>A</step>
           <octave>4</octave>
           </pitch>
+        <tie type="start"/>
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n1889--tied--start--1"/>
+          </notations>
         </note>
       <note id="n1890" default-x="1062.33" default-y="-30.00">
         <pitch>
@@ -32908,6 +32946,7 @@
           <octave>4</octave>
           </pitch>
         <duration>3</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>64th</type>
         <stem>up</stem>
@@ -32916,6 +32955,9 @@
         <beam number="2">continue</beam>
         <beam number="3">begin</beam>
         <beam number="4">begin</beam>
+        <notations>
+          <tied type="stop" id="n2030--tied--stop--1"/>
+          </notations>
         </note>
       <note id="n2031" default-x="297.35" default-y="-40.00">
         <pitch>
@@ -38296,10 +38338,14 @@
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n2399--tied--start--1"/>
+          </notations>
         </note>
       <note id="n2400" default-x="96.36" default-y="-5.00">
         <chord/>
@@ -38323,10 +38369,14 @@
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n2401--tied--start--1"/>
+          </notations>
         </note>
       <note id="n2402" default-x="363.62" default-y="-5.00">
         <chord/>
@@ -38352,6 +38402,7 @@
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <time-modification>
@@ -38363,6 +38414,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
+          <tied type="stop" id="n2403--tied--stop--1"/>
           <tuplet type="start" bracket="no" id="n2403--tuplet--start--1"/>
           </notations>
         </note>
@@ -38409,6 +38461,7 @@
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <time-modification>
@@ -38420,6 +38473,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
+          <tied type="stop" id="n2406--tied--stop--1"/>
           <tuplet type="stop" id="n2406--tuplet--stop--1"/>
           </notations>
         </note>
@@ -38871,10 +38925,14 @@
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n2430--tied--start--1"/>
+          </notations>
         </note>
       <note id="n2431" default-x="96.36" default-y="-5.00">
         <chord/>
@@ -38898,10 +38956,14 @@
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n2432--tied--start--1"/>
+          </notations>
         </note>
       <note id="n2433" default-x="363.62" default-y="-5.00">
         <chord/>
@@ -38927,6 +38989,7 @@
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <time-modification>
@@ -38938,6 +39001,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
+          <tied type="stop" id="n2434--tied--stop--1"/>
           <tuplet type="start" bracket="no" id="n2434--tuplet--start--1"/>
           </notations>
         </note>
@@ -38987,6 +39051,7 @@
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>16th</type>
         <time-modification>
@@ -38998,6 +39063,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
+          <tied type="stop" id="n2437--tied--stop--1"/>
           <tuplet type="stop" id="n2437--tuplet--stop--1"/>
           </notations>
         </note>
@@ -42441,11 +42507,15 @@
           <step>A</step>
           <octave>5</octave>
           </pitch>
+        <tie type="start"/>
         <voice>1</voice>
         <type>eighth</type>
         <accidental>natural</accidental>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n2647--tied--start--1"/>
+          </notations>
         </note>
       <note id="n2648" default-x="389.29" default-y="20.00">
         <pitch>
@@ -42465,10 +42535,14 @@
           <step>B</step>
           <octave>5</octave>
           </pitch>
+        <tie type="start"/>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n2649--tied--start--1"/>
+          </notations>
         </note>
       <note id="n2650" default-x="464.75" default-y="25.00">
         <pitch>
@@ -45995,10 +46069,14 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="start" id="n2866--tied--start--1"/>
+          </notations>
         </note>
       <backup>
         <duration>192</duration>
@@ -46256,10 +46334,14 @@
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
+        <tie type="stop"/>
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
+        <notations>
+          <tied type="stop" id="n2886--tied--stop--1"/>
+          </notations>
         </note>
       <note id="n2887" default-x="137.95" default-y="-50.00">
         <pitch>
