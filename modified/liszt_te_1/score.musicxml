@@ -55,7 +55,7 @@
       <score-instrument id="P1-I1">
         <instrument-name>Piano</instrument-name>
         </score-instrument>
-      <midi-device id="P1-I1" port="1"/>
+      <midi-device id="P1-I1" port="1"></midi-device>
       <midi-instrument id="P1-I1">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
@@ -99,21 +99,23 @@
         </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-x="-35.01" default-y="40.00" font-weight="bold" font-size="12" id="md-1-1-1-1">Presto.</words>
+          <words default-x="-35.01" default-y="40.00" font-weight="bold" font-size="12">Presto.</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="100"/>
         </direction>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="5.06" default-y="-80.00" relative-y="6.00" id="md-1-1-1-2">
+          <dynamics default-x="5.06" default-y="-80.00" relative-y="6.00">
             <f/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
-          <pedal type="start" line="yes" default-y="-70.00" id="md-1-1-1-3"/>
+          <pedal type="start" line="yes" default-y="-70.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -130,7 +132,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <words default-y="40.00" font-style="italic" font-size="11" id="md-1-1-1-4">Energico.</words>
+          <words default-y="40.00" font-style="italic" font-size="11">Energico.</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -146,7 +148,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start" id="n1--tied--start--1"/>
+          <tied type="start"/>
           </notations>
         </note>
       <note id="n2" default-x="184.95" default-y="-50.00">
@@ -161,7 +163,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop" id="n2--tied--stop--1"/>
+          <tied type="stop"/>
           </notations>
         </note>
       <note id="r2">
@@ -176,7 +178,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="1" default-y="30.00" id="md-1-1-1-5"/>
+          <octave-shift type="down" size="8" number="1" default-y="30.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -197,8 +199,8 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no" id="n3--tuplet--start--1"/>
-          <slur type="start" placement="above" number="1" id="n3--slur--start--1"/>
+          <tuplet type="start" bracket="no"/>
+          <slur type="start" placement="above" number="1"/>
           <articulations>
             <strong-accent type="down"/>
             </articulations>
@@ -206,7 +208,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" relative-y="6.00" id="md-1-1-1-6">
+          <dynamics default-x="3.29" default-y="-80.00" relative-y="6.00">
             <other-dynamics>rinf.</other-dynamics>
             </dynamics>
           </direction-type>
@@ -251,6 +253,7 @@
       <note id="n6" default-x="409.52" default-y="15.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>6</octave>
           </pitch>
         <duration>25</duration>
@@ -323,6 +326,7 @@
       <note id="n10" default-x="492.15" default-y="15.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>25</duration>
@@ -394,6 +398,7 @@
       <note id="n14" default-x="598.28" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>25</duration>
@@ -451,7 +456,7 @@
         </attributes>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="1" default-y="-65.00" id="md-1-1-1-7"/>
+          <wedge type="diminuendo" number="1" default-y="-65.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -478,6 +483,7 @@
       <note id="n18" default-x="712.96" default-y="5.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>25</duration>
@@ -550,6 +556,7 @@
       <note id="n22" default-x="803.65" default-y="-30.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>25</duration>
@@ -565,8 +572,8 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop" id="n22--tuplet--stop--1"/>
-          <slur type="stop" number="1" id="n22--slur--stop--1"/>
+          <tuplet type="stop"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <forward>
@@ -614,6 +621,7 @@
       <note id="n26" default-x="922.39" default-y="-30.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>120</duration>
@@ -650,7 +658,7 @@
         <beam number="1">begin</beam>
         <beam number="2">forward hook</beam>
         <notations>
-          <tied type="start" id="n28--tied--start--1"/>
+          <tied type="start"/>
           </notations>
         </note>
       <note id="n29" default-x="219.83" default-y="-130.00">
@@ -666,7 +674,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="stop" id="n29--tied--stop--1"/>
+          <tied type="stop"/>
           </notations>
         </note>
       <forward>
@@ -689,6 +697,7 @@
       <note id="n31" default-x="890.12" default-y="-40.00">
         <pitch>
           <step>G</step>
+          <alter>1</alter>
           <octave>2</octave>
           </pitch>
         <duration>120</duration>
@@ -716,7 +725,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <octave-shift type="up" size="8" number="2" default-y="-70.00" id="md-1-1-2-1"/>
+          <octave-shift type="up" size="8" number="2" default-y="-70.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -733,7 +742,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <octave-shift type="stop" size="8" number="2" id="md-1-1-2-2"/>
+          <octave-shift type="stop" size="8" number="2"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -767,7 +776,7 @@
           <articulations>
             <staccatissimo/>
             </articulations>
-          <arpeggiate default-x="-26.36" default-y="0.51" id="n33--arpeggiate--1"/>
+          <arpeggiate default-x="-26.36" default-y="0.51"/>
           </notations>
         </note>
       <note id="n34" default-x="359.66" default-y="-135.00">
@@ -782,13 +791,14 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-26.36" default-y="0.51" id="n34--arpeggiate--1"/>
+          <arpeggiate default-x="-26.36" default-y="0.51"/>
           </notations>
         </note>
       <note id="n35" default-x="359.66" default-y="-125.00">
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>240</duration>
@@ -798,7 +808,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-26.36" default-y="0.51" id="n35--arpeggiate--1"/>
+          <arpeggiate default-x="-26.36" default-y="0.51"/>
           </notations>
         </note>
       <note id="n36" default-x="359.66" default-y="-110.00">
@@ -813,7 +823,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-26.36" default-y="0.51" id="n36--arpeggiate--1"/>
+          <arpeggiate default-x="-26.36" default-y="0.51"/>
           </notations>
         </note>
       <note id="n37">
@@ -823,7 +833,7 @@
         <type>eighth</type>
         <staff>2</staff>
         <notations>
-          <fermata type="upright" id="n37--fermata--upright--1"/>
+          <fermata type="upright"/>
           </notations>
         </note>
       <note id="n38">
@@ -868,7 +878,7 @@
     <measure number="2" width="554.57">
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="2" default-y="-65.00" id="md-1-2-1-1"/>
+          <wedge type="crescendo" number="2" default-y="-65.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -1082,7 +1092,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="2" id="md-1-2-1-2"/>
+          <wedge type="stop" number="2"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -1106,6 +1116,7 @@
       <note id="n58" default-x="79.62" default-y="-35.00">
         <pitch>
           <step>A</step>
+          <alter>1</alter>
           <octave>2</octave>
           </pitch>
         <duration>120</duration>
@@ -1163,6 +1174,7 @@
       <note id="n62" default-x="350.11" default-y="-25.00">
         <pitch>
           <step>C</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>120</duration>
@@ -1192,6 +1204,7 @@
       <note id="n64" default-x="485.35" default-y="-20.00">
         <pitch>
           <step>D</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>120</duration>
@@ -1224,6 +1237,7 @@
       <note id="n66" default-x="79.62" default-y="-150.00">
         <pitch>
           <step>F</step>
+          <alter>1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -1259,6 +1273,7 @@
       <note id="n68" default-x="214.87" default-y="-145.00">
         <pitch>
           <step>G</step>
+          <alter>1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -1288,6 +1303,7 @@
       <note id="n70" default-x="417.73" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -1366,11 +1382,12 @@
         </attributes>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="6.58" default-y="-80.00" relative-y="6.00" id="md-1-3-1-1">
+          <dynamics default-x="6.58" default-y="-80.00" relative-y="6.00">
             <ff/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="124.44"/>
         </direction>
       <note id="n74" default-x="140.20" default-y="-50.00">
         <pitch>
@@ -1384,7 +1401,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start" id="n74--tied--start--1"/>
+          <tied type="start"/>
           </notations>
         </note>
       <note id="n75" default-x="197.38" default-y="-50.00">
@@ -1399,7 +1416,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop" id="n75--tied--stop--1"/>
+          <tied type="stop"/>
           </notations>
         </note>
       <note id="r5">
@@ -1414,7 +1431,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="2" default-y="30.00" id="md-1-3-1-2"/>
+          <octave-shift type="down" size="8" number="2" default-y="30.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -1435,8 +1452,8 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no" id="n76--tuplet--start--1"/>
-          <slur type="start" placement="above" number="1" id="n76--slur--start--1"/>
+          <tuplet type="start" bracket="no"/>
+          <slur type="start" placement="above" number="1"/>
           <articulations>
             <strong-accent type="down"/>
             </articulations>
@@ -1444,7 +1461,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" relative-y="6.00" id="md-1-3-1-3">
+          <dynamics default-x="3.29" default-y="-80.00" relative-y="6.00">
             <other-dynamics>rinf.</other-dynamics>
             </dynamics>
           </direction-type>
@@ -1489,6 +1506,7 @@
       <note id="n79" default-x="412.11" default-y="15.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>6</octave>
           </pitch>
         <duration>25</duration>
@@ -1561,6 +1579,7 @@
       <note id="n83" default-x="494.56" default-y="15.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>25</duration>
@@ -1632,6 +1651,7 @@
       <note id="n87" default-x="600.50" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>25</duration>
@@ -1689,7 +1709,7 @@
         </attributes>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="2" default-y="-65.00" id="md-1-3-1-4"/>
+          <wedge type="diminuendo" number="2" default-y="-65.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -1716,6 +1736,7 @@
       <note id="n91" default-x="715.10" default-y="5.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>25</duration>
@@ -1788,6 +1809,7 @@
       <note id="n95" default-x="805.64" default-y="-30.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>25</duration>
@@ -1803,8 +1825,8 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop" id="n95--tuplet--stop--1"/>
-          <slur type="stop" number="1" id="n95--slur--stop--1"/>
+          <tuplet type="stop"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <forward>
@@ -1812,11 +1834,12 @@
         </forward>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="6.58" default-y="-80.00" relative-y="6.00" id="md-1-3-1-5">
+          <dynamics default-x="6.58" default-y="-80.00" relative-y="6.00">
             <p/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="77.78"/>
         </direction>
       <note id="n96" default-x="827.54" default-y="-40.00">
         <pitch>
@@ -1860,6 +1883,7 @@
       <note id="n99" default-x="924.11" default-y="-30.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>120</duration>
@@ -1895,7 +1919,7 @@
         <beam number="1">begin</beam>
         <beam number="2">forward hook</beam>
         <notations>
-          <slur type="start" number="1" id="n101--slur--start--1"/>
+          <slur type="start" number="1"/>
           </notations>
         </note>
       <note id="n102" default-x="222.65" default-y="-130.00">
@@ -1910,7 +1934,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1" id="n102--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <forward>
@@ -1933,6 +1957,7 @@
       <note id="n104" default-x="891.92" default-y="-40.00">
         <pitch>
           <step>G</step>
+          <alter>1</alter>
           <octave>2</octave>
           </pitch>
         <duration>120</duration>
@@ -1973,7 +1998,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <octave-shift type="up" size="8" number="3" default-y="-70.00" id="md-1-3-2-1"/>
+          <octave-shift type="up" size="8" number="3" default-y="-70.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -1990,7 +2015,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <octave-shift type="stop" size="8" number="3" id="md-1-3-2-2"/>
+          <octave-shift type="stop" size="8" number="3"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -2024,7 +2049,7 @@
           <articulations>
             <staccatissimo/>
             </articulations>
-          <arpeggiate default-x="-26.36" default-y="0.51" id="n108--arpeggiate--1"/>
+          <arpeggiate default-x="-26.36" default-y="0.51"/>
           </notations>
         </note>
       <note id="n109" default-x="362.30" default-y="-135.00">
@@ -2039,13 +2064,14 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-26.36" default-y="0.51" id="n109--arpeggiate--1"/>
+          <arpeggiate default-x="-26.36" default-y="0.51"/>
           </notations>
         </note>
       <note id="n110" default-x="362.30" default-y="-125.00">
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>240</duration>
@@ -2055,7 +2081,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-26.36" default-y="0.51" id="n110--arpeggiate--1"/>
+          <arpeggiate default-x="-26.36" default-y="0.51"/>
           </notations>
         </note>
       <note id="n111" default-x="362.30" default-y="-110.00">
@@ -2070,7 +2096,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-26.36" default-y="0.51" id="n111--arpeggiate--1"/>
+          <arpeggiate default-x="-26.36" default-y="0.51"/>
           </notations>
         </note>
       <note id="n112">
@@ -2080,7 +2106,7 @@
         <type>eighth</type>
         <staff>2</staff>
         <notations>
-          <fermata type="upright" id="n112--fermata--upright--1"/>
+          <fermata type="upright"/>
           </notations>
         </note>
       <note id="n113">
@@ -2177,7 +2203,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <words default-y="40.00" relative-y="-99.99" id="md-1-4-1-1">poco a poco crescendo</words>
+          <words default-y="40.00" relative-y="-99.99">poco a poco crescendo</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -2357,6 +2383,7 @@
       <note id="n133" default-x="79.42" default-y="-35.00">
         <pitch>
           <step>A</step>
+          <alter>1</alter>
           <octave>2</octave>
           </pitch>
         <duration>120</duration>
@@ -2414,6 +2441,7 @@
       <note id="n137" default-x="349.08" default-y="-25.00">
         <pitch>
           <step>C</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>120</duration>
@@ -2443,6 +2471,7 @@
       <note id="n139" default-x="483.91" default-y="-20.00">
         <pitch>
           <step>D</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>120</duration>
@@ -2475,6 +2504,7 @@
       <note id="n141" default-x="79.42" default-y="-150.00">
         <pitch>
           <step>F</step>
+          <alter>1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -2510,6 +2540,7 @@
       <note id="n143" default-x="214.25" default-y="-145.00">
         <pitch>
           <step>G</step>
+          <alter>1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -2539,6 +2570,7 @@
       <note id="n145" default-x="416.49" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -2602,6 +2634,7 @@
       <note id="n148" default-x="98.02" default-y="5.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>120</duration>
@@ -2734,6 +2767,7 @@
       <note id="n158" default-x="565.67" default-y="5.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>120</duration>
@@ -2831,6 +2865,7 @@
       <note id="n165" default-x="331.85" default-y="-10.00">
         <pitch>
           <step>F</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>120</duration>
@@ -2860,6 +2895,7 @@
       <note id="n167" default-x="518.91" default-y="-5.00">
         <pitch>
           <step>G</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>120</duration>
@@ -2889,6 +2925,7 @@
       <note id="n169" default-x="705.97" default-y="0.00">
         <pitch>
           <step>A</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>120</duration>
@@ -2921,6 +2958,7 @@
       <note id="n171" default-x="144.78" default-y="-130.00">
         <pitch>
           <step>C</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -2956,6 +2994,7 @@
       <note id="n173" default-x="331.85" default-y="-125.00">
         <pitch>
           <step>D</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -3002,6 +3041,7 @@
       <note id="n176" default-x="705.97" default-y="-115.00">
         <pitch>
           <step>F</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -3027,7 +3067,7 @@
         </attributes>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="-65.00" id="md-1-6-1-1"/>
+          <wedge type="crescendo" number="3" default-y="-65.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -3243,7 +3283,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" id="md-1-6-1-2"/>
+          <wedge type="stop" number="3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -3281,6 +3321,7 @@
       <note id="n195" default-x="315.84" default-y="-50.00">
         <pitch>
           <step>C</step>
+          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>120</duration>
@@ -3310,6 +3351,7 @@
       <note id="n197" default-x="488.14" default-y="-45.00">
         <pitch>
           <step>D</step>
+          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>120</duration>
@@ -3370,6 +3412,7 @@
       <note id="n201" default-x="143.55" default-y="-110.00">
         <pitch>
           <step>G</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -3399,6 +3442,7 @@
       <note id="n203" default-x="401.99" default-y="-100.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -3452,6 +3496,7 @@
       <note id="n206" default-x="660.44" default-y="-110.00">
         <pitch>
           <step>G</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -3494,7 +3539,7 @@
         </print>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="-65.00" id="md-1-7-1-1"/>
+          <wedge type="crescendo" number="3" default-y="-65.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -3604,7 +3649,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="3" default-y="30.00" id="md-1-7-1-2"/>
+          <octave-shift type="down" size="8" number="3" default-y="30.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -3901,6 +3946,7 @@
       <note id="n238" default-x="314.70" default-y="-110.00">
         <pitch>
           <step>G</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -4059,13 +4105,13 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" id="md-1-8-1-1"/>
+          <wedge type="stop" number="3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="-65.00" id="md-1-8-1-2"/>
+          <wedge type="crescendo" number="3" default-y="-65.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -4302,7 +4348,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" id="md-1-8-1-3"/>
+          <wedge type="stop" number="3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -4732,7 +4778,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="3" id="md-1-9-1-1"/>
+          <octave-shift type="stop" size="8" number="3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -4775,6 +4821,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>240</duration>
@@ -4823,6 +4870,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>240</duration>
@@ -4836,6 +4884,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>240</duration>
@@ -4866,6 +4915,7 @@
       <note id="n308" default-x="360.67" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>240</duration>
@@ -4895,6 +4945,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>240</duration>
@@ -4908,6 +4959,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>240</duration>
@@ -4977,6 +5029,7 @@
       <note id="n317" default-x="154.39" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -4995,6 +5048,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -5032,6 +5086,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -5051,6 +5106,7 @@
       <note id="n323" default-x="257.53" default-y="-140.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -5069,6 +5125,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -5093,6 +5150,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -5112,6 +5170,7 @@
       <note id="n328" default-x="360.67" default-y="-145.00">
         <pitch>
           <step>G</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -5142,6 +5201,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -5155,6 +5215,7 @@
         <chord/>
         <pitch>
           <step>G</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -5176,6 +5237,7 @@
       <note id="n333" default-x="29.34" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>240</duration>
@@ -5206,6 +5268,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>240</duration>
@@ -5219,6 +5282,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>6</octave>
           </pitch>
         <duration>240</duration>
@@ -5237,13 +5301,14 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="3" default-y="30.00" id="md-1-10-1-1"/>
+          <octave-shift type="down" size="8" number="3" default-y="30.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
       <note id="n338" default-x="146.28" default-y="-35.00">
         <pitch>
           <step>F</step>
+          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>240</duration>
@@ -5262,6 +5327,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>240</duration>
@@ -5275,6 +5341,7 @@
         <chord/>
         <pitch>
           <step>C</step>
+          <alter>1</alter>
           <octave>6</octave>
           </pitch>
         <duration>240</duration>
@@ -5288,6 +5355,7 @@
         <chord/>
         <pitch>
           <step>F</step>
+          <alter>1</alter>
           <octave>6</octave>
           </pitch>
         <duration>240</duration>
@@ -5325,6 +5393,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>1</alter>
           <octave>6</octave>
           </pitch>
         <duration>240</duration>
@@ -5338,6 +5407,7 @@
         <chord/>
         <pitch>
           <step>F</step>
+          <alter>1</alter>
           <octave>6</octave>
           </pitch>
         <duration>240</duration>
@@ -5386,6 +5456,7 @@
         <chord/>
         <pitch>
           <step>G</step>
+          <alter>1</alter>
           <octave>6</octave>
           </pitch>
         <duration>240</duration>
@@ -5449,6 +5520,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -5462,6 +5534,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -5511,6 +5584,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -5524,6 +5598,7 @@
         <chord/>
         <pitch>
           <step>C</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -5556,6 +5631,7 @@
       <note id="n363" default-x="263.22" default-y="-160.00">
         <pitch>
           <step>D</step>
+          <alter>1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -5574,6 +5650,7 @@
         <chord/>
         <pitch>
           <step>F</step>
+          <alter>1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -5600,6 +5677,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>240</duration>
@@ -5637,6 +5715,7 @@
         <chord/>
         <pitch>
           <step>G</step>
+          <alter>1</alter>
           <octave>2</octave>
           </pitch>
         <duration>240</duration>
@@ -5785,7 +5864,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="3" id="md-1-11-1-1"/>
+          <octave-shift type="stop" size="8" number="3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -5802,6 +5881,7 @@
       <note id="n382" default-x="20.42" default-y="-165.00">
         <pitch>
           <step>C</step>
+          <alter>1</alter>
           <octave>2</octave>
           </pitch>
         <duration>480</duration>
@@ -5844,6 +5924,7 @@
         <chord/>
         <pitch>
           <step>C</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>480</duration>
@@ -5936,6 +6017,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>1920</duration>
@@ -5957,7 +6039,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" line="yes" id="md-1-12-1-1"/>
+          <pedal type="stop" line="yes"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -5966,15 +6048,17 @@
         </backup>
       <direction placement="above">
         <direction-type>
-          <dynamics default-x="6.58" default-y="-80.00" relative-x="40.20" relative-y="111.05" id="md-1-12-2-1">
+          <dynamics default-x="6.58" default-y="-80.00" relative-x="40.20" relative-y="111.05">
             <fff/>
             </dynamics>
           </direction-type>
         <staff>2</staff>
+        <sound dynamics="140.00"/>
         </direction>
       <note id="n395" default-x="21.23" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>1440</duration>
@@ -5992,13 +6076,14 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <words default-y="40.00" relative-x="-5.44" id="md-1-12-2-2">♭</words>
+          <words default-y="40.00" relative-x="-5.44">♭</words>
           </direction-type>
         <staff>2</staff>
         </direction>
       <note id="n396" default-x="194.13" default-y="-140.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>480</duration>
@@ -6029,7 +6114,7 @@
         </print>
       <direction placement="below">
         <direction-type>
-          <pedal type="start" line="yes" default-y="-70.00" id="md-1-13-1-1"/>
+          <pedal type="start" line="yes" default-y="-70.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -6068,7 +6153,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" line="yes" id="md-1-13-1-2"/>
+          <pedal type="stop" line="yes"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -6077,7 +6162,7 @@
         </backup>
       <direction placement="above">
         <direction-type>
-          <words default-y="40.00" relative-x="-5.44" id="md-1-13-2-1">♭</words>
+          <words default-y="40.00" relative-x="-5.44">♭</words>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -6159,7 +6244,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" relative-y="95.99" id="md-1-13-2-2">
+          <dynamics default-x="3.29" default-y="-80.00" relative-y="95.99">
             <other-dynamics>rinf.</other-dynamics>
             </dynamics>
           </direction-type>
@@ -6167,7 +6252,7 @@
         </direction>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="3" default-y="-65.00" id="md-1-13-2-3"/>
+          <wedge type="diminuendo" number="3" default-y="-65.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -6183,7 +6268,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start" id="n404--tied--start--1"/>
+          <tied type="start"/>
           <ornaments>
             <trill-mark/>
             </ornaments>
@@ -6191,7 +6276,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" id="md-1-13-2-4"/>
+          <wedge type="stop" number="3"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -6207,18 +6292,19 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop" id="n405--tied--stop--1"/>
+          <tied type="stop"/>
           </notations>
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="25.00" id="md-1-13-2-5"/>
+          <wedge type="crescendo" number="3" default-y="25.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
       <note id="n406" default-x="658.74" default-y="-185.00">
         <pitch>
           <step>F</step>
+          <alter>1</alter>
           <octave>1</octave>
           </pitch>
         <duration>120</duration>
@@ -6256,6 +6342,7 @@
       <note id="n408" default-x="746.56" default-y="-175.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>1</octave>
           </pitch>
         <duration>120</duration>
@@ -6294,6 +6381,7 @@
       <note id="n410" default-x="834.38" default-y="-170.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>1</octave>
           </pitch>
         <duration>120</duration>
@@ -6312,7 +6400,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="stop" number="3" id="md-1-13-2-6"/>
+          <wedge type="stop" number="3"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -6372,33 +6460,34 @@
         </backup>
       <direction placement="above">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" relative-y="95.99" id="md-1-14-2-1">
+          <dynamics default-x="3.29" default-y="-80.00" relative-y="95.99">
             <mf/>
             </dynamics>
           </direction-type>
         <staff>2</staff>
+        <sound dynamics="88.89"/>
         </direction>
       <direction placement="above">
         <direction-type>
-          <words default-y="40.00" font-style="italic" font-size="11" id="md-1-14-2-2">legatissimo</words>
+          <words default-y="40.00" font-style="italic" font-size="11">legatissimo</words>
           </direction-type>
         <staff>2</staff>
         </direction>
       <direction placement="above">
         <direction-type>
-          <words default-y="40.00" font-style="italic" font-size="11" id="md-1-14-2-3">non troppo presto</words>
+          <words default-y="40.00" font-style="italic" font-size="11">non troppo presto</words>
           </direction-type>
         <staff>2</staff>
         </direction>
       <direction placement="below">
         <direction-type>
-          <pedal type="start" line="yes" default-y="-70.00" id="md-1-14-2-4"/>
+          <pedal type="start" line="yes" default-y="-70.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
       <direction placement="above">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="25.00" id="md-1-14-2-5"/>
+          <wedge type="crescendo" number="3" default-y="25.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -6415,7 +6504,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" number="1" id="n415--slur--start--1"/>
+          <slur type="start" number="1"/>
           </notations>
         </note>
       <note id="n416" default-x="50.08" default-y="-155.00">
@@ -6498,7 +6587,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="stop" number="3" id="md-1-14-2-6"/>
+          <wedge type="stop" number="3"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -6515,18 +6604,18 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1" id="n422--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" line="yes" id="md-1-14-2-7"/>
+          <pedal type="stop" line="yes"/>
           </direction-type>
         <staff>2</staff>
         </direction>
       <direction placement="below">
         <direction-type>
-          <pedal type="start" line="yes" default-y="-70.00" id="md-1-14-2-8"/>
+          <pedal type="start" line="yes" default-y="-70.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -6550,7 +6639,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1" id="n424--slur--start--1"/>
+          <slur type="start" placement="above" number="1"/>
           </notations>
         </note>
       <note id="n425" default-x="392.84" default-y="-10.00">
@@ -6569,6 +6658,7 @@
       <note id="n426" default-x="430.93" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>120</duration>
@@ -6632,12 +6722,12 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1" id="n430--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" line="yes" id="md-1-14-2-9"/>
+          <pedal type="stop" line="yes"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -6666,6 +6756,7 @@
       <note id="n432" default-x="316.68" default-y="-105.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>480</duration>
@@ -6675,7 +6766,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" placement="above" number="1" id="n432--slur--start--1"/>
+          <slur type="start" placement="above" number="1"/>
           <articulations>
             <strong-accent type="down"/>
             </articulations>
@@ -6685,6 +6776,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>480</duration>
@@ -6705,11 +6797,11 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1" id="n434--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
-          <arpeggiate default-x="-24.95" default-y="35.51" id="n434--arpeggiate--1"/>
+          <arpeggiate default-x="-24.95" default-y="35.51"/>
           </notations>
         </note>
       <note id="n435" default-x="471.55" default-y="-100.00">
@@ -6724,7 +6816,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-24.95" default-y="35.51" id="n435--arpeggiate--1"/>
+          <arpeggiate default-x="-24.95" default-y="35.51"/>
           </notations>
         </note>
       <note id="n436" default-x="471.55" default-y="-90.00">
@@ -6739,7 +6831,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-24.95" default-y="35.51" id="n436--arpeggiate--1"/>
+          <arpeggiate default-x="-24.95" default-y="35.51"/>
           </notations>
         </note>
       <note id="n437" default-x="459.68" default-y="-80.00">
@@ -6754,7 +6846,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-24.95" default-y="35.51" id="n437--arpeggiate--1"/>
+          <arpeggiate default-x="-24.95" default-y="35.51"/>
           </notations>
         </note>
       <note id="n438" default-x="471.55" default-y="-75.00">
@@ -6769,7 +6861,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-24.95" default-y="35.51" id="n438--arpeggiate--1"/>
+          <arpeggiate default-x="-24.95" default-y="35.51"/>
           </notations>
         </note>
       <note id="r7">
@@ -6807,13 +6899,13 @@
         </backup>
       <direction placement="above">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="25.00" id="md-1-15-2-1"/>
+          <wedge type="crescendo" number="3" default-y="25.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
       <direction placement="below">
         <direction-type>
-          <pedal type="start" line="yes" default-y="-70.00" id="md-1-15-2-2"/>
+          <pedal type="start" line="yes" default-y="-70.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -6830,7 +6922,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" number="1" id="n440--slur--start--1"/>
+          <slur type="start" number="1"/>
           </notations>
         </note>
       <note id="n441" default-x="83.62" default-y="-155.00">
@@ -6913,7 +7005,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <wedge type="stop" number="3" id="md-1-15-2-3"/>
+          <wedge type="stop" number="3"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -6930,18 +7022,18 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1" id="n447--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" line="yes" id="md-1-15-2-4"/>
+          <pedal type="stop" line="yes"/>
           </direction-type>
         <staff>2</staff>
         </direction>
       <direction placement="below">
         <direction-type>
-          <pedal type="start" line="yes" default-y="-70.00" id="md-1-15-2-5"/>
+          <pedal type="start" line="yes" default-y="-70.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -6968,7 +7060,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1" id="n448--slur--start--1"/>
+          <slur type="start" placement="above" number="1"/>
           </notations>
         </note>
       <note id="n449" default-x="374.90" default-y="-10.00">
@@ -6987,6 +7079,7 @@
       <note id="n450" default-x="407.26" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>120</duration>
@@ -7050,12 +7143,12 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1" id="n454--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" line="yes" id="md-1-15-2-6"/>
+          <pedal type="stop" line="yes"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -7065,6 +7158,7 @@
       <note id="n455" default-x="310.17" default-y="-105.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>480</duration>
@@ -7074,7 +7168,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" placement="above" number="1" id="n455--slur--start--1"/>
+          <slur type="start" placement="above" number="1"/>
           <articulations>
             <strong-accent type="down"/>
             </articulations>
@@ -7084,6 +7178,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>480</duration>
@@ -7104,11 +7199,11 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1" id="n457--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
-          <arpeggiate default-x="-24.95" default-y="35.51" id="n457--arpeggiate--1"/>
+          <arpeggiate default-x="-24.95" default-y="35.51"/>
           </notations>
         </note>
       <note id="n458" default-x="447.88" default-y="-100.00">
@@ -7123,7 +7218,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-24.95" default-y="35.51" id="n458--arpeggiate--1"/>
+          <arpeggiate default-x="-24.95" default-y="35.51"/>
           </notations>
         </note>
       <note id="n459" default-x="447.88" default-y="-90.00">
@@ -7138,7 +7233,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-24.95" default-y="35.51" id="n459--arpeggiate--1"/>
+          <arpeggiate default-x="-24.95" default-y="35.51"/>
           </notations>
         </note>
       <note id="n460" default-x="436.02" default-y="-80.00">
@@ -7153,7 +7248,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-24.95" default-y="35.51" id="n460--arpeggiate--1"/>
+          <arpeggiate default-x="-24.95" default-y="35.51"/>
           </notations>
         </note>
       <note id="n461" default-x="447.88" default-y="-75.00">
@@ -7168,7 +7263,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <arpeggiate default-x="-24.95" default-y="35.51" id="n461--arpeggiate--1"/>
+          <arpeggiate default-x="-24.95" default-y="35.51"/>
           </notations>
         </note>
       <note id="r9">
@@ -7194,7 +7289,7 @@
         </backup>
       <direction placement="below">
         <direction-type>
-          <pedal type="start" line="yes" default-y="-70.00" id="md-1-16-2-1"/>
+          <pedal type="start" line="yes" default-y="-70.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -7211,7 +7306,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" number="1" id="n463--slur--start--1"/>
+          <slur type="start" number="1"/>
           </notations>
         </note>
       <note id="n464" default-x="42.42" default-y="-155.00">
@@ -7305,18 +7400,18 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1" id="n470--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" line="yes" id="md-1-16-2-2"/>
+          <pedal type="stop" line="yes"/>
           </direction-type>
         <staff>2</staff>
         </direction>
       <direction placement="below">
         <direction-type>
-          <pedal type="start" line="yes" default-y="-70.00" id="md-1-16-2-3"/>
+          <pedal type="start" line="yes" default-y="-70.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -7343,7 +7438,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1" id="n471--slur--start--1"/>
+          <slur type="start" placement="above" number="1"/>
           </notations>
         </note>
       <note id="n472" default-x="316.17" default-y="-5.00">
@@ -7374,7 +7469,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="3" default-y="30.00" id="md-1-16-2-4"/>
+          <octave-shift type="down" size="8" number="3" default-y="30.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -7432,13 +7527,13 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" line="yes" id="md-1-16-2-5"/>
+          <pedal type="stop" line="yes"/>
           </direction-type>
         <staff>2</staff>
         </direction>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="3" id="md-1-16-2-6"/>
+          <octave-shift type="stop" size="8" number="3"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -7503,7 +7598,7 @@
     <measure number="17" width="470.08">
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="3" default-y="30.00" id="md-1-17-1-1"/>
+          <octave-shift type="down" size="8" number="3" default-y="30.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -7561,7 +7656,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="3" id="md-1-17-1-2"/>
+          <octave-shift type="stop" size="8" number="3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -7626,7 +7721,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="-65.00" id="md-1-17-1-3"/>
+          <wedge type="crescendo" number="3" default-y="-65.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -7643,7 +7738,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" number="2" id="n491--slur--start--1"/>
+          <slur type="start" number="2"/>
           </notations>
         </note>
       <note id="n492" default-x="297.43" default-y="-15.00">
@@ -7674,7 +7769,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="3" default-y="30.00" id="md-1-17-1-4"/>
+          <octave-shift type="down" size="8" number="3" default-y="30.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -7693,7 +7788,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="4" default-y="-65.00" id="md-1-17-1-5"/>
+          <wedge type="crescendo" number="4" default-y="-65.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -7738,13 +7833,13 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" id="md-1-17-1-6"/>
+          <wedge type="stop" number="3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="3" id="md-1-17-1-7"/>
+          <octave-shift type="stop" size="8" number="3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -7753,7 +7848,7 @@
         </backup>
       <direction placement="below">
         <direction-type>
-          <pedal type="start" line="yes" default-y="-70.00" id="md-1-17-2-1"/>
+          <pedal type="start" line="yes" default-y="-70.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -7768,7 +7863,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1" id="n498--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           <articulations>
             <strong-accent type="up"/>
             </articulations>
@@ -7864,7 +7959,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" line="yes" id="md-1-17-2-2"/>
+          <pedal type="stop" line="yes"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -7986,7 +8081,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="2" id="n513--slur--stop--1"/>
+          <slur type="stop" number="2"/>
           </notations>
         </note>
       <note id="n514">
@@ -7998,7 +8093,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="-65.00" id="md-1-18-1-1"/>
+          <wedge type="crescendo" number="3" default-y="-65.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -8015,7 +8110,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1" id="n515--slur--start--1"/>
+          <slur type="start" placement="above" number="1"/>
           </notations>
         </note>
       <note id="n516" default-x="360.13" default-y="-40.00">
@@ -8098,13 +8193,13 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="4" id="md-1-18-1-2"/>
+          <wedge type="stop" number="4"/>
           </direction-type>
         <staff>1</staff>
         </direction>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" id="md-1-18-1-3"/>
+          <wedge type="stop" number="3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -8219,7 +8314,7 @@
     <measure number="19" width="509.23">
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="3" default-y="-65.00" id="md-1-19-1-1"/>
+          <wedge type="crescendo" number="3" default-y="-65.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -8327,7 +8422,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1" id="n537--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <note id="n538">
@@ -8339,7 +8434,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="4" default-y="-65.00" id="md-1-19-1-2"/>
+          <wedge type="crescendo" number="4" default-y="-65.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -8356,7 +8451,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1" id="n539--slur--start--1"/>
+          <slur type="start" placement="above" number="1"/>
           </notations>
         </note>
       <note id="n540" default-x="321.90" default-y="-50.00">
@@ -8439,7 +8534,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="4" id="md-1-19-1-3"/>
+          <wedge type="stop" number="4"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -8656,7 +8751,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1" id="n561--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <note id="r11">
@@ -8682,12 +8777,12 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1" id="n562--slur--start--1"/>
+          <slur type="start" placement="above" number="1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="crescendo" number="4" default-y="-65.00" id="md-1-20-1-1"/>
+          <wedge type="crescendo" number="4" default-y="-65.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -8771,7 +8866,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="4" id="md-1-20-1-2"/>
+          <wedge type="stop" number="4"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -9000,22 +9095,23 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1" id="n584--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="3" id="md-1-21-1-1"/>
+          <wedge type="stop" number="3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="6.52" default-y="-80.00" relative-y="6.00" id="md-1-21-1-2">
+          <dynamics default-x="6.52" default-y="-80.00" relative-y="6.00">
             <fff/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="140.00"/>
         </direction>
       <note id="r12">
         <rest>
@@ -9040,7 +9136,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1" id="n585--slur--start--1"/>
+          <slur type="start" placement="above" number="1"/>
           </notations>
         </note>
       <note id="n586" default-x="363.83" default-y="-130.00">
@@ -9126,7 +9222,7 @@
         </backup>
       <direction placement="below">
         <direction-type>
-          <pedal type="start" line="yes" default-y="-70.00" id="md-1-21-2-1"/>
+          <pedal type="start" line="yes" default-y="-70.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -9194,7 +9290,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start" id="n596--tied--start--1"/>
+          <tied type="start"/>
           <articulations>
             <strong-accent type="up"/>
             </articulations>
@@ -9213,7 +9309,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start" id="n597--tied--start--1"/>
+          <tied type="start"/>
           </notations>
         </note>
       <note id="n598" default-x="301.03" default-y="-165.00">
@@ -9229,7 +9325,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start" id="n598--tied--start--1"/>
+          <tied type="start"/>
           </notations>
         </note>
       <note id="n599" default-x="301.03" default-y="-150.00">
@@ -9245,12 +9341,12 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start" id="n599--tied--start--1"/>
+          <tied type="start"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" line="yes" id="md-1-21-2-2"/>
+          <pedal type="stop" line="yes"/>
           </direction-type>
         <staff>2</staff>
         </direction>
@@ -9273,7 +9369,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no" id="n600--tuplet--start--1"/>
+          <tuplet type="start" bracket="no"/>
           </notations>
         </note>
       <note id="n601" default-x="41.26" default-y="0.00">
@@ -9344,19 +9440,20 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop" id="n604--tuplet--stop--1"/>
-          <slur type="stop" number="1" id="n604--slur--stop--1"/>
+          <tuplet type="stop"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <words default-y="40.00" relative-y="-119.99" font-weight="bold" font-style="italic" font-size="12" id="md-1-22-1-1">poco rallentando</words>
+          <words default-y="40.00" relative-y="-119.99" font-weight="bold" font-style="italic" font-size="12">poco rallentando</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="110"/>
         </direction>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="down" size="8" number="3" default-y="30.00" id="md-1-22-1-2"/>
+          <octave-shift type="down" size="8" number="3" default-y="30.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -9373,7 +9470,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" number="1" id="n605--slur--start--1"/>
+          <slur type="start" number="1"/>
           <articulations>
             <strong-accent type="up"/>
             </articulations>
@@ -9442,7 +9539,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1" id="n610--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <note id="n611" default-x="297.99" default-y="-15.00">
@@ -9458,7 +9555,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" number="1" id="n611--slur--start--1"/>
+          <slur type="start" number="1"/>
           <articulations>
             <strong-accent type="up"/>
             </articulations>
@@ -9527,7 +9624,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1" id="n616--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <note id="n617" default-x="437.66" default-y="-15.00">
@@ -9543,7 +9640,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" number="1" id="n617--slur--start--1"/>
+          <slur type="start" number="1"/>
           <articulations>
             <strong-accent type="up"/>
             </articulations>
@@ -9612,7 +9709,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1" id="n622--slur--stop--1"/>
+          <slur type="stop" number="1"/>
           </notations>
         </note>
       <backup>
@@ -9630,7 +9727,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop" id="n623--tied--stop--1"/>
+          <tied type="stop"/>
           </notations>
         </note>
       <note id="n624" default-x="12.00" default-y="-175.00">
@@ -9646,7 +9743,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop" id="n624--tied--stop--1"/>
+          <tied type="stop"/>
           </notations>
         </note>
       <note id="n625" default-x="12.00" default-y="-165.00">
@@ -9662,7 +9759,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop" id="n625--tied--stop--1"/>
+          <tied type="stop"/>
           </notations>
         </note>
       <note id="n626" default-x="12.00" default-y="-150.00">
@@ -9678,7 +9775,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop" id="n626--tied--stop--1"/>
+          <tied type="stop"/>
           </notations>
         </note>
       <note id="n627" default-x="158.32" default-y="-185.00">
@@ -9856,7 +9953,7 @@
         <type>whole</type>
         <staff>1</staff>
         <notations>
-          <fermata type="upright" id="n640--fermata--upright--1"/>
+          <fermata type="upright"/>
           </notations>
         </note>
       <note id="n641" default-x="206.28" default-y="5.00">
@@ -9883,7 +9980,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <octave-shift type="stop" size="8" number="3" id="md-1-23-1-1"/>
+          <octave-shift type="stop" size="8" number="3"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -9892,11 +9989,11 @@
         </backup>
       <direction placement="below">
         <direction-type>
-          <pedal type="start" line="yes" default-y="-70.00" id="md-1-23-2-1"/>
+          <pedal type="start" line="yes" default-y="-70.00"/>
           </direction-type>
         <staff>2</staff>
         </direction>
-      <note id="n643" default-x="14.17" default-y="-165.00" color="#EC4899">
+      <note id="n643" default-x="14.17" default-y="-165.00">
         <cue/>
         <pitch>
           <step>C</step>
@@ -9911,7 +10008,7 @@
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         </note>
-      <note id="n644" default-x="63.53" default-y="-155.00" color="#EC4899">
+      <note id="n644" default-x="63.53" default-y="-155.00">
         <cue/>
         <pitch>
           <step>E</step>
@@ -9926,7 +10023,7 @@
         <beam number="2">continue</beam>
         <beam number="3">continue</beam>
         </note>
-      <note id="n645" default-x="112.88" default-y="-145.00" color="#EC4899">
+      <note id="n645" default-x="112.88" default-y="-145.00">
         <cue/>
         <pitch>
           <step>G</step>
@@ -9941,7 +10038,7 @@
         <beam number="2">continue</beam>
         <beam number="3">continue</beam>
         </note>
-      <note id="n646" default-x="162.23" default-y="-130.00" color="#EC4899">
+      <note id="n646" default-x="162.23" default-y="-130.00">
         <cue/>
         <pitch>
           <step>C</step>
@@ -9972,7 +10069,7 @@
         <type>whole</type>
         <staff>2</staff>
         <notations>
-          <fermata type="upright" id="n647--fermata--upright--1"/>
+          <fermata type="upright"/>
           </notations>
         </note>
       <note id="n648" default-x="206.28" default-y="-145.00">
@@ -10010,7 +10107,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <pedal type="stop" line="yes" id="md-1-23-2-2"/>
+          <pedal type="stop" line="yes"/>
           </direction-type>
         <staff>2</staff>
         </direction>

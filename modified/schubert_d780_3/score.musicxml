@@ -54,7 +54,7 @@
       <score-instrument id="P1-I1">
         <instrument-name>Piano</instrument-name>
         </score-instrument>
-      <midi-device id="P1-I1" port="1"/>
+      <midi-device id="P1-I1" port="1"></midi-device>
       <midi-instrument id="P1-I1">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
@@ -98,17 +98,19 @@
         </attributes>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="7.50" default-y="-80.00" id="md-1-1-1-1">
+          <dynamics default-x="7.50" default-y="-80.00">
             <p/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="above">
         <direction-type>
-          <words default-x="-33.50" default-y="40.00" font-weight="bold" font-size="12" id="md-1-1-1-2">Allegro Moderato</words>
+          <words default-x="-33.50" default-y="40.00" font-weight="bold" font-size="12">Allegro Moderato</words>
           </direction-type>
         <staff>1</staff>
+        <sound tempo="96"/>
         </direction>
       <note id="n1">
         <rest/>
@@ -222,10 +224,11 @@
       <backup>
         <duration>1</duration>
         </backup>
-      <note id="n9" default-x="108.36" default-y="-20.00" color="#EC4899">
+      <note id="n9" default-x="108.36" default-y="-20.00">
         <cue/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -334,6 +337,7 @@
       <note id="n16" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -351,6 +355,7 @@
       <note id="n17" default-x="44.41" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -364,6 +369,7 @@
       <note id="n18" default-x="67.98" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -377,6 +383,7 @@
       <note id="n19" default-x="91.55" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -411,10 +418,11 @@
       <backup>
         <duration>2</duration>
         </backup>
-      <note id="n21" default-x="149.50" default-y="-25.00" color="#EC4899">
+      <note id="n21" default-x="149.50" default-y="-25.00">
         <cue/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -426,10 +434,11 @@
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         </note>
-      <note id="n22" default-x="164.23" default-y="-20.00" color="#EC4899">
+      <note id="n22" default-x="164.23" default-y="-20.00">
         <cue/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -542,6 +551,7 @@
       <note id="n29" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -570,6 +580,7 @@
       <note id="n31" default-x="78.20" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -598,10 +609,11 @@
       <backup>
         <duration>10</duration>
         </backup>
-      <note id="n33" default-x="52.79" default-y="-25.00" color="#EC4899">
+      <note id="n33" default-x="52.79" default-y="-25.00">
         <cue/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -613,10 +625,11 @@
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         </note>
-      <note id="n34" default-x="66.48" default-y="-20.00" color="#EC4899">
+      <note id="n34" default-x="66.48" default-y="-20.00">
         <cue/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -631,10 +644,11 @@
       <forward>
         <duration>7</duration>
         </forward>
-      <note id="n35" default-x="122.57" default-y="-20.00" color="#EC4899">
+      <note id="n35" default-x="122.57" default-y="-20.00">
         <cue/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -743,6 +757,7 @@
       <note id="n42" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -760,6 +775,7 @@
       <note id="n43" default-x="45.18" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -773,6 +789,7 @@
       <note id="n44" default-x="69.32" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -786,6 +803,7 @@
       <note id="n45" default-x="93.45" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -839,7 +857,7 @@
         <type>32nd</type>
         <staff>1</staff>
         </note>
-      <note id="n49" default-x="168.17" default-y="-15.00" color="#EC4899">
+      <note id="n49" default-x="168.17" default-y="-15.00">
         <cue/>
         <pitch>
           <step>C</step>
@@ -952,6 +970,7 @@
       <note id="n56" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -980,6 +999,7 @@
       <note id="n58" default-x="77.02" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -1008,7 +1028,7 @@
       <backup>
         <duration>9</duration>
         </backup>
-      <note id="n60" default-x="58.57" default-y="-15.00" color="#EC4899">
+      <note id="n60" default-x="58.57" default-y="-15.00">
         <cue/>
         <pitch>
           <step>C</step>
@@ -1023,10 +1043,11 @@
       <forward>
         <duration>7</duration>
         </forward>
-      <note id="n61" default-x="123.59" default-y="5.00" color="#EC4899">
+      <note id="n61" default-x="123.59" default-y="5.00">
         <cue/>
         <pitch>
           <step>G</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>1</duration>
@@ -1166,6 +1187,7 @@
       <note id="n70" default-x="78.02" default-y="5.00">
         <pitch>
           <step>G</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -1217,6 +1239,7 @@
       <note id="n73" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -1229,6 +1252,7 @@
       <note id="n74" default-x="49.08" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -1269,6 +1293,7 @@
       <note id="n77" default-x="12.00" default-y="-160.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -1286,6 +1311,7 @@
       <note id="n78" default-x="49.08" default-y="-125.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -1350,6 +1376,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -1399,6 +1426,7 @@
       <note id="n85" default-x="125.41" default-y="15.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -1419,6 +1447,7 @@
       <note id="n87" default-x="162.97" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -1445,6 +1474,7 @@
       <note id="n89" default-x="95.36" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>6</duration>
@@ -1460,6 +1490,7 @@
       <note id="n90" default-x="95.36" default-y="-170.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -1477,6 +1508,7 @@
       <note id="n91" default-x="125.41" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -1495,6 +1527,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -1566,6 +1599,7 @@
       <note id="n97" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -1605,6 +1639,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -1630,6 +1665,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -1655,6 +1691,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -1679,6 +1716,7 @@
       <note id="n106" default-x="122.96" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -1722,6 +1760,7 @@
       <note id="n109" default-x="100.77" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -1747,6 +1786,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -1856,6 +1896,7 @@
       <note id="n118" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -1896,6 +1937,7 @@
       <note id="n121" default-x="57.52" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -1936,10 +1978,11 @@
       <backup>
         <duration>1</duration>
         </backup>
-      <note id="n124" default-x="102.44" default-y="-20.00" color="#EC4899">
+      <note id="n124" default-x="102.44" default-y="-20.00">
         <cue/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -2048,6 +2091,7 @@
       <note id="n131" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -2065,6 +2109,7 @@
       <note id="n132" default-x="43.13" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -2078,6 +2123,7 @@
       <note id="n133" default-x="65.78" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -2091,6 +2137,7 @@
       <note id="n134" default-x="88.42" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -2125,10 +2172,11 @@
       <backup>
         <duration>2</duration>
         </backup>
-      <note id="n136" default-x="144.17" default-y="-25.00" color="#EC4899">
+      <note id="n136" default-x="144.17" default-y="-25.00">
         <cue/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -2140,10 +2188,11 @@
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         </note>
-      <note id="n137" default-x="158.32" default-y="-20.00" color="#EC4899">
+      <note id="n137" default-x="158.32" default-y="-20.00">
         <cue/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -2256,6 +2305,7 @@
       <note id="n144" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -2284,6 +2334,7 @@
       <note id="n146" default-x="75.37" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -2312,10 +2363,11 @@
       <backup>
         <duration>10</duration>
         </backup>
-      <note id="n148" default-x="49.96" default-y="-25.00" color="#EC4899">
+      <note id="n148" default-x="49.96" default-y="-25.00">
         <cue/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -2327,10 +2379,11 @@
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         </note>
-      <note id="n149" default-x="63.65" default-y="-20.00" color="#EC4899">
+      <note id="n149" default-x="63.65" default-y="-20.00">
         <cue/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -2345,10 +2398,11 @@
       <forward>
         <duration>7</duration>
         </forward>
-      <note id="n150" default-x="116.66" default-y="-20.00" color="#EC4899">
+      <note id="n150" default-x="116.66" default-y="-20.00">
         <cue/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -2457,6 +2511,7 @@
       <note id="n157" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -2474,6 +2529,7 @@
       <note id="n158" default-x="43.77" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -2487,6 +2543,7 @@
       <note id="n159" default-x="66.87" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -2500,6 +2557,7 @@
       <note id="n160" default-x="89.98" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -2553,7 +2611,7 @@
         <type>32nd</type>
         <staff>1</staff>
         </note>
-      <note id="n164" default-x="162.26" default-y="-15.00" color="#EC4899">
+      <note id="n164" default-x="162.26" default-y="-15.00">
         <cue/>
         <pitch>
           <step>C</step>
@@ -2666,6 +2724,7 @@
       <note id="n171" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -2694,6 +2753,7 @@
       <note id="n173" default-x="74.07" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -2722,7 +2782,7 @@
       <backup>
         <duration>9</duration>
         </backup>
-      <note id="n175" default-x="55.61" default-y="-15.00" color="#EC4899">
+      <note id="n175" default-x="55.61" default-y="-15.00">
         <cue/>
         <pitch>
           <step>C</step>
@@ -2737,10 +2797,11 @@
       <forward>
         <duration>7</duration>
         </forward>
-      <note id="n176" default-x="117.68" default-y="5.00" color="#EC4899">
+      <note id="n176" default-x="117.68" default-y="5.00">
         <cue/>
         <pitch>
           <step>G</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>1</duration>
@@ -2892,6 +2953,7 @@
       <note id="n185" default-x="164.92" default-y="5.00">
         <pitch>
           <step>G</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -2943,6 +3005,7 @@
       <note id="n188" default-x="95.36" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -2955,6 +3018,7 @@
       <note id="n189" default-x="135.98" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -2995,6 +3059,7 @@
       <note id="n192" default-x="95.36" default-y="-160.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -3012,6 +3077,7 @@
       <note id="n193" default-x="135.98" default-y="-125.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -3076,6 +3142,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -3113,6 +3180,7 @@
       <note id="n200" default-x="50.65" default-y="15.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -3133,6 +3201,7 @@
       <note id="n202" default-x="98.97" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -3159,6 +3228,7 @@
       <note id="n204" default-x="12.00" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>6</duration>
@@ -3174,6 +3244,7 @@
       <note id="n205" default-x="12.00" default-y="-170.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -3191,6 +3262,7 @@
       <note id="n206" default-x="50.65" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -3209,6 +3281,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -3280,6 +3353,7 @@
       <note id="n212" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -3319,6 +3393,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -3344,6 +3419,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -3369,6 +3445,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -3393,6 +3470,7 @@
       <note id="n221" default-x="142.62" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -3436,6 +3514,7 @@
       <note id="n224" default-x="116.50" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -3461,6 +3540,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -3570,6 +3650,7 @@
       <note id="n233" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -3605,6 +3686,7 @@
       <note id="n236" default-x="85.81" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -3778,6 +3860,7 @@
       <note id="n247" default-x="12.00" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -3813,6 +3896,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -3825,6 +3909,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -3836,6 +3921,7 @@
       <note id="n251" default-x="91.84" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -3871,6 +3957,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -3883,6 +3970,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -3909,6 +3997,7 @@
       <note id="n256" default-x="35.36" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -3922,6 +4011,7 @@
       <note id="n257" default-x="58.72" default-y="-5.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -3935,6 +4025,7 @@
       <note id="n258" default-x="82.07" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -3948,6 +4039,7 @@
       <note id="n259" default-x="105.43" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>6</duration>
@@ -3977,6 +4069,7 @@
       <note id="n261" default-x="12.00" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -3994,6 +4087,7 @@
       <note id="n262" default-x="58.72" default-y="-195.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -4012,6 +4106,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4035,6 +4130,7 @@
       <note id="n265" default-x="105.43" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -4052,6 +4148,7 @@
       <note id="n266" default-x="142.80" default-y="-195.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -4070,6 +4167,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4104,7 +4202,7 @@
           <staff-distance>100.00</staff-distance>
           </staff-layout>
         </print>
-      <note id="n269" default-x="96.75" default-y="-15.00" color="#EC4899">
+      <note id="n269" default-x="96.75" default-y="-15.00">
         <cue/>
         <pitch>
           <step>C</step>
@@ -4122,6 +4220,7 @@
       <note id="n270" default-x="110.74" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>3</duration>
@@ -4141,6 +4240,7 @@
       <note id="n271" default-x="141.88" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4171,6 +4271,7 @@
       <note id="n273" default-x="202.54" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -4184,6 +4285,7 @@
       <note id="n274" default-x="228.08" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -4197,6 +4299,7 @@
       <note id="n275" default-x="253.62" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -4213,6 +4316,7 @@
       <note id="n276" default-x="94.78" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -4230,6 +4334,7 @@
       <note id="n277" default-x="141.88" default-y="-185.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4248,6 +4353,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4271,6 +4377,7 @@
       <note id="n280" default-x="177.00" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -4288,6 +4395,7 @@
       <note id="n281" default-x="228.08" default-y="-185.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4306,6 +4414,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4331,6 +4440,7 @@
       <note id="n284" default-x="12.00" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -4358,10 +4468,11 @@
       <backup>
         <duration>1</duration>
         </backup>
-      <note id="n286" default-x="146.78" default-y="-5.00" color="#EC4899">
+      <note id="n286" default-x="146.78" default-y="-5.00">
         <cue/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>1</duration>
@@ -4376,6 +4487,7 @@
       <note id="n287" default-x="12.00" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -4411,6 +4523,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4423,6 +4536,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4434,6 +4548,7 @@
       <note id="n291" default-x="80.33" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -4469,6 +4584,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4481,6 +4597,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4511,6 +4628,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -4539,6 +4657,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -4550,10 +4669,11 @@
       <backup>
         <duration>9</duration>
         </backup>
-      <note id="n299" default-x="84.13" default-y="-5.00" color="#EC4899">
+      <note id="n299" default-x="84.13" default-y="-5.00">
         <cue/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>1</duration>
@@ -4568,6 +4688,7 @@
       <note id="n300" default-x="12.00" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -4603,6 +4724,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4615,6 +4737,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4626,6 +4749,7 @@
       <note id="n304" default-x="106.98" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -4661,6 +4785,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4673,6 +4798,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4692,6 +4818,7 @@
       <note id="n308" default-x="12.00" default-y="-5.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -4717,6 +4844,7 @@
       <note id="n310" default-x="35.41" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -4768,6 +4896,7 @@
       <note id="n314" default-x="85.84" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -4793,6 +4922,7 @@
       <note id="n316" default-x="109.25" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -4819,6 +4949,7 @@
       <note id="n318" default-x="12.00" default-y="-160.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -4836,6 +4967,7 @@
       <note id="n319" default-x="62.43" default-y="-125.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4865,6 +4997,7 @@
       <note id="n321" default-x="109.25" default-y="-160.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -4882,6 +5015,7 @@
       <note id="n322" default-x="146.70" default-y="-125.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -4926,6 +5060,7 @@
       <note id="n325" default-x="39.90" default-y="-5.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -4939,6 +5074,7 @@
       <note id="n326" default-x="67.81" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -4951,6 +5087,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -4962,6 +5099,7 @@
       <note id="n328" default-x="168.25" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -4974,6 +5112,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -5001,6 +5140,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -5025,6 +5165,7 @@
       <note id="n333" default-x="95.71" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -5038,6 +5179,7 @@
       <note id="n334" default-x="123.61" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5050,6 +5192,7 @@
       <note id="n335" default-x="168.25" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -5079,6 +5222,7 @@
       <note id="n337" default-x="12.00" default-y="-155.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5096,6 +5240,7 @@
       <note id="n338" default-x="67.81" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5114,6 +5259,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5126,6 +5272,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5137,6 +5284,7 @@
       <note id="n341" default-x="123.61" default-y="-155.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5154,6 +5302,7 @@
       <note id="n342" default-x="168.25" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5172,6 +5321,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5184,6 +5334,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5197,6 +5348,7 @@
       <note id="n345" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -5221,6 +5373,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -5232,6 +5385,7 @@
       <note id="n348" default-x="81.67" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -5256,6 +5410,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -5270,6 +5425,7 @@
       <note id="n351" default-x="12.00" default-y="-140.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5305,6 +5461,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5316,6 +5473,7 @@
       <note id="n354" default-x="81.67" default-y="-140.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5351,6 +5509,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5417,6 +5576,7 @@
       <note id="n359" default-x="94.78" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5452,6 +5612,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5464,6 +5625,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5475,6 +5637,7 @@
       <note id="n363" default-x="169.59" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5510,6 +5673,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5522,6 +5686,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5548,6 +5713,7 @@
       <note id="n368" default-x="35.35" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -5561,6 +5727,7 @@
       <note id="n369" default-x="58.70" default-y="-5.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -5574,6 +5741,7 @@
       <note id="n370" default-x="82.05" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -5587,6 +5755,7 @@
       <note id="n371" default-x="105.39" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>6</duration>
@@ -5616,6 +5785,7 @@
       <note id="n373" default-x="12.00" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5633,6 +5803,7 @@
       <note id="n374" default-x="58.70" default-y="-195.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5651,6 +5822,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5674,6 +5846,7 @@
       <note id="n377" default-x="105.39" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5691,6 +5864,7 @@
       <note id="n378" default-x="142.75" default-y="-195.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5709,6 +5883,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5731,7 +5906,7 @@
         </note>
       </measure>
     <measure number="29" width="214.14">
-      <note id="n381" default-x="13.97" default-y="-15.00" color="#EC4899">
+      <note id="n381" default-x="13.97" default-y="-15.00">
         <cue/>
         <pitch>
           <step>C</step>
@@ -5749,6 +5924,7 @@
       <note id="n382" default-x="29.36" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>3</duration>
@@ -5768,6 +5944,7 @@
       <note id="n383" default-x="63.23" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5798,6 +5975,7 @@
       <note id="n385" default-x="129.20" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -5811,6 +5989,7 @@
       <note id="n386" default-x="156.98" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -5824,6 +6003,7 @@
       <note id="n387" default-x="184.76" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -5840,6 +6020,7 @@
       <note id="n388" default-x="12.00" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5857,6 +6038,7 @@
       <note id="n389" default-x="63.23" default-y="-185.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5875,6 +6057,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5898,6 +6081,7 @@
       <note id="n392" default-x="101.43" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -5915,6 +6099,7 @@
       <note id="n393" default-x="156.98" default-y="-185.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5933,6 +6118,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -5958,6 +6144,7 @@
       <note id="n396" default-x="12.00" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -5985,10 +6172,11 @@
       <backup>
         <duration>1</duration>
         </backup>
-      <note id="n398" default-x="152.93" default-y="-5.00" color="#EC4899">
+      <note id="n398" default-x="152.93" default-y="-5.00">
         <cue/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>1</duration>
@@ -6003,6 +6191,7 @@
       <note id="n399" default-x="12.00" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -6038,6 +6227,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6050,6 +6240,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6061,6 +6252,7 @@
       <note id="n403" default-x="83.50" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -6096,6 +6288,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6108,6 +6301,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6138,6 +6332,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -6166,6 +6361,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -6177,10 +6373,11 @@
       <backup>
         <duration>9</duration>
         </backup>
-      <note id="n411" default-x="88.15" default-y="-5.00" color="#EC4899">
+      <note id="n411" default-x="88.15" default-y="-5.00">
         <cue/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>1</duration>
@@ -6195,6 +6392,7 @@
       <note id="n412" default-x="12.00" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -6230,6 +6428,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6242,6 +6441,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6253,6 +6453,7 @@
       <note id="n416" default-x="111.00" default-y="-200.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -6288,6 +6489,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6300,6 +6502,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6319,6 +6522,7 @@
       <note id="n420" default-x="12.00" default-y="-5.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -6344,6 +6548,7 @@
       <note id="n422" default-x="36.40" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -6395,6 +6600,7 @@
       <note id="n426" default-x="87.82" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -6420,6 +6626,7 @@
       <note id="n428" default-x="112.22" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -6446,6 +6653,7 @@
       <note id="n430" default-x="12.00" default-y="-160.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -6463,6 +6671,7 @@
       <note id="n431" default-x="63.42" default-y="-125.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6492,6 +6701,7 @@
       <note id="n433" default-x="112.22" default-y="-160.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -6509,6 +6719,7 @@
       <note id="n434" default-x="151.26" default-y="-125.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6565,6 +6776,7 @@
       <note id="n437" default-x="118.57" default-y="-5.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -6578,6 +6790,7 @@
       <note id="n438" default-x="141.78" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -6590,6 +6803,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -6601,6 +6815,7 @@
       <note id="n440" default-x="229.67" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -6613,6 +6828,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -6640,6 +6856,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -6664,6 +6881,7 @@
       <note id="n445" default-x="169.31" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -6677,6 +6895,7 @@
       <note id="n446" default-x="192.53" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6689,6 +6908,7 @@
       <note id="n447" default-x="229.67" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -6718,6 +6938,7 @@
       <note id="n449" default-x="95.36" default-y="-155.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -6735,6 +6956,7 @@
       <note id="n450" default-x="141.78" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -6753,6 +6975,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6765,6 +6988,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6776,6 +7000,7 @@
       <note id="n453" default-x="192.53" default-y="-155.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -6793,6 +7018,7 @@
       <note id="n454" default-x="229.67" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -6811,6 +7037,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6823,6 +7050,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6836,6 +7064,7 @@
       <note id="n457" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -6860,6 +7089,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -6871,6 +7101,7 @@
       <note id="n460" default-x="68.23" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -6895,6 +7126,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -6909,6 +7141,7 @@
       <note id="n463" default-x="12.00" default-y="-140.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -6944,6 +7177,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -6955,6 +7189,7 @@
       <note id="n466" default-x="68.23" default-y="-140.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -6990,6 +7225,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -7002,11 +7238,12 @@
     <measure number="35" width="156.05">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="6.58" default-y="-80.00" id="md-1-35-1-1">
+          <dynamics default-x="6.58" default-y="-80.00">
             <f/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <note id="n469" default-x="14.36" default-y="-30.00">
         <pitch>
@@ -7028,6 +7265,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -7081,6 +7319,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -7116,7 +7355,7 @@
       <backup>
         <duration>1</duration>
         </backup>
-      <note id="n477" default-x="128.49" default-y="0.00" color="#EC4899">
+      <note id="n477" default-x="128.49" default-y="0.00">
         <cue/>
         <pitch>
           <step>F</step>
@@ -7229,6 +7468,7 @@
       <note id="n484" default-x="12.00" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -7246,6 +7486,7 @@
       <note id="n485" default-x="46.76" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -7289,6 +7530,7 @@
       <note id="n488" default-x="126.94" default-y="-5.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -7302,6 +7544,7 @@
       <note id="n489" default-x="148.66" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -7318,6 +7561,7 @@
       <note id="n490" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -7341,6 +7585,7 @@
       <note id="n492" default-x="46.76" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>12</duration>
@@ -7480,6 +7725,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -7520,6 +7766,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -7556,7 +7803,7 @@
       <backup>
         <duration>1</duration>
         </backup>
-      <note id="n507" default-x="132.65" default-y="0.00" color="#EC4899">
+      <note id="n507" default-x="132.65" default-y="0.00">
         <cue/>
         <pitch>
           <step>F</step>
@@ -7669,6 +7916,7 @@
       <note id="n514" default-x="12.00" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -7686,6 +7934,7 @@
       <note id="n515" default-x="46.76" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -7729,6 +7978,7 @@
       <note id="n518" default-x="126.94" default-y="-5.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -7742,6 +7992,7 @@
       <note id="n519" default-x="148.66" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -7758,6 +8009,7 @@
       <note id="n520" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -7781,6 +8033,7 @@
       <note id="n522" default-x="46.76" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>12</duration>
@@ -7902,15 +8155,17 @@
     <measure number="39" width="150.69">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" id="md-1-39-1-1">
+          <dynamics default-x="3.29" default-y="-80.00">
             <p/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n530" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -7934,6 +8189,7 @@
       <note id="n532" default-x="80.54" default-y="-30.00">
         <pitch>
           <step>G</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -7961,6 +8217,7 @@
       <note id="n534" default-x="12.00" default-y="-175.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -7978,6 +8235,7 @@
       <note id="n535" default-x="46.27" default-y="-140.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -8025,6 +8283,7 @@
       <note id="n538" default-x="114.81" default-y="-145.00">
         <pitch>
           <step>G</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -8082,6 +8341,7 @@
       <note id="n541" default-x="114.85" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -8095,6 +8355,7 @@
       <note id="n542" default-x="134.34" default-y="-5.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -8108,6 +8369,7 @@
       <note id="n543" default-x="153.83" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -8134,6 +8396,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -8145,6 +8408,7 @@
       <note id="n546" default-x="204.51" default-y="-40.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -8170,6 +8434,7 @@
       <note id="n548" default-x="224.00" default-y="-45.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -8184,6 +8449,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -8212,6 +8478,7 @@
       <note id="n551" default-x="95.36" default-y="-170.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -8247,6 +8514,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -8258,6 +8526,7 @@
       <note id="n554" default-x="173.32" default-y="-195.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -8275,6 +8544,7 @@
       <note id="n555" default-x="204.51" default-y="-160.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -8324,6 +8594,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -8353,6 +8624,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -8378,6 +8650,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -8389,6 +8662,7 @@
       <note id="n563" default-x="106.14" default-y="-45.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -8403,6 +8677,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -8414,6 +8689,7 @@
       <note id="n565" default-x="128.56" default-y="-40.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -8439,6 +8715,7 @@
       <note id="n567" default-x="150.97" default-y="-45.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -8453,6 +8730,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -8467,6 +8745,7 @@
       <note id="n569" default-x="12.00" default-y="-190.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -8484,6 +8763,7 @@
       <note id="n570" default-x="47.86" default-y="-155.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -8502,6 +8782,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -8513,6 +8794,7 @@
       <note id="n572" default-x="83.73" default-y="-190.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -8530,6 +8812,7 @@
       <note id="n573" default-x="128.56" default-y="-155.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -8573,6 +8856,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -8596,6 +8880,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -8610,6 +8895,7 @@
       <note id="n579" default-x="12.00" default-y="-175.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -8627,6 +8913,7 @@
       <note id="n580" default-x="40.70" default-y="-155.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -8645,6 +8932,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -8656,6 +8944,7 @@
       <note id="n582" default-x="69.40" default-y="-175.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -8673,6 +8962,7 @@
       <note id="n583" default-x="98.11" default-y="-155.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -8691,6 +8981,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -8703,35 +8994,39 @@
     <measure number="43" width="154.85">
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" id="md-1-43-1-1">
+          <dynamics default-x="3.29" default-y="-80.00">
             <f/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" id="md-1-43-1-2">
+          <dynamics default-x="3.29" default-y="-80.00">
             <f/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" id="md-1-43-1-3">
+          <dynamics default-x="3.29" default-y="-80.00">
             <f/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" id="md-1-43-1-4">
+          <dynamics default-x="3.29" default-y="-80.00">
             <f/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="106.67"/>
         </direction>
       <note id="n585" default-x="26.22" default-y="-30.00">
         <pitch>
@@ -8753,6 +9048,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -8806,6 +9102,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -8841,7 +9138,7 @@
       <backup>
         <duration>1</duration>
         </backup>
-      <note id="n593" default-x="127.30" default-y="0.00" color="#EC4899">
+      <note id="n593" default-x="127.30" default-y="0.00">
         <cue/>
         <pitch>
           <step>F</step>
@@ -8954,6 +9251,7 @@
       <note id="n600" default-x="12.00" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -8971,6 +9269,7 @@
       <note id="n601" default-x="47.48" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -9014,6 +9313,7 @@
       <note id="n604" default-x="128.83" default-y="-5.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -9027,6 +9327,7 @@
       <note id="n605" default-x="151.01" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -9043,6 +9344,7 @@
       <note id="n606" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -9066,6 +9368,7 @@
       <note id="n608" default-x="47.48" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>12</duration>
@@ -9205,6 +9508,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -9245,6 +9549,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -9281,7 +9586,7 @@
       <backup>
         <duration>1</duration>
         </backup>
-      <note id="n623" default-x="135.00" default-y="0.00" color="#EC4899">
+      <note id="n623" default-x="135.00" default-y="0.00">
         <cue/>
         <pitch>
           <step>F</step>
@@ -9394,6 +9699,7 @@
       <note id="n630" default-x="12.00" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -9411,6 +9717,7 @@
       <note id="n631" default-x="47.48" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -9454,6 +9761,7 @@
       <note id="n634" default-x="128.83" default-y="-5.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -9467,6 +9775,7 @@
       <note id="n635" default-x="151.01" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -9483,6 +9792,7 @@
       <note id="n636" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -9506,6 +9816,7 @@
       <note id="n638" default-x="47.48" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>12</duration>
@@ -9639,23 +9950,26 @@
         </print>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" id="md-1-47-1-1">
+          <dynamics default-x="3.29" default-y="-80.00">
             <p/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-80.00" id="md-1-47-1-2">
+          <dynamics default-x="3.29" default-y="-80.00">
             <p/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="54.44"/>
         </direction>
       <note id="n646" default-x="95.36" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -9679,6 +9993,7 @@
       <note id="n648" default-x="159.02" default-y="-30.00">
         <pitch>
           <step>G</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -9706,6 +10021,7 @@
       <note id="n650" default-x="95.36" default-y="-175.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -9723,6 +10039,7 @@
       <note id="n651" default-x="127.19" default-y="-140.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -9770,6 +10087,7 @@
       <note id="n654" default-x="190.85" default-y="-145.00">
         <pitch>
           <step>G</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -9815,6 +10133,7 @@
       <note id="n657" default-x="32.69" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -9828,6 +10147,7 @@
       <note id="n658" default-x="53.37" default-y="-5.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -9841,6 +10161,7 @@
       <note id="n659" default-x="74.06" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -9867,6 +10188,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -9878,6 +10200,7 @@
       <note id="n662" default-x="127.84" default-y="-40.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -9903,6 +10226,7 @@
       <note id="n664" default-x="148.53" default-y="-45.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -9917,6 +10241,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -9945,6 +10270,7 @@
       <note id="n667" default-x="12.00" default-y="-170.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -9980,6 +10306,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -9991,6 +10318,7 @@
       <note id="n670" default-x="94.74" default-y="-195.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -10008,6 +10336,7 @@
       <note id="n671" default-x="127.84" default-y="-160.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -10057,6 +10386,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -10086,6 +10416,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -10111,6 +10442,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -10122,6 +10454,7 @@
       <note id="n679" default-x="104.71" default-y="-45.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -10136,6 +10469,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -10147,6 +10481,7 @@
       <note id="n681" default-x="126.79" default-y="-40.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -10172,6 +10507,7 @@
       <note id="n683" default-x="148.86" default-y="-45.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -10186,6 +10522,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -10200,6 +10537,7 @@
       <note id="n685" default-x="12.00" default-y="-190.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -10217,6 +10555,7 @@
       <note id="n686" default-x="47.32" default-y="-155.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -10235,6 +10574,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -10246,6 +10586,7 @@
       <note id="n688" default-x="82.64" default-y="-190.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -10263,6 +10604,7 @@
       <note id="n689" default-x="126.79" default-y="-155.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -10306,6 +10648,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -10329,6 +10672,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -10342,16 +10686,18 @@
         </backup>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="2.30" default-y="-80.00" id="md-1-50-1-1">
+          <dynamics default-x="2.30" default-y="-80.00">
             <pp/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="36.67"/>
         </direction>
-      <note id="n695" default-x="106.00" default-y="-20.00" color="#EC4899">
+      <note id="n695" default-x="106.00" default-y="-20.00">
         <cue/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -10366,6 +10712,7 @@
       <note id="n696" default-x="12.00" default-y="-175.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -10383,6 +10730,7 @@
       <note id="n697" default-x="35.68" default-y="-155.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -10401,6 +10749,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -10412,6 +10761,7 @@
       <note id="n699" default-x="59.35" default-y="-175.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -10429,6 +10779,7 @@
       <note id="n700" default-x="83.03" default-y="-155.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -10447,6 +10798,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -10460,6 +10812,7 @@
       <note id="n702" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -10477,6 +10830,7 @@
       <note id="n703" default-x="43.90" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -10490,6 +10844,7 @@
       <note id="n704" default-x="67.10" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -10503,6 +10858,7 @@
       <note id="n705" default-x="90.30" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -10537,10 +10893,11 @@
       <backup>
         <duration>2</duration>
         </backup>
-      <note id="n707" default-x="147.38" default-y="-25.00" color="#EC4899">
+      <note id="n707" default-x="147.38" default-y="-25.00">
         <cue/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -10552,10 +10909,11 @@
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         </note>
-      <note id="n708" default-x="161.88" default-y="-20.00" color="#EC4899">
+      <note id="n708" default-x="161.88" default-y="-20.00">
         <cue/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -10668,6 +11026,7 @@
       <note id="n715" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -10696,6 +11055,7 @@
       <note id="n717" default-x="77.07" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -10724,10 +11084,11 @@
       <backup>
         <duration>10</duration>
         </backup>
-      <note id="n719" default-x="51.67" default-y="-25.00" color="#EC4899">
+      <note id="n719" default-x="51.67" default-y="-25.00">
         <cue/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -10739,10 +11100,11 @@
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         </note>
-      <note id="n720" default-x="65.36" default-y="-20.00" color="#EC4899">
+      <note id="n720" default-x="65.36" default-y="-20.00">
         <cue/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -10757,10 +11119,11 @@
       <forward>
         <duration>7</duration>
         </forward>
-      <note id="n721" default-x="120.22" default-y="-20.00" color="#EC4899">
+      <note id="n721" default-x="120.22" default-y="-20.00">
         <cue/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>1</duration>
@@ -10869,6 +11232,7 @@
       <note id="n728" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -10886,6 +11250,7 @@
       <note id="n729" default-x="44.62" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -10899,6 +11264,7 @@
       <note id="n730" default-x="68.34" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -10912,6 +11278,7 @@
       <note id="n731" default-x="92.07" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -10965,7 +11332,7 @@
         <type>32nd</type>
         <staff>1</staff>
         </note>
-      <note id="n735" default-x="165.82" default-y="-15.00" color="#EC4899">
+      <note id="n735" default-x="165.82" default-y="-15.00">
         <cue/>
         <pitch>
           <step>C</step>
@@ -11090,6 +11457,7 @@
       <note id="n742" default-x="95.36" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -11118,6 +11486,7 @@
       <note id="n744" default-x="152.65" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -11146,7 +11515,7 @@
       <backup>
         <duration>9</duration>
         </backup>
-      <note id="n746" default-x="134.20" default-y="-15.00" color="#EC4899">
+      <note id="n746" default-x="134.20" default-y="-15.00">
         <cue/>
         <pitch>
           <step>C</step>
@@ -11161,10 +11530,11 @@
       <forward>
         <duration>7</duration>
         </forward>
-      <note id="n747" default-x="191.49" default-y="5.00" color="#EC4899">
+      <note id="n747" default-x="191.49" default-y="5.00">
         <cue/>
         <pitch>
           <step>G</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>1</duration>
@@ -11304,6 +11674,7 @@
       <note id="n756" default-x="76.20" default-y="5.00">
         <pitch>
           <step>G</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -11355,6 +11726,7 @@
       <note id="n759" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -11367,6 +11739,7 @@
       <note id="n760" default-x="47.26" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -11407,6 +11780,7 @@
       <note id="n763" default-x="12.00" default-y="-160.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -11424,6 +11798,7 @@
       <note id="n764" default-x="47.26" default-y="-125.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -11488,6 +11863,7 @@
         <chord/>
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -11525,6 +11901,7 @@
       <note id="n771" default-x="44.51" default-y="15.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -11545,6 +11922,7 @@
       <note id="n773" default-x="85.15" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -11571,6 +11949,7 @@
       <note id="n775" default-x="12.00" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>6</duration>
@@ -11586,6 +11965,7 @@
       <note id="n776" default-x="12.00" default-y="-170.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -11603,6 +11983,7 @@
       <note id="n777" default-x="44.51" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -11621,6 +12002,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -11692,6 +12074,7 @@
       <note id="n783" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -11731,6 +12114,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -11756,6 +12140,7 @@
         <chord/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -11781,6 +12166,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -11805,6 +12191,7 @@
       <note id="n792" default-x="123.34" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -11848,6 +12235,7 @@
       <note id="n795" default-x="101.07" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -11873,6 +12261,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -11982,6 +12371,7 @@
       <note id="n804" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -12022,6 +12412,7 @@
       <note id="n807" default-x="57.76" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -12062,10 +12453,11 @@
       <backup>
         <duration>1</duration>
         </backup>
-      <note id="n810" default-x="102.90" default-y="10.00" color="#EC4899">
+      <note id="n810" default-x="102.90" default-y="10.00">
         <cue/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>1</duration>
@@ -12204,6 +12596,7 @@
       <note id="n819" default-x="65.42" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -12291,6 +12684,7 @@
       <note id="n825" default-x="14.36" default-y="-170.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -12308,6 +12702,7 @@
       <note id="n826" default-x="44.75" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -12326,6 +12721,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -12337,6 +12733,7 @@
       <note id="n828" default-x="84.42" default-y="-170.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -12354,6 +12751,7 @@
       <note id="n829" default-x="114.81" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -12372,6 +12770,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -12385,6 +12784,7 @@
       <note id="n831" default-x="14.36" default-y="15.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -12396,6 +12796,7 @@
       <note id="n832" default-x="52.53" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -12453,10 +12854,11 @@
         <dot/>
         <staff>1</staff>
         </note>
-      <note id="n837" default-x="161.63" default-y="-10.00" color="#EC4899">
+      <note id="n837" default-x="161.63" default-y="-10.00">
         <cue/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>1</duration>
@@ -12610,6 +13012,7 @@
       <note id="n846" default-x="153.83" default-y="-10.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -12661,6 +13064,7 @@
       <note id="n849" default-x="95.36" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -12672,6 +13076,7 @@
       <note id="n850" default-x="131.34" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -12695,6 +13100,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -12816,6 +13222,7 @@
       <note id="n860" default-x="12.00" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -12851,6 +13258,7 @@
       <note id="n863" default-x="66.69" default-y="-25.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -12888,16 +13296,18 @@
         </backup>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="4.61" default-y="-80.00" id="md-1-62-1-1">
+          <dynamics default-x="4.61" default-y="-80.00">
             <ppp/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
+        <sound dynamics="17.78"/>
         </direction>
-      <note id="n866" default-x="120.26" default-y="10.00" color="#EC4899">
+      <note id="n866" default-x="120.26" default-y="10.00">
         <cue/>
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>1</duration>
@@ -13036,6 +13446,7 @@
       <note id="n875" default-x="71.03" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>2</duration>
@@ -13123,6 +13534,7 @@
       <note id="n881" default-x="14.36" default-y="-170.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -13140,6 +13552,7 @@
       <note id="n882" default-x="49.23" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -13158,6 +13571,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -13169,6 +13583,7 @@
       <note id="n884" default-x="92.83" default-y="-170.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>2</octave>
           </pitch>
         <duration>4</duration>
@@ -13186,6 +13601,7 @@
       <note id="n885" default-x="127.70" default-y="-135.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -13204,6 +13620,7 @@
         <chord/>
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -13217,6 +13634,7 @@
       <note id="n887" default-x="14.36" default-y="15.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
@@ -13228,6 +13646,7 @@
       <note id="n888" default-x="53.79" default-y="10.00">
         <pitch>
           <step>A</step>
+          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -13285,7 +13704,7 @@
         <dot/>
         <staff>1</staff>
         </note>
-      <note id="n893" default-x="185.63" default-y="-10.00" color="#EC4899">
+      <note id="n893" default-x="185.63" default-y="-10.00">
         <cue/>
         <pitch>
           <step>D</step>
@@ -13444,7 +13863,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="1" default-y="-80.00" id="md-1-65-1-1"/>
+          <wedge type="diminuendo" number="1" default-y="-80.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -13485,7 +13904,7 @@
         <type>32nd</type>
         <staff>1</staff>
         </note>
-      <note id="n906" default-x="194.39" default-y="-10.00" color="#EC4899">
+      <note id="n906" default-x="194.39" default-y="-10.00">
         <cue/>
         <pitch>
           <step>D</step>
@@ -13499,7 +13918,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="1" id="md-1-65-1-2"/>
+          <wedge type="stop" number="1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -13532,6 +13951,7 @@
       <note id="n909" default-x="147.03" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -13719,7 +14139,7 @@
         <type>32nd</type>
         <staff>1</staff>
         </note>
-      <note id="n922" default-x="194.39" default-y="-10.00" color="#EC4899">
+      <note id="n922" default-x="194.39" default-y="-10.00">
         <cue/>
         <pitch>
           <step>D</step>
@@ -13760,6 +14180,7 @@
       <note id="n925" default-x="147.03" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -13986,6 +14407,7 @@
       <note id="n939" default-x="211.99" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -14141,7 +14563,7 @@
       <backup>
         <duration>1</duration>
         </backup>
-      <note id="n950" default-x="106.65" default-y="-10.00" color="#EC4899">
+      <note id="n950" default-x="106.65" default-y="-10.00">
         <cue/>
         <pitch>
           <step>D</step>
@@ -14297,7 +14719,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="diminuendo" number="1" default-y="-80.00" id="md-1-69-1-1"/>
+          <wedge type="diminuendo" number="1" default-y="-80.00"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -14337,7 +14759,7 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <wedge type="stop" number="1" id="md-1-69-1-2"/>
+          <wedge type="stop" number="1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -14491,6 +14913,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -14514,6 +14937,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -14525,7 +14949,7 @@
       <backup>
         <duration>1</duration>
         </backup>
-      <note id="n975" default-x="100.02" default-y="-15.00" color="#EC4899">
+      <note id="n975" default-x="100.02" default-y="-15.00">
         <cue/>
         <pitch>
           <step>C</step>
@@ -14637,6 +15061,7 @@
       <note id="n982" default-x="14.36" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -14654,6 +15079,7 @@
       <note id="n983" default-x="43.29" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -14680,6 +15106,7 @@
       <note id="n985" default-x="79.46" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -14740,6 +15167,7 @@
       <note id="n989" default-x="108.39" default-y="-55.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -14895,7 +15323,7 @@
       <backup>
         <duration>1</duration>
         </backup>
-      <note id="n1000" default-x="106.65" default-y="-10.00" color="#EC4899">
+      <note id="n1000" default-x="106.65" default-y="-10.00">
         <cue/>
         <pitch>
           <step>D</step>
@@ -15112,6 +15540,7 @@
       <note id="n1014" default-x="130.25" default-y="-40.00">
         <pitch>
           <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -15207,6 +15636,7 @@
         <chord/>
         <pitch>
           <step>F</step>
+          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -15234,6 +15664,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -15257,6 +15688,7 @@
         <chord/>
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -15268,7 +15700,7 @@
       <backup>
         <duration>1</duration>
         </backup>
-      <note id="n1025" default-x="100.02" default-y="-15.00" color="#EC4899">
+      <note id="n1025" default-x="100.02" default-y="-15.00">
         <cue/>
         <pitch>
           <step>C</step>
@@ -15392,6 +15824,7 @@
       <note id="n1032" default-x="106.71" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -15409,6 +15842,7 @@
       <note id="n1033" default-x="173.03" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>2</duration>
@@ -15435,6 +15869,7 @@
       <note id="n1035" default-x="255.92" default-y="-20.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -15495,6 +15930,7 @@
       <note id="n1039" default-x="322.24" default-y="-55.00">
         <pitch>
           <step>B</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -15572,6 +16008,7 @@
       <note id="n1044" default-x="322.24" default-y="-160.00">
         <pitch>
           <step>D</step>
+          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -15900,7 +16337,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <fermata type="upright" id="n1066--fermata--upright--1"/>
+          <fermata type="upright"/>
           </notations>
         </note>
       <note id="n1067" default-x="16.36" default-y="-35.00">
@@ -15929,7 +16366,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <fermata type="inverted" id="n1068--fermata--inverted--1"/>
+          <fermata type="inverted"/>
           </notations>
         </note>
       <note id="n1069" default-x="16.36" default-y="-165.00">
