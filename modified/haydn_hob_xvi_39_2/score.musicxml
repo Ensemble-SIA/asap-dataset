@@ -35,11 +35,11 @@
     </credit>
   <part-list>
     <score-part id="P1">
-      <part-name></part-name>
+      <part-name/>
       <score-instrument id="P1-I1">
         <instrument-name>Midi_1</instrument-name>
         </score-instrument>
-      <midi-device id="P1-I1" port="1"></midi-device>
+      <midi-device id="P1-I1" port="1"/>
       <midi-instrument id="P1-I1">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
@@ -83,7 +83,7 @@
         </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-y="38.00" font-weight="bold" font-family="Times New Roman" font-size="11">Adagio</words>
+          <words default-y="38.00" font-weight="bold" font-family="Times New Roman" font-size="11" id="md-1-1-1-1">Adagio</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -415,9 +415,9 @@
         </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-y="40.00" font-family="Times New Roman" font-size="19">SONATE in G
+          <words default-y="40.00" font-family="Times New Roman" font-size="19" id="md-1-2-1-1">SONATE in G
 </words>
-          <words>II</words>
+          <words id="md-1-2-1-2">II</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -451,7 +451,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n30--slur--start--1"/>
           </notations>
         </note>
       <note id="n31" default-x="205.73" default-y="-5.00">
@@ -477,7 +477,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n32--slur--stop--1"/>
           </notations>
         </note>
       <note id="n33">
@@ -516,7 +516,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n35--slur--start--1"/>
           </notations>
         </note>
       <note id="n36" default-x="80.19" default-y="-30.00">
@@ -575,7 +575,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n39--slur--stop--1"/>
           </notations>
         </note>
       <note id="n40" default-x="187.54" default-y="-30.00">
@@ -660,7 +660,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n46--slur--start--1"/>
           </notations>
         </note>
       <note id="n47" default-x="152.05" default-y="-100.00">
@@ -687,7 +687,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n48--slur--stop--1"/>
           </notations>
         </note>
       <note id="n49" default-x="259.40" default-y="-110.00">
@@ -741,7 +741,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n53--slur--start--1"/>
           </notations>
         </note>
       <note id="n54" default-x="78.05" default-y="-10.00">
@@ -818,7 +818,7 @@
         <beam number="3">end</beam>
         <beam number="4">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n58--slur--stop--1"/>
           </notations>
         </note>
       <note id="n59" default-x="172.11" default-y="-25.00">
@@ -835,7 +835,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n59--slur--start--1"/>
           </notations>
         </note>
       <note id="n60" default-x="203.50" default-y="-20.00">
@@ -868,14 +868,14 @@
         <beam number="3">end</beam>
         <beam number="4">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n61--slur--stop--1"/>
           </notations>
         </note>
       <direction placement="above">
         <direction-type>
-          <words default-y="40.00" font-family="Times New Roman">J. Haydn
+          <words default-y="40.00" font-family="Times New Roman" id="md-1-3-1-1">J. Haydn
 </words>
-          <words>HobokenXVI:39 / 2</words>
+          <words id="md-1-3-1-2">HobokenXVI:39 / 2</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -892,7 +892,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n62--slur--start--1"/>
           </notations>
         </note>
       <note id="n63" default-x="261.91" default-y="-15.00">
@@ -908,7 +908,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n63--slur--stop--1"/>
           </notations>
         </note>
       <note id="n64" default-x="288.99" default-y="-5.00">
@@ -1029,7 +1029,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="n73--tied--start--1"/>
           </notations>
         </note>
       <backup>
@@ -1094,7 +1094,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n78--slur--start--1"/>
           </notations>
         </note>
       <note id="n79" default-x="81.30" default-y="-25.00">
@@ -1136,7 +1136,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n81--slur--stop--1"/>
           </notations>
         </note>
       <note id="n82" default-x="166.89" default-y="-15.00">
@@ -1153,12 +1153,11 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-86.00" relative-y="6.61">
+          <dynamics default-x="3.29" default-y="-86.00" relative-y="6.61" id="md-1-4-1-1">
             <f/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="111.11"/>
         </direction>
       <note id="n83" default-x="204.77" default-y="-15.00">
         <pitch>
@@ -1173,7 +1172,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="n83--tied--start--1"/>
           </notations>
         </note>
       <note id="n84" default-x="242.64" default-y="-15.00">
@@ -1191,7 +1190,7 @@
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="n84--tied--stop--1"/>
           </notations>
         </note>
       <note id="n85" default-x="259.86" default-y="-20.00">
@@ -1337,7 +1336,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="n94--tied--stop--1"/>
           </notations>
         </note>
       <note id="n95" default-x="108.85" default-y="-90.00">
@@ -1592,7 +1591,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="n113--tied--start--1"/>
           </notations>
         </note>
       <note id="n114" default-x="101.85" default-y="-155.00">
@@ -1607,7 +1606,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="n114--tied--stop--1"/>
           </notations>
         </note>
       <note id="n115" print-object="no">
@@ -1694,11 +1693,10 @@
         <beam number="2">end</beam>
         <beam number="3">end</beam>
         </note>
-      <note id="n122" default-x="85.46" default-y="-35.00">
+      <note id="n122" default-x="85.46" default-y="-35.00" color="#EC4899">
         <cue/>
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>6</duration>
@@ -1822,7 +1820,7 @@
         <beam number="2">continue</beam>
         <beam number="3">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n132--slur--start--1"/>
           </notations>
         </note>
       <note id="n133" default-x="199.72" default-y="5.00">
@@ -1895,7 +1893,7 @@
         <beam number="2">end</beam>
         <beam number="3">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n137--slur--stop--1"/>
           </notations>
         </note>
       <note id="n138" print-object="no">
@@ -1966,7 +1964,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="n143--slur--start--1"/>
           </notations>
         </note>
       <note id="n144" default-x="135.85" default-y="-145.00">
@@ -1992,7 +1990,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n145--slur--stop--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -2091,7 +2089,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n153--slur--start--1"/>
           </notations>
         </note>
       <note id="n154" default-x="285.36" default-y="-5.00">
@@ -2117,7 +2115,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n155--slur--stop--1"/>
           </notations>
         </note>
       <note id="n156">
@@ -2156,7 +2154,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n158--slur--start--1"/>
           </notations>
         </note>
       <note id="n159" default-x="103.00" default-y="-30.00">
@@ -2215,7 +2213,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n162--slur--stop--1"/>
           </notations>
         </note>
       <note id="n163" default-x="258.94" default-y="-30.00">
@@ -2300,7 +2298,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n169--slur--start--1"/>
           </notations>
         </note>
       <note id="n170" default-x="207.39" default-y="-100.00">
@@ -2327,7 +2325,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n171--slur--stop--1"/>
           </notations>
         </note>
       <note id="n172" default-x="363.33" default-y="-110.00">
@@ -2393,7 +2391,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n176--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n177" default-x="242.25" default-y="25.00">
@@ -2501,7 +2499,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n181--tuplet--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -2510,7 +2508,6 @@
       <note id="n182" default-x="401.05" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -2526,7 +2523,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n182--tuplet--start--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -2638,7 +2635,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n187--tuplet--stop--1"/>
           <articulations>
             <staccato/>
             </articulations>
@@ -2681,7 +2678,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n190--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n191" default-x="43.76" default-y="-100.00">
@@ -2769,7 +2766,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n195--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n196" default-x="210.50" default-y="-110.00">
@@ -2789,7 +2786,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n196--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n197" default-x="242.25" default-y="-100.00">
@@ -2877,7 +2874,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n201--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n202" default-x="401.05" default-y="-110.00">
@@ -2897,7 +2894,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n202--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n203" default-x="432.81" default-y="-100.00">
@@ -2985,7 +2982,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n207--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -3016,7 +3013,6 @@
       <note id="n209" default-x="86.64" default-y="-35.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>96</duration>
@@ -3027,7 +3023,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="n209--tied--start--1"/>
           <ornaments>
             <inverted-mordent/>
             </ornaments>
@@ -3036,7 +3032,6 @@
       <note id="n210" default-x="377.96" default-y="-35.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>48</duration>
@@ -3046,7 +3041,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="n210--tied--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -3080,7 +3075,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n212--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n213" default-x="111.25" default-y="-95.00">
@@ -3168,7 +3163,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n217--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n218" default-x="232.48" default-y="-105.00">
@@ -3188,7 +3183,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n218--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n219" default-x="256.73" default-y="-95.00">
@@ -3276,7 +3271,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n223--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n224" default-x="377.96" default-y="-105.00">
@@ -3296,7 +3291,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n224--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n225" default-x="402.20" default-y="-95.00">
@@ -3384,7 +3379,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n229--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -3453,7 +3448,6 @@
         <grace/>
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <voice>1</voice>
@@ -3526,7 +3520,7 @@
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n240--slur--start--1"/>
           </notations>
         </note>
       <note id="n241" default-x="274.48" default-y="15.00">
@@ -3560,8 +3554,8 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
-          <slur type="stop" number="1"/>
+          <tuplet type="start" bracket="no" id="n242--tuplet--start--1"/>
+          <slur type="stop" number="1" id="n242--slur--stop--1"/>
           </notations>
         </note>
       <note id="n243" default-x="321.81" default-y="30.00">
@@ -3581,7 +3575,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n243--slur--start--1"/>
           </notations>
         </note>
       <note id="n244" default-x="345.47" default-y="25.00">
@@ -3618,7 +3612,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n245--slur--stop--1"/>
           </notations>
         </note>
       <note id="n246" default-x="392.80" default-y="15.00">
@@ -3638,7 +3632,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n246--slur--start--1"/>
           </notations>
         </note>
       <note id="n247" default-x="416.47" default-y="10.00">
@@ -3658,7 +3652,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n247--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n248" default-x="439.59" default-y="5.00">
@@ -3678,14 +3672,13 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
-          <slur type="stop" number="1"/>
+          <tuplet type="start" bracket="no" id="n248--tuplet--start--1"/>
+          <slur type="stop" number="1" id="n248--slur--stop--1"/>
           </notations>
         </note>
       <note id="n249" default-x="462.71" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -3700,7 +3693,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n249--slur--start--1"/>
           </notations>
         </note>
       <note id="n250" default-x="485.84" default-y="-5.00">
@@ -3720,7 +3713,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n250--slur--stop--1"/>
           </notations>
         </note>
       <note id="n251" default-x="508.96" default-y="-10.00">
@@ -3774,7 +3767,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n253--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -3783,7 +3776,6 @@
       <note id="n254" default-x="137.84" default-y="-115.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -3799,7 +3791,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n254--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n255" default-x="160.97" default-y="-105.00">
@@ -3839,7 +3831,6 @@
       <note id="n257" default-x="207.21" default-y="-115.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -3888,13 +3879,12 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n259--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n260" default-x="298.14" default-y="-115.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -3909,7 +3899,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n260--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n261" default-x="321.81" default-y="-105.00">
@@ -3949,7 +3939,6 @@
       <note id="n263" default-x="369.14" default-y="-115.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -3998,13 +3987,12 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n265--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n266" default-x="439.59" default-y="-115.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -4019,7 +4007,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n266--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n267" default-x="462.71" default-y="-105.00">
@@ -4059,7 +4047,6 @@
       <note id="n269" default-x="508.96" default-y="-115.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -4108,7 +4095,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n271--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -4194,7 +4181,6 @@
         <grace/>
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <voice>6</voice>
@@ -4220,7 +4206,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n279--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n280" default-x="102.92" default-y="-100.00">
@@ -4308,7 +4294,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n284--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n285" default-x="226.69" default-y="-110.00">
@@ -4328,7 +4314,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n285--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n286" default-x="251.45" default-y="-100.00">
@@ -4416,7 +4402,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n290--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n291" default-x="375.21" default-y="-110.00">
@@ -4515,7 +4501,6 @@
         <grace/>
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <voice>1</voice>
@@ -4536,13 +4521,12 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n300--slur--start--1"/>
           </notations>
         </note>
       <note id="n301" default-x="454.81" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
@@ -4551,7 +4535,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n301--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -4595,7 +4579,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n303--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n304" default-x="310.50" default-y="-20.00">
@@ -4684,8 +4668,8 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tied type="start"/>
-          <tuplet type="stop"/>
+          <tied type="start" id="n308--tied--start--1"/>
+          <tuplet type="stop" id="n308--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n309" default-x="454.81" default-y="-15.00">
@@ -4706,14 +4690,13 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tied type="stop"/>
-          <tuplet type="start" bracket="no"/>
+          <tied type="stop" id="n309--tied--stop--1"/>
+          <tuplet type="start" bracket="no" id="n309--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n310" default-x="485.89" default-y="-25.00">
         <pitch>
           <step>A</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -4797,7 +4780,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n314--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -4820,8 +4803,8 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
-          <slur type="start" placement="above" number="1"/>
+          <tuplet type="start" bracket="no" id="n315--tuplet--start--1"/>
+          <slur type="start" placement="above" number="1" id="n315--slur--start--1"/>
           </notations>
         </note>
       <note id="n316" default-x="126.26" default-y="-110.00">
@@ -4895,7 +4878,6 @@
       <note id="n320" default-x="245.80" default-y="-90.00">
         <pitch>
           <step>D</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -4911,8 +4893,8 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
-          <slur type="stop" number="1"/>
+          <tuplet type="stop" id="n320--tuplet--stop--1"/>
+          <slur type="stop" number="1" id="n320--slur--stop--1"/>
           </notations>
         </note>
       <note id="n321" default-x="281.68" default-y="-85.00">
@@ -4926,7 +4908,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n321--slur--start--1"/>
           </notations>
         </note>
       <note id="n322" default-x="454.81" default-y="-90.00">
@@ -4941,7 +4923,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n322--slur--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -4969,7 +4951,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n323--slur--start--1"/>
           </notations>
         </note>
       <note id="n324" default-x="421.75" default-y="-10.00">
@@ -4983,7 +4965,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n324--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -5028,13 +5010,12 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n327--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n328" default-x="270.39" default-y="-30.00">
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -5119,8 +5100,8 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tied type="start"/>
-          <tuplet type="stop"/>
+          <tied type="start" id="n332--tied--start--1"/>
+          <tuplet type="stop" id="n332--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n333" default-x="421.75" default-y="-25.00">
@@ -5141,14 +5122,13 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tied type="stop"/>
-          <tuplet type="start" bracket="no"/>
+          <tied type="stop" id="n333--tied--stop--1"/>
+          <tuplet type="start" bracket="no" id="n333--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n334" default-x="452.84" default-y="-35.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -5233,7 +5213,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n338--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -5256,8 +5236,8 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
-          <slur type="start" placement="above" number="1"/>
+          <tuplet type="start" bracket="no" id="n339--tuplet--start--1"/>
+          <slur type="start" placement="above" number="1" id="n339--slur--start--1"/>
           </notations>
         </note>
       <note id="n340" default-x="81.53" default-y="-120.00">
@@ -5280,7 +5260,6 @@
       <note id="n341" default-x="112.61" default-y="-110.00">
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -5316,7 +5295,6 @@
       <note id="n343" default-x="173.16" default-y="-100.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -5350,8 +5328,8 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
-          <slur type="stop" number="1"/>
+          <tuplet type="stop" id="n344--tuplet--stop--1"/>
+          <slur type="stop" number="1" id="n344--slur--stop--1"/>
           </notations>
         </note>
       <note id="n345" default-x="239.30" default-y="-95.00">
@@ -5397,14 +5375,13 @@
     <measure number="14" width="499.20">
       <direction placement="above">
         <direction-type>
-          <words default-y="33.00" font-style="italic" font-family="Times New Roman" font-size="11">tenute</words>
+          <words default-y="33.00" font-style="italic" font-family="Times New Roman" font-size="11" id="md-1-14-1-1">tenute</words>
           </direction-type>
         <staff>1</staff>
         </direction>
       <note id="n349" default-x="18.42" default-y="-15.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
@@ -5417,7 +5394,6 @@
       <note id="n350" default-x="177.71" default-y="-15.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
@@ -5429,7 +5405,6 @@
       <note id="n351" default-x="341.16" default-y="-15.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
@@ -5452,7 +5427,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n352--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n353" default-x="44.49" default-y="-30.00">
@@ -5492,7 +5467,6 @@
       <note id="n355" default-x="99.50" default-y="-20.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -5542,7 +5516,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n357--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n358">
@@ -5556,7 +5530,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n358--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n359" default-x="203.79" default-y="-30.00">
@@ -5596,7 +5570,6 @@
       <note id="n361" default-x="255.93" default-y="-20.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -5645,7 +5618,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n363--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n364">
@@ -5659,7 +5632,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n364--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n365" default-x="367.23" default-y="-30.00">
@@ -5699,7 +5672,6 @@
       <note id="n367" default-x="419.38" default-y="-20.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -5748,7 +5720,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n369--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -5775,7 +5747,6 @@
       <note id="n372" default-x="341.16" default-y="-95.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>48</duration>
@@ -5854,7 +5825,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n376--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n377" default-x="430.77" default-y="-50.00">
@@ -5943,7 +5914,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n381--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -5960,13 +5931,12 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n382--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n383" default-x="102.60" default-y="-35.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -6036,7 +6006,6 @@
       <note id="n387" default-x="209.07" default-y="-35.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -6051,7 +6020,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n387--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n388">
@@ -6065,13 +6034,12 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n388--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n389" default-x="266.62" default-y="-35.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -6140,7 +6108,6 @@
       <note id="n393" default-x="373.08" default-y="-35.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -6155,7 +6122,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n393--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n394" print-object="no">
@@ -6178,7 +6145,6 @@
       <note id="n396" default-x="240.00" default-y="-85.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>48</duration>
@@ -6188,13 +6154,12 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n396--slur--start--1"/>
           </notations>
         </note>
       <note id="n397" default-x="404.16" default-y="-115.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>48</duration>
@@ -6204,7 +6169,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n397--slur--stop--1"/>
           </notations>
         </note>
       <note id="n398" default-x="404.16" default-y="-105.00">
@@ -6257,7 +6222,7 @@
           </time-modification>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n401--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n402" default-x="41.01" default-y="15.00">
@@ -6277,7 +6242,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n402--slur--start--1"/>
           </notations>
         </note>
       <note id="n403" default-x="41.01" default-y="25.00">
@@ -6346,7 +6311,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n406--slur--stop--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -6385,7 +6350,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n408--slur--start--1"/>
           </notations>
         </note>
       <note id="n409" default-x="125.04" default-y="15.00">
@@ -6407,7 +6372,6 @@
       <note id="n410" default-x="156.13" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -6423,7 +6387,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n410--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n411" default-x="156.13" default-y="10.00">
@@ -6459,8 +6423,8 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
-          <slur type="stop" number="1"/>
+          <tuplet type="start" bracket="no" id="n412--tuplet--start--1"/>
+          <slur type="stop" number="1" id="n412--slur--stop--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -6536,7 +6500,6 @@
         <chord/>
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -6617,7 +6580,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <words default-y="8.00" font-style="italic" font-family="Times New Roman" font-size="11">ten.</words>
+          <words default-y="8.00" font-style="italic" font-family="Times New Roman" font-size="11" id="md-1-16-1-1">ten.</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -6638,7 +6601,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n422--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n423" default-x="324.19" default-y="-10.00">
@@ -6735,7 +6698,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n430--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n431" default-x="380.21" default-y="-125.00">
@@ -6758,7 +6721,6 @@
       <note id="n432" default-x="411.30" default-y="-115.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -6811,7 +6773,6 @@
       <note id="n435" default-x="500.40" default-y="-80.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -6827,7 +6788,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n435--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -6883,7 +6844,7 @@
           </time-modification>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n439--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n440" default-x="78.41" default-y="-20.00">
@@ -6965,7 +6926,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n444--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n445">
@@ -6979,7 +6940,7 @@
           </time-modification>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n445--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n446" default-x="238.80" default-y="-45.00">
@@ -7067,7 +7028,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n450--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n451" default-x="372.46" default-y="-15.00">
@@ -7087,7 +7048,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n451--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n452" default-x="399.20" default-y="-25.00">
@@ -7110,7 +7071,6 @@
       <note id="n453" default-x="430.28" default-y="-35.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -7177,7 +7137,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n456--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -7229,8 +7189,8 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
-          <slur type="start" placement="above" number="1"/>
+          <tied type="start" id="n459--tied--start--1"/>
+          <slur type="start" placement="above" number="1" id="n459--slur--start--1"/>
           </notations>
         </note>
       <note id="n460" default-x="212.07" default-y="-100.00">
@@ -7246,7 +7206,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="n460--tied--start--1"/>
           </notations>
         </note>
       <note id="n461" default-x="372.46" default-y="-125.00">
@@ -7261,8 +7221,8 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
-          <slur type="stop" number="1"/>
+          <tied type="stop" id="n461--tied--stop--1"/>
+          <slur type="stop" number="1" id="n461--slur--stop--1"/>
           </notations>
         </note>
       <note id="n462" default-x="372.46" default-y="-105.00">
@@ -7290,7 +7250,7 @@
           </time-modification>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n463--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n464" default-x="43.42" default-y="15.00">
@@ -7428,7 +7388,6 @@
       <note id="n472" default-x="165.77" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -7444,7 +7403,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n472--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n473" default-x="165.77" default-y="10.00">
@@ -7480,7 +7439,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n474--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n475" default-x="196.20" default-y="5.00">
@@ -7553,7 +7512,6 @@
         <chord/>
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -7649,7 +7607,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n484--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n485" default-x="348.31" default-y="-10.00">
@@ -7670,7 +7628,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <words default-y="12.00" font-style="italic" font-family="Times New Roman" font-size="11">(ten.)</words>
+          <words default-y="12.00" font-style="italic" font-family="Times New Roman" font-size="11" id="md-1-18-1-1">(ten.)</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -7724,7 +7682,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="n489--tied--stop--1"/>
           </notations>
         </note>
       <note id="n490">
@@ -7751,7 +7709,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n491--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n492" default-x="409.16" default-y="-125.00">
@@ -7774,7 +7732,6 @@
       <note id="n493" default-x="440.24" default-y="-115.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -7827,7 +7784,6 @@
       <note id="n496" default-x="534.17" default-y="-80.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -7843,7 +7799,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n496--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -7871,7 +7827,7 @@
           </time-modification>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n497--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n498" default-x="71.86" default-y="-20.00">
@@ -7953,7 +7909,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n502--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n503">
@@ -7967,7 +7923,7 @@
           </time-modification>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n503--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n504" default-x="192.98" default-y="-45.00">
@@ -8055,7 +8011,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n508--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n509" default-x="293.91" default-y="-15.00">
@@ -8075,7 +8031,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n509--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n510" default-x="314.10" default-y="-25.00">
@@ -8098,7 +8054,6 @@
       <note id="n511" default-x="345.18" default-y="-35.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -8165,7 +8120,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n514--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -8259,7 +8214,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="n522--slur--start--1"/>
           </notations>
         </note>
       <note id="n523" default-x="69.27" default-y="-55.00">
@@ -8273,7 +8228,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n523--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -8282,7 +8237,6 @@
       <note id="n524" default-x="18.78" default-y="-115.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>48</duration>
@@ -8343,13 +8297,12 @@
           </time-modification>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n528--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n529" default-x="44.97" default-y="-65.00">
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -8369,7 +8322,6 @@
         <chord/>
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -8499,7 +8451,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n537--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n538" default-x="155.14" default-y="-10.00">
@@ -8535,7 +8487,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n539--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n540" default-x="182.69" default-y="-5.00">
@@ -8557,7 +8509,6 @@
       <note id="n541" default-x="213.77" default-y="-35.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -8577,7 +8528,6 @@
         <chord/>
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -8594,7 +8544,6 @@
       <note id="n543" default-x="244.85" default-y="-30.00">
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -8613,7 +8562,6 @@
         <chord/>
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -8710,7 +8658,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n549--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n550" default-x="327.48" default-y="20.00">
@@ -8746,7 +8694,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n551--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n552" default-x="355.03" default-y="25.00">
@@ -8914,7 +8862,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n561--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n562" default-x="492.75" default-y="10.00">
@@ -9242,7 +9190,6 @@
         <chord/>
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>48</duration>
@@ -9332,7 +9279,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n593--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n594" default-x="76.74" default-y="-110.00">
@@ -9355,7 +9302,6 @@
       <note id="n595" default-x="108.98" default-y="-115.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -9422,7 +9368,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n598--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n599" default-x="237.93" default-y="-110.00">
@@ -9442,7 +9388,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n599--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n600" default-x="276.09" default-y="-90.00">
@@ -9600,7 +9546,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n608--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n609" default-x="405.04" default-y="-95.00">
@@ -9636,7 +9582,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n610--tuplet--start--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -9813,7 +9759,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n620--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n621" default-x="598.47" default-y="-115.00">
@@ -9868,7 +9814,6 @@
       <note id="n623" default-x="203.55" default-y="15.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>36</duration>
@@ -9911,7 +9856,6 @@
       <note id="n626" default-x="373.00" default-y="15.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -9926,7 +9870,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n626--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n627" default-x="397.67" default-y="10.00">
@@ -10015,7 +9959,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n631--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -10038,13 +9982,12 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n632--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n633" default-x="80.19" default-y="-100.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -10097,7 +10040,6 @@
       <note id="n636" default-x="154.20" default-y="-100.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -10129,7 +10071,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n637--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n638" default-x="203.55" default-y="-110.00">
@@ -10149,13 +10091,12 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n638--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n639" default-x="228.22" default-y="-100.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -10207,7 +10148,6 @@
       <note id="n642" default-x="302.23" default-y="-100.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -10239,7 +10179,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n643--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n644" default-x="373.00" default-y="-110.00">
@@ -10259,13 +10199,12 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n644--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n645" default-x="397.67" default-y="-100.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -10317,7 +10256,6 @@
       <note id="n648" default-x="483.17" default-y="-100.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -10349,7 +10287,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n649--tuplet--stop--1"/>
           </notations>
         </note>
       <barline location="right">
@@ -10371,7 +10309,6 @@
       <note id="n651" default-x="41.61" default-y="-15.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
@@ -10402,7 +10339,6 @@
       <note id="n653" default-x="340.75" default-y="20.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>6</octave>
           </pitch>
         <duration>6</duration>
@@ -10446,7 +10382,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n655--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n656" default-x="426.81" default-y="25.00">
@@ -10469,7 +10405,6 @@
       <note id="n657" default-x="454.70" default-y="20.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>6</octave>
           </pitch>
         <duration>8</duration>
@@ -10487,7 +10422,6 @@
       <note id="n658" default-x="485.63" default-y="15.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -10537,7 +10471,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n660--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -10560,7 +10494,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n661--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n662" default-x="69.49" default-y="-85.00">
@@ -10648,7 +10582,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n666--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n667" default-x="208.92" default-y="-105.00">
@@ -10668,7 +10602,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n667--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n668" default-x="236.81" default-y="-85.00">
@@ -10756,7 +10690,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n672--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n673" default-x="398.93" default-y="-105.00">
@@ -10776,7 +10710,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n673--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n674" default-x="426.81" default-y="-85.00">
@@ -10864,7 +10798,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n678--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -10944,13 +10878,12 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n682--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n683" default-x="258.37" default-y="15.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -11003,7 +10936,6 @@
       <note id="n686" default-x="341.72" default-y="15.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -11035,7 +10967,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n687--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n688" default-x="397.28" default-y="10.00">
@@ -11055,7 +10987,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n688--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n689" default-x="425.07" default-y="5.00">
@@ -11143,7 +11075,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n693--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -11166,7 +11098,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n694--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n695" default-x="79.04" default-y="-105.00">
@@ -11254,7 +11186,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n699--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n700" default-x="227.43" default-y="-115.00">
@@ -11274,7 +11206,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n700--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n701" default-x="258.37" default-y="-105.00">
@@ -11362,7 +11294,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n705--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n706" default-x="397.28" default-y="-115.00">
@@ -11382,7 +11314,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n706--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n707" default-x="425.07" default-y="-105.00">
@@ -11422,7 +11354,6 @@
       <note id="n709" default-x="483.93" default-y="-115.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -11472,7 +11403,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n711--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -11489,7 +11420,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n712--slur--start--1"/>
           </notations>
         </note>
       <note id="n713" default-x="93.91" default-y="-20.00">
@@ -11506,7 +11437,7 @@
         <beam number="1">continue</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n713--slur--stop--1"/>
           </notations>
         </note>
       <note id="n714" default-x="160.93" default-y="25.00">
@@ -11581,7 +11512,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n718--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n719" default-x="398.00" default-y="20.00">
@@ -11669,7 +11600,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n723--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -11692,7 +11623,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n724--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n725" default-x="39.30" default-y="-100.00">
@@ -11780,7 +11711,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n729--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n730" default-x="185.14" default-y="-110.00">
@@ -11800,7 +11731,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n730--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n731" default-x="212.45" default-y="-100.00">
@@ -11888,7 +11819,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n735--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n736" default-x="370.70" default-y="-110.00">
@@ -11908,7 +11839,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n736--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n737" default-x="398.00" default-y="-100.00">
@@ -11996,7 +11927,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n741--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -12057,7 +11988,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n744--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n745" default-x="265.89" default-y="30.00">
@@ -12145,7 +12076,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n749--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n750" default-x="405.18" default-y="20.00">
@@ -12165,7 +12096,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n750--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n751" default-x="433.04" default-y="15.00">
@@ -12253,7 +12184,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n755--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -12276,7 +12207,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n756--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n757" default-x="98.73" default-y="-95.00">
@@ -12364,7 +12295,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n761--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n762" default-x="238.03" default-y="-110.00">
@@ -12384,7 +12315,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n762--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n763" default-x="265.89" default-y="-95.00">
@@ -12472,7 +12403,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n767--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n768" default-x="405.18" default-y="-110.00">
@@ -12492,7 +12423,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n768--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n769" default-x="433.04" default-y="-95.00">
@@ -12580,7 +12511,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n773--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -12625,7 +12556,7 @@
           </time-modification>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n776--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n777" default-x="398.28" default-y="-5.00">
@@ -12713,7 +12644,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n781--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -12736,7 +12667,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n782--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n783" default-x="70.28" default-y="-160.00">
@@ -12824,13 +12755,12 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n787--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n788" default-x="206.30" default-y="-140.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -12846,8 +12776,8 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
-          <slur type="start" number="1"/>
+          <tuplet type="start" bracket="no" id="n788--tuplet--start--1"/>
+          <slur type="start" number="1" id="n788--slur--start--1"/>
           </notations>
         </note>
       <note id="n789" default-x="232.53" default-y="-135.00">
@@ -12870,7 +12800,6 @@
       <note id="n790" default-x="263.62" default-y="-135.00">
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -12906,7 +12835,6 @@
       <note id="n792" default-x="318.79" default-y="-125.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -12940,8 +12868,8 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
-          <slur type="stop" number="1"/>
+          <tuplet type="stop" id="n793--tuplet--stop--1"/>
+          <slur type="stop" number="1" id="n793--slur--stop--1"/>
           </notations>
         </note>
       <note id="n794" default-x="372.04" default-y="-120.00">
@@ -12986,7 +12914,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n795--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n796" default-x="81.25" default-y="0.00">
@@ -13009,7 +12937,6 @@
       <note id="n797" default-x="112.33" default-y="-15.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -13045,7 +12972,6 @@
       <note id="n799" default-x="173.48" default-y="15.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -13061,7 +12987,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n799--slur--start--1"/>
           </notations>
         </note>
       <note id="n800" default-x="203.69" default-y="10.00">
@@ -13081,13 +13007,12 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n800--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n801" default-x="234.77" default-y="5.00">
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -13103,8 +13028,8 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
-          <slur type="stop" number="1"/>
+          <tuplet type="start" bracket="no" id="n801--tuplet--start--1"/>
+          <slur type="stop" number="1" id="n801--slur--stop--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -13127,7 +13052,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n802--slur--start--1"/>
           </notations>
         </note>
       <note id="n803" default-x="295.20" default-y="5.00">
@@ -13165,7 +13090,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n804--slur--stop--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -13188,7 +13113,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n805--slur--start--1"/>
           </notations>
         </note>
       <note id="n806" default-x="385.84" default-y="0.00">
@@ -13208,7 +13133,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n806--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n807" default-x="416.05" default-y="-5.00">
@@ -13228,8 +13153,8 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
-          <slur type="stop" number="1"/>
+          <tuplet type="start" bracket="yes" id="n807--tuplet--start--1"/>
+          <slur type="stop" number="1" id="n807--slur--stop--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -13252,7 +13177,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n808--slur--start--1"/>
           </notations>
         </note>
       <note id="n809" default-x="476.48" default-y="-5.00">
@@ -13272,7 +13197,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n809--slur--stop--1"/>
           </notations>
         </note>
       <note id="n810" default-x="506.69" default-y="-10.00">
@@ -13327,7 +13252,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n812--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -13362,7 +13287,6 @@
       <note id="n815" default-x="416.05" default-y="-140.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>48</duration>
@@ -13401,7 +13325,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n817--slur--start--1"/>
           </notations>
         </note>
       <note id="n818" default-x="109.05" default-y="-20.00">
@@ -13415,7 +13339,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n818--slur--stop--1"/>
           </notations>
         </note>
       <note id="n819">
@@ -13462,7 +13386,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n821--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n822" default-x="147.20" default-y="-90.00">
@@ -13620,7 +13544,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n830--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n831" default-x="277.12" default-y="-95.00">
@@ -13656,7 +13580,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n832--tuplet--start--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -13832,7 +13756,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n842--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n843" default-x="471.99" default-y="-115.00">
@@ -13934,7 +13858,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n849--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n850" default-x="472.39" default-y="5.00">
@@ -14022,7 +13946,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n854--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n855" default-x="759.21" default-y="-20.00">
@@ -14042,7 +13966,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n855--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n856" default-x="816.58" default-y="-25.00">
@@ -14130,7 +14054,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n860--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -14153,7 +14077,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n861--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n862" default-x="108.62" default-y="-120.00">
@@ -14241,7 +14165,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n866--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n867" default-x="415.02" default-y="-130.00">
@@ -14261,7 +14185,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n867--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n868" default-x="472.39" default-y="-120.00">
@@ -14349,7 +14273,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n872--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n873" default-x="759.21" default-y="-130.00">
@@ -14369,7 +14293,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n873--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n874" default-x="816.58" default-y="-120.00">
@@ -14457,7 +14381,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n878--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -14533,7 +14457,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n882--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n883" default-x="102.53" default-y="-115.00">
@@ -14621,7 +14545,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n887--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n888" default-x="220.24" default-y="-125.00">
@@ -14641,7 +14565,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n888--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n889" default-x="243.78" default-y="-115.00">
@@ -14729,7 +14653,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n893--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n894" default-x="361.50" default-y="-125.00">
@@ -14749,7 +14673,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n894--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n895" default-x="385.04" default-y="-115.00">
@@ -14837,7 +14761,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n899--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -15008,7 +14932,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n912--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n913" default-x="311.20" default-y="25.00">
@@ -15096,7 +15020,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n917--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n918" default-x="442.04" default-y="25.00">
@@ -15116,7 +15040,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n918--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n919" default-x="468.21" default-y="20.00">
@@ -15204,7 +15128,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n923--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -15227,7 +15151,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n924--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n925" default-x="133.36" default-y="-125.00">
@@ -15315,7 +15239,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n929--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n930" default-x="285.03" default-y="-135.00">
@@ -15335,7 +15259,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n930--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n931" default-x="311.20" default-y="-125.00">
@@ -15423,7 +15347,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n935--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n936" default-x="442.04" default-y="-135.00">
@@ -15443,7 +15367,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n936--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n937" default-x="468.21" default-y="-125.00">
@@ -15531,7 +15455,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n941--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -15575,7 +15499,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n943--slur--start--1"/>
           </notations>
         </note>
       <note id="n944" default-x="212.20" default-y="-5.00">
@@ -15589,7 +15513,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n944--slur--stop--1"/>
           </notations>
         </note>
       <note id="n945">
@@ -15658,7 +15582,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n950--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n951" default-x="94.42" default-y="-120.00">
@@ -15746,7 +15670,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n955--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n956" default-x="212.20" default-y="-130.00">
@@ -15766,7 +15690,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n956--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n957" default-x="235.76" default-y="-120.00">
@@ -15854,7 +15778,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n961--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n962" default-x="353.54" default-y="-130.00">
@@ -16051,7 +15975,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n977--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n978" default-x="349.28" default-y="-5.00">
@@ -16140,8 +16064,8 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tied type="start"/>
-          <tuplet type="stop"/>
+          <tied type="start" id="n982--tied--start--1"/>
+          <tuplet type="stop" id="n982--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n983" default-x="487.95" default-y="0.00">
@@ -16162,14 +16086,13 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tied type="stop"/>
-          <tuplet type="start" bracket="no"/>
+          <tied type="stop" id="n983--tied--stop--1"/>
+          <tuplet type="start" bracket="no" id="n983--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n984" default-x="519.03" default-y="-10.00">
         <pitch>
           <step>D</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -16253,7 +16176,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n988--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -16276,7 +16199,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n989--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n990" default-x="172.48" default-y="-155.00">
@@ -16350,7 +16273,6 @@
       <note id="n994" default-x="285.94" default-y="-135.00">
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -16366,7 +16288,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n994--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n995" default-x="321.82" default-y="-130.00">
@@ -16380,7 +16302,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="n995--slur--start--1"/>
           </notations>
         </note>
       <note id="n996" default-x="487.95" default-y="-135.00">
@@ -16395,7 +16317,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n996--slur--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -16482,13 +16404,12 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1001--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1002" default-x="270.07" default-y="-15.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -16573,8 +16494,8 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tied type="start"/>
-          <tuplet type="stop"/>
+          <tied type="start" id="n1006--tied--start--1"/>
+          <tuplet type="stop" id="n1006--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1007" default-x="416.48" default-y="-10.00">
@@ -16595,8 +16516,8 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tied type="stop"/>
-          <tuplet type="start" bracket="no"/>
+          <tied type="stop" id="n1007--tied--stop--1"/>
+          <tuplet type="start" bracket="no" id="n1007--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1008" default-x="445.77" default-y="-20.00">
@@ -16685,7 +16606,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1012--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -16708,7 +16629,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1013--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1014" default-x="80.54" default-y="-105.00">
@@ -16731,7 +16652,6 @@
       <note id="n1015" default-x="113.62" default-y="-95.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -16767,7 +16687,6 @@
       <note id="n1017" default-x="173.83" default-y="-85.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -16801,7 +16720,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1018--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1019" default-x="238.99" default-y="-80.00">
@@ -16815,7 +16734,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n1019--slur--start--1"/>
           </notations>
         </note>
       <note id="n1020" default-x="416.48" default-y="-85.00">
@@ -16829,7 +16748,7 @@
         <stem>down</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n1020--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -16859,14 +16778,13 @@
         </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-y="43.00" font-style="italic" font-family="Times New Roman" font-size="11">ten.</words>
+          <words default-y="43.00" font-style="italic" font-family="Times New Roman" font-size="11" id="md-1-37-1-1">ten.</words>
           </direction-type>
         <staff>1</staff>
         </direction>
       <note id="n1023" default-x="45.04" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
@@ -16879,7 +16797,6 @@
       <note id="n1024" default-x="200.40" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
@@ -16913,7 +16830,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1026--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1027" default-x="70.33" default-y="-15.00">
@@ -16953,7 +16870,6 @@
       <note id="n1029" default-x="124.55" default-y="-5.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -17003,7 +16919,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1031--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1032">
@@ -17017,7 +16933,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1032--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1033" default-x="225.69" default-y="-15.00">
@@ -17057,7 +16973,6 @@
       <note id="n1035" default-x="276.26" default-y="-5.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -17106,7 +17021,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1037--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1038">
@@ -17120,7 +17035,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1038--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1039" default-x="383.20" default-y="-15.00">
@@ -17160,7 +17075,6 @@
       <note id="n1041" default-x="433.77" default-y="-5.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -17209,7 +17123,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1043--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -17236,7 +17150,6 @@
       <note id="n1046" default-x="357.91" default-y="-140.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>48</duration>
@@ -17315,7 +17228,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1050--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1051" default-x="441.01" default-y="-35.00">
@@ -17404,7 +17317,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1055--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -17421,7 +17334,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1056--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1057" default-x="99.52" default-y="-20.00">
@@ -17509,7 +17422,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1061--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1062">
@@ -17523,7 +17436,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1062--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1063" default-x="270.84" default-y="-20.00">
@@ -17611,7 +17524,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1067--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1068" print-object="no">
@@ -17635,7 +17548,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1069--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1070" default-x="99.52" default-y="-150.00">
@@ -17658,7 +17571,6 @@
       <note id="n1071" default-x="128.46" default-y="-145.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -17694,7 +17606,6 @@
       <note id="n1073" default-x="185.18" default-y="-145.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -17726,13 +17637,12 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1074--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1075" default-x="242.48" default-y="-130.00">
         <pitch>
           <step>A</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>48</duration>
@@ -17803,7 +17713,7 @@
           </time-modification>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1080--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1081" default-x="40.40" default-y="-5.00">
@@ -17960,7 +17870,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1089--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1090" default-x="150.01" default-y="-10.00">
@@ -17996,7 +17906,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1091--tuplet--start--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -18172,7 +18082,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1101--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1102" default-x="314.43" default-y="-30.00">
@@ -18275,7 +18185,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1109--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1110" default-x="374.18" default-y="-135.00">
@@ -18363,7 +18273,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1114--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -18422,7 +18332,7 @@
           </time-modification>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1117--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1118" default-x="78.54" default-y="-40.00">
@@ -18504,7 +18414,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1122--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1123">
@@ -18518,7 +18428,7 @@
           </time-modification>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1123--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1124" default-x="239.74" default-y="-65.00">
@@ -18606,7 +18516,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1128--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1129" default-x="374.07" default-y="-35.00">
@@ -18626,7 +18536,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1129--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1130" default-x="400.94" default-y="-45.00">
@@ -18744,7 +18654,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1138--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1139" default-x="481.53" default-y="-115.00">
@@ -18877,7 +18787,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1147--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1148" default-x="74.47" default-y="0.00">
@@ -18913,7 +18823,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1149--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1150" default-x="105.20" default-y="-5.00">
@@ -19086,7 +18996,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1159--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1160" default-x="258.86" default-y="15.00">
@@ -19122,7 +19032,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1161--tuplet--start--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -19323,7 +19233,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1174--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1175" default-x="474.34" default-y="-135.00">
@@ -19343,7 +19253,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1175--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1176" default-x="505.07" default-y="-125.00">
@@ -19456,7 +19366,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1182--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1183">
@@ -19470,7 +19380,7 @@
           </time-modification>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1183--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1184" default-x="141.14" default-y="-25.00">
@@ -19552,7 +19462,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1188--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1189" default-x="262.97" default-y="-5.00">
@@ -19572,7 +19482,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1189--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1190" default-x="285.33" default-y="5.00">
@@ -19660,7 +19570,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1194--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1195" default-x="397.17" default-y="-30.00">
@@ -19680,7 +19590,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1195--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1196" default-x="419.53" default-y="-35.00">
@@ -19908,7 +19818,6 @@
       <note id="n1214" default-x="44.97" default-y="-50.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -19928,7 +19837,6 @@
         <chord/>
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -19959,7 +19867,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1216--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1217" default-x="68.85" default-y="-10.00">
@@ -19995,7 +19903,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1218--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1219" default-x="92.74" default-y="-5.00">
@@ -20116,7 +20024,6 @@
       <note id="n1226" default-x="195.34" default-y="-20.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -20136,7 +20043,6 @@
         <chord/>
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -20167,7 +20073,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1228--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1229" default-x="219.23" default-y="10.00">
@@ -20203,7 +20109,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1230--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1231" default-x="243.12" default-y="5.00">
@@ -20371,7 +20277,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1240--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1241" default-x="362.56" default-y="5.00">
@@ -20407,7 +20313,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1242--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1243" default-x="386.45" default-y="0.00">
@@ -20880,7 +20786,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1277--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1278" default-x="92.67" default-y="20.00">
@@ -20900,7 +20806,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1278--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1279" default-x="119.23" default-y="-5.00">
@@ -20982,7 +20888,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1283--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1284" default-x="252.01" default-y="20.00">
@@ -21002,7 +20908,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1284--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1285" default-x="278.57" default-y="-5.00">
@@ -21084,7 +20990,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1289--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1290" default-x="411.36" default-y="20.00">
@@ -21104,7 +21010,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1290--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1291" default-x="437.91" default-y="10.00">
@@ -21217,7 +21123,6 @@
       <note id="n1299" default-x="331.69" default-y="-170.00">
         <pitch>
           <step>G</step>
-          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>48</duration>
@@ -21243,7 +21148,6 @@
         <chord/>
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>48</duration>
@@ -21267,7 +21171,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <fermata type="upright"/>
+          <fermata type="upright" id="n1302--fermata--upright--1"/>
           </notations>
         </note>
       <backup>
@@ -21285,7 +21189,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <fermata type="upright"/>
+          <fermata type="upright" id="n1303--fermata--upright--1"/>
           </notations>
         </note>
       <note id="n1304" default-x="23.49" default-y="-155.00">
@@ -21396,7 +21300,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1309--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1310" default-x="106.06" default-y="25.00">
@@ -21432,7 +21336,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1311--tuplet--start--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -21608,7 +21512,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1321--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1322" default-x="269.21" default-y="5.00">
@@ -21644,7 +21548,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1323--tuplet--start--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -21827,7 +21731,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1335--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1336" default-x="463.50" default-y="-140.00">
@@ -21847,7 +21751,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1336--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1337" default-x="490.69" default-y="-145.00">
@@ -21937,7 +21841,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1341--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1342" default-x="102.54" default-y="-5.00">
@@ -21957,13 +21861,12 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1342--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1343" default-x="133.47" default-y="15.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -22047,13 +21950,12 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1347--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1348" default-x="284.36" default-y="15.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -22068,7 +21970,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1348--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1349" default-x="314.54" default-y="10.00">
@@ -22156,7 +22058,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1353--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1354" default-x="466.19" default-y="-15.00">
@@ -22176,7 +22078,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1354--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1355" default-x="496.37" default-y="-10.00">
@@ -22199,7 +22101,6 @@
       <note id="n1356" default-x="526.55" default-y="-20.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -22269,7 +22170,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1359--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1360" default-x="102.54" default-y="-155.00">
@@ -22289,7 +22190,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1360--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1361" default-x="133.47" default-y="-135.00">
@@ -22346,7 +22247,6 @@
       <note id="n1364" default-x="224.01" default-y="-125.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -22379,7 +22279,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1365--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1366" default-x="284.36" default-y="-135.00">
@@ -22399,7 +22299,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1366--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1367" default-x="314.54" default-y="-140.00">
@@ -22473,7 +22373,6 @@
       <note id="n1371" default-x="436.01" default-y="-160.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -22489,7 +22388,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1371--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1372" default-x="466.19" default-y="-165.00">
@@ -22509,13 +22408,12 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1372--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1373" default-x="496.37" default-y="-160.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -22618,7 +22516,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1377--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1378" default-x="140.21" default-y="0.00">
@@ -22638,7 +22536,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1378--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1379" default-x="167.64" default-y="-5.00">
@@ -22678,7 +22576,6 @@
       <note id="n1381" default-x="226.16" default-y="-15.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -22697,7 +22594,6 @@
       <note id="n1382" default-x="257.09" default-y="15.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -22730,7 +22626,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1383--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1384" default-x="313.46" default-y="5.00">
@@ -22750,7 +22646,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1384--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1385" default-x="340.90" default-y="30.00">
@@ -22790,7 +22686,6 @@
       <note id="n1387" default-x="401.41" default-y="20.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>6</octave>
           </pitch>
         <duration>8</duration>
@@ -22809,7 +22704,6 @@
       <note id="n1388" default-x="428.85" default-y="15.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -22841,7 +22735,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1389--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1390" default-x="483.72" default-y="5.00">
@@ -22861,7 +22755,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1390--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1391" default-x="511.16" default-y="0.00">
@@ -22932,7 +22826,6 @@
       <note id="n1395" default-x="112.77" default-y="-95.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -22948,7 +22841,7 @@
         <beam number="1">continue</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1395--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1396" default-x="140.21" default-y="-90.00">
@@ -22974,7 +22867,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1397--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1398" default-x="257.09" default-y="-110.00">
@@ -22994,13 +22887,12 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="n1398--slur--start--1"/>
           </notations>
         </note>
       <note id="n1399" default-x="286.03" default-y="-100.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -23016,13 +22908,12 @@
         <beam number="1">continue</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="start" number="2"/>
+          <slur type="start" number="2" id="n1399--slur--start--1"/>
           </notations>
         </note>
       <note id="n1400" default-x="313.46" default-y="-95.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
@@ -23033,19 +22924,18 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="n1400--tied--start--1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <words default-y="-38.00" relative-y="-99.22" font-style="italic" font-family="Times New Roman" font-size="11">ten.</words>
+          <words default-y="-38.00" relative-y="-99.22" font-style="italic" font-family="Times New Roman" font-size="11" id="md-1-50-2-1">ten.</words>
           </direction-type>
         <staff>2</staff>
         </direction>
       <note id="n1401" default-x="401.41" default-y="-95.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>48</duration>
@@ -23055,9 +22945,9 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
-          <slur type="stop" number="1"/>
-          <slur type="stop" number="2"/>
+          <tied type="stop" id="n1401--tied--stop--1"/>
+          <slur type="stop" number="1" id="n1401--slur--stop--1"/>
+          <slur type="stop" number="2" id="n1401--slur--stop--2"/>
           </notations>
         </note>
       <backup>
@@ -23138,7 +23028,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1406--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1407" default-x="102.34" default-y="0.00">
@@ -23158,7 +23048,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1407--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1408" default-x="130.46" default-y="-5.00">
@@ -23198,7 +23088,6 @@
       <note id="n1410" default-x="189.67" default-y="-15.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -23217,7 +23106,6 @@
       <note id="n1411" default-x="220.61" default-y="15.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -23250,7 +23138,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1412--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1413" default-x="277.67" default-y="5.00">
@@ -23270,7 +23158,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1413--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1414" default-x="305.80" default-y="30.00">
@@ -23310,7 +23198,6 @@
       <note id="n1416" default-x="367.01" default-y="20.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>6</octave>
           </pitch>
         <duration>8</duration>
@@ -23329,7 +23216,6 @@
       <note id="n1417" default-x="395.13" default-y="15.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -23361,7 +23247,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1418--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1419" default-x="451.39" default-y="5.00">
@@ -23381,7 +23267,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1419--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1420" default-x="479.52" default-y="0.00">
@@ -23452,7 +23338,6 @@
       <note id="n1424" default-x="74.21" default-y="-95.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -23468,7 +23353,7 @@
         <beam number="1">continue</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1424--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1425" default-x="102.34" default-y="-90.00">
@@ -23494,7 +23379,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1426--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1427" default-x="220.61" default-y="-110.00">
@@ -23514,13 +23399,12 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="n1427--slur--start--1"/>
           </notations>
         </note>
       <note id="n1428" default-x="249.54" default-y="-100.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>3</octave>
           </pitch>
         <duration>8</duration>
@@ -23536,13 +23420,12 @@
         <beam number="1">continue</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="start" number="2"/>
+          <slur type="start" number="2" id="n1428--slur--start--1"/>
           </notations>
         </note>
       <note id="n1429" default-x="277.67" default-y="-95.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
@@ -23553,19 +23436,18 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="n1429--tied--start--1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <words default-y="-40.00" relative-y="-99.22" font-style="italic" font-family="Times New Roman" font-size="11">ten.</words>
+          <words default-y="-40.00" relative-y="-99.22" font-style="italic" font-family="Times New Roman" font-size="11" id="md-1-51-2-1">ten.</words>
           </direction-type>
         <staff>2</staff>
         </direction>
       <note id="n1430" default-x="367.01" default-y="-95.00">
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>48</duration>
@@ -23575,9 +23457,9 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
-          <slur type="stop" number="1"/>
-          <slur type="stop" number="2"/>
+          <tied type="stop" id="n1430--tied--stop--1"/>
+          <slur type="stop" number="1" id="n1430--slur--stop--1"/>
+          <slur type="stop" number="2" id="n1430--slur--stop--2"/>
           </notations>
         </note>
       <backup>
@@ -23622,7 +23504,6 @@
       <note id="n1433" default-x="67.03" default-y="-10.00">
         <pitch>
           <step>D</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -23672,7 +23553,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1435--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1436" default-x="162.91" default-y="10.00">
@@ -23692,7 +23573,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1436--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1437" default-x="187.55" default-y="5.00">
@@ -23715,7 +23596,6 @@
       <note id="n1438" default-x="218.63" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -23751,7 +23631,6 @@
       <note id="n1440" default-x="267.92" default-y="-10.00">
         <pitch>
           <step>D</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -23768,12 +23647,11 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-71.00" relative-y="6.61">
+          <dynamics default-x="3.29" default-y="-71.00" relative-y="6.61" id="md-1-52-1-1">
             <p/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="77.78"/>
         </direction>
       <note id="n1441" default-x="292.56" default-y="10.00">
         <pitch>
@@ -23792,7 +23670,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1441--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1442" default-x="317.20" default-y="5.00">
@@ -23812,13 +23690,12 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1442--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1443" default-x="341.85" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -23902,13 +23779,12 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1447--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1448" default-x="478.57" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -23923,7 +23799,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1448--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1449" default-x="503.21" default-y="-5.00">
@@ -23946,7 +23822,6 @@
       <note id="n1450" default-x="527.86" default-y="-10.00">
         <pitch>
           <step>D</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -23992,7 +23867,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="n1452--slur--start--1"/>
           </notations>
         </note>
       <note id="n1453" default-x="129.83" default-y="-95.00">
@@ -24013,14 +23888,13 @@
         <beam number="1">continue</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
-          <slur type="start" number="2"/>
+          <tuplet type="stop" id="n1453--tuplet--stop--1"/>
+          <slur type="start" number="2" id="n1453--slur--start--1"/>
           </notations>
         </note>
       <note id="n1454" default-x="162.91" default-y="-90.00">
         <pitch>
           <step>D</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
@@ -24032,19 +23906,18 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="n1454--tied--start--1"/>
           </notations>
         </note>
       <direction placement="below">
         <direction-type>
-          <words default-y="-33.00" relative-y="-99.22" font-style="italic" font-family="Times New Roman" font-size="11">ten.</words>
+          <words default-y="-33.00" relative-y="-99.22" font-style="italic" font-family="Times New Roman" font-size="11" id="md-1-52-2-1">ten.</words>
           </direction-type>
         <staff>2</staff>
         </direction>
       <note id="n1455" default-x="243.27" default-y="-90.00">
         <pitch>
           <step>D</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>48</duration>
@@ -24054,9 +23927,9 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
-          <slur type="stop" number="1"/>
-          <slur type="stop" number="2"/>
+          <tied type="stop" id="n1455--tied--stop--1"/>
+          <slur type="stop" number="1" id="n1455--slur--stop--1"/>
+          <slur type="stop" number="2" id="n1455--slur--stop--2"/>
           </notations>
         </note>
       <note id="n1456" print-object="no">
@@ -24072,7 +23945,6 @@
       <note id="n1457" default-x="66.67" default-y="-115.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>3</octave>
           </pitch>
         <duration>144</duration>
@@ -24136,7 +24008,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1460--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1461" default-x="103.93" default-y="5.00">
@@ -24156,13 +24028,12 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1461--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1462" default-x="135.01" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -24197,12 +24068,11 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-70.00" relative-y="6.61">
+          <dynamics default-x="3.29" default-y="-70.00" relative-y="6.61" id="md-1-53-1-1">
             <f/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="111.11"/>
         </direction>
       <note id="n1464" default-x="192.87" default-y="0.00">
         <pitch>
@@ -24257,7 +24127,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1466--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1467" default-x="288.97" default-y="15.00">
@@ -24277,7 +24147,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1467--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1468" default-x="317.89" default-y="10.00">
@@ -24381,7 +24251,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1473--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1474" default-x="433.60" default-y="30.00">
@@ -24417,7 +24287,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1475--tuplet--start--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -24519,7 +24389,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1481--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1482" default-x="41.93" default-y="-100.00">
@@ -24542,7 +24412,6 @@
       <note id="n1483" default-x="75.01" default-y="-90.00">
         <pitch>
           <step>D</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -24598,7 +24467,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="n1486--slur--start--1"/>
           </notations>
         </note>
       <note id="n1487" default-x="260.04" default-y="-90.00">
@@ -24619,8 +24488,8 @@
         <beam number="1">continue</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
-          <slur type="start" number="2"/>
+          <tuplet type="stop" id="n1487--tuplet--stop--1"/>
+          <slur type="start" number="2" id="n1487--slur--start--1"/>
           </notations>
         </note>
       <note id="n1488" default-x="288.97" default-y="-80.00">
@@ -24636,7 +24505,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="n1488--tied--start--1"/>
           </notations>
         </note>
       <note id="n1489" default-x="375.75" default-y="-80.00">
@@ -24651,9 +24520,9 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tied type="stop"/>
-          <slur type="stop" number="1"/>
-          <slur type="stop" number="2"/>
+          <tied type="stop" id="n1489--tied--stop--1"/>
+          <slur type="stop" number="1" id="n1489--slur--stop--1"/>
+          <slur type="stop" number="2" id="n1489--slur--stop--2"/>
           </notations>
         </note>
       <backup>
@@ -24713,7 +24582,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="n1492--tied--start--1"/>
           </notations>
         </note>
       <note id="n1493" default-x="51.67" default-y="15.00">
@@ -24729,7 +24598,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="start"/>
+          <tied type="start" id="n1493--tied--start--1"/>
           </notations>
         </note>
       <note id="n1494" default-x="217.63" default-y="5.00">
@@ -24750,7 +24619,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="n1494--tied--stop--1"/>
           </notations>
         </note>
       <note id="n1495" default-x="217.63" default-y="15.00">
@@ -24770,7 +24639,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tied type="stop"/>
+          <tied type="stop" id="n1495--tied--stop--1"/>
           </notations>
         </note>
       <note id="n1496" default-x="245.29" default-y="25.00">
@@ -24823,7 +24692,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1498--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1499" default-x="272.95" default-y="30.00">
@@ -24859,7 +24728,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1500--tuplet--start--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -24949,12 +24818,11 @@
         </note>
       <direction placement="below">
         <direction-type>
-          <dynamics default-x="3.29" default-y="-70.00" relative-y="6.61">
+          <dynamics default-x="3.29" default-y="-70.00" relative-y="6.61" id="md-1-54-1-1">
             <p/>
             </dynamics>
           </direction-type>
         <staff>1</staff>
-        <sound dynamics="77.78"/>
         </direction>
       <note id="n1506" default-x="383.59" default-y="5.00">
         <pitch>
@@ -24993,7 +24861,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1508--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1509" default-x="79.33" default-y="-135.00">
@@ -25150,7 +25018,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1517--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1518" default-x="189.97" default-y="-110.00">
@@ -25203,7 +25071,7 @@
           </time-modification>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1521--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1522" default-x="411.25" default-y="-135.00">
@@ -25360,7 +25228,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1530--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1531" default-x="521.89" default-y="-110.00">
@@ -25426,7 +25294,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1534--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1535" default-x="102.70" default-y="15.00">
@@ -25446,7 +25314,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1535--tuplet--start--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -25537,7 +25405,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1540--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1541" default-x="282.11" default-y="25.00">
@@ -25557,7 +25425,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1541--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1542" default-x="312.01" default-y="15.00">
@@ -25597,7 +25465,6 @@
       <note id="n1544" default-x="372.85" default-y="30.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>6</octave>
           </pitch>
         <duration>8</duration>
@@ -25647,13 +25514,12 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1546--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1547" default-x="462.55" default-y="30.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>6</octave>
           </pitch>
         <duration>8</duration>
@@ -25668,7 +25534,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1547--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1548" default-x="492.45" default-y="20.00">
@@ -25746,7 +25612,6 @@
         <chord/>
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>48</duration>
@@ -25815,7 +25680,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1556--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1557" default-x="137.44" default-y="15.00">
@@ -25835,7 +25700,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1557--tuplet--start--1"/>
           <articulations>
             <staccatissimo/>
             </articulations>
@@ -25926,7 +25791,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1562--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1563" default-x="308.97" default-y="25.00">
@@ -25946,7 +25811,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1563--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1564" default-x="337.56" default-y="15.00">
@@ -25986,7 +25851,6 @@
       <note id="n1566" default-x="397.08" default-y="30.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>6</octave>
           </pitch>
         <duration>8</duration>
@@ -26036,13 +25900,12 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1568--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1569" default-x="482.85" default-y="30.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>6</octave>
           </pitch>
         <duration>8</duration>
@@ -26057,8 +25920,8 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
-          <slur type="start" placement="above" number="1"/>
+          <tuplet type="start" bracket="no" id="n1569--tuplet--start--1"/>
+          <slur type="start" placement="above" number="1" id="n1569--slur--start--1"/>
           </notations>
         </note>
       <note id="n1570" default-x="511.44" default-y="10.00">
@@ -26081,7 +25944,6 @@
       <note id="n1571" default-x="542.52" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -26139,7 +26001,6 @@
         <chord/>
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>24</duration>
@@ -26161,7 +26022,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="start" placement="above" number="2"/>
+          <slur type="start" placement="above" number="2" id="n1576--slur--start--1"/>
           </notations>
         </note>
       </measure>
@@ -26186,7 +26047,6 @@
       <note id="n1578" default-x="42.93" default-y="10.00">
         <pitch>
           <step>A</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -26219,13 +26079,12 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1579--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1580" default-x="102.16" default-y="25.00">
         <pitch>
           <step>D</step>
-          <alter>-1</alter>
           <octave>6</octave>
           </pitch>
         <duration>8</duration>
@@ -26241,7 +26100,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1580--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1581" default-x="130.45" default-y="5.00">
@@ -26298,7 +26157,6 @@
       <note id="n1584" default-x="218.11" default-y="0.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -26317,7 +26175,6 @@
       <note id="n1585" default-x="247.05" default-y="-5.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -26333,7 +26190,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1585--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1586" default-x="275.34" default-y="20.00">
@@ -26353,7 +26210,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1586--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1587" default-x="303.63" default-y="5.00">
@@ -26376,7 +26233,6 @@
       <note id="n1588" default-x="331.92" default-y="-5.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -26429,7 +26285,6 @@
       <note id="n1591" default-x="417.53" default-y="-5.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -26444,7 +26299,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1591--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1592" default-x="445.82" default-y="20.00">
@@ -26464,7 +26319,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1592--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1593" default-x="474.11" default-y="10.00">
@@ -26487,7 +26342,6 @@
       <note id="n1594" default-x="502.40" default-y="-5.00">
         <pitch>
           <step>E</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -26502,7 +26356,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n1594--slur--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -26523,7 +26377,6 @@
       <note id="n1596" default-x="102.16" default-y="-125.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
@@ -26534,7 +26387,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
         <notations>
-          <slur type="stop" number="2"/>
+          <slur type="stop" number="2" id="n1596--slur--stop--1"/>
           </notations>
         </note>
       <note id="n1597" default-x="187.03" default-y="-130.00">
@@ -26549,7 +26402,7 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="n1597--slur--start--1"/>
           </notations>
         </note>
       <note id="n1598" default-x="275.34" default-y="-135.00">
@@ -26567,7 +26420,6 @@
       <note id="n1599" default-x="360.21" default-y="-140.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
@@ -26578,13 +26430,12 @@
         <staff>2</staff>
         <beam number="1">begin</beam>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n1599--slur--stop--1"/>
           </notations>
         </note>
       <note id="n1600" default-x="445.82" default-y="-140.00">
         <pitch>
           <step>F</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>24</duration>
@@ -26610,7 +26461,7 @@
         </print>
       <direction placement="above">
         <direction-type>
-          <words default-y="50.00" font-family="Times New Roman">sempre più largo</words>
+          <words default-y="50.00" font-family="Times New Roman" id="md-1-58-1-1">sempre più largo</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -26666,7 +26517,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1603--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1604" default-x="131.74" default-y="20.00">
@@ -26686,7 +26537,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1604--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1605" default-x="154.19" default-y="5.00">
@@ -26774,7 +26625,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1609--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1610" default-x="275.43" default-y="20.00">
@@ -26794,7 +26645,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="yes"/>
+          <tuplet type="start" bracket="yes" id="n1610--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1611" default-x="297.88" default-y="5.00">
@@ -26842,7 +26693,7 @@
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <fermata type="upright"/>
+          <fermata type="upright" id="n1613--fermata--upright--1"/>
           </notations>
         </note>
       <backup>
@@ -26887,7 +26738,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <fermata type="upright"/>
+          <fermata type="upright" id="n1616--fermata--upright--1"/>
           </notations>
         </note>
       </measure>
@@ -26984,7 +26835,7 @@
         </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-y="18.00" font-family="Times New Roman">Tempo primo</words>
+          <words default-y="18.00" font-family="Times New Roman" id="md-1-60-1-1">Tempo primo</words>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -27055,7 +26906,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1627--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1628" default-x="262.58" default-y="-5.00">
@@ -27075,7 +26926,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1628--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1629" default-x="284.56" default-y="-10.00">
@@ -27115,7 +26966,6 @@
       <note id="n1631" default-x="335.48" default-y="-20.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -27165,7 +27015,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1633--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1634" default-x="401.43" default-y="-35.00">
@@ -27185,7 +27035,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1634--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1635" default-x="423.42" default-y="-40.00">
@@ -27208,7 +27058,6 @@
       <note id="n1636" default-x="445.40" default-y="-20.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -27254,7 +27103,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1638--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1639" default-x="86.70" default-y="-120.00">
@@ -27342,7 +27191,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1643--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1644" default-x="196.62" default-y="-130.00">
@@ -27362,7 +27211,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1644--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1645" default-x="218.61" default-y="-120.00">
@@ -27450,7 +27299,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1649--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1650" default-x="335.48" default-y="-130.00">
@@ -27470,7 +27319,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1650--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1651" default-x="357.46" default-y="-120.00">
@@ -27558,7 +27407,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1655--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -27612,7 +27461,6 @@
       <note id="n1658" default-x="121.88" default-y="15.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -27628,7 +27476,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1658--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1659" default-x="157.20" default-y="10.00">
@@ -27648,7 +27496,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1659--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1660" default-x="192.51" default-y="5.00">
@@ -27736,13 +27584,12 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1664--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1665" default-x="369.09" default-y="-20.00">
         <pitch>
           <step>B</step>
-          <alter>-1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -27758,7 +27605,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1665--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1666" default-x="404.40" default-y="-25.00">
@@ -27846,7 +27693,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1670--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1671" default-x="580.98" default-y="-50.00">
@@ -27866,7 +27713,7 @@
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1671--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1672" default-x="616.29" default-y="-55.00">
@@ -27903,7 +27750,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1673--tuplet--stop--1"/>
           </notations>
         </note>
       <backup>
@@ -27926,7 +27773,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1674--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1675" default-x="86.57" default-y="-115.00">
@@ -28014,7 +27861,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1679--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1680" default-x="263.14" default-y="-130.00">
@@ -28034,7 +27881,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1680--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1681" default-x="298.46" default-y="-115.00">
@@ -28122,7 +27969,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1685--tuplet--stop--1"/>
           </notations>
         </note>
       <note id="n1686" default-x="475.03" default-y="-130.00">
@@ -28142,7 +27989,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         <notations>
-          <tuplet type="start" bracket="no"/>
+          <tuplet type="start" bracket="no" id="n1686--tuplet--start--1"/>
           </notations>
         </note>
       <note id="n1687" default-x="510.35" default-y="-125.00">
@@ -28230,7 +28077,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
         <notations>
-          <tuplet type="stop"/>
+          <tuplet type="stop" id="n1691--tuplet--stop--1"/>
           </notations>
         </note>
       </measure>
@@ -28246,7 +28093,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" placement="above" number="1"/>
+          <slur type="start" placement="above" number="1" id="n1692--slur--start--1"/>
           </notations>
         </note>
       <note id="n1693" default-x="12.00" default-y="-35.00">
@@ -28272,7 +28119,7 @@
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n1694--slur--stop--1"/>
           </notations>
         </note>
       <note id="n1695" default-x="133.19" default-y="-50.00">
@@ -28327,7 +28174,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="start" number="1"/>
+          <slur type="start" number="1" id="n1699--slur--start--1"/>
           </notations>
         </note>
       <note id="n1700" default-x="133.19" default-y="-165.00">
@@ -28341,7 +28188,7 @@
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <slur type="stop" number="1"/>
+          <slur type="stop" number="1" id="n1700--slur--stop--1"/>
           </notations>
         </note>
       <note id="n1701" default-x="133.19" default-y="-155.00">
