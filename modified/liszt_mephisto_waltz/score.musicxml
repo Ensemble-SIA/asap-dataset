@@ -162983,7 +162983,7 @@
         <staff>1</staff>
         <notations>
           <tied type="start" id="n10696--tied--start--1"/>
-          </notations>
+          <arpeggiate id="n10696--arpeggiate--1"/></notations>
         </note>
       <note id="n10697" default-x="247.14" default-y="20.00">
         <chord/>
@@ -162997,7 +162997,7 @@
         <accidental>natural</accidental>
         <stem>down</stem>
         <staff>1</staff>
-        </note>
+        <notations><arpeggiate id="n10697--arpeggiate--1"/></notations></note>
       <note id="n10698" default-x="247.14" default-y="45.00">
         <chord/>
         <pitch>
@@ -163013,7 +163013,7 @@
         <staff>1</staff>
         <notations>
           <tied type="start" id="n10698--tied--start--1"/>
-          </notations>
+          <arpeggiate id="n10698--arpeggiate--1"/></notations>
         </note>
       <backup>
         <duration>960</duration>
@@ -163117,118 +163117,7 @@
         <type>quarter</type>
         <staff>2</staff>
         </note>
-      <note id="n10705" default-x="249.12" default-y="-150.38" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>480</duration>
-        <voice>6</voice>
-        <type>quarter</type>
-        <stem>none</stem>
-        <staff>2</staff>
-        <notations>
-          <articulations>
-            <staccato/>
-            </articulations>
-          <arpeggiate default-x="-35.51" default-y="48.86" id="n10705--arpeggiate--1"/>
-          </notations>
-        </note>
-      <note id="n10706" default-x="249.12" default-y="-140.38" color="#1D4ED8">
-        <chord/>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>480</duration>
-        <voice>6</voice>
-        <type>quarter</type>
-        <stem>none</stem>
-        <staff>2</staff>
-        <notations>
-          <arpeggiate default-x="-35.51" default-y="48.86" id="n10706--arpeggiate--1"/>
-          </notations>
-        </note>
-      <note id="n10707" default-x="249.12" default-y="-130.38" color="#1D4ED8">
-        <chord/>
-        <pitch>
-          <step>C</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>480</duration>
-        <voice>6</voice>
-        <type>quarter</type>
-        <stem>none</stem>
-        <staff>2</staff>
-        <notations>
-          <arpeggiate default-x="-35.51" default-y="48.86" id="n10707--arpeggiate--1"/>
-          </notations>
-        </note>
-      <note id="n10708" default-x="249.12" default-y="-120.38" color="#1D4ED8">
-        <chord/>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>480</duration>
-        <voice>6</voice>
-        <type>quarter</type>
-        <stem>none</stem>
-        <staff>2</staff>
-        <notations>
-          <arpeggiate default-x="-35.51" default-y="48.86" id="n10708--arpeggiate--1"/>
-          </notations>
-        </note>
-      <note id="n10709" default-x="249.12" default-y="-105.38" color="#1D4ED8">
-        <chord/>
-        <pitch>
-          <step>A</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>480</duration>
-        <voice>6</voice>
-        <type>quarter</type>
-        <accidental>flat</accidental>
-        <stem>none</stem>
-        <staff>2</staff>
-        <notations>
-          <arpeggiate default-x="-35.51" default-y="48.86" id="n10709--arpeggiate--1"/>
-          </notations>
-        </note>
-      <note id="n10710" default-x="249.12" default-y="-95.38" color="#1D4ED8">
-        <chord/>
-        <pitch>
-          <step>C</step>
-          <octave>6</octave>
-          </pitch>
-        <duration>480</duration>
-        <voice>6</voice>
-        <type>quarter</type>
-        <accidental>natural</accidental>
-        <stem>none</stem>
-        <staff>2</staff>
-        <notations>
-          <arpeggiate default-x="-35.51" default-y="48.86" id="n10710--arpeggiate--1"/>
-          </notations>
-        </note>
-      <note id="n10711" default-x="249.12" default-y="-70.38" color="#1D4ED8">
-        <chord/>
-        <pitch>
-          <step>A</step>
-          <octave>6</octave>
-          </pitch>
-        <duration>480</duration>
-        <voice>6</voice>
-        <type>quarter</type>
-        <accidental>flat</accidental>
-        <stem>none</stem>
-        <staff>2</staff>
-        <notations>
-          <arpeggiate default-x="-35.51" default-y="48.86" id="n10711--arpeggiate--1"/>
-          </notations>
-        </note>
-      <backup>
+      <forward><duration>480</duration><voice>6</voice><staff>2</staff></forward><backup>
         <duration>120</duration>
         </backup>
       <note id="n10712" color="#1D4ED8">
