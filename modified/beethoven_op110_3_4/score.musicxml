@@ -15991,105 +15991,6 @@
       <backup>
         <duration>1440</duration>
         </backup>
-      <note id="n1146" default-x="14.36" default-y="-30.00" dynamics="95.56" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>60</duration>
-        <voice>3</voice>
-        <type>32nd</type>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n1147" default-x="45.36" default-y="-35.00" dynamics="95.56" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>60</duration>
-        <voice>3</voice>
-        <type>32nd</type>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n1148" default-x="61.31" default-y="-30.00" dynamics="95.56" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>60</duration>
-        <voice>3</voice>
-        <type>32nd</type>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n1149" default-x="77.26" default-y="-35.00" dynamics="95.56" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>60</duration>
-        <voice>3</voice>
-        <type>32nd</type>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n1150" default-x="103.81" default-y="-30.00" dynamics="101.11" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>60</duration>
-        <voice>3</voice>
-        <type>32nd</type>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n1151" default-x="120.98" default-y="-35.00" dynamics="101.11" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>60</duration>
-        <voice>3</voice>
-        <type>32nd</type>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n1152" default-x="136.93" default-y="-30.00" dynamics="101.11" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>60</duration>
-        <voice>3</voice>
-        <type>32nd</type>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n1153" default-x="152.88" default-y="-35.00" dynamics="101.11" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>60</duration>
-        <voice>3</voice>
-        <type>32nd</type>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <backup>
-        <duration>480</duration>
-        </backup>
       <note id="n1154" default-x="14.36" default-y="-143.00" dynamics="95.56">
         <pitch>
           <step>A</step>
@@ -28495,12 +28396,6 @@
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
-        <notations>
-          <ornaments>
-            <trill-mark/>
-            <wavy-line type="start" number="1" default-y="-3.47" relative-x="9.29"/>
-            </ornaments>
-          </notations>
         </note>
       <note id="n2037" default-x="14.20" default-y="-20.00">
         <chord/>
@@ -28514,7 +28409,10 @@
         <dot/>
         <stem>up</stem>
         <staff>1</staff>
-        </note>
+        <notations><ornaments><trill-mark/>
+            <wavy-line type="start" number="1" default-y="-3.47" relative-x="9.29"/>
+            <wavy-line type="stop" number="1" relative-x="9.29"/>
+            </ornaments></notations></note>
       <direction placement="below">
         <direction-type>
           <dynamics default-x="6.58" default-y="-80.00" relative-x="-16.69" relative-y="10.17" id="md-1-114-1-2">
@@ -28615,148 +28513,12 @@
       <forward>
         <duration>4</duration>
         </forward>
-      <note id="n2044" default-x="51.60" default-y="-15.00" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>C</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>65</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
+      <forward><duration>455</duration><voice>2</voice><staff>1</staff></forward><note print-object="no" id="mn-1-114-2-1-2064"><rest/><duration>65</duration><voice>2</voice><type>16th</type><time-modification>
           <actual-notes>11</actual-notes>
           <normal-notes>6</normal-notes>
           <normal-type>16th</normal-type>
           </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n2045" default-x="66.79" default-y="-20.00" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>65</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n2046" default-x="81.98" default-y="-15.00" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>C</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>65</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n2047" default-x="97.18" default-y="-20.00" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>65</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n2048" default-x="112.37" default-y="-15.00" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>C</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>65</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n2049" default-x="127.56" default-y="-20.00" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>65</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n2050" default-x="142.75" default-y="-15.00" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>C</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>65</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="n2051" default-x="157.94" default-y="-20.00" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>65</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>11</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>16th</normal-type>
-          </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        <notations>
-          <ornaments>
-            <wavy-line type="stop" number="1" relative-x="9.29"/>
-            </ornaments>
-          </notations>
-        </note>
-      <note id="n2052" default-x="179.76" default-y="-25.00" color="#EC4899">
+        <staff>1</staff></note><note id="n2052" default-x="179.76" default-y="-25.00" color="#EC4899">
         <cue/>
         <pitch>
           <step>A</step>
