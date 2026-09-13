@@ -61657,21 +61657,7 @@
         <beam number="2">begin</beam>
         <beam number="3">begin</beam>
         </note>
-      <note id="n25996afd954c61f8" default-x="90.48" default-y="-5.00" color="#1D4ED8">
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>60</duration>
-        <voice>1</voice>
-        <type>32nd</type>
-        <stem>down</stem>
-        <staff>1</staff>
-        <beam number="1">continue</beam>
-        <beam number="2">continue</beam>
-        <beam number="3">continue</beam>
-        </note>
-      <note id="n05ca72f4c94509b4" default-x="128.58" default-y="0.00">
+      <forward><duration>60</duration><voice>1</voice><staff>1</staff></forward><note id="n05ca72f4c94509b4" default-x="128.58" default-y="0.00">
         <pitch>
           <step>F</step>
           <octave>5</octave>
@@ -63129,37 +63115,17 @@
           <tied type="stop" id="n48ace1216ac6a5c2--tied--stop--1"/>
           </notations>
         </note>
-      <note id="n503891c315af7db1" default-x="40.83" default-y="-25.00" color="#1D4ED8">
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>360</duration>
-        <tie type="start"/>
-        <voice>2</voice>
-        <type>eighth</type>
-        <dot/>
-        <stem>down</stem>
-        <staff>1</staff>
-        <notations>
-          <tied type="start" id="n503891c315af7db1--tied--start--1"/>
-          </notations>
-        </note>
-      <note id="n3c34ecbbbf4abca5" default-x="125.06" default-y="-25.00">
+      <forward><duration>360</duration><voice>2</voice><staff>1</staff></forward><note id="n3c34ecbbbf4abca5" default-x="125.06" default-y="-25.00">
         <pitch>
           <step>A</step>
           <octave>4</octave>
           </pitch>
         <duration>1440</duration>
-        <tie type="stop"/>
         <voice>2</voice>
         <type>half</type>
         <dot/>
         <stem>none</stem>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="n3c34ecbbbf4abca5--tied--stop--1"/>
-          </notations>
         </note>
       <backup>
         <duration>1920</duration>

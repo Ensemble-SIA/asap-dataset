@@ -22173,19 +22173,7 @@
       <backup>
         <duration>8</duration>
         </backup>
-      <note id="n2d38c61c1a43c5f7" default-x="61.73" default-y="-208.00" dynamics="71.11" color="#1D4ED8">
-        <pitch>
-          <step>D</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>1</duration>
-        <voice>6</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">begin</beam>
-        </note>
-      <note id="nb3ef2dffb5060e03" default-x="96.52" default-y="-183.00" dynamics="71.11">
+      <forward><duration>1</duration><voice>6</voice><staff>2</staff></forward><note id="nb3ef2dffb5060e03" default-x="96.52" default-y="-183.00" dynamics="71.11">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -22196,7 +22184,6 @@
         <accidental>flat</accidental>
         <stem>down</stem>
         <staff>2</staff>
-        <beam number="1">end</beam>
         <notations>
           <articulations>
             <staccato/>
@@ -25940,21 +25927,6 @@
           <tied type="start" id="n3abc930d9b8a601c--tied--start--1"/>
           </notations>
         </note>
-      <note id="n464f2e41f2ae2a74" default-x="68.95" default-y="-35.00" color="#1D4ED8">
-        <chord/>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>8</duration>
-        <tie type="start"/>
-        <voice>2</voice>
-        <type>whole</type>
-        <staff>1</staff>
-        <notations>
-          <tied type="start" id="n464f2e41f2ae2a74--tied--start--1"/>
-          </notations>
-        </note>
       <backup>
         <duration>8</duration>
         </backup>
@@ -26082,13 +26054,9 @@
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
-        <tie type="stop"/>
         <voice>2</voice>
         <type>whole</type>
         <staff>1</staff>
-        <notations>
-          <tied type="stop" id="n92360ae250416363--tied--stop--1"/>
-          </notations>
         </note>
       <backup>
         <duration>8</duration>

@@ -6138,33 +6138,6 @@
       <backup>
         <duration>24</duration>
         </backup>
-      <note id="nf034630e374f63cf" default-x="110.23" default-y="-25.00" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>2</duration>
-        <voice>3</voice>
-        <type size="cue">eighth</type>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <note id="nacb6f11382b6495f" default-x="135.54" default-y="-30.00" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>8</duration>
-        <voice>3</voice>
-        <type size="cue">half</type>
-        <stem>none</stem>
-        <staff>1</staff>
-        </note>
-      <backup>
-        <duration>10</duration>
-        </backup>
       <note id="n5c736a4d38966680" default-x="107.46" default-y="-120.00">
         <pitch>
           <step>E</step>
@@ -10427,19 +10400,7 @@
         </forward>
       </measure>
     <measure number="33" width="327.03">
-      <note id="n5160f2a5487f4cf4" default-x="12.36" default-y="0.00" color="#1D4ED8">
-        <pitch>
-          <step>F</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>2</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <staff>1</staff>
-        <beam number="1">begin</beam>
-        </note>
-      <note id="n9aad92693fc68fe9" default-x="41.06" default-y="10.00">
+      <forward><duration>2</duration><voice>1</voice><staff>1</staff></forward><note id="n9aad92693fc68fe9" default-x="41.06" default-y="10.00">
         <pitch>
           <step>A</step>
           <octave>5</octave>
@@ -10449,7 +10410,7 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">continue</beam>
+        <beam number="1">begin</beam>
         </note>
       <note id="n56c008cda9e792ec" default-x="68.60" default-y="5.00">
         <pitch>

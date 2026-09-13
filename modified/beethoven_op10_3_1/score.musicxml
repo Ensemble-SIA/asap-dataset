@@ -38106,7 +38106,10 @@
         <notations>
           <tuplet bracket="no" number="1" show-number="none" type="start" id="n18853aa6b48ffafe--tuplet--start--1"/>
           <tuplet number="1" type="stop" id="n18853aa6b48ffafe--tuplet--stop--2"/>
-        </notations>
+        <ornaments><wavy-line default-y="15" number="1" type="start"/>
+          <trill-mark default-y="15"/>
+            <wavy-line number="1" type="stop"/>
+          </ornaments></notations>
       </note>
       <backup>
         <duration>2560</duration>
@@ -38116,105 +38119,7 @@
         <voice>2</voice>
         <staff>1</staff>
       </forward>
-      <note id="na5a6e7424551442d" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>410</duration>
-        <voice>2</voice>
-        <type>eighth</type>
-        <time-modification>
-          <actual-notes>5</actual-notes>
-          <normal-notes>4</normal-notes>
-        </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        <notations>
-          <tuplet bracket="no" number="1" show-number="none" type="start" id="na5a6e7424551442d--tuplet--start--1"/>
-          <ornaments>
-            <trill-mark default-y="15"/>
-            <wavy-line default-y="15" number="1" type="start"/>
-          </ornaments>
-        </notations>
-      </note>
-      <note id="n5f85d8157b2bd11d" color="#0D9488">
-        <cue/>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>409</duration>
-        <voice>2</voice>
-        <type>eighth</type>
-        <time-modification>
-          <actual-notes>5</actual-notes>
-          <normal-notes>4</normal-notes>
-        </time-modification>
-        <stem>none</stem>
-        <staff>1</staff>
-        <notations>
-          <ornaments>
-            <wavy-line number="1" type="stop"/>
-          </ornaments>
-        </notations>
-      </note>
-      <note id="n9defb6b2935998e7" default-x="160" color="#EC4899">
-        <cue/>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>410</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>16</normal-notes>
-        </time-modification>
-        <stem default-y="-20">up</stem>
-        <staff>1</staff>
-        <beam number="1">begin</beam>
-        <beam number="2">begin</beam>
-        <notations>
-          <tuplet bracket="no" number="2" show-number="none" type="start" id="n9defb6b2935998e7--tuplet--start--1">
-            <tuplet-actual>
-              <tuplet-number>2</tuplet-number>
-              <tuplet-type>16th</tuplet-type>
-            </tuplet-actual>
-            <tuplet-normal>
-              <tuplet-number>4</tuplet-number>
-              <tuplet-type>16th</tuplet-type>
-            </tuplet-normal>
-          </tuplet>
-          <slur number="1" placement="above" type="start" id="n9defb6b2935998e7--slur--start--1"/>
-        </notations>
-      </note>
-      <note id="n96bb0e53f84cd815" default-x="179" color="#EC4899">
-        <cue/>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>409</duration>
-        <voice>2</voice>
-        <type>16th</type>
-        <time-modification>
-          <actual-notes>10</actual-notes>
-          <normal-notes>16</normal-notes>
-        </time-modification>
-        <stem default-y="-17">up</stem>
-        <staff>1</staff>
-        <beam number="1">end</beam>
-        <beam number="2">end</beam>
-        <notations>
-          <tuplet number="1" type="stop" id="n96bb0e53f84cd815--tuplet--stop--1"/>
-          <tuplet number="2" type="stop" id="n96bb0e53f84cd815--tuplet--stop--2"/>
-          <slur number="1" type="stop" id="n96bb0e53f84cd815--slur--stop--1"/>
-        </notations>
-      </note>
-      <backup>
+      <forward><duration>1638</duration><voice>2</voice><staff>1</staff></forward><backup>
         <duration>4096</duration>
       </backup>
       <note id="n1540b77f0ac603a5" default-x="17">

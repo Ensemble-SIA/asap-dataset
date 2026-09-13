@@ -1810,19 +1810,7 @@
       <backup>
         <duration>720</duration>
         </backup>
-      <note id="n2a4bbc6b8955b217" default-x="12.36" default-y="15.00" color="#1D4ED8">
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>120</duration>
-        <voice>2</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>1</staff>
-        <beam number="1">begin</beam>
-        </note>
-      <note id="n3ae0a6a7a2848405" default-x="43.79" default-y="-10.00">
+      <forward><duration>120</duration><voice>2</voice><staff>1</staff></forward><note id="n3ae0a6a7a2848405" default-x="43.79" default-y="-10.00">
         <pitch>
           <step>F</step>
           <octave>3</octave>
@@ -1832,7 +1820,7 @@
         <type>eighth</type>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">continue</beam>
+        <beam number="1">begin</beam>
         </note>
       <note id="nae4c3d2ce89fc0c4" default-x="75.22" default-y="0.00">
         <pitch>
@@ -2540,19 +2528,7 @@
       <backup>
         <duration>720</duration>
         </backup>
-      <note id="na1f46f038a30d64a" default-x="76.23" default-y="-35.00" color="#1D4ED8">
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>120</duration>
-        <voice>2</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>1</staff>
-        <beam number="1">begin</beam>
-        </note>
-      <direction placement="below">
+      <forward><duration>120</duration><voice>2</voice><staff>1</staff></forward><direction placement="below">
         <direction-type>
           <wedge type="stop" number="1" relative-x="-10.00" id="e1ec74ad3a589644a"/>
           </direction-type>
@@ -2569,7 +2545,7 @@
         <accidental>sharp</accidental>
         <stem>down</stem>
         <staff>1</staff>
-        <beam number="1">continue</beam>
+        <beam number="1">begin</beam>
         </note>
       <note id="na1d6c1c225fec810" default-x="143.65" default-y="-50.00">
         <pitch>
