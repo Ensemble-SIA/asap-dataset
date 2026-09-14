@@ -6,7 +6,6 @@
 # gate (LFS SANITY) refuses a commit the moment one of them goes missing.
 
 *.mxl filter=lfs diff=lfs merge=lfs -text
-*.mscz filter=lfs diff=lfs merge=lfs -text
 *.mid filter=lfs diff=lfs merge=lfs -text
 *.midi filter=lfs diff=lfs merge=lfs -text
 *.pdf filter=lfs diff=lfs merge=lfs -text
@@ -16,3 +15,8 @@
 *.m4a filter=lfs diff=lfs merge=lfs -text
 *.ogg filter=lfs diff=lfs merge=lfs -text
 *.opus filter=lfs diff=lfs merge=lfs -text
+
+# Machine enrollments — classes regression_test.sh's GATE 3 FOREVER loop
+# added when a staged blob crossed the size line. Carried forward, never
+# dropped: each one is a surprise that already happened once.
+*.mscz filter=lfs diff=lfs merge=lfs -text
